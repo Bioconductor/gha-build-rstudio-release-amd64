@@ -1,0 +1,223 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''rqubic'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.19 (BiocManager 1.30.22), R Under development (unstable)
+  (2024-01-03 r85769)
+Installing package(s) 'rqubic'
+also installing the dependencies ‘pillar’, ‘modeltools’, ‘dplyr’, ‘lifecycle’, ‘purrr’, ‘rlang’, ‘stringr’, ‘tibble’, ‘tidyselect’, ‘vctrs’, ‘gtable’, ‘scales’, ‘flexclust’, ‘additivityTests’, ‘tidyr’, ‘ggplot2’, ‘biclust’
+
+trying URL 'https://cloud.r-project.org/src/contrib/pillar_1.9.0.tar.gz'
+Content type 'application/x-gzip' length 444528 bytes (434 KB)
+==================================================
+downloaded 434 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/modeltools_0.2-23.tar.gz'
+Content type 'application/x-gzip' length 14893 bytes (14 KB)
+==================================================
+downloaded 14 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/dplyr_1.1.4.tar.gz'
+Content type 'application/x-gzip' length 1207521 bytes (1.2 MB)
+==================================================
+downloaded 1.2 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/lifecycle_1.0.4.tar.gz'
+Content type 'application/x-gzip' length 107656 bytes (105 KB)
+==================================================
+downloaded 105 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/purrr_1.0.2.tar.gz'
+Content type 'application/x-gzip' length 220868 bytes (215 KB)
+==================================================
+downloaded 215 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/rlang_1.1.2.tar.gz'
+Content type 'application/x-gzip' length 763521 bytes (745 KB)
+==================================================
+downloaded 745 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/stringr_1.5.1.tar.gz'
+Content type 'application/x-gzip' length 176599 bytes (172 KB)
+==================================================
+downloaded 172 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/tibble_3.2.1.tar.gz'
+Content type 'application/x-gzip' length 565982 bytes (552 KB)
+==================================================
+downloaded 552 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/tidyselect_1.2.0.tar.gz'
+Content type 'application/x-gzip' length 101498 bytes (99 KB)
+==================================================
+downloaded 99 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/vctrs_0.6.5.tar.gz'
+Content type 'application/x-gzip' length 969066 bytes (946 KB)
+==================================================
+downloaded 946 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/gtable_0.3.4.tar.gz'
+Content type 'application/x-gzip' length 130100 bytes (127 KB)
+==================================================
+downloaded 127 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/scales_1.3.0.tar.gz'
+Content type 'application/x-gzip' length 302544 bytes (295 KB)
+==================================================
+downloaded 295 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/flexclust_1.4-1.tar.gz'
+Content type 'application/x-gzip' length 170243 bytes (166 KB)
+==================================================
+downloaded 166 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/additivityTests_1.1-4.1.tar.gz'
+Content type 'application/x-gzip' length 16371 bytes (15 KB)
+==================================================
+downloaded 15 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/tidyr_1.3.0.tar.gz'
+Content type 'application/x-gzip' length 823546 bytes (804 KB)
+==================================================
+downloaded 804 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/ggplot2_3.4.4.tar.gz'
+Content type 'application/x-gzip' length 3159578 bytes (3.0 MB)
+==================================================
+downloaded 3.0 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/biclust_2.0.3.1.tar.gz'
+Content type 'application/x-gzip' length 892183 bytes (871 KB)
+==================================================
+downloaded 871 KB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/rqubic_1.49.0.tar.gz'
+Content type 'application/x-gzip' length 193424 bytes (188 KB)
+==================================================
+downloaded 188 KB
+
+* installing *source* package ‘modeltools’ ...
+** package ‘modeltools’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Creating a generic function for ‘na.pass’ from package ‘stats’ in package ‘modeltools’
+Creating a generic function from function ‘MEapply’ in package ‘modeltools’
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘modeltools’ as ‘modeltools_0.2-23_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (modeltools)
+* installing *source* package ‘rlang’ ...
+** package ‘rlang’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I./rlang/  -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c capture.c -o capture.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I./rlang/  -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c internal.c -o internal.o
+In file included from internal/internal.c:32,
+                 from internal.c:1:
+internal/tests.c: In function ‘ffi_test_Rf_warning’:
+internal/tests.c:104:3: error: format not a string literal and no format arguments [-Werror=format-security]
+  104 |   Rf_warning(r_chr_get_c_string(msg, 0));
+      |   ^~~~~~~~~~
+internal/tests.c: In function ‘ffi_test_Rf_error’:
+internal/tests.c:108:3: error: format not a string literal and no format arguments [-Werror=format-security]
+  108 |   Rf_error(r_chr_get_c_string(msg, 0));
+      |   ^~~~~~~~
+internal/tests.c: In function ‘ffi_test_Rf_warningcall’:
+internal/tests.c:113:3: error: format not a string literal and no format arguments [-Werror=format-security]
+  113 |   Rf_warningcall(call, r_chr_get_c_string(msg, 0));
+      |   ^~~~~~~~~~~~~~
+internal/tests.c: In function ‘ffi_test_Rf_errorcall’:
+internal/tests.c:117:3: error: format not a string literal and no format arguments [-Werror=format-security]
+  117 |   Rf_errorcall(call, r_chr_get_c_string(msg, 0));
+      |   ^~~~~~~~~~~~
+cc1: some warnings being treated as errors
+make: *** [/usr/local/lib/R/etc/Makeconf:191: internal.o] Error 1
+ERROR: compilation failed for package ‘rlang’
+* removing ‘/tmp/tmp/built/rlang’
+* installing *source* package ‘additivityTests’ ...
+** package ‘additivityTests’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘additivityTests’ as ‘additivityTests_1.1-4.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (additivityTests)
+ERROR: dependency ‘rlang’ is not available for package ‘lifecycle’
+* removing ‘/tmp/tmp/built/lifecycle’
+* installing *source* package ‘flexclust’ ...
+** package ‘flexclust’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cclust.c -o cclust.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c index.c -o index.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o flexclust.so cclust.o index.o init.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-flexclust/00new/flexclust/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘flexclust’ as ‘flexclust_1.4-1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (flexclust)
+ERROR: dependencies ‘lifecycle’, ‘rlang’ are not available for package ‘vctrs’
+* removing ‘/tmp/tmp/built/vctrs’
+ERROR: dependencies ‘lifecycle’, ‘rlang’ are not available for package ‘gtable’
+* removing ‘/tmp/tmp/built/gtable’
+ERROR: dependencies ‘lifecycle’, ‘rlang’ are not available for package ‘scales’
+* removing ‘/tmp/tmp/built/scales’
+ERROR: dependencies ‘lifecycle’, ‘rlang’, ‘vctrs’ are not available for package ‘pillar’
+* removing ‘/tmp/tmp/built/pillar’
+ERROR: dependencies ‘lifecycle’, ‘rlang’, ‘vctrs’ are not available for package ‘purrr’
+* removing ‘/tmp/tmp/built/purrr’
+ERROR: dependencies ‘lifecycle’, ‘rlang’, ‘vctrs’ are not available for package ‘stringr’
+* removing ‘/tmp/tmp/built/stringr’
+ERROR: dependencies ‘lifecycle’, ‘rlang’, ‘vctrs’ are not available for package ‘tidyselect’
+* removing ‘/tmp/tmp/built/tidyselect’
+ERROR: dependencies ‘lifecycle’, ‘pillar’, ‘rlang’, ‘vctrs’ are not available for package ‘tibble’
+* removing ‘/tmp/tmp/built/tibble’
+ERROR: dependencies ‘lifecycle’, ‘pillar’, ‘rlang’, ‘tibble’, ‘tidyselect’, ‘vctrs’ are not available for package ‘dplyr’
+* removing ‘/tmp/tmp/built/dplyr’
+ERROR: dependencies ‘gtable’, ‘lifecycle’, ‘rlang’, ‘scales’, ‘tibble’, ‘vctrs’ are not available for package ‘ggplot2’
+* removing ‘/tmp/tmp/built/ggplot2’
+ERROR: dependencies ‘dplyr’, ‘lifecycle’, ‘purrr’, ‘rlang’, ‘stringr’, ‘tibble’, ‘tidyselect’, ‘vctrs’ are not available for package ‘tidyr’
+* removing ‘/tmp/tmp/built/tidyr’
+ERROR: dependencies ‘tidyr’, ‘ggplot2’ are not available for package ‘biclust’
+* removing ‘/tmp/tmp/built/biclust’
+ERROR: dependency ‘biclust’ is not available for package ‘rqubic’
+* removing ‘/tmp/tmp/built/rqubic’
+
+The downloaded source packages are in
+	‘/tmp/RtmpYng9Y7/downloaded_packages’
+There were 15 warnings (use warnings() to see them)
+
+real	0m22.714s
+user	0m16.694s
+sys	0m5.434s

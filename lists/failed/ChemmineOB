@@ -1,0 +1,375 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''ChemmineOB'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.19 (BiocManager 1.30.22), R Under development (unstable)
+  (2024-01-03 r85769)
+Installing package(s) 'ChemmineOB'
+also installing the dependencies ‘pillar’, ‘later’, ‘gtable’, ‘lifecycle’, ‘rlang’, ‘scales’, ‘tibble’, ‘vctrs’, ‘htmlwidgets’, ‘httpuv’, ‘crosstalk’, ‘promises’, ‘cachem’, ‘memoise’, ‘sass’, ‘ellipsis’, ‘rjson’, ‘ggplot2’, ‘gridExtra’, ‘DT’, ‘rsvg’, ‘bookdown’, ‘markdown’, ‘bslib’, ‘fontawesome’, ‘htmltools’, ‘jquerylib’, ‘stringr’, ‘Rcpp’, ‘ChemmineR’, ‘BiocStyle’, ‘knitrBootstrap’, ‘rmarkdown’
+
+trying URL 'https://cloud.r-project.org/src/contrib/pillar_1.9.0.tar.gz'
+Content type 'application/x-gzip' length 444528 bytes (434 KB)
+==================================================
+downloaded 434 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/later_1.3.2.tar.gz'
+Content type 'application/x-gzip' length 63597 bytes (62 KB)
+==================================================
+downloaded 62 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/gtable_0.3.4.tar.gz'
+Content type 'application/x-gzip' length 130100 bytes (127 KB)
+==================================================
+downloaded 127 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/lifecycle_1.0.4.tar.gz'
+Content type 'application/x-gzip' length 107656 bytes (105 KB)
+==================================================
+downloaded 105 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/rlang_1.1.2.tar.gz'
+Content type 'application/x-gzip' length 763521 bytes (745 KB)
+==================================================
+downloaded 745 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/scales_1.3.0.tar.gz'
+Content type 'application/x-gzip' length 302544 bytes (295 KB)
+==================================================
+downloaded 295 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/tibble_3.2.1.tar.gz'
+Content type 'application/x-gzip' length 565982 bytes (552 KB)
+==================================================
+downloaded 552 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/vctrs_0.6.5.tar.gz'
+Content type 'application/x-gzip' length 969066 bytes (946 KB)
+==================================================
+downloaded 946 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/htmlwidgets_1.6.4.tar.gz'
+Content type 'application/x-gzip' length 868895 bytes (848 KB)
+==================================================
+downloaded 848 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/httpuv_1.6.13.tar.gz'
+Content type 'application/x-gzip' length 1879156 bytes (1.8 MB)
+==================================================
+downloaded 1.8 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/crosstalk_1.2.1.tar.gz'
+Content type 'application/x-gzip' length 297970 bytes (290 KB)
+==================================================
+downloaded 290 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/promises_1.2.1.tar.gz'
+Content type 'application/x-gzip' length 3151071 bytes (3.0 MB)
+==================================================
+downloaded 3.0 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/cachem_1.0.8.tar.gz'
+Content type 'application/x-gzip' length 26510 bytes (25 KB)
+==================================================
+downloaded 25 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/memoise_2.0.1.tar.gz'
+Content type 'application/x-gzip' length 17852 bytes (17 KB)
+==================================================
+downloaded 17 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/sass_0.4.8.tar.gz'
+Content type 'application/x-gzip' length 3025474 bytes (2.9 MB)
+==================================================
+downloaded 2.9 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/ellipsis_0.3.2.tar.gz'
+Content type 'application/x-gzip' length 8066 bytes
+==================================================
+downloaded 8066 bytes
+
+trying URL 'https://cloud.r-project.org/src/contrib/rjson_0.2.21.tar.gz'
+Content type 'application/x-gzip' length 116509 bytes (113 KB)
+==================================================
+downloaded 113 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/ggplot2_3.4.4.tar.gz'
+Content type 'application/x-gzip' length 3159578 bytes (3.0 MB)
+==================================================
+downloaded 3.0 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/gridExtra_2.3.tar.gz'
+Content type 'application/x-gzip' length 1062844 bytes (1.0 MB)
+==================================================
+downloaded 1.0 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/DT_0.31.tar.gz'
+Content type 'application/x-gzip' length 1673497 bytes (1.6 MB)
+==================================================
+downloaded 1.6 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/rsvg_2.6.0.tar.gz'
+Content type 'application/x-gzip' length 260739 bytes (254 KB)
+==================================================
+downloaded 254 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/bookdown_0.37.tar.gz'
+Content type 'application/x-gzip' length 858915 bytes (838 KB)
+==================================================
+downloaded 838 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/markdown_1.12.tar.gz'
+Content type 'application/x-gzip' length 113037 bytes (110 KB)
+==================================================
+downloaded 110 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/bslib_0.6.1.tar.gz'
+Content type 'application/x-gzip' length 6059587 bytes (5.8 MB)
+==================================================
+downloaded 5.8 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/fontawesome_0.5.2.tar.gz'
+Content type 'application/x-gzip' length 1281884 bytes (1.2 MB)
+==================================================
+downloaded 1.2 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/htmltools_0.5.7.tar.gz'
+Content type 'application/x-gzip' length 134681 bytes (131 KB)
+==================================================
+downloaded 131 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/jquerylib_0.1.4.tar.gz'
+Content type 'application/x-gzip' length 520207 bytes (508 KB)
+==================================================
+downloaded 508 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/stringr_1.5.1.tar.gz'
+Content type 'application/x-gzip' length 176599 bytes (172 KB)
+==================================================
+downloaded 172 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/Rcpp_1.0.11.tar.gz'
+Content type 'application/x-gzip' length 2994004 bytes (2.9 MB)
+==================================================
+downloaded 2.9 MB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/ChemmineR_3.55.1.tar.gz'
+Content type 'application/x-gzip' length 2062599 bytes (2.0 MB)
+==================================================
+downloaded 2.0 MB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/BiocStyle_2.31.0.tar.gz'
+Content type 'application/x-gzip' length 788268 bytes (769 KB)
+==================================================
+downloaded 769 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/knitrBootstrap_1.0.2.tar.gz'
+Content type 'application/x-gzip' length 1472643 bytes (1.4 MB)
+==================================================
+downloaded 1.4 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/rmarkdown_2.25.tar.gz'
+Content type 'application/x-gzip' length 2188934 bytes (2.1 MB)
+==================================================
+downloaded 2.1 MB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/ChemmineOB_1.41.0.tar.gz'
+Content type 'application/x-gzip' length 1367376 bytes (1.3 MB)
+==================================================
+downloaded 1.3 MB
+
+* installing *source* package ‘rlang’ ...
+** package ‘rlang’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I./rlang/  -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c capture.c -o capture.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I./rlang/  -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c internal.c -o internal.o
+In file included from internal/internal.c:32,
+                 from internal.c:1:
+internal/tests.c: In function ‘ffi_test_Rf_warning’:
+internal/tests.c:104:3: error: format not a string literal and no format arguments [-Werror=format-security]
+  104 |   Rf_warning(r_chr_get_c_string(msg, 0));
+      |   ^~~~~~~~~~
+internal/tests.c: In function ‘ffi_test_Rf_error’:
+internal/tests.c:108:3: error: format not a string literal and no format arguments [-Werror=format-security]
+  108 |   Rf_error(r_chr_get_c_string(msg, 0));
+      |   ^~~~~~~~
+internal/tests.c: In function ‘ffi_test_Rf_warningcall’:
+internal/tests.c:113:3: error: format not a string literal and no format arguments [-Werror=format-security]
+  113 |   Rf_warningcall(call, r_chr_get_c_string(msg, 0));
+      |   ^~~~~~~~~~~~~~
+internal/tests.c: In function ‘ffi_test_Rf_errorcall’:
+internal/tests.c:117:3: error: format not a string literal and no format arguments [-Werror=format-security]
+  117 |   Rf_errorcall(call, r_chr_get_c_string(msg, 0));
+      |   ^~~~~~~~~~~~
+cc1: some warnings being treated as errors
+make: *** [/usr/local/lib/R/etc/Makeconf:191: internal.o] Error 1
+ERROR: compilation failed for package ‘rlang’
+* removing ‘/tmp/tmp/built/rlang’
+* installing *source* package ‘rjson’ ...
+** package ‘rjson’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+using C++ compiler: ‘g++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c dump.cpp -o dump.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c parser.c -o parser.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c register.c -o register.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o rjson.so dump.o parser.o register.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-rjson/00new/rjson/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘rjson’ as ‘rjson_0.2.21_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rjson)
+* installing *source* package ‘rsvg’ ...
+** package ‘rsvg’ successfully unpacked and MD5 sums checked
+** using staged installation
+Found pkg-config cflags and libs!
+Using PKG_CFLAGS=-pthread -I/usr/include/librsvg-2.0 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/x86_64-linux-gnu -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/cairo -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/libpng16
+Using PKG_LIBS=-lrsvg-2 -lm -lgio-2.0 -lgdk_pixbuf-2.0 -lgobject-2.0 -lglib-2.0 -lcairo
+** libs
+using C compiler: ‘gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -pthread -I/usr/include/librsvg-2.0 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/x86_64-linux-gnu -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/cairo -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/libpng16  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rsvg.c -o rsvg.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o rsvg.so rsvg.o -lrsvg-2 -lm -lgio-2.0 -lgdk_pixbuf-2.0 -lgobject-2.0 -lglib-2.0 -lcairo -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-rsvg/00new/rsvg/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘rsvg’ as ‘rsvg_2.6.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rsvg)
+* installing *source* package ‘markdown’ ...
+** package ‘markdown’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘markdown’ as ‘markdown_1.12_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (markdown)
+* installing *source* package ‘Rcpp’ ...
+** package ‘Rcpp’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c api.cpp -o api.o
+In file included from ../inst/include/Rcpp/routines.h:26,
+                 from ../inst/include/RcppCommon.h:128,
+                 from ../inst/include/Rcpp.h:27,
+                 from api.cpp:26:
+../inst/include/Rcpp/iostream/Rstreambuf.h: In member function ‘std::streamsize Rcpp::Rstreambuf<OUTPUT>::xsputn(const char*, std::streamsize) [with bool OUTPUT = true; std::streamsize = long int]’:
+../inst/include/Rcpp/iostream/Rstreambuf.h:53:20: warning: field precision specifier ‘.*’ expects argument of type ‘int’, but argument 2 has type ‘std::streamsize’ {aka ‘long int’} [-Wformat=]
+   53 |         Rprintf("%.*s", num, s);
+      |                  ~~^~   ~~~
+      |                    |    |
+      |                    int  std::streamsize {aka long int}
+../inst/include/Rcpp/iostream/Rstreambuf.h: In member function ‘std::streamsize Rcpp::Rstreambuf<OUTPUT>::xsputn(const char*, std::streamsize) [with bool OUTPUT = false; std::streamsize = long int]’:
+../inst/include/Rcpp/iostream/Rstreambuf.h:57:21: warning: field precision specifier ‘.*’ expects argument of type ‘int’, but argument 2 has type ‘std::streamsize’ {aka ‘long int’} [-Wformat=]
+   57 |         REprintf("%.*s", num, s);
+      |                   ~~^~   ~~~
+      |                     |    |
+      |                     int  std::streamsize {aka long int}
+In file included from ../inst/include/RcppCommon.h:181,
+                 from ../inst/include/Rcpp.h:27,
+                 from api.cpp:26:
+../inst/include/Rcpp/print.h: In function ‘void Rcpp::warningcall(SEXP, const string&)’:
+../inst/include/Rcpp/print.h:30:19: error: format not a string literal and no format arguments [-Werror=format-security]
+   30 |     Rf_warningcall(call, s.c_str());
+      |     ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+cc1plus: some warnings being treated as errors
+make: *** [/usr/local/lib/R/etc/Makeconf:200: api.o] Error 1
+ERROR: compilation failed for package ‘Rcpp’
+* removing ‘/tmp/tmp/built/Rcpp’
+ERROR: dependencies ‘Rcpp’, ‘rlang’ are not available for package ‘later’
+* removing ‘/tmp/tmp/built/later’
+ERROR: dependency ‘rlang’ is not available for package ‘lifecycle’
+* removing ‘/tmp/tmp/built/lifecycle’
+ERROR: dependency ‘rlang’ is not available for package ‘cachem’
+* removing ‘/tmp/tmp/built/cachem’
+ERROR: dependency ‘rlang’ is not available for package ‘ellipsis’
+* removing ‘/tmp/tmp/built/ellipsis’
+ERROR: dependency ‘Rcpp’ is not available for package ‘ChemmineOB’
+* removing ‘/tmp/tmp/built/ChemmineOB’
+ERROR: dependencies ‘lifecycle’, ‘rlang’ are not available for package ‘gtable’
+* removing ‘/tmp/tmp/built/gtable’
+ERROR: dependencies ‘lifecycle’, ‘rlang’ are not available for package ‘scales’
+* removing ‘/tmp/tmp/built/scales’
+ERROR: dependencies ‘lifecycle’, ‘rlang’ are not available for package ‘vctrs’
+* removing ‘/tmp/tmp/built/vctrs’
+ERROR: dependencies ‘later’, ‘Rcpp’, ‘rlang’ are not available for package ‘promises’
+* removing ‘/tmp/tmp/built/promises’
+ERROR: dependencies ‘rlang’, ‘cachem’ are not available for package ‘memoise’
+* removing ‘/tmp/tmp/built/memoise’
+ERROR: dependencies ‘ellipsis’, ‘rlang’ are not available for package ‘htmltools’
+* removing ‘/tmp/tmp/built/htmltools’
+ERROR: dependencies ‘lifecycle’, ‘rlang’, ‘vctrs’ are not available for package ‘pillar’
+* removing ‘/tmp/tmp/built/pillar’
+ERROR: dependencies ‘later’, ‘promises’, ‘Rcpp’ are not available for package ‘httpuv’
+* removing ‘/tmp/tmp/built/httpuv’
+ERROR: dependency ‘htmltools’ is not available for package ‘crosstalk’
+* removing ‘/tmp/tmp/built/crosstalk’
+ERROR: dependencies ‘rlang’, ‘htmltools’ are not available for package ‘sass’
+* removing ‘/tmp/tmp/built/sass’
+ERROR: dependency ‘gtable’ is not available for package ‘gridExtra’
+* removing ‘/tmp/tmp/built/gridExtra’
+ERROR: dependencies ‘rlang’, ‘htmltools’ are not available for package ‘fontawesome’
+* removing ‘/tmp/tmp/built/fontawesome’
+ERROR: dependency ‘htmltools’ is not available for package ‘jquerylib’
+* removing ‘/tmp/tmp/built/jquerylib’
+ERROR: dependencies ‘lifecycle’, ‘rlang’, ‘vctrs’ are not available for package ‘stringr’
+* removing ‘/tmp/tmp/built/stringr’
+ERROR: dependencies ‘lifecycle’, ‘pillar’, ‘rlang’, ‘vctrs’ are not available for package ‘tibble’
+* removing ‘/tmp/tmp/built/tibble’
+ERROR: dependencies ‘cachem’, ‘htmltools’, ‘jquerylib’, ‘lifecycle’, ‘memoise’, ‘rlang’, ‘sass’ are not available for package ‘bslib’
+* removing ‘/tmp/tmp/built/bslib’
+ERROR: dependencies ‘gtable’, ‘lifecycle’, ‘rlang’, ‘scales’, ‘tibble’, ‘vctrs’ are not available for package ‘ggplot2’
+* removing ‘/tmp/tmp/built/ggplot2’
+ERROR: dependencies ‘bslib’, ‘fontawesome’, ‘htmltools’, ‘jquerylib’, ‘stringr’ are not available for package ‘rmarkdown’
+* removing ‘/tmp/tmp/built/rmarkdown’
+ERROR: dependencies ‘htmltools’, ‘rmarkdown’ are not available for package ‘htmlwidgets’
+* removing ‘/tmp/tmp/built/htmlwidgets’
+ERROR: dependencies ‘htmltools’, ‘rmarkdown’, ‘jquerylib’ are not available for package ‘bookdown’
+* removing ‘/tmp/tmp/built/bookdown’
+ERROR: dependency ‘rmarkdown’ is not available for package ‘knitrBootstrap’
+* removing ‘/tmp/tmp/built/knitrBootstrap’
+ERROR: dependencies ‘htmltools’, ‘htmlwidgets’, ‘httpuv’, ‘crosstalk’, ‘jquerylib’, ‘promises’ are not available for package ‘DT’
+* removing ‘/tmp/tmp/built/DT’
+ERROR: dependencies ‘bookdown’, ‘rmarkdown’ are not available for package ‘BiocStyle’
+* removing ‘/tmp/tmp/built/BiocStyle’
+ERROR: dependencies ‘Rcpp’, ‘ggplot2’, ‘gridExtra’, ‘DT’ are not available for package ‘ChemmineR’
+* removing ‘/tmp/tmp/built/ChemmineR’
+
+The downloaded source packages are in
+	‘/tmp/RtmpZQc40q/downloaded_packages’
+There were 31 warnings (use warnings() to see them)
+
+real	0m31.401s
+user	0m22.113s
+sys	0m8.745s

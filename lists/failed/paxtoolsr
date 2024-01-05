@@ -1,0 +1,2335 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''paxtoolsr'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.19 (BiocManager 1.30.22), R Under development (unstable)
+  (2024-01-03 r85769)
+Installing package(s) 'paxtoolsr'
+also installing the dependencies ‘bitops’, ‘zlibbioc’, ‘RCurl’, ‘GenomeInfoDbData’, ‘colorspace’, ‘XVector’, ‘GenomeInfoDb’, ‘lambda.r’, ‘futile.options’, ‘farver’, ‘labeling’, ‘munsell’, ‘viridisLite’, ‘gridGraphics’, ‘tweenr’, ‘polyclip’, ‘RcppEigen’, ‘gridExtra’, ‘RcppArmadillo’, ‘lazyeval’, ‘bit’, ‘blob’, ‘plogr’, ‘png’, ‘Biostrings’, ‘futile.logger’, ‘BH’, ‘data.table’, ‘cowplot’, ‘fastmatch’, ‘scales’, ‘gtable’, ‘isoband’, ‘ggplotify’, ‘patchwork’, ‘ggforce’, ‘ggrepel’, ‘viridis’, ‘tidygraph’, ‘graphlayouts’, ‘ape’, ‘tidytree’, ‘treeio’, ‘vctrs’, ‘pillar’, ‘bit64’, ‘tidyselect’, ‘progress’, ‘rematch2’, ‘cachem’, ‘memoise’, ‘sass’, ‘ellipsis’, ‘BiocGenerics’, ‘Biobase’, ‘IRanges’, ‘DBI’, ‘RSQLite’, ‘S4Vectors’, ‘KEGGREST’, ‘HDO.db’, ‘BiocParallel’, ‘fgsea’, ‘ggplot2’, ‘reshape2’, ‘generics’, ‘aplot’, ‘ggfun’, ‘ggnewscale’, ‘ggraph’, ‘purrr’, ‘scatterpie’, ‘shadowtext’, ‘ggtree’, ‘lifecycle’, ‘rlang’, ‘Rcpp’, ‘R.oo’, ‘R.methodsS3’, ‘hms’, ‘tibble’, ‘vroom’, ‘tzdb’, ‘pkgload’, ‘waldo’, ‘bookdown’, ‘bslib’, ‘fontawesome’, ‘htmltools’, ‘jquerylib’, ‘stringr’, ‘iterators’, ‘snow’, ‘AnnotationDbi’, ‘downloader’, ‘DOSE’, ‘dplyr’, ‘enrichplot’, ‘GO.db’, ‘GOSemSim’, ‘gson’, ‘qvalue’, ‘tidyr’, ‘yulab.utils’, ‘rJava’, ‘XML’, ‘igraph’, ‘plyr’, ‘rjson’, ‘R.utils’, ‘readr’, ‘testthat’, ‘BiocStyle’, ‘formatR’, ‘rmarkdown’, ‘RColorBrewer’, ‘foreach’, ‘doSNOW’, ‘org.Hs.eg.db’, ‘clusterProfiler’
+
+trying URL 'https://cloud.r-project.org/src/contrib/bitops_1.0-7.tar.gz'
+Content type 'application/x-gzip' length 10809 bytes (10 KB)
+==================================================
+downloaded 10 KB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/zlibbioc_1.49.0.tar.gz'
+Content type 'application/x-gzip' length 163345 bytes (159 KB)
+==================================================
+downloaded 159 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/RCurl_1.98-1.13.tar.gz'
+Content type 'application/x-gzip' length 731389 bytes (714 KB)
+==================================================
+downloaded 714 KB
+
+trying URL 'https://bioconductor.org/packages/3.19/data/annotation/src/contrib/GenomeInfoDbData_1.2.11.tar.gz'
+Content type 'application/x-gzip' length 12284235 bytes (11.7 MB)
+==================================================
+downloaded 11.7 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/colorspace_2.1-0.tar.gz'
+Content type 'application/x-gzip' length 2116339 bytes (2.0 MB)
+==================================================
+downloaded 2.0 MB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/XVector_0.43.0.tar.gz'
+Content type 'application/x-gzip' length 67799 bytes (66 KB)
+==================================================
+downloaded 66 KB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/GenomeInfoDb_1.39.5.tar.gz'
+Content type 'application/x-gzip' length 3581678 bytes (3.4 MB)
+==================================================
+downloaded 3.4 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/lambda.r_1.2.4.tar.gz'
+Content type 'application/x-gzip' length 25666 bytes (25 KB)
+==================================================
+downloaded 25 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/futile.options_1.0.1.tar.gz'
+Content type 'application/x-gzip' length 3919 bytes
+==================================================
+downloaded 3919 bytes
+
+trying URL 'https://cloud.r-project.org/src/contrib/farver_2.1.1.tar.gz'
+Content type 'application/x-gzip' length 1274363 bytes (1.2 MB)
+==================================================
+downloaded 1.2 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/labeling_0.4.3.tar.gz'
+Content type 'application/x-gzip' length 10167 bytes
+==================================================
+downloaded 10167 bytes
+
+trying URL 'https://cloud.r-project.org/src/contrib/munsell_0.5.0.tar.gz'
+Content type 'application/x-gzip' length 182653 bytes (178 KB)
+==================================================
+downloaded 178 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/viridisLite_0.4.2.tar.gz'
+Content type 'application/x-gzip' length 1267121 bytes (1.2 MB)
+==================================================
+downloaded 1.2 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/gridGraphics_0.5-1.tar.gz'
+Content type 'application/x-gzip' length 69207 bytes (67 KB)
+==================================================
+downloaded 67 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/tweenr_2.0.2.tar.gz'
+Content type 'application/x-gzip' length 583621 bytes (569 KB)
+==================================================
+downloaded 569 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/polyclip_1.10-6.tar.gz'
+Content type 'application/x-gzip' length 79835 bytes (77 KB)
+==================================================
+downloaded 77 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/RcppEigen_0.3.3.9.4.tar.gz'
+Content type 'application/x-gzip' length 1451521 bytes (1.4 MB)
+==================================================
+downloaded 1.4 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/gridExtra_2.3.tar.gz'
+Content type 'application/x-gzip' length 1062844 bytes (1.0 MB)
+==================================================
+downloaded 1.0 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/RcppArmadillo_0.12.6.6.1.tar.gz'
+Content type 'application/x-gzip' length 1403301 bytes (1.3 MB)
+==================================================
+downloaded 1.3 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/lazyeval_0.2.2.tar.gz'
+Content type 'application/x-gzip' length 83482 bytes (81 KB)
+==================================================
+downloaded 81 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/bit_4.0.5.tar.gz'
+Content type 'application/x-gzip' length 827745 bytes (808 KB)
+==================================================
+downloaded 808 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/blob_1.2.4.tar.gz'
+Content type 'application/x-gzip' length 10620 bytes (10 KB)
+==================================================
+downloaded 10 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/plogr_0.2.0.tar.gz'
+Content type 'application/x-gzip' length 7795 bytes
+==================================================
+downloaded 7795 bytes
+
+trying URL 'https://cloud.r-project.org/src/contrib/png_0.1-8.tar.gz'
+Content type 'application/x-gzip' length 24880 bytes (24 KB)
+==================================================
+downloaded 24 KB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/Biostrings_2.71.1.tar.gz'
+Content type 'application/x-gzip' length 12740938 bytes (12.2 MB)
+==================================================
+downloaded 12.2 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/futile.logger_1.4.3.tar.gz'
+Content type 'application/x-gzip' length 17456 bytes (17 KB)
+==================================================
+downloaded 17 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/BH_1.81.0-1.tar.gz'
+Content type 'application/x-gzip' length 13938979 bytes (13.3 MB)
+==================================================
+downloaded 13.3 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/data.table_1.14.10.tar.gz'
+Content type 'application/x-gzip' length 5311651 bytes (5.1 MB)
+==================================================
+downloaded 5.1 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/cowplot_1.1.2.tar.gz'
+Content type 'application/x-gzip' length 1350042 bytes (1.3 MB)
+==================================================
+downloaded 1.3 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/fastmatch_1.1-4.tar.gz'
+Content type 'application/x-gzip' length 15223 bytes (14 KB)
+==================================================
+downloaded 14 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/scales_1.3.0.tar.gz'
+Content type 'application/x-gzip' length 302544 bytes (295 KB)
+==================================================
+downloaded 295 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/gtable_0.3.4.tar.gz'
+Content type 'application/x-gzip' length 130100 bytes (127 KB)
+==================================================
+downloaded 127 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/isoband_0.2.7.tar.gz'
+Content type 'application/x-gzip' length 1591812 bytes (1.5 MB)
+==================================================
+downloaded 1.5 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/ggplotify_0.1.2.tar.gz'
+Content type 'application/x-gzip' length 117886 bytes (115 KB)
+==================================================
+downloaded 115 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/patchwork_1.1.3.tar.gz'
+Content type 'application/x-gzip' length 3275540 bytes (3.1 MB)
+==================================================
+downloaded 3.1 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/ggforce_0.4.1.tar.gz'
+Content type 'application/x-gzip' length 866336 bytes (846 KB)
+==================================================
+downloaded 846 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/ggrepel_0.9.4.tar.gz'
+Content type 'application/x-gzip' length 149991 bytes (146 KB)
+==================================================
+downloaded 146 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/viridis_0.6.4.tar.gz'
+Content type 'application/x-gzip' length 3061184 bytes (2.9 MB)
+==================================================
+downloaded 2.9 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/tidygraph_1.3.0.tar.gz'
+Content type 'application/x-gzip' length 133378 bytes (130 KB)
+==================================================
+downloaded 130 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/graphlayouts_1.0.2.tar.gz'
+Content type 'application/x-gzip' length 3808526 bytes (3.6 MB)
+==================================================
+downloaded 3.6 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/ape_5.7-1.tar.gz'
+Content type 'application/x-gzip' length 1577273 bytes (1.5 MB)
+==================================================
+downloaded 1.5 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/tidytree_0.4.6.tar.gz'
+Content type 'application/x-gzip' length 80045 bytes (78 KB)
+==================================================
+downloaded 78 KB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/treeio_1.27.0.tar.gz'
+Content type 'application/x-gzip' length 691549 bytes (675 KB)
+==================================================
+downloaded 675 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/vctrs_0.6.5.tar.gz'
+Content type 'application/x-gzip' length 969066 bytes (946 KB)
+==================================================
+downloaded 946 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/pillar_1.9.0.tar.gz'
+Content type 'application/x-gzip' length 444528 bytes (434 KB)
+==================================================
+downloaded 434 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/bit64_4.0.5.tar.gz'
+Content type 'application/x-gzip' length 135091 bytes (131 KB)
+==================================================
+downloaded 131 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/tidyselect_1.2.0.tar.gz'
+Content type 'application/x-gzip' length 101498 bytes (99 KB)
+==================================================
+downloaded 99 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/progress_1.2.3.tar.gz'
+Content type 'application/x-gzip' length 30499 bytes (29 KB)
+==================================================
+downloaded 29 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/rematch2_2.1.2.tar.gz'
+Content type 'application/x-gzip' length 13366 bytes (13 KB)
+==================================================
+downloaded 13 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/cachem_1.0.8.tar.gz'
+Content type 'application/x-gzip' length 26510 bytes (25 KB)
+==================================================
+downloaded 25 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/memoise_2.0.1.tar.gz'
+Content type 'application/x-gzip' length 17852 bytes (17 KB)
+==================================================
+downloaded 17 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/sass_0.4.8.tar.gz'
+Content type 'application/x-gzip' length 3025474 bytes (2.9 MB)
+==================================================
+downloaded 2.9 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/ellipsis_0.3.2.tar.gz'
+Content type 'application/x-gzip' length 8066 bytes
+==================================================
+downloaded 8066 bytes
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/BiocGenerics_0.49.1.tar.gz'
+Content type 'application/x-gzip' length 49530 bytes (48 KB)
+==================================================
+downloaded 48 KB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/Biobase_2.63.0.tar.gz'
+Content type 'application/x-gzip' length 1792949 bytes (1.7 MB)
+==================================================
+downloaded 1.7 MB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/IRanges_2.37.0.tar.gz'
+Content type 'application/x-gzip' length 482201 bytes (470 KB)
+==================================================
+downloaded 470 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/DBI_1.2.0.tar.gz'
+Content type 'application/x-gzip' length 970047 bytes (947 KB)
+==================================================
+downloaded 947 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/RSQLite_2.3.4.tar.gz'
+Content type 'application/x-gzip' length 4223565 bytes (4.0 MB)
+==================================================
+downloaded 4.0 MB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/S4Vectors_0.41.3.tar.gz'
+Content type 'application/x-gzip' length 838928 bytes (819 KB)
+==================================================
+downloaded 819 KB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/KEGGREST_1.43.0.tar.gz'
+Content type 'application/x-gzip' length 22616 bytes (22 KB)
+==================================================
+downloaded 22 KB
+
+trying URL 'https://bioconductor.org/packages/3.19/data/annotation/src/contrib/HDO.db_0.99.1.tar.gz'
+Content type 'application/x-gzip' length 1855560 bytes (1.8 MB)
+==================================================
+downloaded 1.8 MB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/BiocParallel_1.37.0.tar.gz'
+Content type 'application/x-gzip' length 995449 bytes (972 KB)
+==================================================
+downloaded 972 KB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/fgsea_1.29.0.tar.gz'
+Content type 'application/x-gzip' length 4949217 bytes (4.7 MB)
+==================================================
+downloaded 4.7 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/ggplot2_3.4.4.tar.gz'
+Content type 'application/x-gzip' length 3159578 bytes (3.0 MB)
+==================================================
+downloaded 3.0 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/reshape2_1.4.4.tar.gz'
+Content type 'application/x-gzip' length 37307 bytes (36 KB)
+==================================================
+downloaded 36 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/generics_0.1.3.tar.gz'
+Content type 'application/x-gzip' length 172201 bytes (168 KB)
+==================================================
+downloaded 168 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/aplot_0.2.2.tar.gz'
+Content type 'application/x-gzip' length 24184 bytes (23 KB)
+==================================================
+downloaded 23 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/ggfun_0.1.3.tar.gz'
+Content type 'application/x-gzip' length 99599 bytes (97 KB)
+==================================================
+downloaded 97 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/ggnewscale_0.4.9.tar.gz'
+Content type 'application/x-gzip' length 420323 bytes (410 KB)
+==================================================
+downloaded 410 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/ggraph_2.1.0.tar.gz'
+Content type 'application/x-gzip' length 3172456 bytes (3.0 MB)
+==================================================
+downloaded 3.0 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/purrr_1.0.2.tar.gz'
+Content type 'application/x-gzip' length 220868 bytes (215 KB)
+==================================================
+downloaded 215 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/scatterpie_0.2.1.tar.gz'
+Content type 'application/x-gzip' length 114591 bytes (111 KB)
+==================================================
+downloaded 111 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/shadowtext_0.1.2.tar.gz'
+Content type 'application/x-gzip' length 187214 bytes (182 KB)
+==================================================
+downloaded 182 KB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/ggtree_3.11.0.tar.gz'
+Content type 'application/x-gzip' length 358323 bytes (349 KB)
+==================================================
+downloaded 349 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/lifecycle_1.0.4.tar.gz'
+Content type 'application/x-gzip' length 107656 bytes (105 KB)
+==================================================
+downloaded 105 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/rlang_1.1.2.tar.gz'
+Content type 'application/x-gzip' length 763521 bytes (745 KB)
+==================================================
+downloaded 745 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/Rcpp_1.0.11.tar.gz'
+Content type 'application/x-gzip' length 2994004 bytes (2.9 MB)
+==================================================
+downloaded 2.9 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/R.oo_1.25.0.tar.gz'
+Content type 'application/x-gzip' length 384384 bytes (375 KB)
+==================================================
+downloaded 375 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/R.methodsS3_1.8.2.tar.gz'
+Content type 'application/x-gzip' length 24131 bytes (23 KB)
+==================================================
+downloaded 23 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/hms_1.1.3.tar.gz'
+Content type 'application/x-gzip' length 43379 bytes (42 KB)
+==================================================
+downloaded 42 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/tibble_3.2.1.tar.gz'
+Content type 'application/x-gzip' length 565982 bytes (552 KB)
+==================================================
+downloaded 552 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/vroom_1.6.5.tar.gz'
+Content type 'application/x-gzip' length 750416 bytes (732 KB)
+==================================================
+downloaded 732 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/tzdb_0.4.0.tar.gz'
+Content type 'application/x-gzip' length 586327 bytes (572 KB)
+==================================================
+downloaded 572 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/pkgload_1.3.3.tar.gz'
+Content type 'application/x-gzip' length 77929 bytes (76 KB)
+==================================================
+downloaded 76 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/waldo_0.5.2.tar.gz'
+Content type 'application/x-gzip' length 39711 bytes (38 KB)
+==================================================
+downloaded 38 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/bookdown_0.37.tar.gz'
+Content type 'application/x-gzip' length 858915 bytes (838 KB)
+==================================================
+downloaded 838 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/bslib_0.6.1.tar.gz'
+Content type 'application/x-gzip' length 6059587 bytes (5.8 MB)
+==================================================
+downloaded 5.8 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/fontawesome_0.5.2.tar.gz'
+Content type 'application/x-gzip' length 1281884 bytes (1.2 MB)
+==================================================
+downloaded 1.2 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/htmltools_0.5.7.tar.gz'
+Content type 'application/x-gzip' length 134681 bytes (131 KB)
+==================================================
+downloaded 131 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/jquerylib_0.1.4.tar.gz'
+Content type 'application/x-gzip' length 520207 bytes (508 KB)
+==================================================
+downloaded 508 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/stringr_1.5.1.tar.gz'
+Content type 'application/x-gzip' length 176599 bytes (172 KB)
+==================================================
+downloaded 172 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/iterators_1.0.14.tar.gz'
+Content type 'application/x-gzip' length 300266 bytes (293 KB)
+==================================================
+downloaded 293 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/snow_0.4-4.tar.gz'
+Content type 'application/x-gzip' length 20464 bytes (19 KB)
+==================================================
+downloaded 19 KB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/AnnotationDbi_1.65.2.tar.gz'
+Content type 'application/x-gzip' length 4359585 bytes (4.2 MB)
+==================================================
+downloaded 4.2 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/downloader_0.4.tar.gz'
+Content type 'application/x-gzip' length 6808 bytes
+==================================================
+downloaded 6808 bytes
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/DOSE_3.29.2.tar.gz'
+Content type 'application/x-gzip' length 6807171 bytes (6.5 MB)
+==================================================
+downloaded 6.5 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/dplyr_1.1.4.tar.gz'
+Content type 'application/x-gzip' length 1207521 bytes (1.2 MB)
+==================================================
+downloaded 1.2 MB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/enrichplot_1.23.1.tar.gz'
+Content type 'application/x-gzip' length 108963 bytes (106 KB)
+==================================================
+downloaded 106 KB
+
+trying URL 'https://bioconductor.org/packages/3.19/data/annotation/src/contrib/GO.db_3.18.0.tar.gz'
+Content type 'application/x-gzip' length 29013599 bytes (27.7 MB)
+==================================================
+downloaded 27.7 MB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/GOSemSim_2.29.0.tar.gz'
+Content type 'application/x-gzip' length 607471 bytes (593 KB)
+==================================================
+downloaded 593 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/gson_0.1.0.tar.gz'
+Content type 'application/x-gzip' length 98256 bytes (95 KB)
+==================================================
+downloaded 95 KB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/qvalue_2.35.0.tar.gz'
+Content type 'application/x-gzip' length 2760943 bytes (2.6 MB)
+==================================================
+downloaded 2.6 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/tidyr_1.3.0.tar.gz'
+Content type 'application/x-gzip' length 823546 bytes (804 KB)
+==================================================
+downloaded 804 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/yulab.utils_0.1.2.tar.gz'
+Content type 'application/x-gzip' length 13923 bytes (13 KB)
+==================================================
+downloaded 13 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/rJava_1.0-10.tar.gz'
+Content type 'application/x-gzip' length 1055729 bytes (1.0 MB)
+==================================================
+downloaded 1.0 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/XML_3.99-0.16.tar.gz'
+Content type 'application/x-gzip' length 970727 bytes (947 KB)
+==================================================
+downloaded 947 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/igraph_1.6.0.tar.gz'
+Content type 'application/x-gzip' length 3510416 bytes (3.3 MB)
+==================================================
+downloaded 3.3 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/plyr_1.8.9.tar.gz'
+Content type 'application/x-gzip' length 401488 bytes (392 KB)
+==================================================
+downloaded 392 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/rjson_0.2.21.tar.gz'
+Content type 'application/x-gzip' length 116509 bytes (113 KB)
+==================================================
+downloaded 113 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/R.utils_2.12.3.tar.gz'
+Content type 'application/x-gzip' length 364188 bytes (355 KB)
+==================================================
+downloaded 355 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/readr_2.1.4.tar.gz'
+Content type 'application/x-gzip' length 298083 bytes (291 KB)
+==================================================
+downloaded 291 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/testthat_3.2.1.tar.gz'
+Content type 'application/x-gzip' length 739745 bytes (722 KB)
+==================================================
+downloaded 722 KB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/BiocStyle_2.31.0.tar.gz'
+Content type 'application/x-gzip' length 788268 bytes (769 KB)
+==================================================
+downloaded 769 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/formatR_1.14.tar.gz'
+Content type 'application/x-gzip' length 96077 bytes (93 KB)
+==================================================
+downloaded 93 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/rmarkdown_2.25.tar.gz'
+Content type 'application/x-gzip' length 2188934 bytes (2.1 MB)
+==================================================
+downloaded 2.1 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/RColorBrewer_1.1-3.tar.gz'
+Content type 'application/x-gzip' length 11638 bytes (11 KB)
+==================================================
+downloaded 11 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/foreach_1.5.2.tar.gz'
+Content type 'application/x-gzip' length 89758 bytes (87 KB)
+==================================================
+downloaded 87 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/doSNOW_1.0.20.tar.gz'
+Content type 'application/x-gzip' length 8085 bytes
+==================================================
+downloaded 8085 bytes
+
+trying URL 'https://bioconductor.org/packages/3.19/data/annotation/src/contrib/org.Hs.eg.db_3.18.0.tar.gz'
+Content type 'application/x-gzip' length 97922403 bytes (93.4 MB)
+==================================================
+downloaded 93.4 MB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/clusterProfiler_4.11.0.tar.gz'
+Content type 'application/x-gzip' length 624047 bytes (609 KB)
+==================================================
+downloaded 609 KB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/paxtoolsr_1.37.0.tar.gz'
+Content type 'application/x-gzip' length 26562199 bytes (25.3 MB)
+==================================================
+downloaded 25.3 MB
+
+* installing *source* package ‘bitops’ ...
+** package ‘bitops’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c bit-ops.c -o bit-ops.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cksum.c -o cksum.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o bitops.so bit-ops.o cksum.o init.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-bitops/00new/bitops/libs
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘bitops’ as ‘bitops_1.0-7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (bitops)
+* installing *source* package ‘zlibbioc’ ...
+** using staged installation
+configure: creating ./config.status
+config.status: creating src/Makevars
+** libs
+using C compiler: ‘gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+mkdir -p "/tmp/tmp/built/00LOCK-zlibbioc/00new/zlibbioc/include"
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c R_init_zlibbioc.c -o R_init_zlibbioc.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o zlibbioc.so R_init_zlibbioc.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-zlibbioc/00new/zlibbioc/libs
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘zlibbioc’ as ‘zlibbioc_1.49.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (zlibbioc)
+* installing *source* package ‘GenomeInfoDbData’ ...
+** using staged installation
+** data
+** inst
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘GenomeInfoDbData’ as ‘GenomeInfoDbData_1.2.11_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (GenomeInfoDbData)
+* installing *source* package ‘colorspace’ ...
+** package ‘colorspace’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c colorspace.c -o colorspace.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o colorspace.so colorspace.o init.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-colorspace/00new/colorspace/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** demo
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘colorspace’ as ‘colorspace_2.1-0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (colorspace)
+* installing *source* package ‘futile.options’ ...
+** package ‘futile.options’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘futile.options’ as ‘futile.options_1.0.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (futile.options)
+* installing *source* package ‘farver’ ...
+** package ‘farver’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+using C++11
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ColorSpace.cpp -o ColorSpace.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Comparison.cpp -o Comparison.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Conversion.cpp -o Conversion.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c encode.cpp -o encode.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c farver.cpp -o farver.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.cpp -o init.o
+g++ -std=gnu++11 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o farver.so ColorSpace.o Comparison.o Conversion.o encode.o farver.o init.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-farver/00new/farver/libs
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘farver’ as ‘farver_2.1.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (farver)
+* installing *source* package ‘labeling’ ...
+** package ‘labeling’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘labeling’ as ‘labeling_0.4.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (labeling)
+* installing *source* package ‘viridisLite’ ...
+** package ‘viridisLite’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘viridisLite’ as ‘viridisLite_0.4.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (viridisLite)
+* installing *source* package ‘gridGraphics’ ...
+** package ‘gridGraphics’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘gridGraphics’ as ‘gridGraphics_0.5-1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (gridGraphics)
+* installing *source* package ‘polyclip’ ...
+** package ‘polyclip’ successfully unpacked and MD5 sums checked
+** using staged installation
+checking whether the C++ compiler works... yes
+checking for C++ compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ -std=gnu++17 accepts -g... yes
+Using PKG_CONFIG: pkg-config
+Compiling against bundled copy of clipper library.
+checking for int64_t... yes
+     In the clipper library, signed 64-bit integers (cInt)
+     will be declared as 'int64_t'
+checking for uint64_t... yes
+     In the clipper library, unsigned 64-bit integers (cUInt)
+     will be declared as 'uint64_t'
+configure: creating ./config.status
+config.status: creating src/Makevars
+** libs
+using C compiler: ‘gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+using C++ compiler: ‘g++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DPOLYCLIP_LONG64="int64_t" -DPOLYCLIP_ULONG64="uint64_t"  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DPOLYCLIP_LONG64="int64_t" -DPOLYCLIP_ULONG64="uint64_t"  -I/usr/local/include   -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c interface.cpp -o interface.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DPOLYCLIP_LONG64="int64_t" -DPOLYCLIP_ULONG64="uint64_t"  -I/usr/local/include   -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c clipper.cpp -o clipper.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o polyclip.so init.o interface.o clipper.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-polyclip/00new/polyclip/libs
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘polyclip’ as ‘polyclip_1.10-6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (polyclip)
+* installing *source* package ‘lazyeval’ ...
+** package ‘lazyeval’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c expr.c -o expr.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c interp.c -o interp.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c lazy.c -o lazy.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c name.c -o name.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c utils.c -o utils.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o lazyeval.so expr.o init.o interp.o lazy.o name.o utils.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-lazyeval/00new/lazyeval/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘lazyeval’ as ‘lazyeval_0.2.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (lazyeval)
+* installing *source* package ‘bit’ ...
+** package ‘bit’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c attrutil.c -o attrutil.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c bit.c -o bit.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c chunkutil.c -o chunkutil.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c clone.c -o clone.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c integerutil.c -o integerutil.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c merge.c -o merge.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rle.c -o rle.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c sort.c -o sort.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o bit.so attrutil.o bit.o chunkutil.o clone.o init.o integerutil.o merge.o rle.o sort.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-bit/00new/bit/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘bit’ as ‘bit_4.0.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (bit)
+* installing *source* package ‘plogr’ ...
+** package ‘plogr’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘plogr’ as ‘plogr_0.2.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (plogr)
+* installing *source* package ‘png’ ...
+** package ‘png’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    `libpng-config --cflags` -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c dummy.c -o dummy.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    `libpng-config --cflags` -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c read.c -o read.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    `libpng-config --cflags` -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c write.c -o write.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o png.so dummy.o read.o write.o -lpng16 -lm -lz -lm -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-png/00new/png/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘png’ as ‘png_0.1-8_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (png)
+* installing *source* package ‘BH’ ...
+** package ‘BH’ successfully unpacked and MD5 sums checked
+** using staged installation
+** inst
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘BH’ as ‘BH_1.81.0-1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (BH)
+* installing *source* package ‘data.table’ ...
+** package ‘data.table’ successfully unpacked and MD5 sums checked
+** using staged installation
+gcc 11.4.0
+zlib 1.2.11 is available ok
+R CMD SHLIB supports OpenMP without any extra hint
+** libs
+using C compiler: ‘gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c assign.c -o assign.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c between.c -o between.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c bmerge.c -o bmerge.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c chmatch.c -o chmatch.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cj.c -o cj.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c coalesce.c -o coalesce.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c dogroups.c -o dogroups.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c fastmean.c -o fastmean.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c fcast.c -o fcast.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c fifelse.c -o fifelse.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c fmelt.c -o fmelt.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c forder.c -o forder.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c frank.c -o frank.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c fread.c -o fread.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c freadR.c -o freadR.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c froll.c -o froll.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c frollR.c -o frollR.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c frolladaptive.c -o frolladaptive.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c fsort.c -o fsort.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c fwrite.c -o fwrite.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c fwriteR.c -o fwriteR.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c gsumm.c -o gsumm.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ijoin.c -o ijoin.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c inrange.c -o inrange.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c nafill.c -o nafill.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c nqrecreateindices.c -o nqrecreateindices.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c openmp-utils.c -o openmp-utils.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c quickselect.c -o quickselect.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rbindlist.c -o rbindlist.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c reorder.c -o reorder.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c shift.c -o shift.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c snprintf.c -o snprintf.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c subset.c -o subset.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c transpose.c -o transpose.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c types.c -o types.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c uniqlist.c -o uniqlist.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c utils.c -o utils.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c vecseq.c -o vecseq.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   -fopenmp  -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c wrappers.c -o wrappers.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o data.table.so assign.o between.o bmerge.o chmatch.o cj.o coalesce.o dogroups.o fastmean.o fcast.o fifelse.o fmelt.o forder.o frank.o fread.o freadR.o froll.o frollR.o frolladaptive.o fsort.o fwrite.o fwriteR.o gsumm.o ijoin.o init.o inrange.o nafill.o nqrecreateindices.o openmp-utils.o quickselect.o rbindlist.o reorder.o shift.o snprintf.o subset.o transpose.o types.o uniqlist.o utils.o vecseq.o wrappers.o -fopenmp -lz -L/usr/local/lib/R/lib -lR
+PKG_CFLAGS = -fopenmp
+PKG_LIBS = -fopenmp -lz
+if [ "data.table.so" != "data_table.so" ]; then mv data.table.so data_table.so; fi
+if [ "" != "Windows_NT" ] && [ `uname -s` = 'Darwin' ]; then install_name_tool -id data_table.so data_table.so; fi
+installing to /tmp/tmp/built/00LOCK-data.table/00new/data.table/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘data.table’ as ‘data.table_1.14.10_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (data.table)
+* installing *source* package ‘fastmatch’ ...
+** package ‘fastmatch’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ctapply.c -o ctapply.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c dummy.c -o dummy.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c fasthash.c -o fasthash.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c fastmatch.c -o fastmatch.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o fastmatch.so ctapply.o dummy.o fasthash.o fastmatch.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-fastmatch/00new/fastmatch/libs
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘fastmatch’ as ‘fastmatch_1.1-4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (fastmatch)
+* installing *source* package ‘isoband’ ...
+** package ‘isoband’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+using C++11
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c clip-lines.cpp -o clip-lines.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.cpp -o init.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c isoband.cpp -o isoband.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c polygon.cpp -o polygon.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c separate-polygons.cpp -o separate-polygons.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c test-clip-lines.cpp -o test-clip-lines.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c test-runner.cpp -o test-runner.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c test-separate-polygons.cpp -o test-separate-polygons.o
+g++ -std=gnu++11 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o isoband.so clip-lines.o init.o isoband.o polygon.o separate-polygons.o test-clip-lines.o test-runner.o test-separate-polygons.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-isoband/00new/isoband/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘isoband’ as ‘isoband_0.2.7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (isoband)
+* installing *source* package ‘BiocGenerics’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Creating a new generic function for ‘aperm’ in package ‘BiocGenerics’
+Creating a new generic function for ‘append’ in package ‘BiocGenerics’
+Creating a new generic function for ‘as.data.frame’ in package ‘BiocGenerics’
+Creating a new generic function for ‘cbind’ in package ‘BiocGenerics’
+Creating a new generic function for ‘rbind’ in package ‘BiocGenerics’
+Creating a new generic function for ‘do.call’ in package ‘BiocGenerics’
+Creating a new generic function for ‘duplicated’ in package ‘BiocGenerics’
+Creating a new generic function for ‘anyDuplicated’ in package ‘BiocGenerics’
+Creating a new generic function for ‘eval’ in package ‘BiocGenerics’
+Creating a new generic function for ‘pmax’ in package ‘BiocGenerics’
+Creating a new generic function for ‘pmin’ in package ‘BiocGenerics’
+Creating a new generic function for ‘pmax.int’ in package ‘BiocGenerics’
+Creating a new generic function for ‘pmin.int’ in package ‘BiocGenerics’
+Creating a new generic function for ‘Reduce’ in package ‘BiocGenerics’
+Creating a new generic function for ‘Filter’ in package ‘BiocGenerics’
+Creating a new generic function for ‘Find’ in package ‘BiocGenerics’
+Creating a new generic function for ‘Map’ in package ‘BiocGenerics’
+Creating a new generic function for ‘Position’ in package ‘BiocGenerics’
+Creating a new generic function for ‘get’ in package ‘BiocGenerics’
+Creating a new generic function for ‘mget’ in package ‘BiocGenerics’
+Creating a new generic function for ‘grep’ in package ‘BiocGenerics’
+Creating a new generic function for ‘grepl’ in package ‘BiocGenerics’
+Creating a new generic function for ‘is.unsorted’ in package ‘BiocGenerics’
+Creating a new generic function for ‘lapply’ in package ‘BiocGenerics’
+Creating a new generic function for ‘sapply’ in package ‘BiocGenerics’
+Creating a new generic function for ‘mapply’ in package ‘BiocGenerics’
+Creating a new generic function for ‘match’ in package ‘BiocGenerics’
+Creating a new generic function for ‘order’ in package ‘BiocGenerics’
+Creating a new generic function for ‘paste’ in package ‘BiocGenerics’
+Creating a new generic function for ‘rank’ in package ‘BiocGenerics’
+Creating a new generic function for ‘rownames’ in package ‘BiocGenerics’
+Creating a new generic function for ‘colnames’ in package ‘BiocGenerics’
+Creating a new generic function for ‘union’ in package ‘BiocGenerics’
+Creating a new generic function for ‘intersect’ in package ‘BiocGenerics’
+Creating a new generic function for ‘setdiff’ in package ‘BiocGenerics’
+Creating a new generic function for ‘table’ in package ‘BiocGenerics’
+Creating a new generic function for ‘tapply’ in package ‘BiocGenerics’
+Creating a new generic function for ‘unique’ in package ‘BiocGenerics’
+Creating a new generic function for ‘unsplit’ in package ‘BiocGenerics’
+Creating a new generic function for ‘var’ in package ‘BiocGenerics’
+Creating a new generic function for ‘sd’ in package ‘BiocGenerics’
+Creating a new generic function for ‘which.min’ in package ‘BiocGenerics’
+Creating a new generic function for ‘which.max’ in package ‘BiocGenerics’
+Creating a new generic function for ‘IQR’ in package ‘BiocGenerics’
+Creating a new generic function for ‘mad’ in package ‘BiocGenerics’
+Creating a new generic function for ‘xtabs’ in package ‘BiocGenerics’
+Creating a new generic function for ‘basename’ in package ‘BiocGenerics’
+Creating a new generic function for ‘dirname’ in package ‘BiocGenerics’
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘BiocGenerics’ as ‘BiocGenerics_0.49.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (BiocGenerics)
+* installing *source* package ‘DBI’ ...
+** package ‘DBI’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘DBI’ as ‘DBI_1.2.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (DBI)
+* installing *source* package ‘generics’ ...
+** package ‘generics’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘generics’ as ‘generics_0.1.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (generics)
+* installing *source* package ‘rlang’ ...
+** package ‘rlang’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I./rlang/  -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c capture.c -o capture.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I./rlang/  -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c internal.c -o internal.o
+In file included from internal/internal.c:32,
+                 from internal.c:1:
+internal/tests.c: In function ‘ffi_test_Rf_warning’:
+internal/tests.c:104:3: error: format not a string literal and no format arguments [-Werror=format-security]
+  104 |   Rf_warning(r_chr_get_c_string(msg, 0));
+      |   ^~~~~~~~~~
+internal/tests.c: In function ‘ffi_test_Rf_error’:
+internal/tests.c:108:3: error: format not a string literal and no format arguments [-Werror=format-security]
+  108 |   Rf_error(r_chr_get_c_string(msg, 0));
+      |   ^~~~~~~~
+internal/tests.c: In function ‘ffi_test_Rf_warningcall’:
+internal/tests.c:113:3: error: format not a string literal and no format arguments [-Werror=format-security]
+  113 |   Rf_warningcall(call, r_chr_get_c_string(msg, 0));
+      |   ^~~~~~~~~~~~~~
+internal/tests.c: In function ‘ffi_test_Rf_errorcall’:
+internal/tests.c:117:3: error: format not a string literal and no format arguments [-Werror=format-security]
+  117 |   Rf_errorcall(call, r_chr_get_c_string(msg, 0));
+      |   ^~~~~~~~~~~~
+cc1: some warnings being treated as errors
+make: *** [/usr/local/lib/R/etc/Makeconf:191: internal.o] Error 1
+ERROR: compilation failed for package ‘rlang’
+* removing ‘/tmp/tmp/built/rlang’
+* installing *source* package ‘Rcpp’ ...
+** package ‘Rcpp’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c api.cpp -o api.o
+In file included from ../inst/include/Rcpp/routines.h:26,
+                 from ../inst/include/RcppCommon.h:128,
+                 from ../inst/include/Rcpp.h:27,
+                 from api.cpp:26:
+../inst/include/Rcpp/iostream/Rstreambuf.h: In member function ‘std::streamsize Rcpp::Rstreambuf<OUTPUT>::xsputn(const char*, std::streamsize) [with bool OUTPUT = true; std::streamsize = long int]’:
+../inst/include/Rcpp/iostream/Rstreambuf.h:53:20: warning: field precision specifier ‘.*’ expects argument of type ‘int’, but argument 2 has type ‘std::streamsize’ {aka ‘long int’} [-Wformat=]
+   53 |         Rprintf("%.*s", num, s);
+      |                  ~~^~   ~~~
+      |                    |    |
+      |                    int  std::streamsize {aka long int}
+../inst/include/Rcpp/iostream/Rstreambuf.h: In member function ‘std::streamsize Rcpp::Rstreambuf<OUTPUT>::xsputn(const char*, std::streamsize) [with bool OUTPUT = false; std::streamsize = long int]’:
+../inst/include/Rcpp/iostream/Rstreambuf.h:57:21: warning: field precision specifier ‘.*’ expects argument of type ‘int’, but argument 2 has type ‘std::streamsize’ {aka ‘long int’} [-Wformat=]
+   57 |         REprintf("%.*s", num, s);
+      |                   ~~^~   ~~~
+      |                     |    |
+      |                     int  std::streamsize {aka long int}
+In file included from ../inst/include/RcppCommon.h:181,
+                 from ../inst/include/Rcpp.h:27,
+                 from api.cpp:26:
+../inst/include/Rcpp/print.h: In function ‘void Rcpp::warningcall(SEXP, const string&)’:
+../inst/include/Rcpp/print.h:30:19: error: format not a string literal and no format arguments [-Werror=format-security]
+   30 |     Rf_warningcall(call, s.c_str());
+      |     ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+cc1plus: some warnings being treated as errors
+make: *** [/usr/local/lib/R/etc/Makeconf:200: api.o] Error 1
+ERROR: compilation failed for package ‘Rcpp’
+* removing ‘/tmp/tmp/built/Rcpp’
+* installing *source* package ‘R.methodsS3’ ...
+** package ‘R.methodsS3’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘R.methodsS3’ as ‘R.methodsS3_1.8.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (R.methodsS3)
+* installing *source* package ‘tzdb’ ...
+** package ‘tzdb’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/cpp11/include' -I/usr/local/include   -I../inst/include -DINSTALL=dummy -DAUTO_DOWNLOAD=0 -DHAS_REMOTE_API=0 -DUSE_OS_TZDB=0 -DONLY_C_LOCALE=1 -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c api.cpp -o api.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/cpp11/include' -I/usr/local/include   -I../inst/include -DINSTALL=dummy -DAUTO_DOWNLOAD=0 -DHAS_REMOTE_API=0 -DUSE_OS_TZDB=0 -DONLY_C_LOCALE=1 -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cpp11.cpp -o cpp11.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/cpp11/include' -I/usr/local/include   -I../inst/include -DINSTALL=dummy -DAUTO_DOWNLOAD=0 -DHAS_REMOTE_API=0 -DUSE_OS_TZDB=0 -DONLY_C_LOCALE=1 -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c names.cpp -o names.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/cpp11/include' -I/usr/local/include   -I../inst/include -DINSTALL=dummy -DAUTO_DOWNLOAD=0 -DHAS_REMOTE_API=0 -DUSE_OS_TZDB=0 -DONLY_C_LOCALE=1 -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c path.cpp -o path.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/cpp11/include' -I/usr/local/include   -I../inst/include -DINSTALL=dummy -DAUTO_DOWNLOAD=0 -DHAS_REMOTE_API=0 -DUSE_OS_TZDB=0 -DONLY_C_LOCALE=1 -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c tz.cpp -o tz.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/cpp11/include' -I/usr/local/include   -I../inst/include -DINSTALL=dummy -DAUTO_DOWNLOAD=0 -DHAS_REMOTE_API=0 -DUSE_OS_TZDB=0 -DONLY_C_LOCALE=1 -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c version.cpp -o version.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o tzdb.so api.o cpp11.o names.o path.o tz.o version.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-tzdb/00new/tzdb/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘tzdb’ as ‘tzdb_0.4.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tzdb)
+* installing *source* package ‘iterators’ ...
+** package ‘iterators’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘iterators’ as ‘iterators_1.0.14_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (iterators)
+* installing *source* package ‘snow’ ...
+** package ‘snow’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘snow’ as ‘snow_0.4-4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (snow)
+* installing *source* package ‘downloader’ ...
+** package ‘downloader’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘downloader’ as ‘downloader_0.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (downloader)
+* installing *source* package ‘rJava’ ...
+** package ‘rJava’ successfully unpacked and MD5 sums checked
+** using staged installation
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/wait.h that is POSIX.1 compatible... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for string.h... (cached) yes
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking for unistd.h... (cached) yes
+checking for an ANSI C-conforming const... yes
+checking whether time.h and sys/time.h may both be included... yes
+configure: checking whether gcc supports static inline...
+yes
+checking whether setjmp.h is POSIX.1 compatible... yes
+checking whether sigsetjmp is declared... yes
+checking whether siglongjmp is declared... yes
+checking Java support in R... present:
+interpreter : '/usr/bin/java'
+archiver    : '/usr/bin/jar'
+compiler    : '/usr/bin/javac'
+header prep.: ''
+cpp flags   : '-I/usr/lib/jvm/java-11-openjdk-amd64/include -I/usr/lib/jvm/java-11-openjdk-amd64/include/linux'
+java libs   : '-L/usr/lib/jvm/java-11-openjdk-amd64/lib/server -ljvm'
+checking whether Java run-time works... yes
+checking whether -Xrs is supported... yes
+checking whether -Xrs will be used... yes
+checking whether JVM will be loaded dynamically... no
+checking whether JNI programs can be compiled... yes
+checking whether JNI programs run... yes
+checking JNI data types... ok
+checking whether JRI should be compiled (autodetect)... yes
+checking whether debugging output should be enabled... no
+checking whether memory profiling is desired... no
+checking whether threads support is requested... no
+checking whether callbacks support is requested... no
+checking whether JNI cache support is requested... no
+checking whether headless init is enabled... no
+checking whether JRI is requested... yes
+configure: creating ./config.status
+config.status: creating src/Makevars
+config.status: creating R/zzz.R
+config.status: creating src/config.h
+=== configuring in jri (/tmp/RtmpjF9Dyl/R.INSTALLde2465d4361/rJava/jri)
+configure: running /bin/bash ./configure --disable-option-checking '--prefix=/usr/local'  'CC=gcc' 'CFLAGS=-g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g' 'LDFLAGS=-L/usr/local/lib' 'CPPFLAGS=-I/usr/local/include' --cache-file=/dev/null --srcdir=.
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether the compiler supports GNU C... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to enable C11 features... none needed
+checking for stdio.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for strings.h... yes
+checking for sys/stat.h... yes
+checking for sys/types.h... yes
+checking for unistd.h... yes
+checking for sys/time.h... yes
+checking for sys/types.h... (cached) yes
+checking for sys/select.h... yes
+checking Java version... 11.0.21
+checking Java compatibility version (integer)... 11
+checking whether  actually works... no
+checking whether javah was replaced by javac -h... yes
+checking for target flags...  -h . -target 1.6 -source 1.6
+checking whether Java interpreter works... checking whether JNI programs can be compiled... yes
+checking whether JNI programs can be run... yes
+checking JNI data types... ok
+checking whether Rinterface.h exports R_CStackXXX variables... yes
+checking whether Rinterface.h exports R_SignalHandlers... yes
+configure: creating ./config.status
+config.status: creating src/Makefile
+config.status: creating Makefile
+config.status: creating run
+config.status: creating src/config.h
+** libs
+using C compiler: ‘gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I. -I/usr/lib/jvm/java-11-openjdk-amd64/include -I/usr/lib/jvm/java-11-openjdk-amd64/include/linux  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Rglue.c -o Rglue.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I. -I/usr/lib/jvm/java-11-openjdk-amd64/include -I/usr/lib/jvm/java-11-openjdk-amd64/include/linux  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c arrayc.c -o arrayc.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I. -I/usr/lib/jvm/java-11-openjdk-amd64/include -I/usr/lib/jvm/java-11-openjdk-amd64/include/linux  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c callJNI.c -o callJNI.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I. -I/usr/lib/jvm/java-11-openjdk-amd64/include -I/usr/lib/jvm/java-11-openjdk-amd64/include/linux  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c callback.c -o callback.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I. -I/usr/lib/jvm/java-11-openjdk-amd64/include -I/usr/lib/jvm/java-11-openjdk-amd64/include/linux  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c fields.c -o fields.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I. -I/usr/lib/jvm/java-11-openjdk-amd64/include -I/usr/lib/jvm/java-11-openjdk-amd64/include/linux  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I. -I/usr/lib/jvm/java-11-openjdk-amd64/include -I/usr/lib/jvm/java-11-openjdk-amd64/include/linux  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c jri_glue.c -o jri_glue.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I. -I/usr/lib/jvm/java-11-openjdk-amd64/include -I/usr/lib/jvm/java-11-openjdk-amd64/include/linux  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c loader.c -o loader.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I. -I/usr/lib/jvm/java-11-openjdk-amd64/include -I/usr/lib/jvm/java-11-openjdk-amd64/include/linux  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c otables.c -o otables.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I. -I/usr/lib/jvm/java-11-openjdk-amd64/include -I/usr/lib/jvm/java-11-openjdk-amd64/include/linux  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rJava.c -o rJava.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I. -I/usr/lib/jvm/java-11-openjdk-amd64/include -I/usr/lib/jvm/java-11-openjdk-amd64/include/linux  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c registration.c -o registration.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I. -I/usr/lib/jvm/java-11-openjdk-amd64/include -I/usr/lib/jvm/java-11-openjdk-amd64/include/linux  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rjstring.c -o rjstring.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I. -I/usr/lib/jvm/java-11-openjdk-amd64/include -I/usr/lib/jvm/java-11-openjdk-amd64/include/linux  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c tools.c -o tools.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o rJava.so Rglue.o arrayc.o callJNI.o callback.o fields.o init.o jri_glue.o loader.o otables.o rJava.o registration.o rjstring.o tools.o -L/usr/lib/jvm/java-11-openjdk-amd64/lib/server -ljvm -L/usr/local/lib/R/lib -lR
+(cd ../jri && make)
+make[1]: Entering directory '/tmp/RtmpjF9Dyl/R.INSTALLde2465d4361/rJava/jri'
+make -C src JRI.jar
+make[2]: Entering directory '/tmp/RtmpjF9Dyl/R.INSTALLde2465d4361/rJava/jri/src'
+/usr/bin/javac -h . -target 1.6 -source 1.6  -d . ../Mutex.java ../RBool.java ../RConsoleOutputStream.java ../REXP.java ../RFactor.java ../RList.java ../RMainLoopCallbacks.java ../RVector.java ../Rengine.java ../package-info.java
+warning: [options] bootstrap class path not set in conjunction with -source 6
+warning: [options] source value 6 is obsolete and will be removed in a future release
+warning: [options] target value 1.6 is obsolete and will be removed in a future release
+warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+Note: ../REXP.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+4 warnings
+if [ -n "" ]; then  -d . -classpath . org.rosuda.JRI.Rengine; fi
+gcc -c -o Rengine.o Rengine.c -g -Iinclude  -DRIF_HAS_CSTACK -DRIF_HAS_RSIGHAND -DHAVE_CONFIG_H -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -I/usr/lib/jvm/java-11-openjdk-amd64/include -I/usr/lib/jvm/java-11-openjdk-amd64/include/linux  -fpic -I/usr/lib/jvm/java-11-openjdk-amd64/include -I/usr/lib/jvm/java-11-openjdk-amd64/include/linux -I/usr/local/lib/R/include -I/usr/local/lib/R/include 
+gcc -c -o jri.o jri.c -g -Iinclude  -DRIF_HAS_CSTACK -DRIF_HAS_RSIGHAND -DHAVE_CONFIG_H -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -I/usr/lib/jvm/java-11-openjdk-amd64/include -I/usr/lib/jvm/java-11-openjdk-amd64/include/linux  -fpic -I/usr/lib/jvm/java-11-openjdk-amd64/include -I/usr/lib/jvm/java-11-openjdk-amd64/include/linux -I/usr/local/lib/R/include -I/usr/local/lib/R/include 
+gcc -c -o Rcallbacks.o Rcallbacks.c -g -Iinclude  -DRIF_HAS_CSTACK -DRIF_HAS_RSIGHAND -DHAVE_CONFIG_H -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -I/usr/lib/jvm/java-11-openjdk-amd64/include -I/usr/lib/jvm/java-11-openjdk-amd64/include/linux  -fpic -I/usr/lib/jvm/java-11-openjdk-amd64/include -I/usr/lib/jvm/java-11-openjdk-amd64/include/linux -I/usr/local/lib/R/include -I/usr/local/lib/R/include 
+gcc -c -o Rinit.o Rinit.c -g -Iinclude  -DRIF_HAS_CSTACK -DRIF_HAS_RSIGHAND -DHAVE_CONFIG_H -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -I/usr/lib/jvm/java-11-openjdk-amd64/include -I/usr/lib/jvm/java-11-openjdk-amd64/include/linux  -fpic -I/usr/local/lib/R/include -I/usr/local/lib/R/include 
+gcc -c -o globals.o globals.c -g -Iinclude  -DRIF_HAS_CSTACK -DRIF_HAS_RSIGHAND -DHAVE_CONFIG_H -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -I/usr/lib/jvm/java-11-openjdk-amd64/include -I/usr/lib/jvm/java-11-openjdk-amd64/include/linux  -fpic -I/usr/lib/jvm/java-11-openjdk-amd64/include -I/usr/lib/jvm/java-11-openjdk-amd64/include/linux 
+gcc -c -o rjava.o rjava.c -g -Iinclude  -DRIF_HAS_CSTACK -DRIF_HAS_RSIGHAND -DHAVE_CONFIG_H -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -I/usr/lib/jvm/java-11-openjdk-amd64/include -I/usr/lib/jvm/java-11-openjdk-amd64/include/linux  -fpic -I/usr/lib/jvm/java-11-openjdk-amd64/include -I/usr/lib/jvm/java-11-openjdk-amd64/include/linux 
+gcc -c -o rjstring.o rjstring.c -g -Iinclude  -DRIF_HAS_CSTACK -DRIF_HAS_RSIGHAND -DHAVE_CONFIG_H -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -I/usr/lib/jvm/java-11-openjdk-amd64/include -I/usr/lib/jvm/java-11-openjdk-amd64/include/linux  -fpic -I/usr/lib/jvm/java-11-openjdk-amd64/include -I/usr/lib/jvm/java-11-openjdk-amd64/include/linux -I/usr/local/lib/R/include -I/usr/local/lib/R/include 
+gcc -o libjri.so Rengine.o jri.o Rcallbacks.o Rinit.o globals.o rjava.o rjstring.o -L/usr/local/lib -shared -L/usr/lib/jvm/java-11-openjdk-amd64/lib/server -ljvm -Wl,--export-dynamic -fopenmp -L/usr/local/lib -L/usr/local/lib/R/lib -lR -lpcre2-8 -ldeflate -llzma -lbz2 -lz -ltirpc -lrt -ldl -lm -licuuc -licui18n 
+/usr/bin/javac -h . -target 1.6 -source 1.6  -d . ../Mutex.java ../RBool.java ../RConsoleOutputStream.java ../REXP.java ../RFactor.java ../RList.java ../RMainLoopCallbacks.java ../RVector.java ../Rengine.java ../package-info.java
+warning: [options] bootstrap class path not set in conjunction with -source 6
+warning: [options] source value 6 is obsolete and will be removed in a future release
+warning: [options] target value 1.6 is obsolete and will be removed in a future release
+warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+Note: ../REXP.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+4 warnings
+/usr/bin/jar fc JRI.jar org libjri.so
+make[2]: Leaving directory '/tmp/RtmpjF9Dyl/R.INSTALLde2465d4361/rJava/jri/src'
+rm -f libjri.so
+cp src/libjri.so libjri.so
+/usr/bin/javac -h . -target 1.6 -source 1.6 -classpath src/JRI.jar -d examples examples/rtest.java
+warning: [options] bootstrap class path not set in conjunction with -source 6
+warning: [options] source value 6 is obsolete and will be removed in a future release
+warning: [options] target value 1.6 is obsolete and will be removed in a future release
+warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+Note: examples/rtest.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+4 warnings
+/usr/bin/javac -h . -target 1.6 -source 1.6 -classpath src/JRI.jar -d examples examples/rtest2.java
+warning: [options] bootstrap class path not set in conjunction with -source 6
+warning: [options] source value 6 is obsolete and will be removed in a future release
+warning: [options] target value 1.6 is obsolete and will be removed in a future release
+warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+Note: examples/rtest2.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+4 warnings
+make[1]: Leaving directory '/tmp/RtmpjF9Dyl/R.INSTALLde2465d4361/rJava/jri'
+installing via 'install.libs.R' to /tmp/tmp/built/00LOCK-rJava/00new/rJava
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘rJava’ as ‘rJava_1.0-10_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rJava)
+* installing *source* package ‘XML’ ...
+** package ‘XML’ successfully unpacked and MD5 sums checked
+** using staged installation
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether the compiler supports GNU C... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to enable C11 features... none needed
+checking how to run the C preprocessor... gcc -E
+checking for sed... /usr/bin/sed
+checking for pkg-config... /usr/bin/pkg-config
+checking for xml2-config... /usr/bin/xml2-config
+USE_XML2 = yes
+SED_EXTENDED_ARG: -E
+Minor 9, Patch 13 for 2.9.13
+Located parser file -I/usr/include/libxml2/parser.h
+Checking for 1.8:  -I/usr/include/libxml2
+Using libxml2.*
+checking for gzopen in -lz... yes
+checking for xmlParseFile in -lxml2... yes
+checking for xmlHashSize in -lxml2... yes
+Using built-in xmlHashSize
+Checking DTD parsing (presence of externalSubset)...
+checking for xmlHashSize in -lxml2... (cached) yes
+Found xmlHashSize
+checking for xmlOutputBufferCreateBuffer in -lxml2... yes
+have xmlOutputBufferCreateBuffer()
+checking for xmlDocDumpFormatMemoryEnc in -lxml2... yes
+checking for libxml/xmlversion.h... yes
+Expat:  FALSE
+Checking for return type of xmlHashScan element routine.
+No return value for xmlHashScan
+xmlNs has a context field
+Checking for cetype_t enumeration
+Using recent version of R with cetype_t enumeration type for encoding
+checking for xmlsec1-config... no
+nodegc default 
+xml-debug default 
+Version has XML_WITH_ZLIB
+Version has xmlHasFeature()
+
+****************************************
+Configuration information:
+
+Libxml settings
+
+libxml include directory: -I/usr/include/libxml2
+libxml library directory: -lxml2 -lz  -lxml2
+libxml 2:                 -DLIBXML2=1
+
+Compilation flags:         -DLIBXML -I/usr/include/libxml2 -DUSE_EXTERNAL_SUBSET=1 -DROOT_HAS_DTD_NODE=1 -DDUMP_WITH_ENCODING=1 -DUSE_XML_VERSION_H=1 -DXML_ELEMENT_ETYPE=1 -DXML_ATTRIBUTE_ATYPE=1 -DNO_XML_HASH_SCANNER_RETURN=1 -DLIBXML_NAMESPACE_HAS_CONTEXT=1 -DHAVE_R_CETYPE_T=1 -DHAVE_XML_WITH_ZLIB=1 -DHAVE_XML_HAS_FEATURE=1 -DUSE_R=1 -D_R_=1  -DHAVE_VALIDITY=1 -DXML_REF_COUNT_NODES=1 
+Link flags:               -lxml2 -lz  -lxml2
+
+****************************************
+configure: creating ./config.status
+config.status: creating src/Makevars
+config.status: creating R/supports.R
+config.status: creating inst/scripts/RSXML.csh
+config.status: creating inst/scripts/RSXML.bsh
+** libs
+using C compiler: ‘gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DLIBXML -I/usr/include/libxml2 -DUSE_EXTERNAL_SUBSET=1 -DROOT_HAS_DTD_NODE=1 -DDUMP_WITH_ENCODING=1 -DUSE_XML_VERSION_H=1 -DXML_ELEMENT_ETYPE=1 -DXML_ATTRIBUTE_ATYPE=1 -DNO_XML_HASH_SCANNER_RETURN=1 -DLIBXML_NAMESPACE_HAS_CONTEXT=1 -DHAVE_R_CETYPE_T=1 -DHAVE_XML_WITH_ZLIB=1 -DHAVE_XML_HAS_FEATURE=1 -DUSE_R=1 -D_R_=1  -DHAVE_VALIDITY=1 -DXML_REF_COUNT_NODES=1  -I. -DLIBXML2=1  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c DocParse.c -o DocParse.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DLIBXML -I/usr/include/libxml2 -DUSE_EXTERNAL_SUBSET=1 -DROOT_HAS_DTD_NODE=1 -DDUMP_WITH_ENCODING=1 -DUSE_XML_VERSION_H=1 -DXML_ELEMENT_ETYPE=1 -DXML_ATTRIBUTE_ATYPE=1 -DNO_XML_HASH_SCANNER_RETURN=1 -DLIBXML_NAMESPACE_HAS_CONTEXT=1 -DHAVE_R_CETYPE_T=1 -DHAVE_XML_WITH_ZLIB=1 -DHAVE_XML_HAS_FEATURE=1 -DUSE_R=1 -D_R_=1  -DHAVE_VALIDITY=1 -DXML_REF_COUNT_NODES=1  -I. -DLIBXML2=1  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c EventParse.c -o EventParse.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DLIBXML -I/usr/include/libxml2 -DUSE_EXTERNAL_SUBSET=1 -DROOT_HAS_DTD_NODE=1 -DDUMP_WITH_ENCODING=1 -DUSE_XML_VERSION_H=1 -DXML_ELEMENT_ETYPE=1 -DXML_ATTRIBUTE_ATYPE=1 -DNO_XML_HASH_SCANNER_RETURN=1 -DLIBXML_NAMESPACE_HAS_CONTEXT=1 -DHAVE_R_CETYPE_T=1 -DHAVE_XML_WITH_ZLIB=1 -DHAVE_XML_HAS_FEATURE=1 -DUSE_R=1 -D_R_=1  -DHAVE_VALIDITY=1 -DXML_REF_COUNT_NODES=1  -I. -DLIBXML2=1  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ExpatParse.c -o ExpatParse.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DLIBXML -I/usr/include/libxml2 -DUSE_EXTERNAL_SUBSET=1 -DROOT_HAS_DTD_NODE=1 -DDUMP_WITH_ENCODING=1 -DUSE_XML_VERSION_H=1 -DXML_ELEMENT_ETYPE=1 -DXML_ATTRIBUTE_ATYPE=1 -DNO_XML_HASH_SCANNER_RETURN=1 -DLIBXML_NAMESPACE_HAS_CONTEXT=1 -DHAVE_R_CETYPE_T=1 -DHAVE_XML_WITH_ZLIB=1 -DHAVE_XML_HAS_FEATURE=1 -DUSE_R=1 -D_R_=1  -DHAVE_VALIDITY=1 -DXML_REF_COUNT_NODES=1  -I. -DLIBXML2=1  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c HTMLParse.c -o HTMLParse.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DLIBXML -I/usr/include/libxml2 -DUSE_EXTERNAL_SUBSET=1 -DROOT_HAS_DTD_NODE=1 -DDUMP_WITH_ENCODING=1 -DUSE_XML_VERSION_H=1 -DXML_ELEMENT_ETYPE=1 -DXML_ATTRIBUTE_ATYPE=1 -DNO_XML_HASH_SCANNER_RETURN=1 -DLIBXML_NAMESPACE_HAS_CONTEXT=1 -DHAVE_R_CETYPE_T=1 -DHAVE_XML_WITH_ZLIB=1 -DHAVE_XML_HAS_FEATURE=1 -DUSE_R=1 -D_R_=1  -DHAVE_VALIDITY=1 -DXML_REF_COUNT_NODES=1  -I. -DLIBXML2=1  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c NodeGC.c -o NodeGC.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DLIBXML -I/usr/include/libxml2 -DUSE_EXTERNAL_SUBSET=1 -DROOT_HAS_DTD_NODE=1 -DDUMP_WITH_ENCODING=1 -DUSE_XML_VERSION_H=1 -DXML_ELEMENT_ETYPE=1 -DXML_ATTRIBUTE_ATYPE=1 -DNO_XML_HASH_SCANNER_RETURN=1 -DLIBXML_NAMESPACE_HAS_CONTEXT=1 -DHAVE_R_CETYPE_T=1 -DHAVE_XML_WITH_ZLIB=1 -DHAVE_XML_HAS_FEATURE=1 -DUSE_R=1 -D_R_=1  -DHAVE_VALIDITY=1 -DXML_REF_COUNT_NODES=1  -I. -DLIBXML2=1  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RSDTD.c -o RSDTD.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DLIBXML -I/usr/include/libxml2 -DUSE_EXTERNAL_SUBSET=1 -DROOT_HAS_DTD_NODE=1 -DDUMP_WITH_ENCODING=1 -DUSE_XML_VERSION_H=1 -DXML_ELEMENT_ETYPE=1 -DXML_ATTRIBUTE_ATYPE=1 -DNO_XML_HASH_SCANNER_RETURN=1 -DLIBXML_NAMESPACE_HAS_CONTEXT=1 -DHAVE_R_CETYPE_T=1 -DHAVE_XML_WITH_ZLIB=1 -DHAVE_XML_HAS_FEATURE=1 -DUSE_R=1 -D_R_=1  -DHAVE_VALIDITY=1 -DXML_REF_COUNT_NODES=1  -I. -DLIBXML2=1  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RUtils.c -o RUtils.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DLIBXML -I/usr/include/libxml2 -DUSE_EXTERNAL_SUBSET=1 -DROOT_HAS_DTD_NODE=1 -DDUMP_WITH_ENCODING=1 -DUSE_XML_VERSION_H=1 -DXML_ELEMENT_ETYPE=1 -DXML_ATTRIBUTE_ATYPE=1 -DNO_XML_HASH_SCANNER_RETURN=1 -DLIBXML_NAMESPACE_HAS_CONTEXT=1 -DHAVE_R_CETYPE_T=1 -DHAVE_XML_WITH_ZLIB=1 -DHAVE_XML_HAS_FEATURE=1 -DUSE_R=1 -D_R_=1  -DHAVE_VALIDITY=1 -DXML_REF_COUNT_NODES=1  -I. -DLIBXML2=1  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Rcatalog.c -o Rcatalog.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DLIBXML -I/usr/include/libxml2 -DUSE_EXTERNAL_SUBSET=1 -DROOT_HAS_DTD_NODE=1 -DDUMP_WITH_ENCODING=1 -DUSE_XML_VERSION_H=1 -DXML_ELEMENT_ETYPE=1 -DXML_ATTRIBUTE_ATYPE=1 -DNO_XML_HASH_SCANNER_RETURN=1 -DLIBXML_NAMESPACE_HAS_CONTEXT=1 -DHAVE_R_CETYPE_T=1 -DHAVE_XML_WITH_ZLIB=1 -DHAVE_XML_HAS_FEATURE=1 -DUSE_R=1 -D_R_=1  -DHAVE_VALIDITY=1 -DXML_REF_COUNT_NODES=1  -I. -DLIBXML2=1  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Utils.c -o Utils.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DLIBXML -I/usr/include/libxml2 -DUSE_EXTERNAL_SUBSET=1 -DROOT_HAS_DTD_NODE=1 -DDUMP_WITH_ENCODING=1 -DUSE_XML_VERSION_H=1 -DXML_ELEMENT_ETYPE=1 -DXML_ATTRIBUTE_ATYPE=1 -DNO_XML_HASH_SCANNER_RETURN=1 -DLIBXML_NAMESPACE_HAS_CONTEXT=1 -DHAVE_R_CETYPE_T=1 -DHAVE_XML_WITH_ZLIB=1 -DHAVE_XML_HAS_FEATURE=1 -DUSE_R=1 -D_R_=1  -DHAVE_VALIDITY=1 -DXML_REF_COUNT_NODES=1  -I. -DLIBXML2=1  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c XMLEventParse.c -o XMLEventParse.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DLIBXML -I/usr/include/libxml2 -DUSE_EXTERNAL_SUBSET=1 -DROOT_HAS_DTD_NODE=1 -DDUMP_WITH_ENCODING=1 -DUSE_XML_VERSION_H=1 -DXML_ELEMENT_ETYPE=1 -DXML_ATTRIBUTE_ATYPE=1 -DNO_XML_HASH_SCANNER_RETURN=1 -DLIBXML_NAMESPACE_HAS_CONTEXT=1 -DHAVE_R_CETYPE_T=1 -DHAVE_XML_WITH_ZLIB=1 -DHAVE_XML_HAS_FEATURE=1 -DUSE_R=1 -D_R_=1  -DHAVE_VALIDITY=1 -DXML_REF_COUNT_NODES=1  -I. -DLIBXML2=1  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c XMLHashTree.c -o XMLHashTree.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DLIBXML -I/usr/include/libxml2 -DUSE_EXTERNAL_SUBSET=1 -DROOT_HAS_DTD_NODE=1 -DDUMP_WITH_ENCODING=1 -DUSE_XML_VERSION_H=1 -DXML_ELEMENT_ETYPE=1 -DXML_ATTRIBUTE_ATYPE=1 -DNO_XML_HASH_SCANNER_RETURN=1 -DLIBXML_NAMESPACE_HAS_CONTEXT=1 -DHAVE_R_CETYPE_T=1 -DHAVE_XML_WITH_ZLIB=1 -DHAVE_XML_HAS_FEATURE=1 -DUSE_R=1 -D_R_=1  -DHAVE_VALIDITY=1 -DXML_REF_COUNT_NODES=1  -I. -DLIBXML2=1  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c XMLTree.c -o XMLTree.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DLIBXML -I/usr/include/libxml2 -DUSE_EXTERNAL_SUBSET=1 -DROOT_HAS_DTD_NODE=1 -DDUMP_WITH_ENCODING=1 -DUSE_XML_VERSION_H=1 -DXML_ELEMENT_ETYPE=1 -DXML_ATTRIBUTE_ATYPE=1 -DNO_XML_HASH_SCANNER_RETURN=1 -DLIBXML_NAMESPACE_HAS_CONTEXT=1 -DHAVE_R_CETYPE_T=1 -DHAVE_XML_WITH_ZLIB=1 -DHAVE_XML_HAS_FEATURE=1 -DUSE_R=1 -D_R_=1  -DHAVE_VALIDITY=1 -DXML_REF_COUNT_NODES=1  -I. -DLIBXML2=1  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c fixNS.c -o fixNS.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DLIBXML -I/usr/include/libxml2 -DUSE_EXTERNAL_SUBSET=1 -DROOT_HAS_DTD_NODE=1 -DDUMP_WITH_ENCODING=1 -DUSE_XML_VERSION_H=1 -DXML_ELEMENT_ETYPE=1 -DXML_ATTRIBUTE_ATYPE=1 -DNO_XML_HASH_SCANNER_RETURN=1 -DLIBXML_NAMESPACE_HAS_CONTEXT=1 -DHAVE_R_CETYPE_T=1 -DHAVE_XML_WITH_ZLIB=1 -DHAVE_XML_HAS_FEATURE=1 -DUSE_R=1 -D_R_=1  -DHAVE_VALIDITY=1 -DXML_REF_COUNT_NODES=1  -I. -DLIBXML2=1  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c libxmlFeatures.c -o libxmlFeatures.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DLIBXML -I/usr/include/libxml2 -DUSE_EXTERNAL_SUBSET=1 -DROOT_HAS_DTD_NODE=1 -DDUMP_WITH_ENCODING=1 -DUSE_XML_VERSION_H=1 -DXML_ELEMENT_ETYPE=1 -DXML_ATTRIBUTE_ATYPE=1 -DNO_XML_HASH_SCANNER_RETURN=1 -DLIBXML_NAMESPACE_HAS_CONTEXT=1 -DHAVE_R_CETYPE_T=1 -DHAVE_XML_WITH_ZLIB=1 -DHAVE_XML_HAS_FEATURE=1 -DUSE_R=1 -D_R_=1  -DHAVE_VALIDITY=1 -DXML_REF_COUNT_NODES=1  -I. -DLIBXML2=1  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c schema.c -o schema.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DLIBXML -I/usr/include/libxml2 -DUSE_EXTERNAL_SUBSET=1 -DROOT_HAS_DTD_NODE=1 -DDUMP_WITH_ENCODING=1 -DUSE_XML_VERSION_H=1 -DXML_ELEMENT_ETYPE=1 -DXML_ATTRIBUTE_ATYPE=1 -DNO_XML_HASH_SCANNER_RETURN=1 -DLIBXML_NAMESPACE_HAS_CONTEXT=1 -DHAVE_R_CETYPE_T=1 -DHAVE_XML_WITH_ZLIB=1 -DHAVE_XML_HAS_FEATURE=1 -DUSE_R=1 -D_R_=1  -DHAVE_VALIDITY=1 -DXML_REF_COUNT_NODES=1  -I. -DLIBXML2=1  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c xmlsecurity.c -o xmlsecurity.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DLIBXML -I/usr/include/libxml2 -DUSE_EXTERNAL_SUBSET=1 -DROOT_HAS_DTD_NODE=1 -DDUMP_WITH_ENCODING=1 -DUSE_XML_VERSION_H=1 -DXML_ELEMENT_ETYPE=1 -DXML_ATTRIBUTE_ATYPE=1 -DNO_XML_HASH_SCANNER_RETURN=1 -DLIBXML_NAMESPACE_HAS_CONTEXT=1 -DHAVE_R_CETYPE_T=1 -DHAVE_XML_WITH_ZLIB=1 -DHAVE_XML_HAS_FEATURE=1 -DUSE_R=1 -D_R_=1  -DHAVE_VALIDITY=1 -DXML_REF_COUNT_NODES=1  -I. -DLIBXML2=1  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c xpath.c -o xpath.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o XML.so DocParse.o EventParse.o ExpatParse.o HTMLParse.o NodeGC.o RSDTD.o RUtils.o Rcatalog.o Utils.o XMLEventParse.o XMLHashTree.o XMLTree.o fixNS.o libxmlFeatures.o schema.o xmlsecurity.o xpath.o -lxml2 -lz -lxml2 -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-XML/00new/XML/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Creating a generic function for ‘source’ from package ‘base’ in package ‘XML’
+in method for ‘xmlAttrsToDataFrame’ with signature ‘"AsIs"’: no definition for class “AsIs”
+in method for ‘readKeyValueDB’ with signature ‘"AsIs"’: no definition for class “AsIs”
+in method for ‘readSolrDoc’ with signature ‘"AsIs"’: no definition for class “AsIs”
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘XML’ as ‘XML_3.99-0.16_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (XML)
+* installing *source* package ‘rjson’ ...
+** package ‘rjson’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+using C++ compiler: ‘g++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c dump.cpp -o dump.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c parser.c -o parser.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c register.c -o register.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o rjson.so dump.o parser.o register.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-rjson/00new/rjson/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘rjson’ as ‘rjson_0.2.21_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rjson)
+* installing *source* package ‘formatR’ ...
+** package ‘formatR’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘formatR’ as ‘formatR_1.14_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (formatR)
+* installing *source* package ‘RColorBrewer’ ...
+** package ‘RColorBrewer’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘RColorBrewer’ as ‘RColorBrewer_1.1-3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RColorBrewer)
+* installing *source* package ‘RCurl’ ...
+** package ‘RCurl’ successfully unpacked and MD5 sums checked
+** using staged installation
+checking for curl-config... /usr/bin/curl-config
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether the compiler supports GNU C... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to enable C11 features... none needed
+checking how to run the C preprocessor... gcc -E
+Version has a libidn field
+Version has CURLOPT_URL
+Version has CURLINFO_EFFECTIVE_URL
+Version has CURLINFO_RESPONSE_CODE
+Version has CURLINFO_TOTAL_TIME
+Version has CURLINFO_NAMELOOKUP_TIME
+Version has CURLINFO_CONNECT_TIME
+Version has CURLINFO_PRETRANSFER_TIME
+Version has CURLINFO_SIZE_UPLOAD
+Version has CURLINFO_SIZE_DOWNLOAD
+Version has CURLINFO_SPEED_DOWNLOAD
+Version has CURLINFO_SPEED_UPLOAD
+Version has CURLINFO_HEADER_SIZE
+Version has CURLINFO_REQUEST_SIZE
+Version has CURLINFO_SSL_VERIFYRESULT
+Version has CURLINFO_FILETIME
+Version has CURLINFO_CONTENT_LENGTH_DOWNLOAD
+Version has CURLINFO_CONTENT_LENGTH_UPLOAD
+Version has CURLINFO_STARTTRANSFER_TIME
+Version has CURLINFO_CONTENT_TYPE
+Version has CURLINFO_REDIRECT_TIME
+Version has CURLINFO_REDIRECT_COUNT
+Version has CURLINFO_PRIVATE
+Version has CURLINFO_HTTP_CONNECTCODE
+Version has CURLINFO_HTTPAUTH_AVAIL
+Version has CURLINFO_PROXYAUTH_AVAIL
+Version has CURLINFO_OS_ERRNO
+Version has CURLINFO_NUM_CONNECTS
+Version has CURLINFO_SSL_ENGINES
+Version has CURLINFO_COOKIELIST
+Version has CURLINFO_LASTSOCKET
+Version has CURLINFO_FTP_ENTRY_PATH
+Version has CURLINFO_REDIRECT_URL
+Version has CURLINFO_PRIMARY_IP
+Version has CURLINFO_APPCONNECT_TIME
+Version has CURLINFO_CERTINFO
+Version has CURLINFO_CONDITION_UNMET
+Version has CURLOPT_WRITEDATA
+Version has CURLOPT_KEYPASSWD
+Version has CURLOPT_DIRLISTONLY
+Version has CURLOPT_APPEND
+Version has CURLOPT_KRBLEVEL
+Version has CURLOPT_USE_SSL
+Version has CURLOPT_TIMEOUT_MS
+Version has CURLOPT_CONNECTTIMEOUT_MS
+Version has CURLOPT_HTTP_TRANSFER_DECODING
+Version has CURLOPT_HTTP_CONTENT_DECODING
+Version has CURLOPT_NEW_FILE_PERMS
+Version has CURLOPT_NEW_DIRECTORY_PERMS
+Version has CURLOPT_POSTREDIR
+Version has CURLOPT_OPENSOCKETFUNCTION
+Version has CURLOPT_OPENSOCKETDATA
+Version has CURLOPT_COPYPOSTFIELDS
+Version has CURLOPT_PROXY_TRANSFER_MODE
+Version has CURLOPT_SEEKFUNCTION
+Version has CURLOPT_SEEKDATA
+Version has CURLOPT_CRLFILE
+Version has CURLOPT_ISSUERCERT
+Version has CURLOPT_ADDRESS_SCOPE
+Version has CURLOPT_CERTINFO
+Version has CURLOPT_USERNAME
+Version has CURLOPT_PASSWORD
+Version has CURLOPT_PROXYUSERNAME
+Version has CURLOPT_PROXYPASSWORD
+Version has CURLOPT_SSH_HOST_PUBLIC_KEY_MD5
+Version has CURLOPT_NOPROXY
+Version has CURLOPT_TFTP_BLKSIZE
+Version has CURLOPT_SOCKS5_GSSAPI_SERVICE
+Version has CURLOPT_SOCKS5_GSSAPI_NEC
+Version has CURLOPT_PROTOCOLS
+Version has CURLOPT_REDIR_PROTOCOLS
+Version has CURLOPT_SSH_AUTH_TYPES
+Version has CURLOPT_SSH_PUBLIC_KEYFILE
+Version has CURLOPT_SSH_PRIVATE_KEYFILE
+Version has CURLOPT_FTP_SSL_CCC
+Version has CURLOPT_COOKIELIST
+Version has CURLOPT_IGNORE_CONTENT_LENGTH
+Version has CURLOPT_FTP_SKIP_PASV_IP
+Version has CURLOPT_FTP_FILEMETHOD
+Version has CURLOPT_LOCALPORT
+Version has CURLOPT_LOCALPORTRANGE
+Version has CURLOPT_CONNECT_ONLY
+Version has CURLOPT_CONV_FROM_NETWORK_FUNCTION
+Version has CURLOPT_CONV_TO_NETWORK_FUNCTION
+Version has CURLOPT_CONV_FROM_UTF8_FUNCTION
+Version has CURLOPT_MAX_SEND_SPEED_LARGE
+Version has CURLOPT_MAX_RECV_SPEED_LARGE
+Version has CURLOPT_FTP_ALTERNATIVE_TO_USER
+Version has CURLOPT_SOCKOPTFUNCTION
+Version has CURLOPT_SOCKOPTDATA
+Version has CURLOPT_SSL_SESSIONID_CACHE
+libcurl version: libcurl 7.81.0
+configure: creating ./config.status
+config.status: creating src/Makevars
+** libs
+using C compiler: ‘gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DCURL_DISABLE_DEPRECATION -DHAVE_LIBIDN_FIELD=1 -DHAVE_CURLOPT_URL=1 -DHAVE_CURLINFO_EFFECTIVE_URL=1 -DHAVE_CURLINFO_RESPONSE_CODE=1 -DHAVE_CURLINFO_TOTAL_TIME=1 -DHAVE_CURLINFO_NAMELOOKUP_TIME=1 -DHAVE_CURLINFO_CONNECT_TIME=1 -DHAVE_CURLINFO_PRETRANSFER_TIME=1 -DHAVE_CURLINFO_SIZE_UPLOAD=1 -DHAVE_CURLINFO_SIZE_DOWNLOAD=1 -DHAVE_CURLINFO_SPEED_DOWNLOAD=1 -DHAVE_CURLINFO_SPEED_UPLOAD=1 -DHAVE_CURLINFO_HEADER_SIZE=1 -DHAVE_CURLINFO_REQUEST_SIZE=1 -DHAVE_CURLINFO_SSL_VERIFYRESULT=1 -DHAVE_CURLINFO_FILETIME=1 -DHAVE_CURLINFO_CONTENT_LENGTH_DOWNLOAD=1 -DHAVE_CURLINFO_CONTENT_LENGTH_UPLOAD=1 -DHAVE_CURLINFO_STARTTRANSFER_TIME=1 -DHAVE_CURLINFO_CONTENT_TYPE=1 -DHAVE_CURLINFO_REDIRECT_TIME=1 -DHAVE_CURLINFO_REDIRECT_COUNT=1 -DHAVE_CURLINFO_PRIVATE=1 -DHAVE_CURLINFO_HTTP_CONNECTCODE=1 -DHAVE_CURLINFO_HTTPAUTH_AVAIL=1 -DHAVE_CURLINFO_PROXYAUTH_AVAIL=1 -DHAVE_CURLINFO_OS_ERRNO=1 -DHAVE_CURLINFO_NUM_CONNECTS=1 -DHAVE_CURLINFO_SSL_ENGINES=1 -DHAVE_CURLINFO_COOKIELIST=1 -DHAVE_CURLINFO_LASTSOCKET=1 -DHAVE_CURLINFO_FTP_ENTRY_PATH=1 -DHAVE_CURLINFO_REDIRECT_URL=1 -DHAVE_CURLINFO_PRIMARY_IP=1 -DHAVE_CURLINFO_APPCONNECT_TIME=1 -DHAVE_CURLINFO_CERTINFO=1 -DHAVE_CURLINFO_CONDITION_UNMET=1 -DHAVE_CURLOPT_WRITEDATA=1 -DHAVE_CURLOPT_KEYPASSWD=1 -DHAVE_CURLOPT_DIRLISTONLY=1 -DHAVE_CURLOPT_APPEND=1 -DHAVE_CURLOPT_KRBLEVEL=1 -DHAVE_CURLOPT_USE_SSL=1 -DHAVE_CURLOPT_TIMEOUT_MS=1 -DHAVE_CURLOPT_CONNECTTIMEOUT_MS=1 -DHAVE_CURLOPT_HTTP_TRANSFER_DECODING=1 -DHAVE_CURLOPT_HTTP_CONTENT_DECODING=1 -DHAVE_CURLOPT_NEW_FILE_PERMS=1 -DHAVE_CURLOPT_NEW_DIRECTORY_PERMS=1 -DHAVE_CURLOPT_POSTREDIR=1 -DHAVE_CURLOPT_OPENSOCKETFUNCTION=1 -DHAVE_CURLOPT_OPENSOCKETDATA=1 -DHAVE_CURLOPT_COPYPOSTFIELDS=1 -DHAVE_CURLOPT_PROXY_TRANSFER_MODE=1 -DHAVE_CURLOPT_SEEKFUNCTION=1 -DHAVE_CURLOPT_SEEKDATA=1 -DHAVE_CURLOPT_CRLFILE=1 -DHAVE_CURLOPT_ISSUERCERT=1 -DHAVE_CURLOPT_ADDRESS_SCOPE=1 -DHAVE_CURLOPT_CERTINFO=1 -DHAVE_CURLOPT_USERNAME=1 -DHAVE_CURLOPT_PASSWORD=1 -DHAVE_CURLOPT_PROXYUSERNAME=1 -DHAVE_CURLOPT_PROXYPASSWORD=1 -DHAVE_CURLOPT_SSH_HOST_PUBLIC_KEY_MD5=1 -DHAVE_CURLOPT_NOPROXY=1 -DHAVE_CURLOPT_TFTP_BLKSIZE=1 -DHAVE_CURLOPT_SOCKS5_GSSAPI_SERVICE=1 -DHAVE_CURLOPT_SOCKS5_GSSAPI_NEC=1 -DHAVE_CURLOPT_PROTOCOLS=1 -DHAVE_CURLOPT_REDIR_PROTOCOLS=1 -DHAVE_CURLOPT_SSH_AUTH_TYPES=1 -DHAVE_CURLOPT_SSH_PUBLIC_KEYFILE=1 -DHAVE_CURLOPT_SSH_PRIVATE_KEYFILE=1 -DHAVE_CURLOPT_FTP_SSL_CCC=1 -DHAVE_CURLOPT_COOKIELIST=1 -DHAVE_CURLOPT_IGNORE_CONTENT_LENGTH=1 -DHAVE_CURLOPT_FTP_SKIP_PASV_IP=1 -DHAVE_CURLOPT_FTP_FILEMETHOD=1 -DHAVE_CURLOPT_LOCALPORT=1 -DHAVE_CURLOPT_LOCALPORTRANGE=1 -DHAVE_CURLOPT_CONNECT_ONLY=1 -DHAVE_CURLOPT_CONV_FROM_NETWORK_FUNCTION=1 -DHAVE_CURLOPT_CONV_TO_NETWORK_FUNCTION=1 -DHAVE_CURLOPT_CONV_FROM_UTF8_FUNCTION=1 -DHAVE_CURLOPT_MAX_SEND_SPEED_LARGE=1 -DHAVE_CURLOPT_MAX_RECV_SPEED_LARGE=1 -DHAVE_CURLOPT_FTP_ALTERNATIVE_TO_USER=1 -DHAVE_CURLOPT_SOCKOPTFUNCTION=1 -DHAVE_CURLOPT_SOCKOPTDATA=1 -DHAVE_CURLOPT_SSL_SESSIONID_CACHE=1 -I/usr/include/libxml2  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c base64.c -o base64.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DCURL_DISABLE_DEPRECATION -DHAVE_LIBIDN_FIELD=1 -DHAVE_CURLOPT_URL=1 -DHAVE_CURLINFO_EFFECTIVE_URL=1 -DHAVE_CURLINFO_RESPONSE_CODE=1 -DHAVE_CURLINFO_TOTAL_TIME=1 -DHAVE_CURLINFO_NAMELOOKUP_TIME=1 -DHAVE_CURLINFO_CONNECT_TIME=1 -DHAVE_CURLINFO_PRETRANSFER_TIME=1 -DHAVE_CURLINFO_SIZE_UPLOAD=1 -DHAVE_CURLINFO_SIZE_DOWNLOAD=1 -DHAVE_CURLINFO_SPEED_DOWNLOAD=1 -DHAVE_CURLINFO_SPEED_UPLOAD=1 -DHAVE_CURLINFO_HEADER_SIZE=1 -DHAVE_CURLINFO_REQUEST_SIZE=1 -DHAVE_CURLINFO_SSL_VERIFYRESULT=1 -DHAVE_CURLINFO_FILETIME=1 -DHAVE_CURLINFO_CONTENT_LENGTH_DOWNLOAD=1 -DHAVE_CURLINFO_CONTENT_LENGTH_UPLOAD=1 -DHAVE_CURLINFO_STARTTRANSFER_TIME=1 -DHAVE_CURLINFO_CONTENT_TYPE=1 -DHAVE_CURLINFO_REDIRECT_TIME=1 -DHAVE_CURLINFO_REDIRECT_COUNT=1 -DHAVE_CURLINFO_PRIVATE=1 -DHAVE_CURLINFO_HTTP_CONNECTCODE=1 -DHAVE_CURLINFO_HTTPAUTH_AVAIL=1 -DHAVE_CURLINFO_PROXYAUTH_AVAIL=1 -DHAVE_CURLINFO_OS_ERRNO=1 -DHAVE_CURLINFO_NUM_CONNECTS=1 -DHAVE_CURLINFO_SSL_ENGINES=1 -DHAVE_CURLINFO_COOKIELIST=1 -DHAVE_CURLINFO_LASTSOCKET=1 -DHAVE_CURLINFO_FTP_ENTRY_PATH=1 -DHAVE_CURLINFO_REDIRECT_URL=1 -DHAVE_CURLINFO_PRIMARY_IP=1 -DHAVE_CURLINFO_APPCONNECT_TIME=1 -DHAVE_CURLINFO_CERTINFO=1 -DHAVE_CURLINFO_CONDITION_UNMET=1 -DHAVE_CURLOPT_WRITEDATA=1 -DHAVE_CURLOPT_KEYPASSWD=1 -DHAVE_CURLOPT_DIRLISTONLY=1 -DHAVE_CURLOPT_APPEND=1 -DHAVE_CURLOPT_KRBLEVEL=1 -DHAVE_CURLOPT_USE_SSL=1 -DHAVE_CURLOPT_TIMEOUT_MS=1 -DHAVE_CURLOPT_CONNECTTIMEOUT_MS=1 -DHAVE_CURLOPT_HTTP_TRANSFER_DECODING=1 -DHAVE_CURLOPT_HTTP_CONTENT_DECODING=1 -DHAVE_CURLOPT_NEW_FILE_PERMS=1 -DHAVE_CURLOPT_NEW_DIRECTORY_PERMS=1 -DHAVE_CURLOPT_POSTREDIR=1 -DHAVE_CURLOPT_OPENSOCKETFUNCTION=1 -DHAVE_CURLOPT_OPENSOCKETDATA=1 -DHAVE_CURLOPT_COPYPOSTFIELDS=1 -DHAVE_CURLOPT_PROXY_TRANSFER_MODE=1 -DHAVE_CURLOPT_SEEKFUNCTION=1 -DHAVE_CURLOPT_SEEKDATA=1 -DHAVE_CURLOPT_CRLFILE=1 -DHAVE_CURLOPT_ISSUERCERT=1 -DHAVE_CURLOPT_ADDRESS_SCOPE=1 -DHAVE_CURLOPT_CERTINFO=1 -DHAVE_CURLOPT_USERNAME=1 -DHAVE_CURLOPT_PASSWORD=1 -DHAVE_CURLOPT_PROXYUSERNAME=1 -DHAVE_CURLOPT_PROXYPASSWORD=1 -DHAVE_CURLOPT_SSH_HOST_PUBLIC_KEY_MD5=1 -DHAVE_CURLOPT_NOPROXY=1 -DHAVE_CURLOPT_TFTP_BLKSIZE=1 -DHAVE_CURLOPT_SOCKS5_GSSAPI_SERVICE=1 -DHAVE_CURLOPT_SOCKS5_GSSAPI_NEC=1 -DHAVE_CURLOPT_PROTOCOLS=1 -DHAVE_CURLOPT_REDIR_PROTOCOLS=1 -DHAVE_CURLOPT_SSH_AUTH_TYPES=1 -DHAVE_CURLOPT_SSH_PUBLIC_KEYFILE=1 -DHAVE_CURLOPT_SSH_PRIVATE_KEYFILE=1 -DHAVE_CURLOPT_FTP_SSL_CCC=1 -DHAVE_CURLOPT_COOKIELIST=1 -DHAVE_CURLOPT_IGNORE_CONTENT_LENGTH=1 -DHAVE_CURLOPT_FTP_SKIP_PASV_IP=1 -DHAVE_CURLOPT_FTP_FILEMETHOD=1 -DHAVE_CURLOPT_LOCALPORT=1 -DHAVE_CURLOPT_LOCALPORTRANGE=1 -DHAVE_CURLOPT_CONNECT_ONLY=1 -DHAVE_CURLOPT_CONV_FROM_NETWORK_FUNCTION=1 -DHAVE_CURLOPT_CONV_TO_NETWORK_FUNCTION=1 -DHAVE_CURLOPT_CONV_FROM_UTF8_FUNCTION=1 -DHAVE_CURLOPT_MAX_SEND_SPEED_LARGE=1 -DHAVE_CURLOPT_MAX_RECV_SPEED_LARGE=1 -DHAVE_CURLOPT_FTP_ALTERNATIVE_TO_USER=1 -DHAVE_CURLOPT_SOCKOPTFUNCTION=1 -DHAVE_CURLOPT_SOCKOPTDATA=1 -DHAVE_CURLOPT_SSL_SESSIONID_CACHE=1 -I/usr/include/libxml2  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c curl.c -o curl.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DCURL_DISABLE_DEPRECATION -DHAVE_LIBIDN_FIELD=1 -DHAVE_CURLOPT_URL=1 -DHAVE_CURLINFO_EFFECTIVE_URL=1 -DHAVE_CURLINFO_RESPONSE_CODE=1 -DHAVE_CURLINFO_TOTAL_TIME=1 -DHAVE_CURLINFO_NAMELOOKUP_TIME=1 -DHAVE_CURLINFO_CONNECT_TIME=1 -DHAVE_CURLINFO_PRETRANSFER_TIME=1 -DHAVE_CURLINFO_SIZE_UPLOAD=1 -DHAVE_CURLINFO_SIZE_DOWNLOAD=1 -DHAVE_CURLINFO_SPEED_DOWNLOAD=1 -DHAVE_CURLINFO_SPEED_UPLOAD=1 -DHAVE_CURLINFO_HEADER_SIZE=1 -DHAVE_CURLINFO_REQUEST_SIZE=1 -DHAVE_CURLINFO_SSL_VERIFYRESULT=1 -DHAVE_CURLINFO_FILETIME=1 -DHAVE_CURLINFO_CONTENT_LENGTH_DOWNLOAD=1 -DHAVE_CURLINFO_CONTENT_LENGTH_UPLOAD=1 -DHAVE_CURLINFO_STARTTRANSFER_TIME=1 -DHAVE_CURLINFO_CONTENT_TYPE=1 -DHAVE_CURLINFO_REDIRECT_TIME=1 -DHAVE_CURLINFO_REDIRECT_COUNT=1 -DHAVE_CURLINFO_PRIVATE=1 -DHAVE_CURLINFO_HTTP_CONNECTCODE=1 -DHAVE_CURLINFO_HTTPAUTH_AVAIL=1 -DHAVE_CURLINFO_PROXYAUTH_AVAIL=1 -DHAVE_CURLINFO_OS_ERRNO=1 -DHAVE_CURLINFO_NUM_CONNECTS=1 -DHAVE_CURLINFO_SSL_ENGINES=1 -DHAVE_CURLINFO_COOKIELIST=1 -DHAVE_CURLINFO_LASTSOCKET=1 -DHAVE_CURLINFO_FTP_ENTRY_PATH=1 -DHAVE_CURLINFO_REDIRECT_URL=1 -DHAVE_CURLINFO_PRIMARY_IP=1 -DHAVE_CURLINFO_APPCONNECT_TIME=1 -DHAVE_CURLINFO_CERTINFO=1 -DHAVE_CURLINFO_CONDITION_UNMET=1 -DHAVE_CURLOPT_WRITEDATA=1 -DHAVE_CURLOPT_KEYPASSWD=1 -DHAVE_CURLOPT_DIRLISTONLY=1 -DHAVE_CURLOPT_APPEND=1 -DHAVE_CURLOPT_KRBLEVEL=1 -DHAVE_CURLOPT_USE_SSL=1 -DHAVE_CURLOPT_TIMEOUT_MS=1 -DHAVE_CURLOPT_CONNECTTIMEOUT_MS=1 -DHAVE_CURLOPT_HTTP_TRANSFER_DECODING=1 -DHAVE_CURLOPT_HTTP_CONTENT_DECODING=1 -DHAVE_CURLOPT_NEW_FILE_PERMS=1 -DHAVE_CURLOPT_NEW_DIRECTORY_PERMS=1 -DHAVE_CURLOPT_POSTREDIR=1 -DHAVE_CURLOPT_OPENSOCKETFUNCTION=1 -DHAVE_CURLOPT_OPENSOCKETDATA=1 -DHAVE_CURLOPT_COPYPOSTFIELDS=1 -DHAVE_CURLOPT_PROXY_TRANSFER_MODE=1 -DHAVE_CURLOPT_SEEKFUNCTION=1 -DHAVE_CURLOPT_SEEKDATA=1 -DHAVE_CURLOPT_CRLFILE=1 -DHAVE_CURLOPT_ISSUERCERT=1 -DHAVE_CURLOPT_ADDRESS_SCOPE=1 -DHAVE_CURLOPT_CERTINFO=1 -DHAVE_CURLOPT_USERNAME=1 -DHAVE_CURLOPT_PASSWORD=1 -DHAVE_CURLOPT_PROXYUSERNAME=1 -DHAVE_CURLOPT_PROXYPASSWORD=1 -DHAVE_CURLOPT_SSH_HOST_PUBLIC_KEY_MD5=1 -DHAVE_CURLOPT_NOPROXY=1 -DHAVE_CURLOPT_TFTP_BLKSIZE=1 -DHAVE_CURLOPT_SOCKS5_GSSAPI_SERVICE=1 -DHAVE_CURLOPT_SOCKS5_GSSAPI_NEC=1 -DHAVE_CURLOPT_PROTOCOLS=1 -DHAVE_CURLOPT_REDIR_PROTOCOLS=1 -DHAVE_CURLOPT_SSH_AUTH_TYPES=1 -DHAVE_CURLOPT_SSH_PUBLIC_KEYFILE=1 -DHAVE_CURLOPT_SSH_PRIVATE_KEYFILE=1 -DHAVE_CURLOPT_FTP_SSL_CCC=1 -DHAVE_CURLOPT_COOKIELIST=1 -DHAVE_CURLOPT_IGNORE_CONTENT_LENGTH=1 -DHAVE_CURLOPT_FTP_SKIP_PASV_IP=1 -DHAVE_CURLOPT_FTP_FILEMETHOD=1 -DHAVE_CURLOPT_LOCALPORT=1 -DHAVE_CURLOPT_LOCALPORTRANGE=1 -DHAVE_CURLOPT_CONNECT_ONLY=1 -DHAVE_CURLOPT_CONV_FROM_NETWORK_FUNCTION=1 -DHAVE_CURLOPT_CONV_TO_NETWORK_FUNCTION=1 -DHAVE_CURLOPT_CONV_FROM_UTF8_FUNCTION=1 -DHAVE_CURLOPT_MAX_SEND_SPEED_LARGE=1 -DHAVE_CURLOPT_MAX_RECV_SPEED_LARGE=1 -DHAVE_CURLOPT_FTP_ALTERNATIVE_TO_USER=1 -DHAVE_CURLOPT_SOCKOPTFUNCTION=1 -DHAVE_CURLOPT_SOCKOPTDATA=1 -DHAVE_CURLOPT_SSL_SESSIONID_CACHE=1 -I/usr/include/libxml2  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c curlInit.c -o curlInit.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DCURL_DISABLE_DEPRECATION -DHAVE_LIBIDN_FIELD=1 -DHAVE_CURLOPT_URL=1 -DHAVE_CURLINFO_EFFECTIVE_URL=1 -DHAVE_CURLINFO_RESPONSE_CODE=1 -DHAVE_CURLINFO_TOTAL_TIME=1 -DHAVE_CURLINFO_NAMELOOKUP_TIME=1 -DHAVE_CURLINFO_CONNECT_TIME=1 -DHAVE_CURLINFO_PRETRANSFER_TIME=1 -DHAVE_CURLINFO_SIZE_UPLOAD=1 -DHAVE_CURLINFO_SIZE_DOWNLOAD=1 -DHAVE_CURLINFO_SPEED_DOWNLOAD=1 -DHAVE_CURLINFO_SPEED_UPLOAD=1 -DHAVE_CURLINFO_HEADER_SIZE=1 -DHAVE_CURLINFO_REQUEST_SIZE=1 -DHAVE_CURLINFO_SSL_VERIFYRESULT=1 -DHAVE_CURLINFO_FILETIME=1 -DHAVE_CURLINFO_CONTENT_LENGTH_DOWNLOAD=1 -DHAVE_CURLINFO_CONTENT_LENGTH_UPLOAD=1 -DHAVE_CURLINFO_STARTTRANSFER_TIME=1 -DHAVE_CURLINFO_CONTENT_TYPE=1 -DHAVE_CURLINFO_REDIRECT_TIME=1 -DHAVE_CURLINFO_REDIRECT_COUNT=1 -DHAVE_CURLINFO_PRIVATE=1 -DHAVE_CURLINFO_HTTP_CONNECTCODE=1 -DHAVE_CURLINFO_HTTPAUTH_AVAIL=1 -DHAVE_CURLINFO_PROXYAUTH_AVAIL=1 -DHAVE_CURLINFO_OS_ERRNO=1 -DHAVE_CURLINFO_NUM_CONNECTS=1 -DHAVE_CURLINFO_SSL_ENGINES=1 -DHAVE_CURLINFO_COOKIELIST=1 -DHAVE_CURLINFO_LASTSOCKET=1 -DHAVE_CURLINFO_FTP_ENTRY_PATH=1 -DHAVE_CURLINFO_REDIRECT_URL=1 -DHAVE_CURLINFO_PRIMARY_IP=1 -DHAVE_CURLINFO_APPCONNECT_TIME=1 -DHAVE_CURLINFO_CERTINFO=1 -DHAVE_CURLINFO_CONDITION_UNMET=1 -DHAVE_CURLOPT_WRITEDATA=1 -DHAVE_CURLOPT_KEYPASSWD=1 -DHAVE_CURLOPT_DIRLISTONLY=1 -DHAVE_CURLOPT_APPEND=1 -DHAVE_CURLOPT_KRBLEVEL=1 -DHAVE_CURLOPT_USE_SSL=1 -DHAVE_CURLOPT_TIMEOUT_MS=1 -DHAVE_CURLOPT_CONNECTTIMEOUT_MS=1 -DHAVE_CURLOPT_HTTP_TRANSFER_DECODING=1 -DHAVE_CURLOPT_HTTP_CONTENT_DECODING=1 -DHAVE_CURLOPT_NEW_FILE_PERMS=1 -DHAVE_CURLOPT_NEW_DIRECTORY_PERMS=1 -DHAVE_CURLOPT_POSTREDIR=1 -DHAVE_CURLOPT_OPENSOCKETFUNCTION=1 -DHAVE_CURLOPT_OPENSOCKETDATA=1 -DHAVE_CURLOPT_COPYPOSTFIELDS=1 -DHAVE_CURLOPT_PROXY_TRANSFER_MODE=1 -DHAVE_CURLOPT_SEEKFUNCTION=1 -DHAVE_CURLOPT_SEEKDATA=1 -DHAVE_CURLOPT_CRLFILE=1 -DHAVE_CURLOPT_ISSUERCERT=1 -DHAVE_CURLOPT_ADDRESS_SCOPE=1 -DHAVE_CURLOPT_CERTINFO=1 -DHAVE_CURLOPT_USERNAME=1 -DHAVE_CURLOPT_PASSWORD=1 -DHAVE_CURLOPT_PROXYUSERNAME=1 -DHAVE_CURLOPT_PROXYPASSWORD=1 -DHAVE_CURLOPT_SSH_HOST_PUBLIC_KEY_MD5=1 -DHAVE_CURLOPT_NOPROXY=1 -DHAVE_CURLOPT_TFTP_BLKSIZE=1 -DHAVE_CURLOPT_SOCKS5_GSSAPI_SERVICE=1 -DHAVE_CURLOPT_SOCKS5_GSSAPI_NEC=1 -DHAVE_CURLOPT_PROTOCOLS=1 -DHAVE_CURLOPT_REDIR_PROTOCOLS=1 -DHAVE_CURLOPT_SSH_AUTH_TYPES=1 -DHAVE_CURLOPT_SSH_PUBLIC_KEYFILE=1 -DHAVE_CURLOPT_SSH_PRIVATE_KEYFILE=1 -DHAVE_CURLOPT_FTP_SSL_CCC=1 -DHAVE_CURLOPT_COOKIELIST=1 -DHAVE_CURLOPT_IGNORE_CONTENT_LENGTH=1 -DHAVE_CURLOPT_FTP_SKIP_PASV_IP=1 -DHAVE_CURLOPT_FTP_FILEMETHOD=1 -DHAVE_CURLOPT_LOCALPORT=1 -DHAVE_CURLOPT_LOCALPORTRANGE=1 -DHAVE_CURLOPT_CONNECT_ONLY=1 -DHAVE_CURLOPT_CONV_FROM_NETWORK_FUNCTION=1 -DHAVE_CURLOPT_CONV_TO_NETWORK_FUNCTION=1 -DHAVE_CURLOPT_CONV_FROM_UTF8_FUNCTION=1 -DHAVE_CURLOPT_MAX_SEND_SPEED_LARGE=1 -DHAVE_CURLOPT_MAX_RECV_SPEED_LARGE=1 -DHAVE_CURLOPT_FTP_ALTERNATIVE_TO_USER=1 -DHAVE_CURLOPT_SOCKOPTFUNCTION=1 -DHAVE_CURLOPT_SOCKOPTDATA=1 -DHAVE_CURLOPT_SSL_SESSIONID_CACHE=1 -I/usr/include/libxml2  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c curl_base64.c -o curl_base64.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DCURL_DISABLE_DEPRECATION -DHAVE_LIBIDN_FIELD=1 -DHAVE_CURLOPT_URL=1 -DHAVE_CURLINFO_EFFECTIVE_URL=1 -DHAVE_CURLINFO_RESPONSE_CODE=1 -DHAVE_CURLINFO_TOTAL_TIME=1 -DHAVE_CURLINFO_NAMELOOKUP_TIME=1 -DHAVE_CURLINFO_CONNECT_TIME=1 -DHAVE_CURLINFO_PRETRANSFER_TIME=1 -DHAVE_CURLINFO_SIZE_UPLOAD=1 -DHAVE_CURLINFO_SIZE_DOWNLOAD=1 -DHAVE_CURLINFO_SPEED_DOWNLOAD=1 -DHAVE_CURLINFO_SPEED_UPLOAD=1 -DHAVE_CURLINFO_HEADER_SIZE=1 -DHAVE_CURLINFO_REQUEST_SIZE=1 -DHAVE_CURLINFO_SSL_VERIFYRESULT=1 -DHAVE_CURLINFO_FILETIME=1 -DHAVE_CURLINFO_CONTENT_LENGTH_DOWNLOAD=1 -DHAVE_CURLINFO_CONTENT_LENGTH_UPLOAD=1 -DHAVE_CURLINFO_STARTTRANSFER_TIME=1 -DHAVE_CURLINFO_CONTENT_TYPE=1 -DHAVE_CURLINFO_REDIRECT_TIME=1 -DHAVE_CURLINFO_REDIRECT_COUNT=1 -DHAVE_CURLINFO_PRIVATE=1 -DHAVE_CURLINFO_HTTP_CONNECTCODE=1 -DHAVE_CURLINFO_HTTPAUTH_AVAIL=1 -DHAVE_CURLINFO_PROXYAUTH_AVAIL=1 -DHAVE_CURLINFO_OS_ERRNO=1 -DHAVE_CURLINFO_NUM_CONNECTS=1 -DHAVE_CURLINFO_SSL_ENGINES=1 -DHAVE_CURLINFO_COOKIELIST=1 -DHAVE_CURLINFO_LASTSOCKET=1 -DHAVE_CURLINFO_FTP_ENTRY_PATH=1 -DHAVE_CURLINFO_REDIRECT_URL=1 -DHAVE_CURLINFO_PRIMARY_IP=1 -DHAVE_CURLINFO_APPCONNECT_TIME=1 -DHAVE_CURLINFO_CERTINFO=1 -DHAVE_CURLINFO_CONDITION_UNMET=1 -DHAVE_CURLOPT_WRITEDATA=1 -DHAVE_CURLOPT_KEYPASSWD=1 -DHAVE_CURLOPT_DIRLISTONLY=1 -DHAVE_CURLOPT_APPEND=1 -DHAVE_CURLOPT_KRBLEVEL=1 -DHAVE_CURLOPT_USE_SSL=1 -DHAVE_CURLOPT_TIMEOUT_MS=1 -DHAVE_CURLOPT_CONNECTTIMEOUT_MS=1 -DHAVE_CURLOPT_HTTP_TRANSFER_DECODING=1 -DHAVE_CURLOPT_HTTP_CONTENT_DECODING=1 -DHAVE_CURLOPT_NEW_FILE_PERMS=1 -DHAVE_CURLOPT_NEW_DIRECTORY_PERMS=1 -DHAVE_CURLOPT_POSTREDIR=1 -DHAVE_CURLOPT_OPENSOCKETFUNCTION=1 -DHAVE_CURLOPT_OPENSOCKETDATA=1 -DHAVE_CURLOPT_COPYPOSTFIELDS=1 -DHAVE_CURLOPT_PROXY_TRANSFER_MODE=1 -DHAVE_CURLOPT_SEEKFUNCTION=1 -DHAVE_CURLOPT_SEEKDATA=1 -DHAVE_CURLOPT_CRLFILE=1 -DHAVE_CURLOPT_ISSUERCERT=1 -DHAVE_CURLOPT_ADDRESS_SCOPE=1 -DHAVE_CURLOPT_CERTINFO=1 -DHAVE_CURLOPT_USERNAME=1 -DHAVE_CURLOPT_PASSWORD=1 -DHAVE_CURLOPT_PROXYUSERNAME=1 -DHAVE_CURLOPT_PROXYPASSWORD=1 -DHAVE_CURLOPT_SSH_HOST_PUBLIC_KEY_MD5=1 -DHAVE_CURLOPT_NOPROXY=1 -DHAVE_CURLOPT_TFTP_BLKSIZE=1 -DHAVE_CURLOPT_SOCKS5_GSSAPI_SERVICE=1 -DHAVE_CURLOPT_SOCKS5_GSSAPI_NEC=1 -DHAVE_CURLOPT_PROTOCOLS=1 -DHAVE_CURLOPT_REDIR_PROTOCOLS=1 -DHAVE_CURLOPT_SSH_AUTH_TYPES=1 -DHAVE_CURLOPT_SSH_PUBLIC_KEYFILE=1 -DHAVE_CURLOPT_SSH_PRIVATE_KEYFILE=1 -DHAVE_CURLOPT_FTP_SSL_CCC=1 -DHAVE_CURLOPT_COOKIELIST=1 -DHAVE_CURLOPT_IGNORE_CONTENT_LENGTH=1 -DHAVE_CURLOPT_FTP_SKIP_PASV_IP=1 -DHAVE_CURLOPT_FTP_FILEMETHOD=1 -DHAVE_CURLOPT_LOCALPORT=1 -DHAVE_CURLOPT_LOCALPORTRANGE=1 -DHAVE_CURLOPT_CONNECT_ONLY=1 -DHAVE_CURLOPT_CONV_FROM_NETWORK_FUNCTION=1 -DHAVE_CURLOPT_CONV_TO_NETWORK_FUNCTION=1 -DHAVE_CURLOPT_CONV_FROM_UTF8_FUNCTION=1 -DHAVE_CURLOPT_MAX_SEND_SPEED_LARGE=1 -DHAVE_CURLOPT_MAX_RECV_SPEED_LARGE=1 -DHAVE_CURLOPT_FTP_ALTERNATIVE_TO_USER=1 -DHAVE_CURLOPT_SOCKOPTFUNCTION=1 -DHAVE_CURLOPT_SOCKOPTDATA=1 -DHAVE_CURLOPT_SSL_SESSIONID_CACHE=1 -I/usr/include/libxml2  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c enums.c -o enums.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DCURL_DISABLE_DEPRECATION -DHAVE_LIBIDN_FIELD=1 -DHAVE_CURLOPT_URL=1 -DHAVE_CURLINFO_EFFECTIVE_URL=1 -DHAVE_CURLINFO_RESPONSE_CODE=1 -DHAVE_CURLINFO_TOTAL_TIME=1 -DHAVE_CURLINFO_NAMELOOKUP_TIME=1 -DHAVE_CURLINFO_CONNECT_TIME=1 -DHAVE_CURLINFO_PRETRANSFER_TIME=1 -DHAVE_CURLINFO_SIZE_UPLOAD=1 -DHAVE_CURLINFO_SIZE_DOWNLOAD=1 -DHAVE_CURLINFO_SPEED_DOWNLOAD=1 -DHAVE_CURLINFO_SPEED_UPLOAD=1 -DHAVE_CURLINFO_HEADER_SIZE=1 -DHAVE_CURLINFO_REQUEST_SIZE=1 -DHAVE_CURLINFO_SSL_VERIFYRESULT=1 -DHAVE_CURLINFO_FILETIME=1 -DHAVE_CURLINFO_CONTENT_LENGTH_DOWNLOAD=1 -DHAVE_CURLINFO_CONTENT_LENGTH_UPLOAD=1 -DHAVE_CURLINFO_STARTTRANSFER_TIME=1 -DHAVE_CURLINFO_CONTENT_TYPE=1 -DHAVE_CURLINFO_REDIRECT_TIME=1 -DHAVE_CURLINFO_REDIRECT_COUNT=1 -DHAVE_CURLINFO_PRIVATE=1 -DHAVE_CURLINFO_HTTP_CONNECTCODE=1 -DHAVE_CURLINFO_HTTPAUTH_AVAIL=1 -DHAVE_CURLINFO_PROXYAUTH_AVAIL=1 -DHAVE_CURLINFO_OS_ERRNO=1 -DHAVE_CURLINFO_NUM_CONNECTS=1 -DHAVE_CURLINFO_SSL_ENGINES=1 -DHAVE_CURLINFO_COOKIELIST=1 -DHAVE_CURLINFO_LASTSOCKET=1 -DHAVE_CURLINFO_FTP_ENTRY_PATH=1 -DHAVE_CURLINFO_REDIRECT_URL=1 -DHAVE_CURLINFO_PRIMARY_IP=1 -DHAVE_CURLINFO_APPCONNECT_TIME=1 -DHAVE_CURLINFO_CERTINFO=1 -DHAVE_CURLINFO_CONDITION_UNMET=1 -DHAVE_CURLOPT_WRITEDATA=1 -DHAVE_CURLOPT_KEYPASSWD=1 -DHAVE_CURLOPT_DIRLISTONLY=1 -DHAVE_CURLOPT_APPEND=1 -DHAVE_CURLOPT_KRBLEVEL=1 -DHAVE_CURLOPT_USE_SSL=1 -DHAVE_CURLOPT_TIMEOUT_MS=1 -DHAVE_CURLOPT_CONNECTTIMEOUT_MS=1 -DHAVE_CURLOPT_HTTP_TRANSFER_DECODING=1 -DHAVE_CURLOPT_HTTP_CONTENT_DECODING=1 -DHAVE_CURLOPT_NEW_FILE_PERMS=1 -DHAVE_CURLOPT_NEW_DIRECTORY_PERMS=1 -DHAVE_CURLOPT_POSTREDIR=1 -DHAVE_CURLOPT_OPENSOCKETFUNCTION=1 -DHAVE_CURLOPT_OPENSOCKETDATA=1 -DHAVE_CURLOPT_COPYPOSTFIELDS=1 -DHAVE_CURLOPT_PROXY_TRANSFER_MODE=1 -DHAVE_CURLOPT_SEEKFUNCTION=1 -DHAVE_CURLOPT_SEEKDATA=1 -DHAVE_CURLOPT_CRLFILE=1 -DHAVE_CURLOPT_ISSUERCERT=1 -DHAVE_CURLOPT_ADDRESS_SCOPE=1 -DHAVE_CURLOPT_CERTINFO=1 -DHAVE_CURLOPT_USERNAME=1 -DHAVE_CURLOPT_PASSWORD=1 -DHAVE_CURLOPT_PROXYUSERNAME=1 -DHAVE_CURLOPT_PROXYPASSWORD=1 -DHAVE_CURLOPT_SSH_HOST_PUBLIC_KEY_MD5=1 -DHAVE_CURLOPT_NOPROXY=1 -DHAVE_CURLOPT_TFTP_BLKSIZE=1 -DHAVE_CURLOPT_SOCKS5_GSSAPI_SERVICE=1 -DHAVE_CURLOPT_SOCKS5_GSSAPI_NEC=1 -DHAVE_CURLOPT_PROTOCOLS=1 -DHAVE_CURLOPT_REDIR_PROTOCOLS=1 -DHAVE_CURLOPT_SSH_AUTH_TYPES=1 -DHAVE_CURLOPT_SSH_PUBLIC_KEYFILE=1 -DHAVE_CURLOPT_SSH_PRIVATE_KEYFILE=1 -DHAVE_CURLOPT_FTP_SSL_CCC=1 -DHAVE_CURLOPT_COOKIELIST=1 -DHAVE_CURLOPT_IGNORE_CONTENT_LENGTH=1 -DHAVE_CURLOPT_FTP_SKIP_PASV_IP=1 -DHAVE_CURLOPT_FTP_FILEMETHOD=1 -DHAVE_CURLOPT_LOCALPORT=1 -DHAVE_CURLOPT_LOCALPORTRANGE=1 -DHAVE_CURLOPT_CONNECT_ONLY=1 -DHAVE_CURLOPT_CONV_FROM_NETWORK_FUNCTION=1 -DHAVE_CURLOPT_CONV_TO_NETWORK_FUNCTION=1 -DHAVE_CURLOPT_CONV_FROM_UTF8_FUNCTION=1 -DHAVE_CURLOPT_MAX_SEND_SPEED_LARGE=1 -DHAVE_CURLOPT_MAX_RECV_SPEED_LARGE=1 -DHAVE_CURLOPT_FTP_ALTERNATIVE_TO_USER=1 -DHAVE_CURLOPT_SOCKOPTFUNCTION=1 -DHAVE_CURLOPT_SOCKOPTDATA=1 -DHAVE_CURLOPT_SSL_SESSIONID_CACHE=1 -I/usr/include/libxml2  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c json.c -o json.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DCURL_DISABLE_DEPRECATION -DHAVE_LIBIDN_FIELD=1 -DHAVE_CURLOPT_URL=1 -DHAVE_CURLINFO_EFFECTIVE_URL=1 -DHAVE_CURLINFO_RESPONSE_CODE=1 -DHAVE_CURLINFO_TOTAL_TIME=1 -DHAVE_CURLINFO_NAMELOOKUP_TIME=1 -DHAVE_CURLINFO_CONNECT_TIME=1 -DHAVE_CURLINFO_PRETRANSFER_TIME=1 -DHAVE_CURLINFO_SIZE_UPLOAD=1 -DHAVE_CURLINFO_SIZE_DOWNLOAD=1 -DHAVE_CURLINFO_SPEED_DOWNLOAD=1 -DHAVE_CURLINFO_SPEED_UPLOAD=1 -DHAVE_CURLINFO_HEADER_SIZE=1 -DHAVE_CURLINFO_REQUEST_SIZE=1 -DHAVE_CURLINFO_SSL_VERIFYRESULT=1 -DHAVE_CURLINFO_FILETIME=1 -DHAVE_CURLINFO_CONTENT_LENGTH_DOWNLOAD=1 -DHAVE_CURLINFO_CONTENT_LENGTH_UPLOAD=1 -DHAVE_CURLINFO_STARTTRANSFER_TIME=1 -DHAVE_CURLINFO_CONTENT_TYPE=1 -DHAVE_CURLINFO_REDIRECT_TIME=1 -DHAVE_CURLINFO_REDIRECT_COUNT=1 -DHAVE_CURLINFO_PRIVATE=1 -DHAVE_CURLINFO_HTTP_CONNECTCODE=1 -DHAVE_CURLINFO_HTTPAUTH_AVAIL=1 -DHAVE_CURLINFO_PROXYAUTH_AVAIL=1 -DHAVE_CURLINFO_OS_ERRNO=1 -DHAVE_CURLINFO_NUM_CONNECTS=1 -DHAVE_CURLINFO_SSL_ENGINES=1 -DHAVE_CURLINFO_COOKIELIST=1 -DHAVE_CURLINFO_LASTSOCKET=1 -DHAVE_CURLINFO_FTP_ENTRY_PATH=1 -DHAVE_CURLINFO_REDIRECT_URL=1 -DHAVE_CURLINFO_PRIMARY_IP=1 -DHAVE_CURLINFO_APPCONNECT_TIME=1 -DHAVE_CURLINFO_CERTINFO=1 -DHAVE_CURLINFO_CONDITION_UNMET=1 -DHAVE_CURLOPT_WRITEDATA=1 -DHAVE_CURLOPT_KEYPASSWD=1 -DHAVE_CURLOPT_DIRLISTONLY=1 -DHAVE_CURLOPT_APPEND=1 -DHAVE_CURLOPT_KRBLEVEL=1 -DHAVE_CURLOPT_USE_SSL=1 -DHAVE_CURLOPT_TIMEOUT_MS=1 -DHAVE_CURLOPT_CONNECTTIMEOUT_MS=1 -DHAVE_CURLOPT_HTTP_TRANSFER_DECODING=1 -DHAVE_CURLOPT_HTTP_CONTENT_DECODING=1 -DHAVE_CURLOPT_NEW_FILE_PERMS=1 -DHAVE_CURLOPT_NEW_DIRECTORY_PERMS=1 -DHAVE_CURLOPT_POSTREDIR=1 -DHAVE_CURLOPT_OPENSOCKETFUNCTION=1 -DHAVE_CURLOPT_OPENSOCKETDATA=1 -DHAVE_CURLOPT_COPYPOSTFIELDS=1 -DHAVE_CURLOPT_PROXY_TRANSFER_MODE=1 -DHAVE_CURLOPT_SEEKFUNCTION=1 -DHAVE_CURLOPT_SEEKDATA=1 -DHAVE_CURLOPT_CRLFILE=1 -DHAVE_CURLOPT_ISSUERCERT=1 -DHAVE_CURLOPT_ADDRESS_SCOPE=1 -DHAVE_CURLOPT_CERTINFO=1 -DHAVE_CURLOPT_USERNAME=1 -DHAVE_CURLOPT_PASSWORD=1 -DHAVE_CURLOPT_PROXYUSERNAME=1 -DHAVE_CURLOPT_PROXYPASSWORD=1 -DHAVE_CURLOPT_SSH_HOST_PUBLIC_KEY_MD5=1 -DHAVE_CURLOPT_NOPROXY=1 -DHAVE_CURLOPT_TFTP_BLKSIZE=1 -DHAVE_CURLOPT_SOCKS5_GSSAPI_SERVICE=1 -DHAVE_CURLOPT_SOCKS5_GSSAPI_NEC=1 -DHAVE_CURLOPT_PROTOCOLS=1 -DHAVE_CURLOPT_REDIR_PROTOCOLS=1 -DHAVE_CURLOPT_SSH_AUTH_TYPES=1 -DHAVE_CURLOPT_SSH_PUBLIC_KEYFILE=1 -DHAVE_CURLOPT_SSH_PRIVATE_KEYFILE=1 -DHAVE_CURLOPT_FTP_SSL_CCC=1 -DHAVE_CURLOPT_COOKIELIST=1 -DHAVE_CURLOPT_IGNORE_CONTENT_LENGTH=1 -DHAVE_CURLOPT_FTP_SKIP_PASV_IP=1 -DHAVE_CURLOPT_FTP_FILEMETHOD=1 -DHAVE_CURLOPT_LOCALPORT=1 -DHAVE_CURLOPT_LOCALPORTRANGE=1 -DHAVE_CURLOPT_CONNECT_ONLY=1 -DHAVE_CURLOPT_CONV_FROM_NETWORK_FUNCTION=1 -DHAVE_CURLOPT_CONV_TO_NETWORK_FUNCTION=1 -DHAVE_CURLOPT_CONV_FROM_UTF8_FUNCTION=1 -DHAVE_CURLOPT_MAX_SEND_SPEED_LARGE=1 -DHAVE_CURLOPT_MAX_RECV_SPEED_LARGE=1 -DHAVE_CURLOPT_FTP_ALTERNATIVE_TO_USER=1 -DHAVE_CURLOPT_SOCKOPTFUNCTION=1 -DHAVE_CURLOPT_SOCKOPTDATA=1 -DHAVE_CURLOPT_SSL_SESSIONID_CACHE=1 -I/usr/include/libxml2  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c memoryManagement.c -o memoryManagement.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DCURL_DISABLE_DEPRECATION -DHAVE_LIBIDN_FIELD=1 -DHAVE_CURLOPT_URL=1 -DHAVE_CURLINFO_EFFECTIVE_URL=1 -DHAVE_CURLINFO_RESPONSE_CODE=1 -DHAVE_CURLINFO_TOTAL_TIME=1 -DHAVE_CURLINFO_NAMELOOKUP_TIME=1 -DHAVE_CURLINFO_CONNECT_TIME=1 -DHAVE_CURLINFO_PRETRANSFER_TIME=1 -DHAVE_CURLINFO_SIZE_UPLOAD=1 -DHAVE_CURLINFO_SIZE_DOWNLOAD=1 -DHAVE_CURLINFO_SPEED_DOWNLOAD=1 -DHAVE_CURLINFO_SPEED_UPLOAD=1 -DHAVE_CURLINFO_HEADER_SIZE=1 -DHAVE_CURLINFO_REQUEST_SIZE=1 -DHAVE_CURLINFO_SSL_VERIFYRESULT=1 -DHAVE_CURLINFO_FILETIME=1 -DHAVE_CURLINFO_CONTENT_LENGTH_DOWNLOAD=1 -DHAVE_CURLINFO_CONTENT_LENGTH_UPLOAD=1 -DHAVE_CURLINFO_STARTTRANSFER_TIME=1 -DHAVE_CURLINFO_CONTENT_TYPE=1 -DHAVE_CURLINFO_REDIRECT_TIME=1 -DHAVE_CURLINFO_REDIRECT_COUNT=1 -DHAVE_CURLINFO_PRIVATE=1 -DHAVE_CURLINFO_HTTP_CONNECTCODE=1 -DHAVE_CURLINFO_HTTPAUTH_AVAIL=1 -DHAVE_CURLINFO_PROXYAUTH_AVAIL=1 -DHAVE_CURLINFO_OS_ERRNO=1 -DHAVE_CURLINFO_NUM_CONNECTS=1 -DHAVE_CURLINFO_SSL_ENGINES=1 -DHAVE_CURLINFO_COOKIELIST=1 -DHAVE_CURLINFO_LASTSOCKET=1 -DHAVE_CURLINFO_FTP_ENTRY_PATH=1 -DHAVE_CURLINFO_REDIRECT_URL=1 -DHAVE_CURLINFO_PRIMARY_IP=1 -DHAVE_CURLINFO_APPCONNECT_TIME=1 -DHAVE_CURLINFO_CERTINFO=1 -DHAVE_CURLINFO_CONDITION_UNMET=1 -DHAVE_CURLOPT_WRITEDATA=1 -DHAVE_CURLOPT_KEYPASSWD=1 -DHAVE_CURLOPT_DIRLISTONLY=1 -DHAVE_CURLOPT_APPEND=1 -DHAVE_CURLOPT_KRBLEVEL=1 -DHAVE_CURLOPT_USE_SSL=1 -DHAVE_CURLOPT_TIMEOUT_MS=1 -DHAVE_CURLOPT_CONNECTTIMEOUT_MS=1 -DHAVE_CURLOPT_HTTP_TRANSFER_DECODING=1 -DHAVE_CURLOPT_HTTP_CONTENT_DECODING=1 -DHAVE_CURLOPT_NEW_FILE_PERMS=1 -DHAVE_CURLOPT_NEW_DIRECTORY_PERMS=1 -DHAVE_CURLOPT_POSTREDIR=1 -DHAVE_CURLOPT_OPENSOCKETFUNCTION=1 -DHAVE_CURLOPT_OPENSOCKETDATA=1 -DHAVE_CURLOPT_COPYPOSTFIELDS=1 -DHAVE_CURLOPT_PROXY_TRANSFER_MODE=1 -DHAVE_CURLOPT_SEEKFUNCTION=1 -DHAVE_CURLOPT_SEEKDATA=1 -DHAVE_CURLOPT_CRLFILE=1 -DHAVE_CURLOPT_ISSUERCERT=1 -DHAVE_CURLOPT_ADDRESS_SCOPE=1 -DHAVE_CURLOPT_CERTINFO=1 -DHAVE_CURLOPT_USERNAME=1 -DHAVE_CURLOPT_PASSWORD=1 -DHAVE_CURLOPT_PROXYUSERNAME=1 -DHAVE_CURLOPT_PROXYPASSWORD=1 -DHAVE_CURLOPT_SSH_HOST_PUBLIC_KEY_MD5=1 -DHAVE_CURLOPT_NOPROXY=1 -DHAVE_CURLOPT_TFTP_BLKSIZE=1 -DHAVE_CURLOPT_SOCKS5_GSSAPI_SERVICE=1 -DHAVE_CURLOPT_SOCKS5_GSSAPI_NEC=1 -DHAVE_CURLOPT_PROTOCOLS=1 -DHAVE_CURLOPT_REDIR_PROTOCOLS=1 -DHAVE_CURLOPT_SSH_AUTH_TYPES=1 -DHAVE_CURLOPT_SSH_PUBLIC_KEYFILE=1 -DHAVE_CURLOPT_SSH_PRIVATE_KEYFILE=1 -DHAVE_CURLOPT_FTP_SSL_CCC=1 -DHAVE_CURLOPT_COOKIELIST=1 -DHAVE_CURLOPT_IGNORE_CONTENT_LENGTH=1 -DHAVE_CURLOPT_FTP_SKIP_PASV_IP=1 -DHAVE_CURLOPT_FTP_FILEMETHOD=1 -DHAVE_CURLOPT_LOCALPORT=1 -DHAVE_CURLOPT_LOCALPORTRANGE=1 -DHAVE_CURLOPT_CONNECT_ONLY=1 -DHAVE_CURLOPT_CONV_FROM_NETWORK_FUNCTION=1 -DHAVE_CURLOPT_CONV_TO_NETWORK_FUNCTION=1 -DHAVE_CURLOPT_CONV_FROM_UTF8_FUNCTION=1 -DHAVE_CURLOPT_MAX_SEND_SPEED_LARGE=1 -DHAVE_CURLOPT_MAX_RECV_SPEED_LARGE=1 -DHAVE_CURLOPT_FTP_ALTERNATIVE_TO_USER=1 -DHAVE_CURLOPT_SOCKOPTFUNCTION=1 -DHAVE_CURLOPT_SOCKOPTDATA=1 -DHAVE_CURLOPT_SSL_SESSIONID_CACHE=1 -I/usr/include/libxml2  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c myUTF8.c -o myUTF8.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o RCurl.so base64.o curl.o curlInit.o curl_base64.o enums.o json.o memoryManagement.o myUTF8.o -lcurl -lxml2 -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-RCurl/00new/RCurl/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘RCurl’ as ‘RCurl_1.98-1.13_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RCurl)
+* installing *source* package ‘lambda.r’ ...
+** package ‘lambda.r’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘lambda.r’ as ‘lambda.r_1.2.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (lambda.r)
+* installing *source* package ‘munsell’ ...
+** package ‘munsell’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘munsell’ as ‘munsell_0.5.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (munsell)
+ERROR: dependency ‘Rcpp’ is not available for package ‘RcppEigen’
+* removing ‘/tmp/tmp/built/RcppEigen’
+ERROR: dependency ‘Rcpp’ is not available for package ‘RcppArmadillo’
+* removing ‘/tmp/tmp/built/RcppArmadillo’
+ERROR: dependency ‘Rcpp’ is not available for package ‘ape’
+* removing ‘/tmp/tmp/built/ape’
+* installing *source* package ‘bit64’ ...
+** package ‘bit64’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c bsearch.c -o bsearch.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cache.c -o cache.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c hash64.c -o hash64.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c integer64.c -o integer64.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c sort64.c -o sort64.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c sortuse64.c -o sortuse64.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o bit64.so bsearch.o cache.o hash64.o init.o integer64.o sort64.o sortuse64.o -lm -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-bit64/00new/bit64/libs
+** R
+** data
+** exec
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘bit64’ as ‘bit64_4.0.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (bit64)
+ERROR: dependency ‘rlang’ is not available for package ‘cachem’
+* removing ‘/tmp/tmp/built/cachem’
+ERROR: dependency ‘rlang’ is not available for package ‘ellipsis’
+* removing ‘/tmp/tmp/built/ellipsis’
+* installing *source* package ‘Biobase’ ...
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Rinit.c -o Rinit.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c anyMissing.c -o anyMissing.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c envir.c -o envir.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c matchpt.c -o matchpt.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rowMedians.c -o rowMedians.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c sublist_extract.c -o sublist_extract.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o Biobase.so Rinit.o anyMissing.o envir.o matchpt.o rowMedians.o sublist_extract.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-Biobase/00new/Biobase/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘Biobase’ as ‘Biobase_2.63.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Biobase)
+* installing *source* package ‘S4Vectors’ ...
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c AEbufs.c -o AEbufs.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c DataFrame_class.c -o DataFrame_class.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Hits_class.c -o Hits_class.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c LLint_class.c -o LLint_class.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c List_class.c -o List_class.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c R_init_S4Vectors.c -o R_init_S4Vectors.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Rle_class.c -o Rle_class.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Rle_utils.c -o Rle_utils.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c SEXP_utils.c -o SEXP_utils.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c SimpleList_class.c -o SimpleList_class.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c anyMissing.c -o anyMissing.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c character_utils.c -o character_utils.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c eval_utils.c -o eval_utils.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c hash_utils.c -o hash_utils.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c integer_utils.c -o integer_utils.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c logical_utils.c -o logical_utils.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c map_ranges_to_runs.c -o map_ranges_to_runs.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c raw_utils.c -o raw_utils.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c safe_arithm.c -o safe_arithm.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c sort_utils.c -o sort_utils.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c subsetting_utils.c -o subsetting_utils.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c vector_utils.c -o vector_utils.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o S4Vectors.so AEbufs.o DataFrame_class.o Hits_class.o LLint_class.o List_class.o R_init_S4Vectors.o Rle_class.o Rle_utils.o SEXP_utils.o SimpleList_class.o anyMissing.o character_utils.o eval_utils.o hash_utils.o integer_utils.o logical_utils.o map_ranges_to_runs.o raw_utils.o safe_arithm.o sort_utils.o subsetting_utils.o vector_utils.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-S4Vectors/00new/S4Vectors/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+in method for ‘normalizeSingleBracketReplacementValue’ with signature ‘"List"’: no definition for class “List”
+Creating a new generic function for ‘unname’ in package ‘S4Vectors’
+Creating a new generic function for ‘expand.grid’ in package ‘S4Vectors’
+Creating a new generic function for ‘findMatches’ in package ‘S4Vectors’
+Creating a generic function for ‘setequal’ from package ‘base’ in package ‘S4Vectors’
+in method for ‘coerce’ with signature ‘"Hits","DFrame"’: no definition for class “DFrame”
+Creating a generic function for ‘as.factor’ from package ‘base’ in package ‘S4Vectors’
+Creating a generic function for ‘tabulate’ from package ‘base’ in package ‘S4Vectors’
+Creating a generic function for ‘cov’ from package ‘stats’ in package ‘S4Vectors’
+Creating a generic function for ‘cor’ from package ‘stats’ in package ‘S4Vectors’
+Creating a generic function for ‘smoothEnds’ from package ‘stats’ in package ‘S4Vectors’
+Creating a generic function for ‘runmed’ from package ‘stats’ in package ‘S4Vectors’
+Creating a generic function for ‘nchar’ from package ‘base’ in package ‘S4Vectors’
+Creating a generic function for ‘substr’ from package ‘base’ in package ‘S4Vectors’
+Creating a generic function for ‘substring’ from package ‘base’ in package ‘S4Vectors’
+Creating a generic function for ‘chartr’ from package ‘base’ in package ‘S4Vectors’
+Creating a generic function for ‘tolower’ from package ‘base’ in package ‘S4Vectors’
+Creating a generic function for ‘toupper’ from package ‘base’ in package ‘S4Vectors’
+Creating a generic function for ‘sub’ from package ‘base’ in package ‘S4Vectors’
+Creating a generic function for ‘gsub’ from package ‘base’ in package ‘S4Vectors’
+Creating a generic function for ‘nlevels’ from package ‘base’ in package ‘S4Vectors’
+in method for ‘coerce’ with signature ‘"data.table","DFrame"’: no definition for class “data.table”
+Creating a generic function for ‘complete.cases’ from package ‘stats’ in package ‘S4Vectors’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘S4Vectors’ as ‘S4Vectors_0.41.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (S4Vectors)
+ERROR: dependency ‘rlang’ is not available for package ‘lifecycle’
+* removing ‘/tmp/tmp/built/lifecycle’
+* installing *source* package ‘R.oo’ ...
+** package ‘R.oo’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Warning in setGenericS3.default(name, export = exportGeneric, envir = envir,  :
+  Renamed the preexisting function getMethods to getMethods.default, which was defined in environment R.oo.
+Warning in setGenericS3.default(name, export = exportGeneric, envir = envir,  :
+  Renamed the preexisting function getClasses to getClasses.default, which was defined in environment R.oo.
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘R.oo’ as ‘R.oo_1.25.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (R.oo)
+ERROR: dependency ‘rlang’ is not available for package ‘pkgload’
+* removing ‘/tmp/tmp/built/pkgload’
+ERROR: dependency ‘Rcpp’ is not available for package ‘plyr’
+* removing ‘/tmp/tmp/built/plyr’
+* installing *source* package ‘foreach’ ...
+** package ‘foreach’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** demo
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘foreach’ as ‘foreach_1.5.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (foreach)
+* installing *source* package ‘futile.logger’ ...
+** package ‘futile.logger’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘futile.logger’ as ‘futile.logger_1.4.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (futile.logger)
+ERROR: dependencies ‘lifecycle’, ‘rlang’ are not available for package ‘scales’
+* removing ‘/tmp/tmp/built/scales’
+ERROR: dependencies ‘lifecycle’, ‘rlang’ are not available for package ‘gtable’
+* removing ‘/tmp/tmp/built/gtable’
+ERROR: dependencies ‘lifecycle’, ‘rlang’ are not available for package ‘vctrs’
+* removing ‘/tmp/tmp/built/vctrs’
+ERROR: dependencies ‘rlang’, ‘cachem’ are not available for package ‘memoise’
+* removing ‘/tmp/tmp/built/memoise’
+* installing *source* package ‘IRanges’ ...
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c CompressedAtomicList_utils.c -o CompressedAtomicList_utils.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c CompressedIRangesList_class.c -o CompressedIRangesList_class.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c CompressedList_class.c -o CompressedList_class.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Grouping_class.c -o Grouping_class.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c IPosRanges_comparison.c -o IPosRanges_comparison.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c IRanges_class.c -o IRanges_class.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c IRanges_constructor.c -o IRanges_constructor.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c NCList.c -o NCList.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c R_init_IRanges.c -o R_init_IRanges.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Ranges_class.c -o Ranges_class.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RleViews_utils.c -o RleViews_utils.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c S4Vectors_stubs.c -o S4Vectors_stubs.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c SimpleIRangesList_class.c -o SimpleIRangesList_class.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c coverage_methods.c -o coverage_methods.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c extractListFragments.c -o extractListFragments.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c inter_range_methods.c -o inter_range_methods.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o IRanges.so CompressedAtomicList_utils.o CompressedIRangesList_class.o CompressedList_class.o Grouping_class.o IPosRanges_comparison.o IRanges_class.o IRanges_constructor.o NCList.o R_init_IRanges.o Ranges_class.o RleViews_utils.o S4Vectors_stubs.o SimpleIRangesList_class.o coverage_methods.o extractListFragments.o inter_range_methods.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-IRanges/00new/IRanges/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Creating a generic function for ‘drop’ from package ‘base’ in package ‘IRanges’
+Creating a generic function for ‘runmed’ from package ‘stats’ in package ‘IRanges’
+Creating a generic function for ‘chartr’ from package ‘base’ in package ‘IRanges’
+Creating a generic function for ‘toupper’ from package ‘base’ in package ‘IRanges’
+Creating a generic function for ‘tolower’ from package ‘base’ in package ‘IRanges’
+Creating a generic function for ‘sub’ from package ‘base’ in package ‘IRanges’
+Creating a generic function for ‘gsub’ from package ‘base’ in package ‘IRanges’
+Creating a generic function for ‘startsWith’ from package ‘base’ in package ‘IRanges’
+Creating a generic function for ‘endsWith’ from package ‘base’ in package ‘IRanges’
+Creating a generic function for ‘smoothEnds’ from package ‘stats’ in package ‘IRanges’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘IRanges’ as ‘IRanges_2.37.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (IRanges)
+ERROR: dependencies ‘ellipsis’, ‘rlang’ are not available for package ‘htmltools’
+* removing ‘/tmp/tmp/built/htmltools’
+ERROR: dependencies ‘lifecycle’, ‘rlang’ are not available for package ‘igraph’
+* removing ‘/tmp/tmp/built/igraph’
+* installing *source* package ‘R.utils’ ...
+** package ‘R.utils’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Warning in setGenericS3.default(name, export = exportGeneric, envir = envir,  :
+  Renamed the preexisting function warnings to warnings.default, which was defined in environment R.utils.
+Warning in setGenericS3.default("use") :
+  Renamed the preexisting function use to use.default, which was defined in environment R.utils.
+Warning in setMethodS3.default("use", "default", function(pkg = "R.utils",  :
+  Method already existed and was overwritten: use.default
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘R.utils’ as ‘R.utils_2.12.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (R.utils)
+* installing *source* package ‘doSNOW’ ...
+** package ‘doSNOW’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘doSNOW’ as ‘doSNOW_1.0.20_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (doSNOW)
+* installing *source* package ‘XVector’ ...
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c IRanges_stubs.c -o IRanges_stubs.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Ocopy_byteblocks.c -o Ocopy_byteblocks.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RDS_random_access.c -o RDS_random_access.o
+RDS_random_access.c: In function ‘RDS_read_chars’:
+RDS_random_access.c:136:17: error: format not a string literal and no format arguments [-Werror=format-security]
+  136 |                 error(errmsg);
+      |                 ^~~~~
+RDS_random_access.c: In function ‘RDS_read_vector_length’:
+RDS_random_access.c:218:17: error: format not a string literal and no format arguments [-Werror=format-security]
+  218 |                 error(errmsg);
+      |                 ^~~~~
+RDS_random_access.c:226:17: error: format not a string literal and no format arguments [-Werror=format-security]
+  226 |                 error(errmsg);
+      |                 ^~~~~
+RDS_random_access.c: In function ‘RDS_read_string’:
+RDS_random_access.c:277:17: error: format not a string literal and no format arguments [-Werror=format-security]
+  277 |                 error(errmsg);
+      |                 ^~~~~
+RDS_random_access.c:283:25: error: format not a string literal and no format arguments [-Werror=format-security]
+  283 |                         error(errmsg);
+      |                         ^~~~~
+RDS_random_access.c: In function ‘RDS_read_atomic_vector’:
+RDS_random_access.c:360:17: error: format not a string literal and no format arguments [-Werror=format-security]
+  360 |                 error(errmsg);
+      |                 ^~~~~
+RDS_random_access.c: In function ‘RDS_read_attrib_separator’:
+RDS_random_access.c:406:17: error: format not a string literal and no format arguments [-Werror=format-security]
+  406 |                 error(errmsg);
+      |                 ^~~~~
+RDS_random_access.c: In function ‘RDS_read_symbol’:
+RDS_random_access.c:428:17: error: format not a string literal and no format arguments [-Werror=format-security]
+  428 |                 error(errmsg);
+      |                 ^~~~~
+RDS_random_access.c: In function ‘RDS_read_object’:
+RDS_random_access.c:497:17: error: format not a string literal and no format arguments [-Werror=format-security]
+  497 |                 error(errmsg);
+      |                 ^~~~~
+RDS_random_access.c: In function ‘RDS_read_file_header’:
+RDS_random_access.c:559:17: error: format not a string literal and no format arguments [-Werror=format-security]
+  559 |                 error(errmsg);
+      |                 ^~~~~
+RDS_random_access.c: In function ‘extract_top_level_object_type’:
+RDS_random_access.c:618:17: error: format not a string literal and no format arguments [-Werror=format-security]
+  618 |                 error(errmsg);
+      |                 ^~~~~
+RDS_random_access.c: In function ‘RDS_read_atom_at_offset’:
+RDS_random_access.c:675:17: error: format not a string literal and no format arguments [-Werror=format-security]
+  675 |                 error(errmsg);
+      |                 ^~~~~
+RDS_random_access.c:698:17: error: format not a string literal and no format arguments [-Werror=format-security]
+  698 |                 error(errmsg);
+      |                 ^~~~~
+RDS_random_access.c: In function ‘RDS_extract_subvector’:
+RDS_random_access.c:772:17: error: format not a string literal and no format arguments [-Werror=format-security]
+  772 |                 error(errmsg);
+      |                 ^~~~~
+cc1: some warnings being treated as errors
+make: *** [/usr/local/lib/R/etc/Makeconf:191: RDS_random_access.o] Error 1
+ERROR: compilation failed for package ‘XVector’
+* removing ‘/tmp/tmp/built/XVector’
+* installing *source* package ‘GenomeInfoDb’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘GenomeInfoDb’ as ‘GenomeInfoDb_1.39.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (GenomeInfoDb)
+ERROR: dependencies ‘rlang’, ‘vctrs’ are not available for package ‘tweenr’
+* removing ‘/tmp/tmp/built/tweenr’
+ERROR: dependency ‘gtable’ is not available for package ‘gridExtra’
+* removing ‘/tmp/tmp/built/gridExtra’
+ERROR: dependencies ‘rlang’, ‘vctrs’ are not available for package ‘blob’
+* removing ‘/tmp/tmp/built/blob’
+ERROR: dependencies ‘igraph’, ‘Rcpp’, ‘RcppArmadillo’ are not available for package ‘graphlayouts’
+* removing ‘/tmp/tmp/built/graphlayouts’
+ERROR: dependencies ‘lifecycle’, ‘rlang’, ‘vctrs’ are not available for package ‘pillar’
+* removing ‘/tmp/tmp/built/pillar’
+ERROR: dependencies ‘lifecycle’, ‘rlang’, ‘vctrs’ are not available for package ‘tidyselect’
+* removing ‘/tmp/tmp/built/tidyselect’
+ERROR: dependencies ‘rlang’, ‘htmltools’ are not available for package ‘sass’
+* removing ‘/tmp/tmp/built/sass’
+* installing *source* package ‘BiocParallel’ ...
+** using staged installation
+checking whether the C++ compiler works... yes
+checking for C++ compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether the compiler supports GNU C++... yes
+checking whether g++ -std=gnu++17 accepts -g... yes
+checking for g++ -std=gnu++17 option to enable C++11 features... none needed
+checking for library containing shm_open... none required
+checking for stdio.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for strings.h... yes
+checking for sys/stat.h... yes
+checking for sys/types.h... yes
+checking for unistd.h... yes
+checking for sys/mman.h... yes
+configure: creating ./config.status
+config.status: creating src/Makevars
+** libs
+using C++ compiler: ‘g++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+using C++11
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/BH/include' -I'/usr/local/lib/R/site-library/cpp11/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cpp11.cpp -o cpp11.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/BH/include' -I'/usr/local/lib/R/site-library/cpp11/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ipcmutex.cpp -o ipcmutex.o
+g++ -std=gnu++11 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o BiocParallel.so cpp11.o ipcmutex.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-BiocParallel/00new/BiocParallel/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘BiocParallel’ as ‘BiocParallel_1.37.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (BiocParallel)
+ERROR: dependencies ‘lifecycle’, ‘rlang’, ‘vctrs’ are not available for package ‘purrr’
+* removing ‘/tmp/tmp/built/purrr’
+ERROR: dependencies ‘lifecycle’, ‘rlang’, ‘vctrs’ are not available for package ‘hms’
+* removing ‘/tmp/tmp/built/hms’
+ERROR: dependencies ‘rlang’, ‘htmltools’ are not available for package ‘fontawesome’
+* removing ‘/tmp/tmp/built/fontawesome’
+ERROR: dependency ‘htmltools’ is not available for package ‘jquerylib’
+* removing ‘/tmp/tmp/built/jquerylib’
+ERROR: dependencies ‘lifecycle’, ‘rlang’, ‘vctrs’ are not available for package ‘stringr’
+* removing ‘/tmp/tmp/built/stringr’
+ERROR: dependencies ‘memoise’, ‘rlang’ are not available for package ‘yulab.utils’
+* removing ‘/tmp/tmp/built/yulab.utils’
+ERROR: dependency ‘XVector’ is not available for package ‘Biostrings’
+* removing ‘/tmp/tmp/built/Biostrings’
+ERROR: dependency ‘hms’ is not available for package ‘progress’
+* removing ‘/tmp/tmp/built/progress’
+ERROR: dependencies ‘blob’, ‘memoise’, ‘rlang’ are not available for package ‘RSQLite’
+* removing ‘/tmp/tmp/built/RSQLite’
+ERROR: dependencies ‘plyr’, ‘Rcpp’, ‘stringr’ are not available for package ‘reshape2’
+* removing ‘/tmp/tmp/built/reshape2’
+ERROR: dependencies ‘lifecycle’, ‘pillar’, ‘rlang’, ‘vctrs’ are not available for package ‘tibble’
+* removing ‘/tmp/tmp/built/tibble’
+ERROR: dependencies ‘cachem’, ‘htmltools’, ‘jquerylib’, ‘lifecycle’, ‘memoise’, ‘rlang’, ‘sass’ are not available for package ‘bslib’
+* removing ‘/tmp/tmp/built/bslib’
+ERROR: dependency ‘tibble’ is not available for package ‘rematch2’
+* removing ‘/tmp/tmp/built/rematch2’
+ERROR: dependency ‘Biostrings’ is not available for package ‘KEGGREST’
+* removing ‘/tmp/tmp/built/KEGGREST’
+ERROR: dependencies ‘gtable’, ‘lifecycle’, ‘rlang’, ‘scales’, ‘tibble’, ‘vctrs’ are not available for package ‘ggplot2’
+* removing ‘/tmp/tmp/built/ggplot2’
+ERROR: dependencies ‘hms’, ‘lifecycle’, ‘rlang’, ‘tibble’, ‘tidyselect’, ‘vctrs’, ‘progress’ are not available for package ‘vroom’
+* removing ‘/tmp/tmp/built/vroom’
+ERROR: dependencies ‘lifecycle’, ‘pillar’, ‘rlang’, ‘tibble’, ‘tidyselect’, ‘vctrs’ are not available for package ‘dplyr’
+* removing ‘/tmp/tmp/built/dplyr’
+ERROR: dependencies ‘bslib’, ‘fontawesome’, ‘htmltools’, ‘jquerylib’, ‘stringr’ are not available for package ‘rmarkdown’
+* removing ‘/tmp/tmp/built/rmarkdown’
+ERROR: dependencies ‘ggplot2’, ‘gtable’, ‘rlang’, ‘scales’ are not available for package ‘cowplot’
+* removing ‘/tmp/tmp/built/cowplot’
+ERROR: dependencies ‘ggplot2’, ‘yulab.utils’ are not available for package ‘ggplotify’
+* removing ‘/tmp/tmp/built/ggplotify’
+ERROR: dependencies ‘ggplot2’, ‘gtable’, ‘rlang’ are not available for package ‘patchwork’
+* removing ‘/tmp/tmp/built/patchwork’
+ERROR: dependencies ‘ggplot2’, ‘Rcpp’, ‘scales’, ‘tweenr’, ‘gtable’, ‘rlang’, ‘tidyselect’, ‘lifecycle’, ‘vctrs’, ‘RcppEigen’ are not available for package ‘ggforce’
+* removing ‘/tmp/tmp/built/ggforce’
+ERROR: dependencies ‘ggplot2’, ‘Rcpp’, ‘rlang’, ‘scales’ are not available for package ‘ggrepel’
+* removing ‘/tmp/tmp/built/ggrepel’
+ERROR: dependencies ‘ggplot2’, ‘gridExtra’ are not available for package ‘viridis’
+* removing ‘/tmp/tmp/built/viridis’
+ERROR: dependencies ‘ggplot2’, ‘rlang’ are not available for package ‘ggfun’
+* removing ‘/tmp/tmp/built/ggfun’
+ERROR: dependency ‘ggplot2’ is not available for package ‘ggnewscale’
+* removing ‘/tmp/tmp/built/ggnewscale’
+ERROR: dependencies ‘ggplot2’, ‘scales’ are not available for package ‘shadowtext’
+* removing ‘/tmp/tmp/built/shadowtext’
+ERROR: dependencies ‘rematch2’, ‘rlang’, ‘tibble’ are not available for package ‘waldo’
+* removing ‘/tmp/tmp/built/waldo’
+ERROR: dependencies ‘htmltools’, ‘rmarkdown’, ‘jquerylib’ are not available for package ‘bookdown’
+* removing ‘/tmp/tmp/built/bookdown’
+ERROR: dependencies ‘RSQLite’, ‘KEGGREST’ are not available for package ‘AnnotationDbi’
+* removing ‘/tmp/tmp/built/AnnotationDbi’
+ERROR: dependencies ‘ggplot2’, ‘reshape2’ are not available for package ‘qvalue’
+* removing ‘/tmp/tmp/built/qvalue’
+ERROR: dependencies ‘dplyr’, ‘lifecycle’, ‘purrr’, ‘rlang’, ‘stringr’, ‘tibble’, ‘tidyselect’, ‘vctrs’ are not available for package ‘tidyr’
+* removing ‘/tmp/tmp/built/tidyr’
+ERROR: dependencies ‘hms’, ‘lifecycle’, ‘rlang’, ‘tibble’, ‘vroom’ are not available for package ‘readr’
+* removing ‘/tmp/tmp/built/readr’
+ERROR: dependencies ‘dplyr’, ‘igraph’, ‘lifecycle’, ‘pillar’, ‘rlang’, ‘tibble’, ‘tidyr’ are not available for package ‘tidygraph’
+* removing ‘/tmp/tmp/built/tidygraph’
+ERROR: dependencies ‘ape’, ‘dplyr’, ‘rlang’, ‘tibble’, ‘tidyr’, ‘tidyselect’, ‘yulab.utils’, ‘pillar’ are not available for package ‘tidytree’
+* removing ‘/tmp/tmp/built/tidytree’
+ERROR: dependency ‘AnnotationDbi’ is not available for package ‘HDO.db’
+* removing ‘/tmp/tmp/built/HDO.db’
+ERROR: dependencies ‘Rcpp’, ‘ggplot2’, ‘cowplot’, ‘scales’ are not available for package ‘fgsea’
+* removing ‘/tmp/tmp/built/fgsea’
+ERROR: dependencies ‘ggfun’, ‘ggplot2’, ‘ggplotify’, ‘patchwork’ are not available for package ‘aplot’
+* removing ‘/tmp/tmp/built/aplot’
+ERROR: dependencies ‘ggplot2’, ‘ggforce’, ‘rlang’, ‘ggfun’, ‘tidyr’, ‘dplyr’ are not available for package ‘scatterpie’
+* removing ‘/tmp/tmp/built/scatterpie’
+ERROR: dependency ‘AnnotationDbi’ is not available for package ‘GO.db’
+* removing ‘/tmp/tmp/built/GO.db’
+ERROR: dependencies ‘rlang’, ‘tidyr’ are not available for package ‘gson’
+* removing ‘/tmp/tmp/built/gson’
+ERROR: dependencies ‘lifecycle’, ‘pkgload’, ‘rlang’, ‘waldo’ are not available for package ‘testthat’
+* removing ‘/tmp/tmp/built/testthat’
+ERROR: dependencies ‘bookdown’, ‘rmarkdown’ are not available for package ‘BiocStyle’
+* removing ‘/tmp/tmp/built/BiocStyle’
+ERROR: dependency ‘AnnotationDbi’ is not available for package ‘org.Hs.eg.db’
+* removing ‘/tmp/tmp/built/org.Hs.eg.db’
+ERROR: dependencies ‘igraph’, ‘plyr’, ‘readr’ are not available for package ‘paxtoolsr’
+* removing ‘/tmp/tmp/built/paxtoolsr’
+ERROR: dependencies ‘ape’, ‘dplyr’, ‘rlang’, ‘tibble’, ‘tidytree’ are not available for package ‘treeio’
+* removing ‘/tmp/tmp/built/treeio’
+ERROR: dependencies ‘ggplot2’, ‘Rcpp’, ‘dplyr’, ‘ggforce’, ‘igraph’, ‘scales’, ‘gtable’, ‘ggrepel’, ‘viridis’, ‘rlang’, ‘tidygraph’, ‘graphlayouts’, ‘vctrs’, ‘lifecycle’ are not available for package ‘ggraph’
+* removing ‘/tmp/tmp/built/ggraph’
+ERROR: dependencies ‘AnnotationDbi’, ‘GO.db’, ‘rlang’, ‘Rcpp’ are not available for package ‘GOSemSim’
+* removing ‘/tmp/tmp/built/GOSemSim’
+ERROR: dependencies ‘ape’, ‘aplot’, ‘dplyr’, ‘ggplot2’, ‘purrr’, ‘rlang’, ‘ggfun’, ‘yulab.utils’, ‘tidyr’, ‘tidytree’, ‘treeio’, ‘scales’ are not available for package ‘ggtree’
+* removing ‘/tmp/tmp/built/ggtree’
+ERROR: dependencies ‘AnnotationDbi’, ‘HDO.db’, ‘fgsea’, ‘ggplot2’, ‘GOSemSim’, ‘qvalue’, ‘reshape2’, ‘yulab.utils’ are not available for package ‘DOSE’
+* removing ‘/tmp/tmp/built/DOSE’
+ERROR: dependencies ‘aplot’, ‘DOSE’, ‘ggfun’, ‘ggnewscale’, ‘ggplot2’, ‘ggraph’, ‘igraph’, ‘plyr’, ‘purrr’, ‘reshape2’, ‘rlang’, ‘scatterpie’, ‘shadowtext’, ‘GOSemSim’, ‘ggtree’, ‘yulab.utils’ are not available for package ‘enrichplot’
+* removing ‘/tmp/tmp/built/enrichplot’
+ERROR: dependencies ‘AnnotationDbi’, ‘DOSE’, ‘dplyr’, ‘enrichplot’, ‘GO.db’, ‘GOSemSim’, ‘gson’, ‘igraph’, ‘plyr’, ‘qvalue’, ‘rlang’, ‘tidyr’, ‘yulab.utils’ are not available for package ‘clusterProfiler’
+* removing ‘/tmp/tmp/built/clusterProfiler’
+
+The downloaded source packages are in
+	‘/tmp/RtmpavF9mI/downloaded_packages’
+There were 50 or more warnings (use warnings() to see the first 50)
+
+real	5m22.812s
+user	4m40.513s
+sys	1m3.979s

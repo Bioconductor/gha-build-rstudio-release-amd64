@@ -1696,7 +1696,7 @@ packaged installation of ‘Biobase’ as ‘Biobase_2.63.0_R_x86_64-pc-linux-gn
 ** libs
 using C compiler: ‘gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
 cd "htslib-1.18" && make -f "Makefile.Rhtslib"
-make[1]: Entering directory '/tmp/RtmpgRc5u1/R.INSTALL17762e791f2c/Rhtslib/src/htslib-1.18'
+make[1]: Entering directory '/tmp/RtmpWDBnxI/R.INSTALL17765c63cb66/Rhtslib/src/htslib-1.18'
 gcc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64 -c -o kfunc.o kfunc.c
 gcc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64 -c -o kstring.o kstring.c
 gcc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64 -c -o bcf_sr_sort.o bcf_sr_sort.c
@@ -1812,7 +1812,7 @@ gcc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time
 gcc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -fvisibility=hidden  -I. -I/usr/local/include -D_FILE_OFFSET_BITS=64  -c -o hfile_libcurl.pico hfile_libcurl.c
 gcc -shared -Wl,-soname,libhts.so.3 -Wl,-version-script,htslib.map -L/usr/local/lib -fvisibility=hidden -o libhts.so kfunc.pico kstring.pico bcf_sr_sort.pico bgzf.pico errmod.pico faidx.pico header.pico hfile.pico hts.pico hts_expr.pico hts_os.pico md5.pico multipart.pico probaln.pico realn.pico regidx.pico region.pico sam.pico sam_mods.pico synced_bcf_reader.pico vcf_sweep.pico tbx.pico textutils.pico thread_pool.pico vcf.pico vcfutils.pico cram/cram_codecs.pico cram/cram_decode.pico cram/cram_encode.pico cram/cram_external.pico cram/cram_index.pico cram/cram_io.pico cram/cram_stats.pico cram/mFILE.pico cram/open_trace_file.pico cram/pooled_alloc.pico cram/string_alloc.pico htscodecs/htscodecs/arith_dynamic.pico htscodecs/htscodecs/fqzcomp_qual.pico htscodecs/htscodecs/htscodecs.pico htscodecs/htscodecs/pack.pico htscodecs/htscodecs/rANS_static4x16pr.pico htscodecs/htscodecs/rANS_static32x16pr_avx2.pico htscodecs/htscodecs/rANS_static32x16pr_avx512.pico htscodecs/htscodecs/rANS_static32x16pr_sse4.pico htscodecs/htscodecs/rANS_static32x16pr_neon.pico htscodecs/htscodecs/rANS_static32x16pr.pico htscodecs/htscodecs/rANS_static.pico htscodecs/htscodecs/rle.pico htscodecs/htscodecs/tokenise_name3.pico htscodecs/htscodecs/utils.pico hfile_libcurl.pico -lz -lm -lbz2 -llzma -lcurl -lpthread
 ln -sf libhts.so libhts.so.3
-make[1]: Leaving directory '/tmp/RtmpgRc5u1/R.INSTALL17762e791f2c/Rhtslib/src/htslib-1.18'
+make[1]: Leaving directory '/tmp/RtmpWDBnxI/R.INSTALL17765c63cb66/Rhtslib/src/htslib-1.18'
 mkdir -p "/tmp/tmp/built/Rhtslib/include/htslib"
 cd "htslib-1.18/htslib" && cp * "/tmp/tmp/built/Rhtslib/include/htslib"
 gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I"/tmp/tmp/built/Rhtslib/include" -I'/tmp/tmp/built/zlibbioc/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c R_init_Rhtslib.c -o R_init_Rhtslib.o
@@ -2242,12 +2242,12 @@ ERROR: dependencies ‘GenomicRanges’, ‘SummarizedExperiment’, ‘Rsamtool
 * removing ‘/tmp/tmp/built/VariantAnnotation’
 
 The downloaded source packages are in
-	‘/tmp/Rtmpk0ghoO/downloaded_packages’
+	‘/tmp/RtmpH3Sbam/downloaded_packages’
 There were 50 or more warnings (use warnings() to see the first 50)
 
-real	5m55.331s
-user	5m8.902s
-sys	1m0.460s
+real	5m50.856s
+user	5m9.379s
+sys	1m1.087s
 * installing *source* package ‘XVector’ ...
 ** using staged installation
 ** libs

@@ -1,0 +1,143 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''OCplus'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.19 (BiocManager 1.30.22), R Under development (unstable)
+  (2024-01-03 r85769)
+Installing package(s) 'OCplus'
+also installing the dependencies ‘Rcpp’, ‘deldir’, ‘RcppEigen’, ‘interp’
+
+trying URL 'https://cloud.r-project.org/src/contrib/Rcpp_1.0.11.tar.gz'
+Content type 'application/x-gzip' length 2994004 bytes (2.9 MB)
+==================================================
+downloaded 2.9 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/deldir_2.0-2.tar.gz'
+Content type 'application/x-gzip' length 103483 bytes (101 KB)
+==================================================
+downloaded 101 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/RcppEigen_0.3.3.9.4.tar.gz'
+Content type 'application/x-gzip' length 1451521 bytes (1.4 MB)
+==================================================
+downloaded 1.4 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/interp_1.1-5.tar.gz'
+Content type 'application/x-gzip' length 1089279 bytes (1.0 MB)
+==================================================
+downloaded 1.0 MB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/OCplus_1.77.0.tar.gz'
+Content type 'application/x-gzip' length 10048325 bytes (9.6 MB)
+==================================================
+downloaded 9.6 MB
+
+* installing *source* package ‘Rcpp’ ...
+** package ‘Rcpp’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c api.cpp -o api.o
+In file included from ../inst/include/Rcpp/routines.h:26,
+                 from ../inst/include/RcppCommon.h:128,
+                 from ../inst/include/Rcpp.h:27,
+                 from api.cpp:26:
+../inst/include/Rcpp/iostream/Rstreambuf.h: In member function ‘std::streamsize Rcpp::Rstreambuf<OUTPUT>::xsputn(const char*, std::streamsize) [with bool OUTPUT = true; std::streamsize = long int]’:
+../inst/include/Rcpp/iostream/Rstreambuf.h:53:20: warning: field precision specifier ‘.*’ expects argument of type ‘int’, but argument 2 has type ‘std::streamsize’ {aka ‘long int’} [-Wformat=]
+   53 |         Rprintf("%.*s", num, s);
+      |                  ~~^~   ~~~
+      |                    |    |
+      |                    int  std::streamsize {aka long int}
+../inst/include/Rcpp/iostream/Rstreambuf.h: In member function ‘std::streamsize Rcpp::Rstreambuf<OUTPUT>::xsputn(const char*, std::streamsize) [with bool OUTPUT = false; std::streamsize = long int]’:
+../inst/include/Rcpp/iostream/Rstreambuf.h:57:21: warning: field precision specifier ‘.*’ expects argument of type ‘int’, but argument 2 has type ‘std::streamsize’ {aka ‘long int’} [-Wformat=]
+   57 |         REprintf("%.*s", num, s);
+      |                   ~~^~   ~~~
+      |                     |    |
+      |                     int  std::streamsize {aka long int}
+In file included from ../inst/include/RcppCommon.h:181,
+                 from ../inst/include/Rcpp.h:27,
+                 from api.cpp:26:
+../inst/include/Rcpp/print.h: In function ‘void Rcpp::warningcall(SEXP, const string&)’:
+../inst/include/Rcpp/print.h:30:19: error: format not a string literal and no format arguments [-Werror=format-security]
+   30 |     Rf_warningcall(call, s.c_str());
+      |     ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+cc1plus: some warnings being treated as errors
+make: *** [/usr/local/lib/R/etc/Makeconf:200: api.o] Error 1
+ERROR: compilation failed for package ‘Rcpp’
+* removing ‘/tmp/tmp/built/Rcpp’
+* installing *source* package ‘deldir’ ...
+** package ‘deldir’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+using Fortran compiler: ‘GNU Fortran (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+gfortran  -fpic  -g -O2  -c  acchk.f90 -o acchk.o
+gfortran  -fpic  -g -O2  -c  addpt.f90 -o addpt.o
+gfortran  -fpic  -g -O2  -c  adjchk.f90 -o adjchk.o
+gfortran  -fpic  -g -O2  -c  binsrt.f90 -o binsrt.o
+gfortran  -fpic  -g -O2  -c  circen.f90 -o circen.o
+gfortran  -fpic  -g -O2  -c  cross.f90 -o cross.o
+gfortran  -fpic  -g -O2  -c  delet.f90 -o delet.o
+gfortran  -fpic  -g -O2  -c  delet1.f90 -o delet1.o
+gfortran  -fpic  -g -O2  -c  delout.f90 -o delout.o
+gfortran  -fpic  -g -O2  -c  delseg.f90 -o delseg.o
+gfortran  -fpic  -g -O2  -c  dirout.f90 -o dirout.o
+gfortran  -fpic  -g -O2  -c  dirseg.f90 -o dirseg.o
+gfortran  -fpic  -g -O2  -c  dldins.f90 -o dldins.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gfortran  -fpic  -g -O2  -c  initad.f90 -o initad.o
+gfortran  -fpic  -g -O2  -c  insrt.f90 -o insrt.o
+gfortran  -fpic  -g -O2  -c  insrt1.f90 -o insrt1.o
+gfortran  -fpic  -g -O2  -c  intri.f90 -o intri.o
+gfortran  -fpic  -g -O2  -c  locn.f90 -o locn.o
+gfortran  -fpic  -g -O2  -c  master.f90 -o master.o
+gfortran  -fpic  -g -O2  -c  mnnd.f90 -o mnnd.o
+gfortran  -fpic  -g -O2  -c  pred.f90 -o pred.o
+gfortran  -fpic  -g -O2  -c  qtest.f90 -o qtest.o
+gfortran  -fpic  -g -O2  -c  qtest1.f90 -o qtest1.o
+gfortran  -fpic  -g -O2  -c  stoke.f90 -o stoke.o
+gfortran  -fpic  -g -O2  -c  succ.f90 -o succ.o
+gfortran  -fpic  -g -O2  -c  swap.f90 -o swap.o
+gfortran  -fpic  -g -O2  -c  testeq.f90 -o testeq.o
+gfortran  -fpic  -g -O2  -c  triar.f90 -o triar.o
+gfortran  -fpic  -g -O2  -c  trifnd.f90 -o trifnd.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o deldir.so acchk.o addpt.o adjchk.o binsrt.o circen.o cross.o delet.o delet1.o delout.o delseg.o dirout.o dirseg.o dldins.o init.o initad.o insrt.o insrt1.o intri.o locn.o master.o mnnd.o pred.o qtest.o qtest1.o stoke.o succ.o swap.o testeq.o triar.o trifnd.o -lgfortran -lm -lquadmath -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-deldir/00new/deldir/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘deldir’ as ‘deldir_2.0-2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (deldir)
+ERROR: dependency ‘Rcpp’ is not available for package ‘RcppEigen’
+* removing ‘/tmp/tmp/built/RcppEigen’
+ERROR: dependencies ‘Rcpp’, ‘RcppEigen’ are not available for package ‘interp’
+* removing ‘/tmp/tmp/built/interp’
+ERROR: dependency ‘interp’ is not available for package ‘OCplus’
+* removing ‘/tmp/tmp/built/OCplus’
+
+The downloaded source packages are in
+	‘/tmp/RtmpNNrdc4/downloaded_packages’
+Warning messages:
+1: In install.packages(...) :
+  installation of package ‘Rcpp’ had non-zero exit status
+2: In install.packages(...) :
+  installation of package ‘RcppEigen’ had non-zero exit status
+3: In install.packages(...) :
+  installation of package ‘interp’ had non-zero exit status
+4: In install.packages(...) :
+  installation of package ‘OCplus’ had non-zero exit status
+
+real	0m12.332s
+user	0m7.671s
+sys	0m2.592s

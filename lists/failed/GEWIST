@@ -1,0 +1,870 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''GEWIST'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.19 (BiocManager 1.30.22), R Under development (unstable)
+  (2024-01-03 r85769)
+Installing package(s) 'GEWIST'
+also installing the dependencies ‘rematch2’, ‘pkgload’, ‘waldo’, ‘backports’, ‘ellipsis’, ‘generics’, ‘purrr’, ‘stringr’, ‘tibble’, ‘tidyr’, ‘pillar’, ‘tidyselect’, ‘vctrs’, ‘testthat’, ‘colorspace’, ‘broom’, ‘dplyr’, ‘numDeriv’, ‘SparseM’, ‘MatrixModels’, ‘minqa’, ‘nloptr’, ‘Rcpp’, ‘RcppEigen’, ‘farver’, ‘labeling’, ‘lifecycle’, ‘munsell’, ‘RColorBrewer’, ‘rlang’, ‘viridisLite’, ‘carData’, ‘abind’, ‘pbkrtest’, ‘quantreg’, ‘lme4’, ‘scales’, ‘car’
+
+trying URL 'https://cloud.r-project.org/src/contrib/rematch2_2.1.2.tar.gz'
+Content type 'application/x-gzip' length 13366 bytes (13 KB)
+==================================================
+downloaded 13 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/pkgload_1.3.3.tar.gz'
+Content type 'application/x-gzip' length 77929 bytes (76 KB)
+==================================================
+downloaded 76 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/waldo_0.5.2.tar.gz'
+Content type 'application/x-gzip' length 39711 bytes (38 KB)
+==================================================
+downloaded 38 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/backports_1.4.1.tar.gz'
+Content type 'application/x-gzip' length 26201 bytes (25 KB)
+==================================================
+downloaded 25 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/ellipsis_0.3.2.tar.gz'
+Content type 'application/x-gzip' length 8066 bytes
+==================================================
+downloaded 8066 bytes
+
+trying URL 'https://cloud.r-project.org/src/contrib/generics_0.1.3.tar.gz'
+Content type 'application/x-gzip' length 172201 bytes (168 KB)
+==================================================
+downloaded 168 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/purrr_1.0.2.tar.gz'
+Content type 'application/x-gzip' length 220868 bytes (215 KB)
+==================================================
+downloaded 215 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/stringr_1.5.1.tar.gz'
+Content type 'application/x-gzip' length 176599 bytes (172 KB)
+==================================================
+downloaded 172 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/tibble_3.2.1.tar.gz'
+Content type 'application/x-gzip' length 565982 bytes (552 KB)
+==================================================
+downloaded 552 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/tidyr_1.3.0.tar.gz'
+Content type 'application/x-gzip' length 823546 bytes (804 KB)
+==================================================
+downloaded 804 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/pillar_1.9.0.tar.gz'
+Content type 'application/x-gzip' length 444528 bytes (434 KB)
+==================================================
+downloaded 434 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/tidyselect_1.2.0.tar.gz'
+Content type 'application/x-gzip' length 101498 bytes (99 KB)
+==================================================
+downloaded 99 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/vctrs_0.6.5.tar.gz'
+Content type 'application/x-gzip' length 969066 bytes (946 KB)
+==================================================
+downloaded 946 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/testthat_3.2.1.tar.gz'
+Content type 'application/x-gzip' length 739745 bytes (722 KB)
+==================================================
+downloaded 722 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/colorspace_2.1-0.tar.gz'
+Content type 'application/x-gzip' length 2116339 bytes (2.0 MB)
+==================================================
+downloaded 2.0 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/broom_1.0.5.tar.gz'
+Content type 'application/x-gzip' length 641849 bytes (626 KB)
+==================================================
+downloaded 626 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/dplyr_1.1.4.tar.gz'
+Content type 'application/x-gzip' length 1207521 bytes (1.2 MB)
+==================================================
+downloaded 1.2 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/numDeriv_2016.8-1.1.tar.gz'
+Content type 'application/x-gzip' length 76053 bytes (74 KB)
+==================================================
+downloaded 74 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/SparseM_1.81.tar.gz'
+Content type 'application/x-gzip' length 735100 bytes (717 KB)
+==================================================
+downloaded 717 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/MatrixModels_0.5-3.tar.gz'
+Content type 'application/x-gzip' length 24822 bytes (24 KB)
+==================================================
+downloaded 24 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/minqa_1.2.6.tar.gz'
+Content type 'application/x-gzip' length 54493 bytes (53 KB)
+==================================================
+downloaded 53 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/nloptr_2.0.3.tar.gz'
+Content type 'application/x-gzip' length 2219877 bytes (2.1 MB)
+==================================================
+downloaded 2.1 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/Rcpp_1.0.11.tar.gz'
+Content type 'application/x-gzip' length 2994004 bytes (2.9 MB)
+==================================================
+downloaded 2.9 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/RcppEigen_0.3.3.9.4.tar.gz'
+Content type 'application/x-gzip' length 1451521 bytes (1.4 MB)
+==================================================
+downloaded 1.4 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/farver_2.1.1.tar.gz'
+Content type 'application/x-gzip' length 1274363 bytes (1.2 MB)
+==================================================
+downloaded 1.2 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/labeling_0.4.3.tar.gz'
+Content type 'application/x-gzip' length 10167 bytes
+==================================================
+downloaded 10167 bytes
+
+trying URL 'https://cloud.r-project.org/src/contrib/lifecycle_1.0.4.tar.gz'
+Content type 'application/x-gzip' length 107656 bytes (105 KB)
+==================================================
+downloaded 105 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/munsell_0.5.0.tar.gz'
+Content type 'application/x-gzip' length 182653 bytes (178 KB)
+==================================================
+downloaded 178 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/RColorBrewer_1.1-3.tar.gz'
+Content type 'application/x-gzip' length 11638 bytes (11 KB)
+==================================================
+downloaded 11 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/rlang_1.1.2.tar.gz'
+Content type 'application/x-gzip' length 763521 bytes (745 KB)
+==================================================
+downloaded 745 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/viridisLite_0.4.2.tar.gz'
+Content type 'application/x-gzip' length 1267121 bytes (1.2 MB)
+==================================================
+downloaded 1.2 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/carData_3.0-5.tar.gz'
+Content type 'application/x-gzip' length 1004201 bytes (980 KB)
+==================================================
+downloaded 980 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/abind_1.4-5.tar.gz'
+Content type 'application/x-gzip' length 21810 bytes (21 KB)
+==================================================
+downloaded 21 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/pbkrtest_0.5.2.tar.gz'
+Content type 'application/x-gzip' length 75295 bytes (73 KB)
+==================================================
+downloaded 73 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/quantreg_5.97.tar.gz'
+Content type 'application/x-gzip' length 1026052 bytes (1002 KB)
+==================================================
+downloaded 1002 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/lme4_1.1-35.1.tar.gz'
+Content type 'application/x-gzip' length 2942848 bytes (2.8 MB)
+==================================================
+downloaded 2.8 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/scales_1.3.0.tar.gz'
+Content type 'application/x-gzip' length 302544 bytes (295 KB)
+==================================================
+downloaded 295 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/car_3.1-2.tar.gz'
+Content type 'application/x-gzip' length 579829 bytes (566 KB)
+==================================================
+downloaded 566 KB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/GEWIST_1.47.0.tar.gz'
+Content type 'application/x-gzip' length 272876 bytes (266 KB)
+==================================================
+downloaded 266 KB
+
+* installing *source* package ‘backports’ ...
+** package ‘backports’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c dotsElt.c -o dotsElt.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c dotsLength.c -o dotsLength.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c dotsNames.c -o dotsNames.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o backports.so dotsElt.o dotsLength.o dotsNames.o init.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-backports/00new/backports/libs
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘backports’ as ‘backports_1.4.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (backports)
+* installing *source* package ‘generics’ ...
+** package ‘generics’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘generics’ as ‘generics_0.1.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (generics)
+* installing *source* package ‘colorspace’ ...
+** package ‘colorspace’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c colorspace.c -o colorspace.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o colorspace.so colorspace.o init.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-colorspace/00new/colorspace/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** demo
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘colorspace’ as ‘colorspace_2.1-0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (colorspace)
+* installing *source* package ‘numDeriv’ ...
+** package ‘numDeriv’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘numDeriv’ as ‘numDeriv_2016.8-1.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (numDeriv)
+* installing *source* package ‘SparseM’ ...
+** package ‘SparseM’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+using Fortran compiler: ‘GNU Fortran (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+gfortran  -fpic  -g -O2  -c bckslv.f -o bckslv.o
+gfortran  -fpic  -g -O2  -c chol.f -o chol.o
+gfortran  -fpic  -g -O2  -c chol2csr.f -o chol2csr.o
+gfortran  -fpic  -g -O2  -c cholesky.f -o cholesky.o
+cholesky.f:2948:72:
+
+ 2948 |                          IF  ( NODE )  400, 900, 500
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Arithmetic IF statement at (1)
+cholesky.f:2982:72:
+
+ 2982 |                  IF  ( RNODE )  1100, 1800, 1200
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Arithmetic IF statement at (1)
+cholesky.f:3299:72:
+
+ 3299 |                      IF  ( ENODE )  400, 800, 500
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Arithmetic IF statement at (1)
+cholesky.f:3356:72:
+
+ 3356 |                              IF  ( NODE )  1000, 2100, 1100
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Arithmetic IF statement at (1)
+cholesky.f:3430:72:
+
+ 3430 |                                          IF  ( NODE )  1700, 2000, 1800
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Arithmetic IF statement at (1)
+gfortran  -fpic  -g -O2  -c csr.f -o csr.o
+gfortran  -fpic  -g -O2  -c extract.f -o extract.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gfortran  -fpic  -g -O2  -c sparskit.f -o sparskit.o
+gfortran  -fpic  -g -O2  -c subscr.f -o subscr.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o SparseM.so bckslv.o chol.o chol2csr.o cholesky.o csr.o extract.o init.o sparskit.o subscr.o -lgfortran -lm -lquadmath -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-SparseM/00new/SparseM/libs
+** R
+** data
+** demo
+** inst
+** byte-compile and prepare package for lazy loading
+Creating a generic function for ‘diag’ from package ‘base’ in package ‘SparseM’
+Creating a generic function for ‘diag<-’ from package ‘base’ in package ‘SparseM’
+Creating a generic function for ‘norm’ from package ‘base’ in package ‘SparseM’
+Creating a new generic function for ‘backsolve’ in package ‘SparseM’
+Creating a generic function for ‘forwardsolve’ from package ‘base’ in package ‘SparseM’
+Creating a generic function for ‘model.response’ from package ‘stats’ in package ‘SparseM’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘SparseM’ as ‘SparseM_1.81_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (SparseM)
+* installing *source* package ‘MatrixModels’ ...
+** package ‘MatrixModels’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘MatrixModels’ as ‘MatrixModels_0.5-3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (MatrixModels)
+* installing *source* package ‘Rcpp’ ...
+** package ‘Rcpp’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c api.cpp -o api.o
+In file included from ../inst/include/Rcpp/routines.h:26,
+                 from ../inst/include/RcppCommon.h:128,
+                 from ../inst/include/Rcpp.h:27,
+                 from api.cpp:26:
+../inst/include/Rcpp/iostream/Rstreambuf.h: In member function ‘std::streamsize Rcpp::Rstreambuf<OUTPUT>::xsputn(const char*, std::streamsize) [with bool OUTPUT = true; std::streamsize = long int]’:
+../inst/include/Rcpp/iostream/Rstreambuf.h:53:20: warning: field precision specifier ‘.*’ expects argument of type ‘int’, but argument 2 has type ‘std::streamsize’ {aka ‘long int’} [-Wformat=]
+   53 |         Rprintf("%.*s", num, s);
+      |                  ~~^~   ~~~
+      |                    |    |
+      |                    int  std::streamsize {aka long int}
+../inst/include/Rcpp/iostream/Rstreambuf.h: In member function ‘std::streamsize Rcpp::Rstreambuf<OUTPUT>::xsputn(const char*, std::streamsize) [with bool OUTPUT = false; std::streamsize = long int]’:
+../inst/include/Rcpp/iostream/Rstreambuf.h:57:21: warning: field precision specifier ‘.*’ expects argument of type ‘int’, but argument 2 has type ‘std::streamsize’ {aka ‘long int’} [-Wformat=]
+   57 |         REprintf("%.*s", num, s);
+      |                   ~~^~   ~~~
+      |                     |    |
+      |                     int  std::streamsize {aka long int}
+In file included from ../inst/include/RcppCommon.h:181,
+                 from ../inst/include/Rcpp.h:27,
+                 from api.cpp:26:
+../inst/include/Rcpp/print.h: In function ‘void Rcpp::warningcall(SEXP, const string&)’:
+../inst/include/Rcpp/print.h:30:19: error: format not a string literal and no format arguments [-Werror=format-security]
+   30 |     Rf_warningcall(call, s.c_str());
+      |     ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+cc1plus: some warnings being treated as errors
+make: *** [/usr/local/lib/R/etc/Makeconf:200: api.o] Error 1
+ERROR: compilation failed for package ‘Rcpp’
+* removing ‘/tmp/tmp/built/Rcpp’
+* installing *source* package ‘farver’ ...
+** package ‘farver’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+using C++11
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ColorSpace.cpp -o ColorSpace.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Comparison.cpp -o Comparison.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Conversion.cpp -o Conversion.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c encode.cpp -o encode.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c farver.cpp -o farver.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.cpp -o init.o
+g++ -std=gnu++11 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o farver.so ColorSpace.o Comparison.o Conversion.o encode.o farver.o init.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-farver/00new/farver/libs
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘farver’ as ‘farver_2.1.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (farver)
+* installing *source* package ‘labeling’ ...
+** package ‘labeling’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘labeling’ as ‘labeling_0.4.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (labeling)
+* installing *source* package ‘RColorBrewer’ ...
+** package ‘RColorBrewer’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘RColorBrewer’ as ‘RColorBrewer_1.1-3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RColorBrewer)
+* installing *source* package ‘rlang’ ...
+** package ‘rlang’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I./rlang/  -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c capture.c -o capture.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I./rlang/  -I/usr/local/include   -fvisibility=hidden -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c internal.c -o internal.o
+In file included from internal/internal.c:32,
+                 from internal.c:1:
+internal/tests.c: In function ‘ffi_test_Rf_warning’:
+internal/tests.c:104:3: error: format not a string literal and no format arguments [-Werror=format-security]
+  104 |   Rf_warning(r_chr_get_c_string(msg, 0));
+      |   ^~~~~~~~~~
+internal/tests.c: In function ‘ffi_test_Rf_error’:
+internal/tests.c:108:3: error: format not a string literal and no format arguments [-Werror=format-security]
+  108 |   Rf_error(r_chr_get_c_string(msg, 0));
+      |   ^~~~~~~~
+internal/tests.c: In function ‘ffi_test_Rf_warningcall’:
+internal/tests.c:113:3: error: format not a string literal and no format arguments [-Werror=format-security]
+  113 |   Rf_warningcall(call, r_chr_get_c_string(msg, 0));
+      |   ^~~~~~~~~~~~~~
+internal/tests.c: In function ‘ffi_test_Rf_errorcall’:
+internal/tests.c:117:3: error: format not a string literal and no format arguments [-Werror=format-security]
+  117 |   Rf_errorcall(call, r_chr_get_c_string(msg, 0));
+      |   ^~~~~~~~~~~~
+cc1: some warnings being treated as errors
+make: *** [/usr/local/lib/R/etc/Makeconf:191: internal.o] Error 1
+ERROR: compilation failed for package ‘rlang’
+* removing ‘/tmp/tmp/built/rlang’
+* installing *source* package ‘viridisLite’ ...
+** package ‘viridisLite’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘viridisLite’ as ‘viridisLite_0.4.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (viridisLite)
+* installing *source* package ‘carData’ ...
+** package ‘carData’ successfully unpacked and MD5 sums checked
+** using staged installation
+** data
+*** moving datasets to lazyload DB
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘carData’ as ‘carData_3.0-5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (carData)
+* installing *source* package ‘abind’ ...
+** package ‘abind’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘abind’ as ‘abind_1.4-5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (abind)
+ERROR: dependency ‘rlang’ is not available for package ‘pkgload’
+* removing ‘/tmp/tmp/built/pkgload’
+ERROR: dependency ‘rlang’ is not available for package ‘ellipsis’
+* removing ‘/tmp/tmp/built/ellipsis’
+ERROR: dependency ‘Rcpp’ is not available for package ‘minqa’
+* removing ‘/tmp/tmp/built/minqa’
+ERROR: dependency ‘Rcpp’ is not available for package ‘RcppEigen’
+* removing ‘/tmp/tmp/built/RcppEigen’
+ERROR: dependency ‘rlang’ is not available for package ‘lifecycle’
+* removing ‘/tmp/tmp/built/lifecycle’
+* installing *source* package ‘munsell’ ...
+** package ‘munsell’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘munsell’ as ‘munsell_0.5.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (munsell)
+* installing *source* package ‘quantreg’ ...
+** package ‘quantreg’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+using Fortran compiler: ‘GNU Fortran (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+gfortran  -fpic  -g -O2  -c akj.f -o akj.o
+gfortran  -fpic  -g -O2  -c boot.f -o boot.o
+gfortran  -fpic  -g -O2  -c bound.f -o bound.o
+gfortran  -fpic  -g -O2  -c boundc.f -o boundc.o
+gfortran  -fpic  -g -O2  -c brute.f -o brute.o
+gfortran  -fpic  -g -O2  -c chlfct.f -o chlfct.o
+gfortran  -fpic  -g -O2  -c cholesky.f -o cholesky.o
+cholesky.f:2948:72:
+
+ 2948 |                          IF  ( NODE )  400, 900, 500
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Arithmetic IF statement at (1)
+cholesky.f:2982:72:
+
+ 2982 |                  IF  ( RNODE )  1100, 1800, 1200
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Arithmetic IF statement at (1)
+cholesky.f:3299:72:
+
+ 3299 |                      IF  ( ENODE )  400, 800, 500
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Arithmetic IF statement at (1)
+cholesky.f:3356:72:
+
+ 3356 |                              IF  ( NODE )  1000, 2100, 1100
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Arithmetic IF statement at (1)
+cholesky.f:3430:72:
+
+ 3430 |                                          IF  ( NODE )  1700, 2000, 1800
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Arithmetic IF statement at (1)
+gfortran  -fpic  -g -O2  -c combos.f -o combos.o
+gfortran  -fpic  -g -O2  -c crqf.f -o crqf.o
+crqf.f:98:72:
+
+   98 |         DO 5 J=1,N
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Shared DO termination label 5 at (1)
+crqf.f:99:72:
+
+   99 |    5    WA(I,J) = X(I,J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 5 at (1)
+crqf.f:140:72:
+
+  140 |   25      WA(L,J) = X(I,J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 25 at (1)
+crqf.f:149:72:
+
+  149 |   50  SOL(J+1,1) = WF(J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 50 at (1)
+crqf.f:165:72:
+
+  165 |   60    XH(K,J) = X(I,J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 60 at (1)
+crqf.f:180:72:
+
+  180 |   80  S = S - WF(J)*X(I,J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 80 at (1)
+crqf.f:181:72:
+
+  181 |   90  WE(I) = S
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 90 at (1)
+crqf.f:192:72:
+
+  192 |  210  S = DMIN1(WD(J),S)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 210 at (1)
+crqf.f:205:72:
+
+  205 |  240    SOL(J+1,LSOL) = WF(J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 240 at (1)
+crqf.f:226:72:
+
+  226 |  250  WD(I) = ZERO
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 250 at (1)
+crqf.f:228:72:
+
+  228 |  260  WD(H(J)) = ONE
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 260 at (1)
+crqf.f:236:72:
+
+  236 |  270  S = S + X(I,J)*XH(J,KM)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 270 at (1)
+crqf.f:258:72:
+
+  258 |         DO 310 J = 1,N
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Shared DO termination label 310 at (1)
+crqf.f:259:72:
+
+  259 |  310    XH(K,J) = X(I,J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 310 at (1)
+crqf.f:273:72:
+
+  273 |  330  S = S + XH(K,J)*Y(H(J))
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 330 at (1)
+crqf.f:274:72:
+
+  274 |  340  WF(K) = S
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 340 at (1)
+crqf.f:278:72:
+
+  278 |  350  S = S - WF(J)*X(I,J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 350 at (1)
+crqf.f:279:72:
+
+  279 |  360  WE(I) = S
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 360 at (1)
+crqf.f:287:72:
+
+  287 |  370    SOL(J+1,LSOL) = WF(J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 370 at (1)
+crqf.f:330:72:
+
+  330 | 396       B2 = B2 + X(I,J) * SOL(J+1,LSOL - 1)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 396 at (1)
+crqf.f:369:72:
+
+  369 |  506  WF(J) = ZERO
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 506 at (1)
+crqf.f:376:72:
+
+  376 |  510      WA(L1,J) = X(I,J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 510 at (1)
+crqf.f:379:72:
+
+  379 |  514      WF(J) = WF(J) + X(I,J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 514 at (1)
+crqf.f:389:72:
+
+  389 |  520      WF(J) = WF(J) + (ONE - W) * X(I,J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 520 at (1)
+crqf.f:394:72:
+
+  394 |  534  WA(MAL,J) = WF(J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 534 at (1)
+crqf.f:413:72:
+
+  413 |  540        XH(K,J) = X(I,J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 540 at (1)
+crqf.f:429:72:
+
+  429 |  610  WD(I) = SOL(N+2,I)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 610 at (1)
+crqf.f:441:72:
+
+  441 |  650  WF(J) = S/V
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 650 at (1)
+crqf.f:445:72:
+
+  445 |  660    S = S + WF(J) * SOL(J+1,I)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 660 at (1)
+crqf.f:446:72:
+
+  446 |  670  SOL(N+2,I) = S
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 670 at (1)
+crqf.f:487:72:
+
+  487 |   60    A = A + X(I,K)*XH(K,J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 60 at (1)
+crqf.f:488:72:
+
+  488 |   70  WA(I,J) = A
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 70 at (1)
+crqf.f:497:72:
+
+  497 |   90  IFLAG(I) = 0
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 90 at (1)
+crqf.f:499:72:
+
+  499 |   95  IFLAG(H(J)) = 1
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 95 at (1)
+crqf.f:544:72:
+
+  544 |  130  IFLAG(J) = IFLAG(J+M)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 130 at (1)
+gfortran  -fpic  -g -O2  -c crqfnb.f -o crqfnb.o
+gfortran  -fpic  -g -O2  -c dsel05.f -o dsel05.o
+gfortran  -fpic  -g -O2  -c extract.f -o extract.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c frand.c -o frand.o
+gfortran  -fpic  -g -O2  -c grexp.f -o grexp.o
+gfortran  -fpic  -g -O2  -c idmin.f -o idmin.o
+gfortran  -fpic  -g -O2  -c iswap.f -o iswap.o
+iswap.f:40:72:
+
+   40 |       IF (INCX-1) 5,20,60
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Arithmetic IF statement at (1)
+gfortran  -fpic  -g -O2  -c kuantile.f -o kuantile.o
+gfortran  -fpic  -g -O2  -c kuantiles.f -o kuantiles.o
+gfortran  -fpic  -g -O2  -c linpack.f -o linpack.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c mcmb.c -o mcmb.o
+gfortran  -fpic  -g -O2  -c penalty.f -o penalty.o
+gfortran  -fpic  -g -O2  -c pfnb.f -o pfnb.o
+gfortran  -fpic  -g -O2  -c powell.f -o powell.o
+gfortran  -fpic  -g -O2  -c profnb.f -o profnb.o
+gfortran  -fpic  -g -O2  -c pwxy.f -o pwxy.o
+gfortran  -fpic  -g -O2  -c qfnb.f -o qfnb.o
+gfortran  -fpic  -g -O2  -c qselect.f -o qselect.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c quantreg_init.c -o quantreg_init.o
+gfortran  -fpic  -g -O2  -c rls.f -o rls.o
+gfortran  -fpic  -g -O2  -c rq0.f -o rq0.o
+gfortran  -fpic  -g -O2  -c rq1.f -o rq1.o
+gfortran  -fpic  -g -O2  -c rqbr.f -o rqbr.o
+gfortran  -fpic  -g -O2  -c rqfn.f -o rqfn.o
+gfortran  -fpic  -g -O2  -c rqfnb.f -o rqfnb.o
+gfortran  -fpic  -g -O2  -c rqfnc.f -o rqfnc.o
+gfortran  -fpic  -g -O2  -c rqs.f -o rqs.o
+gfortran  -fpic  -g -O2  -c sakj.f -o sakj.o
+gfortran  -fpic  -g -O2  -c sparskit2.f -o sparskit2.o
+gfortran  -fpic  -g -O2  -c srqfn.f -o srqfn.o
+gfortran  -fpic  -g -O2  -c srqfnc.f -o srqfnc.o
+gfortran  -fpic  -g -O2  -c srtpai.f -o srtpai.o
+srtpai.f:19:72:
+
+   19 |  10     P(1, I) = I
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 10 at (1)
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o quantreg.so akj.o boot.o bound.o boundc.o brute.o chlfct.o cholesky.o combos.o crqf.o crqfnb.o dsel05.o extract.o frand.o grexp.o idmin.o iswap.o kuantile.o kuantiles.o linpack.o mcmb.o penalty.o pfnb.o powell.o profnb.o pwxy.o qfnb.o qselect.o quantreg_init.o rls.o rq0.o rq1.o rqbr.o rqfn.o rqfnb.o rqfnc.o rqs.o sakj.o sparskit2.o srqfn.o srqfnc.o srtpai.o -llapack -lblas -lgfortran -lm -lquadmath -lgfortran -lm -lquadmath -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-quantreg/00new/quantreg/libs
+** R
+** data
+** demo
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘quantreg’ as ‘quantreg_5.97_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (quantreg)
+ERROR: dependencies ‘lifecycle’, ‘rlang’ are not available for package ‘vctrs’
+* removing ‘/tmp/tmp/built/vctrs’
+ERROR: dependencies ‘lifecycle’, ‘rlang’ are not available for package ‘scales’
+* removing ‘/tmp/tmp/built/scales’
+ERROR: dependencies ‘lifecycle’, ‘rlang’, ‘vctrs’ are not available for package ‘purrr’
+* removing ‘/tmp/tmp/built/purrr’
+ERROR: dependencies ‘lifecycle’, ‘rlang’, ‘vctrs’ are not available for package ‘stringr’
+* removing ‘/tmp/tmp/built/stringr’
+ERROR: dependencies ‘lifecycle’, ‘rlang’, ‘vctrs’ are not available for package ‘pillar’
+* removing ‘/tmp/tmp/built/pillar’
+ERROR: dependencies ‘lifecycle’, ‘rlang’, ‘vctrs’ are not available for package ‘tidyselect’
+* removing ‘/tmp/tmp/built/tidyselect’
+ERROR: dependencies ‘lifecycle’, ‘pillar’, ‘rlang’, ‘vctrs’ are not available for package ‘tibble’
+* removing ‘/tmp/tmp/built/tibble’
+ERROR: dependency ‘tibble’ is not available for package ‘rematch2’
+* removing ‘/tmp/tmp/built/rematch2’
+ERROR: dependencies ‘lifecycle’, ‘pillar’, ‘rlang’, ‘tibble’, ‘tidyselect’, ‘vctrs’ are not available for package ‘dplyr’
+* removing ‘/tmp/tmp/built/dplyr’
+ERROR: dependencies ‘rematch2’, ‘rlang’, ‘tibble’ are not available for package ‘waldo’
+* removing ‘/tmp/tmp/built/waldo’
+ERROR: dependencies ‘dplyr’, ‘lifecycle’, ‘purrr’, ‘rlang’, ‘stringr’, ‘tibble’, ‘tidyselect’, ‘vctrs’ are not available for package ‘tidyr’
+* removing ‘/tmp/tmp/built/tidyr’
+ERROR: dependencies ‘lifecycle’, ‘pkgload’, ‘rlang’, ‘waldo’ are not available for package ‘testthat’
+* removing ‘/tmp/tmp/built/testthat’
+ERROR: dependencies ‘dplyr’, ‘ellipsis’, ‘lifecycle’, ‘purrr’, ‘rlang’, ‘stringr’, ‘tibble’, ‘tidyr’ are not available for package ‘broom’
+* removing ‘/tmp/tmp/built/broom’
+ERROR: dependency ‘testthat’ is not available for package ‘nloptr’
+* removing ‘/tmp/tmp/built/nloptr’
+ERROR: dependencies ‘minqa’, ‘nloptr’, ‘Rcpp’, ‘RcppEigen’ are not available for package ‘lme4’
+* removing ‘/tmp/tmp/built/lme4’
+ERROR: dependencies ‘lme4’, ‘broom’, ‘dplyr’ are not available for package ‘pbkrtest’
+* removing ‘/tmp/tmp/built/pbkrtest’
+ERROR: dependencies ‘pbkrtest’, ‘lme4’, ‘scales’ are not available for package ‘car’
+* removing ‘/tmp/tmp/built/car’
+ERROR: dependency ‘car’ is not available for package ‘GEWIST’
+* removing ‘/tmp/tmp/built/GEWIST’
+
+The downloaded source packages are in
+	‘/tmp/RtmpOsfJG1/downloaded_packages’
+There were 25 warnings (use warnings() to see them)
+
+real	1m16.660s
+user	1m3.576s
+sys	0m17.145s

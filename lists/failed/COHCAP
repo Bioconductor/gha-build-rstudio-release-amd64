@@ -1,0 +1,261 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''COHCAP'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.19 (BiocManager 1.30.22), R Under development (unstable)
+  (2024-01-03 r85769)
+Installing package(s) 'COHCAP'
+also installing the dependencies ‘bitops’, ‘gtools’, ‘caTools’, ‘WriteXLS’, ‘COHCAPanno’, ‘RColorBrewer’, ‘gplots’, ‘Rcpp’, ‘RcppArmadillo’, ‘BH’
+
+trying URL 'https://cloud.r-project.org/src/contrib/bitops_1.0-7.tar.gz'
+Content type 'application/x-gzip' length 10809 bytes (10 KB)
+==================================================
+downloaded 10 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/gtools_3.9.5.tar.gz'
+Content type 'application/x-gzip' length 242029 bytes (236 KB)
+==================================================
+downloaded 236 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/caTools_1.18.2.tar.gz'
+Content type 'application/x-gzip' length 64960 bytes (63 KB)
+==================================================
+downloaded 63 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/WriteXLS_6.4.0.tar.gz'
+Content type 'application/x-gzip' length 770065 bytes (752 KB)
+==================================================
+downloaded 752 KB
+
+trying URL 'https://bioconductor.org/packages/3.19/data/experiment/src/contrib/COHCAPanno_1.39.0.tar.gz'
+Content type 'application/x-gzip' length 9732931 bytes (9.3 MB)
+==================================================
+downloaded 9.3 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/RColorBrewer_1.1-3.tar.gz'
+Content type 'application/x-gzip' length 11638 bytes (11 KB)
+==================================================
+downloaded 11 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/gplots_3.1.3.tar.gz'
+Content type 'application/x-gzip' length 520683 bytes (508 KB)
+==================================================
+downloaded 508 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/Rcpp_1.0.11.tar.gz'
+Content type 'application/x-gzip' length 2994004 bytes (2.9 MB)
+==================================================
+downloaded 2.9 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/RcppArmadillo_0.12.6.6.1.tar.gz'
+Content type 'application/x-gzip' length 1403301 bytes (1.3 MB)
+==================================================
+downloaded 1.3 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/BH_1.81.0-1.tar.gz'
+Content type 'application/x-gzip' length 13938979 bytes (13.3 MB)
+==================================================
+downloaded 13.3 MB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/COHCAP_1.49.0.tar.gz'
+Content type 'application/x-gzip' length 134060 bytes (130 KB)
+==================================================
+downloaded 130 KB
+
+* installing *source* package ‘bitops’ ...
+** package ‘bitops’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c bit-ops.c -o bit-ops.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cksum.c -o cksum.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o bitops.so bit-ops.o cksum.o init.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-bitops/00new/bitops/libs
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘bitops’ as ‘bitops_1.0-7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (bitops)
+* installing *source* package ‘gtools’ ...
+** package ‘gtools’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c roman2int.c -o roman2int.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c setTCPNoDelay.c -o setTCPNoDelay.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o gtools.so init.o roman2int.o setTCPNoDelay.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-gtools/00new/gtools/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘gtools’ as ‘gtools_3.9.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (gtools)
+* installing *source* package ‘WriteXLS’ ...
+** package ‘WriteXLS’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘WriteXLS’ as ‘WriteXLS_6.4.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (WriteXLS)
+* installing *source* package ‘COHCAPanno’ ...
+** using staged installation
+** data
+** inst
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘COHCAPanno’ as ‘COHCAPanno_1.39.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (COHCAPanno)
+* installing *source* package ‘RColorBrewer’ ...
+** package ‘RColorBrewer’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘RColorBrewer’ as ‘RColorBrewer_1.1-3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RColorBrewer)
+* installing *source* package ‘Rcpp’ ...
+** package ‘Rcpp’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/  -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c api.cpp -o api.o
+In file included from ../inst/include/Rcpp/routines.h:26,
+                 from ../inst/include/RcppCommon.h:128,
+                 from ../inst/include/Rcpp.h:27,
+                 from api.cpp:26:
+../inst/include/Rcpp/iostream/Rstreambuf.h: In member function ‘std::streamsize Rcpp::Rstreambuf<OUTPUT>::xsputn(const char*, std::streamsize) [with bool OUTPUT = true; std::streamsize = long int]’:
+../inst/include/Rcpp/iostream/Rstreambuf.h:53:20: warning: field precision specifier ‘.*’ expects argument of type ‘int’, but argument 2 has type ‘std::streamsize’ {aka ‘long int’} [-Wformat=]
+   53 |         Rprintf("%.*s", num, s);
+      |                  ~~^~   ~~~
+      |                    |    |
+      |                    int  std::streamsize {aka long int}
+../inst/include/Rcpp/iostream/Rstreambuf.h: In member function ‘std::streamsize Rcpp::Rstreambuf<OUTPUT>::xsputn(const char*, std::streamsize) [with bool OUTPUT = false; std::streamsize = long int]’:
+../inst/include/Rcpp/iostream/Rstreambuf.h:57:21: warning: field precision specifier ‘.*’ expects argument of type ‘int’, but argument 2 has type ‘std::streamsize’ {aka ‘long int’} [-Wformat=]
+   57 |         REprintf("%.*s", num, s);
+      |                   ~~^~   ~~~
+      |                     |    |
+      |                     int  std::streamsize {aka long int}
+In file included from ../inst/include/RcppCommon.h:181,
+                 from ../inst/include/Rcpp.h:27,
+                 from api.cpp:26:
+../inst/include/Rcpp/print.h: In function ‘void Rcpp::warningcall(SEXP, const string&)’:
+../inst/include/Rcpp/print.h:30:19: error: format not a string literal and no format arguments [-Werror=format-security]
+   30 |     Rf_warningcall(call, s.c_str());
+      |     ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+cc1plus: some warnings being treated as errors
+make: *** [/usr/local/lib/R/etc/Makeconf:200: api.o] Error 1
+ERROR: compilation failed for package ‘Rcpp’
+* removing ‘/tmp/tmp/built/Rcpp’
+* installing *source* package ‘BH’ ...
+** package ‘BH’ successfully unpacked and MD5 sums checked
+** using staged installation
+** inst
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘BH’ as ‘BH_1.81.0-1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (BH)
+* installing *source* package ‘caTools’ ...
+** package ‘caTools’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+using C++ compiler: ‘g++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Gif2R.cpp -o Gif2R.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c GifTools.cpp -o GifTools.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c caTools_init.c -o caTools_init.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c runfunc.c -o runfunc.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o caTools.so Gif2R.o GifTools.o caTools_init.o runfunc.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-caTools/00new/caTools/libs
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘caTools’ as ‘caTools_1.18.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (caTools)
+ERROR: dependency ‘Rcpp’ is not available for package ‘RcppArmadillo’
+* removing ‘/tmp/tmp/built/RcppArmadillo’
+* installing *source* package ‘gplots’ ...
+** package ‘gplots’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘gplots’ as ‘gplots_3.1.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (gplots)
+ERROR: dependencies ‘Rcpp’, ‘RcppArmadillo’ are not available for package ‘COHCAP’
+* removing ‘/tmp/tmp/built/COHCAP’
+
+The downloaded source packages are in
+	‘/tmp/RtmpAgMQdX/downloaded_packages’
+Warning messages:
+1: In install.packages(...) :
+  installation of package ‘Rcpp’ had non-zero exit status
+2: In install.packages(...) :
+  installation of package ‘RcppArmadillo’ had non-zero exit status
+3: In install.packages(...) :
+  installation of package ‘COHCAP’ had non-zero exit status
+
+real	0m44.677s
+user	0m35.455s
+sys	0m11.036s

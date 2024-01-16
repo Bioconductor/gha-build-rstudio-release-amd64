@@ -152,7 +152,6 @@
         "SpatialExperiment",
         "SummarizedExperiment",
         "VariantAnnotation",
-        "alabaster.base",
         "alabaster.bumpy",
         "alabaster.mae",
         "alabaster.matrix",
@@ -165,35 +164,26 @@
         "biomaRt",
         "rtracklayer"
     ],
-    "alabaster.base": [],
-    "alabaster.bumpy": [
-        "alabaster.base"
-    ],
+    "alabaster.bumpy": [],
     "alabaster.files": [
-        "Rsamtools",
-        "alabaster.base"
+        "Rsamtools"
     ],
     "alabaster.mae": [
         "HDF5Array",
         "MultiAssayExperiment",
         "SummarizedExperiment",
-        "alabaster.base",
         "alabaster.matrix",
         "alabaster.ranges",
         "alabaster.se"
     ],
     "alabaster.matrix": [
-        "HDF5Array",
-        "alabaster.base"
+        "HDF5Array"
     ],
-    "alabaster.ranges": [
-        "alabaster.base"
-    ],
+    "alabaster.ranges": [],
     "alabaster.sce": [
         "HDF5Array",
         "SingleCellExperiment",
         "SummarizedExperiment",
-        "alabaster.base",
         "alabaster.matrix",
         "alabaster.ranges",
         "alabaster.se"
@@ -201,7 +191,6 @@
     "alabaster.se": [
         "HDF5Array",
         "SummarizedExperiment",
-        "alabaster.base",
         "alabaster.matrix",
         "alabaster.ranges"
     ],
@@ -210,15 +199,12 @@
         "SingleCellExperiment",
         "SpatialExperiment",
         "SummarizedExperiment",
-        "alabaster.base",
         "alabaster.matrix",
         "alabaster.ranges",
         "alabaster.sce",
         "alabaster.se"
     ],
-    "alabaster.string": [
-        "alabaster.base"
-    ],
+    "alabaster.string": [],
     "alabaster.vcf": [
         "AnnotationDbi",
         "BSgenome",
@@ -228,7 +214,6 @@
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
-        "alabaster.base",
         "alabaster.matrix",
         "alabaster.ranges",
         "alabaster.se",

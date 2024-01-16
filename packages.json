@@ -337,7 +337,6 @@
         "annotate",
         "biomaRt",
         "chromVAR",
-        "fgsea",
         "motifmatchr",
         "projectR",
         "rGREAT",
@@ -600,7 +599,6 @@
         "ReactomePA",
         "clusterProfiler",
         "enrichplot",
-        "fgsea",
         "graphite"
     ],
     "BioCartaImage": [],
@@ -646,9 +644,7 @@
         "ensembldb",
         "rtracklayer"
     ],
-    "BioNAR": [
-        "fgsea"
-    ],
+    "BioNAR": [],
     "BioNERO": [
         "GENIE3",
         "annotate",
@@ -1021,7 +1017,6 @@
         "GOSemSim",
         "clusterProfiler",
         "enrichplot",
-        "fgsea",
         "graphite"
     ],
     "cbpManager": [],
@@ -1073,7 +1068,6 @@
     "CelliD": [
         "BiocSingular",
         "SingleCellExperiment",
-        "fgsea",
         "scater",
         "scuttle"
     ],
@@ -1098,8 +1092,7 @@
         "DOSE",
         "GOSemSim",
         "clusterProfiler",
-        "enrichplot",
-        "fgsea"
+        "enrichplot"
     ],
     "censcyt": [
         "FlowSOM",
@@ -1117,8 +1110,7 @@
         "GOSemSim",
         "RCy3",
         "clusterProfiler",
-        "enrichplot",
-        "fgsea"
+        "enrichplot"
     ],
     "CexoR": [
         "BSgenome",
@@ -1254,7 +1246,6 @@
         "Rsamtools",
         "biomaRt",
         "enrichplot",
-        "fgsea",
         "rtracklayer"
     ],
     "chipseq": [
@@ -1429,13 +1420,11 @@
     "clusterProfiler": [
         "DOSE",
         "GOSemSim",
-        "enrichplot",
-        "fgsea"
+        "enrichplot"
     ],
     "ClusterSignificance": [],
     "clustifyr": [
-        "SingleCellExperiment",
-        "fgsea"
+        "SingleCellExperiment"
     ],
     "ClustIRR": [],
     "cmapR": [],
@@ -1498,8 +1487,7 @@
     ],
     "CoGAPS": [
         "SingleCellExperiment",
-        "biomaRt",
-        "fgsea"
+        "biomaRt"
     ],
     "cogena": [],
     "Cogito": [
@@ -1634,7 +1622,6 @@
     "CoRegNet": [],
     "CoreGx": [
         "MultiAssayExperiment",
-        "fgsea",
         "piano"
     ],
     "corral": [
@@ -1714,7 +1701,6 @@
         "clusterProfiler",
         "dittoSeq",
         "enrichplot",
-        "fgsea",
         "pathview"
     ],
     "crisprBowtie": [
@@ -1839,8 +1825,7 @@
         "SingleCellExperiment"
     ],
     "cTRAP": [
-        "AnnotationHub",
-        "fgsea"
+        "AnnotationHub"
     ],
     "ctsGE": [],
     "CTSV": [
@@ -1999,7 +1984,6 @@
         "apeglm",
         "clusterProfiler",
         "enrichplot",
-        "fgsea",
         "genefilter",
         "pathview",
         "sva"
@@ -2313,8 +2297,7 @@
         "vsn"
     ],
     "DOSE": [
-        "GOSemSim",
-        "fgsea"
+        "GOSemSim"
     ],
     "doseR": [],
     "doubletrouble": [
@@ -2379,8 +2362,7 @@
         "DOSE",
         "GOSemSim",
         "clusterProfiler",
-        "enrichplot",
-        "fgsea"
+        "enrichplot"
     ],
     "easylift": [
         "GenomicAlignments",
@@ -2423,8 +2405,7 @@
         "DOSE",
         "GOSemSim",
         "clusterProfiler",
-        "enrichplot",
-        "fgsea"
+        "enrichplot"
     ],
     "EGSEA": [
         "BiocSingular",
@@ -2492,8 +2473,7 @@
     ],
     "enrichplot": [
         "DOSE",
-        "GOSemSim",
-        "fgsea"
+        "GOSemSim"
     ],
     "enrichTF": [
         "BSgenome",
@@ -2506,7 +2486,6 @@
         "annotate",
         "clusterProfiler",
         "enrichplot",
-        "fgsea",
         "motifmatchr",
         "pipeFrame",
         "rtracklayer"
@@ -2515,8 +2494,7 @@
         "DOSE",
         "GOSemSim",
         "RCy3",
-        "enrichplot",
-        "fgsea"
+        "enrichplot"
     ],
     "ensembldb": [
         "GenomicAlignments",
@@ -2556,7 +2534,6 @@
         "Rsamtools",
         "biomaRt",
         "enrichplot",
-        "fgsea",
         "genomation",
         "rtracklayer"
     ],
@@ -2699,7 +2676,6 @@
         "biomaRt",
         "clusterProfiler",
         "enrichplot",
-        "fgsea",
         "motifmatchr",
         "pipeFrame",
         "rtracklayer"
@@ -2733,7 +2709,6 @@
         "SGSeq",
         "affxparser",
         "biomaRt",
-        "fgsea",
         "rtracklayer"
     ],
     "EWCE": [
@@ -2809,7 +2784,6 @@
         "GOSemSim",
         "clusterProfiler",
         "enrichplot",
-        "fgsea",
         "rWikiPathways"
     ],
     "fastLiquidAssociation": [
@@ -2866,7 +2840,6 @@
         "rtracklayer"
     ],
     "FGNet": [],
-    "fgsea": [],
     "FilterFFPE": [
         "Rsamtools"
     ],
@@ -2985,9 +2958,7 @@
     "fmcsR": [
         "ChemmineR"
     ],
-    "fobitools": [
-        "fgsea"
-    ],
+    "fobitools": [],
     "FoldGO": [
         "topGO"
     ],
@@ -3075,7 +3046,6 @@
         "biomaRt",
         "clusterProfiler",
         "enrichplot",
-        "fgsea",
         "pathview"
     ],
     "gDNAx": [
@@ -3402,7 +3372,6 @@
         "GOSemSim",
         "clusterProfiler",
         "enrichplot",
-        "fgsea",
         "goProfiles"
     ],
     "goSTAG": [
@@ -3472,8 +3441,7 @@
     "gsean": [
         "PPInfer",
         "STRINGdb",
-        "biomaRt",
-        "fgsea"
+        "biomaRt"
     ],
     "GSgalgoR": [],
     "GSReg": [
@@ -3804,7 +3772,6 @@
         "bumphunter",
         "clusterProfiler",
         "enrichplot",
-        "fgsea",
         "genefilter",
         "graphite",
         "minfi",
@@ -3916,7 +3883,6 @@
         "SingleCellExperiment",
         "clusterProfiler",
         "enrichplot",
-        "fgsea",
         "metapod",
         "scater",
         "scran",
@@ -4068,7 +4034,6 @@
     "lipidr": [
         "MultiAssayExperiment",
         "MultiDataSet",
-        "fgsea",
         "ropls"
     ],
     "LiquidAssociation": [],
@@ -4178,7 +4143,6 @@
         "GOSemSim",
         "clusterProfiler",
         "enrichplot",
-        "fgsea",
         "pathview"
     ],
     "magpie": [
@@ -4287,7 +4251,6 @@
         "biomaRt",
         "biovizBase",
         "ensembldb",
-        "fgsea",
         "rtracklayer"
     ],
     "mdp": [],
@@ -4350,8 +4313,7 @@
         "DOSE",
         "GOSemSim",
         "MeSHDbi",
-        "enrichplot",
-        "fgsea"
+        "enrichplot"
     ],
     "meshr": [
         "Category",
@@ -4436,13 +4398,10 @@
         "GOSemSim",
         "RCy3",
         "clusterProfiler",
-        "enrichplot",
-        "fgsea"
+        "enrichplot"
     ],
     "metapod": [],
-    "metapone": [
-        "fgsea"
-    ],
+    "metapone": [],
     "metaSeq": [],
     "metaseqR2": [
         "BSgenome",
@@ -4534,7 +4493,6 @@
         "bumphunter",
         "clusterProfiler",
         "enrichplot",
-        "fgsea",
         "genefilter",
         "methylumi",
         "minfi",
@@ -4645,8 +4603,7 @@
         "DOSE",
         "GOSemSim",
         "clusterProfiler",
-        "enrichplot",
-        "fgsea"
+        "enrichplot"
     ],
     "MicrobiotaProcess": [],
     "microSTASIS": [
@@ -4742,7 +4699,6 @@
         "biomaRt",
         "clusterProfiler",
         "enrichplot",
-        "fgsea",
         "graphite",
         "iBBiG",
         "miRspongeR",
@@ -4756,7 +4712,6 @@
         "biomaRt",
         "clusterProfiler",
         "enrichplot",
-        "fgsea",
         "graphite"
     ],
     "mirTarRnaSeq": [],
@@ -4864,7 +4819,6 @@
         "Rsamtools",
         "clusterProfiler",
         "enrichplot",
-        "fgsea",
         "rtracklayer"
     ],
     "MoonlightR": [
@@ -4873,8 +4827,7 @@
         "TCGAbiolinks",
         "biomaRt",
         "clusterProfiler",
-        "enrichplot",
-        "fgsea"
+        "enrichplot"
     ],
     "mosaics": [
         "GenomicAlignments",
@@ -5138,7 +5091,6 @@
     "MultiDataSet": [],
     "multiGSEA": [
         "AnnotationHub",
-        "fgsea",
         "graphite"
     ],
     "multiHiCcompare": [
@@ -5245,9 +5197,7 @@
     ],
     "NanoStringDiff": [],
     "nanotatoR": [],
-    "NanoTube": [
-        "fgsea"
-    ],
+    "NanoTube": [],
     "NBAMSeq": [
         "DESeq2",
         "annotate",
@@ -5348,8 +5298,7 @@
         "SingleCellExperiment"
     ],
     "nipalsMCIA": [
-        "MultiAssayExperiment",
-        "fgsea"
+        "MultiAssayExperiment"
     ],
     "nnSVG": [
         "SingleCellExperiment",
@@ -5463,9 +5412,7 @@
         "MultiAssayExperiment",
         "RaggedExperiment"
     ],
-    "omicsViewer": [
-        "fgsea"
-    ],
+    "omicsViewer": [],
     "Omixer": [],
     "OmnipathR": [],
     "ompBAM": [],
@@ -5577,7 +5524,6 @@
         "Rsamtools",
         "annotate",
         "biomaRt",
-        "fgsea",
         "genefilter",
         "geneplotter",
         "sva"
@@ -5590,8 +5536,7 @@
         "GSEABase",
         "annotate",
         "clusterProfiler",
-        "enrichplot",
-        "fgsea"
+        "enrichplot"
     ],
     "PANR": [
         "RedeR"
@@ -5599,8 +5544,7 @@
     "PanViz": [],
     "pareg": [
         "DOSE",
-        "GOSemSim",
-        "fgsea"
+        "GOSemSim"
     ],
     "parglms": [],
     "partCNV": [
@@ -5618,8 +5562,7 @@
         "DOSE",
         "GOSemSim",
         "clusterProfiler",
-        "enrichplot",
-        "fgsea"
+        "enrichplot"
     ],
     "PathoStat": [
         "DESeq2"
@@ -5646,7 +5589,6 @@
         "CoreGx",
         "MultiAssayExperiment",
         "biomaRt",
-        "fgsea",
         "genefu",
         "piano",
         "survcomp",
@@ -5694,8 +5636,7 @@
     "pfamAnalyzeR": [],
     "pgxRpi": [],
     "phantasus": [
-        "DESeq2",
-        "fgsea"
+        "DESeq2"
     ],
     "phemd": [
         "SingleCellExperiment",
@@ -5730,9 +5671,7 @@
     "Pi": [
         "supraHex"
     ],
-    "piano": [
-        "fgsea"
-    ],
+    "piano": [],
     "PICS": [
         "GenomicAlignments",
         "Rsamtools"
@@ -5743,7 +5682,6 @@
         "ReactomePA",
         "clusterProfiler",
         "enrichplot",
-        "fgsea",
         "graphite"
     ],
     "PING": [
@@ -5828,8 +5766,7 @@
     ],
     "PPInfer": [
         "STRINGdb",
-        "biomaRt",
-        "fgsea"
+        "biomaRt"
     ],
     "pram": [
         "GenomicAlignments",
@@ -5909,7 +5846,6 @@
         "biomaRt",
         "chipseq",
         "enrichplot",
-        "fgsea",
         "rGREAT",
         "rtracklayer",
         "soGGi"
@@ -6272,7 +6208,6 @@
         "DOSE",
         "GOSemSim",
         "enrichplot",
-        "fgsea",
         "graphite"
     ],
     "receptLoss": [],
@@ -6329,8 +6264,7 @@
         "BiocSet",
         "DESeq2",
         "DOSE",
-        "GOSemSim",
-        "fgsea"
+        "GOSemSim"
     ],
     "regionalpcs": [
         "BiocSingular",
@@ -6342,7 +6276,6 @@
         "EpiDISH",
         "SingleCellExperiment",
         "TOAST",
-        "fgsea",
         "metapod",
         "scater",
         "scran",
@@ -7145,7 +7078,6 @@
         "SingleCellExperiment",
         "annotate",
         "enrichplot",
-        "fgsea",
         "genefilter",
         "graphite",
         "meshr",
@@ -7197,7 +7129,6 @@
         "Rsamtools",
         "biomaRt",
         "enrichplot",
-        "fgsea",
         "rtracklayer"
     ],
     "selectKSigs": [
@@ -7228,7 +7159,6 @@
         "biomaRt",
         "clusterProfiler",
         "enrichplot",
-        "fgsea",
         "heatmaps",
         "rtracklayer",
         "seqArchR"
@@ -7338,8 +7268,7 @@
         "GSEABase",
         "annotate",
         "clusterProfiler",
-        "enrichplot",
-        "fgsea"
+        "enrichplot"
     ],
     "signeR": [
         "BSgenome",
@@ -7799,8 +7728,7 @@
     ],
     "SVMDO": [
         "DOSE",
-        "GOSemSim",
-        "fgsea"
+        "GOSemSim"
     ],
     "SWATH2stats": [
         "biomaRt"
@@ -7900,8 +7828,7 @@
         "GOSemSim",
         "RTCGA",
         "STRINGdb",
-        "enrichplot",
-        "fgsea"
+        "enrichplot"
     ],
     "TEKRABber": [
         "DESeq2",
@@ -7987,7 +7914,6 @@
         "biomaRt",
         "clusterProfiler",
         "enrichplot",
-        "fgsea",
         "rWikiPathways"
     ],
     "TIN": [],
@@ -8045,7 +7971,6 @@
     "ToxicoGx": [
         "CoreGx",
         "MultiAssayExperiment",
-        "fgsea",
         "piano"
     ],
     "TPP": [
@@ -8348,7 +8273,6 @@
         "AnnotationForge",
         "GOSemSim",
         "biomaRt",
-        "fgsea",
         "topGO"
     ],
     "vissE": [

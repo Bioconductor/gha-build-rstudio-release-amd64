@@ -123,7 +123,6 @@
         "SpatialExperiment",
         "VariantAnnotation",
         "alabaster.mae",
-        "alabaster.ranges",
         "alabaster.sce",
         "alabaster.se",
         "alabaster.spatial",
@@ -136,22 +135,16 @@
     ],
     "alabaster.mae": [
         "MultiAssayExperiment",
-        "alabaster.ranges",
         "alabaster.se"
     ],
-    "alabaster.ranges": [],
     "alabaster.sce": [
         "SingleCellExperiment",
-        "alabaster.ranges",
         "alabaster.se"
     ],
-    "alabaster.se": [
-        "alabaster.ranges"
-    ],
+    "alabaster.se": [],
     "alabaster.spatial": [
         "SingleCellExperiment",
         "SpatialExperiment",
-        "alabaster.ranges",
         "alabaster.sce",
         "alabaster.se"
     ],
@@ -161,7 +154,6 @@
         "GenomicFeatures",
         "Rsamtools",
         "VariantAnnotation",
-        "alabaster.ranges",
         "alabaster.se",
         "biomaRt",
         "rtracklayer"

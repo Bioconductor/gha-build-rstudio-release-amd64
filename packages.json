@@ -1460,19 +1460,16 @@
         "SpatialExperiment"
     ],
     "CytoML": [
-        "flowWorkspace",
         "ggcyto",
         "openCyto"
     ],
     "CytoPipeline": [
         "PeacoQC",
-        "flowWorkspace",
         "ggcyto"
     ],
     "CytoPipelineGUI": [
         "CytoPipeline",
         "PeacoQC",
-        "flowWorkspace",
         "ggcyto"
     ],
     "cytoviewer": [
@@ -2257,19 +2254,14 @@
     ],
     "flowCut": [],
     "flowGate": [
-        "flowWorkspace",
         "ggcyto"
     ],
     "flowGraph": [],
     "flowMap": [],
-    "flowStats": [
-        "flowWorkspace"
-    ],
+    "flowStats": [],
     "flowVS": [
-        "flowStats",
-        "flowWorkspace"
+        "flowStats"
     ],
-    "flowWorkspace": [],
     "fmcsR": [],
     "FoldGO": [],
     "frenchFISH": [],
@@ -2519,9 +2511,7 @@
         "ensembldb",
         "rtracklayer"
     ],
-    "ggcyto": [
-        "flowWorkspace"
-    ],
+    "ggcyto": [],
     "ggmanh": [
         "SeqArray",
         "gdsfmt"
@@ -2888,9 +2878,7 @@
     "IMMAN": [
         "STRINGdb"
     ],
-    "ImmuneSpaceR": [
-        "flowWorkspace"
-    ],
+    "ImmuneSpaceR": [],
     "immunotation": [],
     "INDEED": [],
     "iNETgrate": [
@@ -4172,9 +4160,7 @@
     "OncoSimulR": [],
     "onlineFDR": [],
     "ontoProc": [],
-    "openCyto": [
-        "flowWorkspace"
-    ],
+    "openCyto": [],
     "OpenStats": [],
     "oposSOM": [],
     "oppar": [
@@ -4294,9 +4280,7 @@
         "affxparser",
         "oligo"
     ],
-    "PeacoQC": [
-        "flowWorkspace"
-    ],
+    "PeacoQC": [],
     "peakPantheR": [
         "MSnbase",
         "MsCoreUtils",

@@ -18,9 +18,7 @@
         "Rsamtools"
     ],
     "ADAMgui": [],
-    "adductomicsR": [
-        "mzR"
-    ],
+    "adductomicsR": [],
     "ADImpute": [],
     "affxparser": [],
     "affycoretools": [
@@ -323,7 +321,6 @@
         "PSMatch",
         "QFeatures",
         "genefilter",
-        "mzR",
         "pRoloc"
     ],
     "banocc": [],
@@ -684,7 +681,6 @@
         "PSMatch",
         "QFeatures",
         "Spectra",
-        "mzR",
         "xcms"
     ],
     "canceR": [
@@ -1044,15 +1040,13 @@
         "PSMatch",
         "QFeatures",
         "Spectra",
-        "mzR",
         "xcms"
     ],
     "clstutils": [],
     "CluMSID": [
         "MSnbase",
         "PSMatch",
-        "QFeatures",
-        "mzR"
+        "QFeatures"
     ],
     "clusterExperiment": [
         "genefilter",
@@ -1233,7 +1227,6 @@
         "PSMatch",
         "QFeatures",
         "Spectra",
-        "mzR",
         "xcms"
     ],
     "cosmosR": [
@@ -1454,8 +1447,7 @@
     "DAPAR": [
         "MSnbase",
         "PSMatch",
-        "QFeatures",
-        "mzR"
+        "QFeatures"
     ],
     "DART": [],
     "dcanr": [],
@@ -1538,8 +1530,7 @@
     "DEP": [
         "MSnbase",
         "PSMatch",
-        "QFeatures",
-        "mzR"
+        "QFeatures"
     ],
     "DepecheR": [
         "mixOmics"
@@ -1596,9 +1587,7 @@
         "Rsamtools",
         "genefilter"
     ],
-    "DIAlignR": [
-        "mzR"
-    ],
+    "DIAlignR": [],
     "DiffBind": [
         "BSgenome",
         "GenomicAlignments",
@@ -2126,7 +2115,6 @@
         "PSMatch",
         "QFeatures",
         "Spectra",
-        "mzR",
         "xcms"
     ],
     "FLAMES": [
@@ -2855,7 +2843,6 @@
         "PSMatch",
         "QFeatures",
         "Spectra",
-        "mzR",
         "xcms"
     ],
     "IRISFGM": [
@@ -2988,7 +2975,6 @@
         "PSMatch",
         "QFeatures",
         "Spectra",
-        "mzR",
         "xcms"
     ],
     "LoomExperiment": [],
@@ -3061,7 +3047,6 @@
         "PSMatch",
         "QFeatures",
         "Spectra",
-        "mzR",
         "xcms"
     ],
     "MANOR": [],
@@ -3219,7 +3204,6 @@
         "PSMatch",
         "QFeatures",
         "Spectra",
-        "mzR",
         "xcms"
     ],
     "MetaNeighbor": [],
@@ -3495,7 +3479,6 @@
         "PSMatch",
         "QFeatures",
         "Spectra",
-        "mzR",
         "xcms"
     ],
     "MOGAMUN": [],
@@ -3628,36 +3611,30 @@
     "msmsEDA": [
         "MSnbase",
         "PSMatch",
-        "QFeatures",
-        "mzR"
+        "QFeatures"
     ],
     "msmsTests": [
         "MSnbase",
         "PSMatch",
         "QFeatures",
-        "msmsEDA",
-        "mzR"
+        "msmsEDA"
     ],
     "MSnbase": [
         "PSMatch",
-        "QFeatures",
-        "mzR"
+        "QFeatures"
     ],
     "MSnID": [
         "MSnbase",
         "PSMatch",
         "QFeatures",
         "msmsEDA",
-        "msmsTests",
-        "mzR"
+        "msmsTests"
     ],
     "MSPrep": [
         "genefilter",
         "sva"
     ],
-    "msPurity": [
-        "mzR"
-    ],
+    "msPurity": [],
     "msqrob2": [
         "QFeatures"
     ],
@@ -3685,7 +3662,6 @@
         "MSnbase",
         "PSMatch",
         "QFeatures",
-        "mzR",
         "qcmetrics"
     ],
     "MSstatsQCgui": [
@@ -3693,7 +3669,6 @@
         "MSstatsQC",
         "PSMatch",
         "QFeatures",
-        "mzR",
         "qcmetrics"
     ],
     "MSstatsShiny": [
@@ -3774,7 +3749,6 @@
         "VariantAnnotation",
         "rtracklayer"
     ],
-    "mzR": [],
     "NADfinder": [
         "ATACseqQC",
         "BSgenome",
@@ -3813,7 +3787,6 @@
         "PSMatch",
         "QFeatures",
         "Spectra",
-        "mzR",
         "xcms"
     ],
     "NCIgraph": [],
@@ -4073,8 +4046,7 @@
     "peakPantheR": [
         "MSnbase",
         "PSMatch",
-        "QFeatures",
-        "mzR"
+        "QFeatures"
     ],
     "PECA": [
         "ROTS",
@@ -4228,8 +4200,7 @@
     "PrInCE": [
         "MSnbase",
         "PSMatch",
-        "QFeatures",
-        "mzR"
+        "QFeatures"
     ],
     "proActiv": [
         "GenomicAlignments",
@@ -4268,8 +4239,7 @@
         "MSnbase",
         "PSMatch",
         "QFeatures",
-        "genefilter",
-        "mzR"
+        "genefilter"
     ],
     "pRolocGUI": [
         "MLInterfaces",
@@ -4277,7 +4247,6 @@
         "PSMatch",
         "QFeatures",
         "genefilter",
-        "mzR",
         "pRoloc"
     ],
     "PROMISE": [
@@ -4291,8 +4260,7 @@
         "DAPAR",
         "MSnbase",
         "PSMatch",
-        "QFeatures",
-        "mzR"
+        "QFeatures"
     ],
     "proteasy": [
         "GenomicAlignments",
@@ -4332,8 +4300,7 @@
     "ptairMS": [
         "MSnbase",
         "PSMatch",
-        "QFeatures",
-        "mzR"
+        "QFeatures"
     ],
     "puma": [
         "affxparser",
@@ -4380,8 +4347,7 @@
     "qPLEXanalyzer": [
         "MSnbase",
         "PSMatch",
-        "QFeatures",
-        "mzR"
+        "QFeatures"
     ],
     "qsea": [
         "BSgenome",
@@ -4766,7 +4732,6 @@
         "PSMatch",
         "QFeatures",
         "Spectra",
-        "mzR",
         "xcms"
     ],
     "RITAN": [
@@ -4797,8 +4762,7 @@
         "ChemmineOB",
         "MSnbase",
         "PSMatch",
-        "QFeatures",
-        "mzR"
+        "QFeatures"
     ],
     "Rmmquant": [
         "GenomicAlignments",
@@ -5363,9 +5327,7 @@
     "SIM": [
         "globaltest"
     ],
-    "SIMAT": [
-        "mzR"
-    ],
+    "SIMAT": [],
     "SimFFPE": [
         "Rsamtools"
     ],
@@ -5689,8 +5651,7 @@
     "synapter": [
         "MSnbase",
         "PSMatch",
-        "QFeatures",
-        "mzR"
+        "QFeatures"
     ],
     "synergyfinder": [],
     "synlet": [],
@@ -5727,9 +5688,7 @@
         "Rsamtools",
         "rtracklayer"
     ],
-    "TargetDecoy": [
-        "mzR"
-    ],
+    "TargetDecoy": [],
     "TBSignatureProfiler": [
         "ASSIGN",
         "GSEABase",
@@ -5846,8 +5805,7 @@
     "topdownr": [
         "MSnbase",
         "PSMatch",
-        "QFeatures",
-        "mzR"
+        "QFeatures"
     ],
     "ToxicoGx": [
         "CoreGx"
@@ -6162,8 +6120,7 @@
         "MsFeatures",
         "PSMatch",
         "QFeatures",
-        "Spectra",
-        "mzR"
+        "Spectra"
     ],
     "xcore": [],
     "XDE": [
@@ -6180,8 +6137,7 @@
         "rtracklayer"
     ],
     "yamss": [
-        "EBImage",
-        "mzR"
+        "EBImage"
     ],
     "YAPSA": [
         "BSgenome",

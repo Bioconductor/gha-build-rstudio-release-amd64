@@ -272,7 +272,6 @@
     ],
     "bandle": [
         "MLInterfaces",
-        "MSnbase",
         "genefilter",
         "pRoloc"
     ],
@@ -578,7 +577,6 @@
         "rtracklayer"
     ],
     "CAMERA": [
-        "MSnbase",
         "xcms"
     ],
     "canceR": [
@@ -867,13 +865,10 @@
         "rtracklayer"
     ],
     "cliqueMS": [
-        "MSnbase",
         "xcms"
     ],
     "clstutils": [],
-    "CluMSID": [
-        "MSnbase"
-    ],
+    "CluMSID": [],
     "clusterExperiment": [
         "genefilter",
         "zinbwave"
@@ -1018,7 +1013,6 @@
     ],
     "CoRegNet": [],
     "cosmiq": [
-        "MSnbase",
         "xcms"
     ],
     "cosmosR": [
@@ -1190,9 +1184,7 @@
         "rtracklayer",
         "sva"
     ],
-    "DAPAR": [
-        "MSnbase"
-    ],
+    "DAPAR": [],
     "DART": [],
     "dcanr": [],
     "DCATS": [],
@@ -1256,9 +1248,7 @@
         "ensembldb",
         "rtracklayer"
     ],
-    "DEP": [
-        "MSnbase"
-    ],
+    "DEP": [],
     "DepInfeR": [],
     "DEqMS": [],
     "derfinder": [
@@ -1754,7 +1744,6 @@
     "FitHiC": [],
     "flagme": [
         "CAMERA",
-        "MSnbase",
         "xcms"
     ],
     "FLAMES": [
@@ -2378,7 +2367,6 @@
     "iPath": [],
     "IPO": [
         "CAMERA",
-        "MSnbase",
         "xcms"
     ],
     "IRISFGM": [
@@ -2466,7 +2454,6 @@
     ],
     "LOBSTAHS": [
         "CAMERA",
-        "MSnbase",
         "xcms"
     ],
     "lumi": [
@@ -2520,7 +2507,6 @@
     ],
     "MAIT": [
         "CAMERA",
-        "MSnbase",
         "xcms"
     ],
     "MANOR": [],
@@ -2643,7 +2629,6 @@
     ],
     "metaMS": [
         "CAMERA",
-        "MSnbase",
         "xcms"
     ],
     "metaSeq": [],
@@ -2848,7 +2833,6 @@
         "Linnorm"
     ],
     "MobilityTransformR": [
-        "MSnbase",
         "xcms"
     ],
     "mogsa": [
@@ -2933,16 +2917,11 @@
         "ggbio",
         "rtracklayer"
     ],
-    "msmsEDA": [
-        "MSnbase"
-    ],
+    "msmsEDA": [],
     "msmsTests": [
-        "MSnbase",
         "msmsEDA"
     ],
-    "MSnbase": [],
     "MSnID": [
-        "MSnbase",
         "msmsEDA",
         "msmsTests"
     ],
@@ -2965,11 +2944,9 @@
         "MSstatsTMT"
     ],
     "MSstatsQC": [
-        "MSnbase",
         "qcmetrics"
     ],
     "MSstatsQCgui": [
-        "MSnbase",
         "MSstatsQC",
         "qcmetrics"
     ],
@@ -3064,7 +3041,6 @@
         "genefilter"
     ],
     "ncGTW": [
-        "MSnbase",
         "xcms"
     ],
     "ndexr": [
@@ -3265,9 +3241,7 @@
         "affxparser",
         "oligo"
     ],
-    "peakPantheR": [
-        "MSnbase"
-    ],
+    "peakPantheR": [],
     "PECA": [
         "ROTS",
         "genefilter"
@@ -3379,9 +3353,7 @@
         "ensembldb",
         "rtracklayer"
     ],
-    "PrInCE": [
-        "MSnbase"
-    ],
+    "PrInCE": [],
     "proActiv": [
         "GenomicAlignments",
         "GenomicFeatures",
@@ -3415,12 +3387,10 @@
     "projectR": [],
     "pRoloc": [
         "MLInterfaces",
-        "MSnbase",
         "genefilter"
     ],
     "pRolocGUI": [
         "MLInterfaces",
-        "MSnbase",
         "genefilter",
         "pRoloc"
     ],
@@ -3429,8 +3399,7 @@
         "sva"
     ],
     "Prostar": [
-        "DAPAR",
-        "MSnbase"
+        "DAPAR"
     ],
     "proteasy": [
         "GenomicAlignments",
@@ -3462,9 +3431,7 @@
         "recount",
         "rtracklayer"
     ],
-    "ptairMS": [
-        "MSnbase"
-    ],
+    "ptairMS": [],
     "puma": [
         "affxparser",
         "oligo"
@@ -3504,9 +3471,7 @@
         "Rsamtools",
         "rtracklayer"
     ],
-    "qPLEXanalyzer": [
-        "MSnbase"
-    ],
+    "qPLEXanalyzer": [],
     "qsea": [
         "BSgenome",
         "GenomicAlignments",
@@ -3856,7 +3821,6 @@
         "rtracklayer"
     ],
     "Risa": [
-        "MSnbase",
         "xcms"
     ],
     "RITAN": [
@@ -3884,8 +3848,7 @@
         "rtracklayer"
     ],
     "RMassBank": [
-        "ChemmineOB",
-        "MSnbase"
+        "ChemmineOB"
     ],
     "Rmmquant": [
         "GenomicAlignments",
@@ -4569,9 +4532,7 @@
     "synapsis": [
         "EBImage"
     ],
-    "synapter": [
-        "MSnbase"
-    ],
+    "synapter": [],
     "synergyfinder": [],
     "synlet": [],
     "syntenet": [
@@ -4688,9 +4649,7 @@
         "genefilter"
     ],
     "topconfects": [],
-    "topdownr": [
-        "MSnbase"
-    ],
+    "topdownr": [],
     "TPP": [
         "biobroom"
     ],
@@ -4945,9 +4904,7 @@
     "wppi": [
         "OmnipathR"
     ],
-    "xcms": [
-        "MSnbase"
-    ],
+    "xcms": [],
     "XDE": [
         "GeneMeta",
         "genefilter"

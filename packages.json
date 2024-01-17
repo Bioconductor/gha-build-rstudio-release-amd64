@@ -641,7 +641,6 @@
     ],
     "CAMERA": [
         "MSnbase",
-        "MetaboCoreUtils",
         "MsExperiment",
         "MsFeatures",
         "PSMatch",
@@ -988,7 +987,6 @@
     ],
     "cliqueMS": [
         "MSnbase",
-        "MetaboCoreUtils",
         "MsExperiment",
         "MsFeatures",
         "PSMatch",
@@ -1119,7 +1117,6 @@
         "rtracklayer"
     ],
     "CompoundDb": [
-        "MetaboCoreUtils",
         "Spectra"
     ],
     "ComPrAn": [],
@@ -1169,7 +1166,6 @@
     "CoSIA": [],
     "cosmiq": [
         "MSnbase",
-        "MetaboCoreUtils",
         "MsExperiment",
         "MsFeatures",
         "PSMatch",
@@ -2027,7 +2023,6 @@
     "flagme": [
         "CAMERA",
         "MSnbase",
-        "MetaboCoreUtils",
         "MsExperiment",
         "MsFeatures",
         "PSMatch",
@@ -2721,7 +2716,6 @@
     "IPO": [
         "CAMERA",
         "MSnbase",
-        "MetaboCoreUtils",
         "MsExperiment",
         "MsFeatures",
         "PSMatch",
@@ -2846,7 +2840,6 @@
     "LOBSTAHS": [
         "CAMERA",
         "MSnbase",
-        "MetaboCoreUtils",
         "MsExperiment",
         "MsFeatures",
         "PSMatch",
@@ -2918,7 +2911,6 @@
     "MAIT": [
         "CAMERA",
         "MSnbase",
-        "MetaboCoreUtils",
         "MsExperiment",
         "MsFeatures",
         "PSMatch",
@@ -3037,11 +3029,9 @@
     "metabCombiner": [],
     "MetaboAnnotation": [
         "CompoundDb",
-        "MetaboCoreUtils",
         "QFeatures",
         "Spectra"
     ],
-    "MetaboCoreUtils": [],
     "metabolomicsWorkbenchR": [
         "struct"
     ],
@@ -3071,7 +3061,6 @@
     "metaMS": [
         "CAMERA",
         "MSnbase",
-        "MetaboCoreUtils",
         "MsExperiment",
         "MsFeatures",
         "PSMatch",
@@ -3102,7 +3091,6 @@
         "topconfects"
     ],
     "MetCirc": [
-        "MetaboCoreUtils",
         "Spectra"
     ],
     "MethReg": [
@@ -3337,7 +3325,6 @@
     ],
     "MobilityTransformR": [
         "MSnbase",
-        "MetaboCoreUtils",
         "MsExperiment",
         "MsFeatures",
         "PSMatch",
@@ -3425,28 +3412,22 @@
     ],
     "MQmetrics": [],
     "MsBackendMassbank": [
-        "MetaboCoreUtils",
         "Spectra"
     ],
     "MsBackendMgf": [
-        "MetaboCoreUtils",
         "Spectra"
     ],
     "MsBackendMsp": [
-        "MetaboCoreUtils",
         "Spectra"
     ],
     "MsBackendRawFileReader": [
-        "MetaboCoreUtils",
         "Spectra"
     ],
     "MsBackendSql": [
-        "MetaboCoreUtils",
         "Spectra"
     ],
     "MsDataHub": [],
     "MsExperiment": [
-        "MetaboCoreUtils",
         "QFeatures",
         "Spectra"
     ],
@@ -3500,7 +3481,6 @@
         "QFeatures"
     ],
     "MsQuality": [
-        "MetaboCoreUtils",
         "MsExperiment",
         "QFeatures",
         "Spectra"
@@ -3636,7 +3616,6 @@
     ],
     "ncGTW": [
         "MSnbase",
-        "MetaboCoreUtils",
         "MsExperiment",
         "MsFeatures",
         "PSMatch",
@@ -4537,7 +4516,6 @@
     ],
     "Risa": [
         "MSnbase",
-        "MetaboCoreUtils",
         "MsExperiment",
         "MsFeatures",
         "PSMatch",
@@ -5269,9 +5247,7 @@
     "speckle": [],
     "specL": [],
     "SpeCond": [],
-    "Spectra": [
-        "MetaboCoreUtils"
-    ],
+    "Spectra": [],
     "SpectralTAD": [
         "HiCcompare"
     ],
@@ -5868,7 +5844,6 @@
     ],
     "xcms": [
         "MSnbase",
-        "MetaboCoreUtils",
         "MsExperiment",
         "MsFeatures",
         "PSMatch",

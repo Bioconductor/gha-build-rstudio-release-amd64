@@ -403,7 +403,6 @@
         "dearseq",
         "decontam",
         "genefilter",
-        "metagenomeSeq",
         "mia",
         "mixOmics",
         "scater",
@@ -3197,12 +3196,9 @@
         "Rsamtools",
         "rtracklayer"
     ],
-    "Maaslin2": [
-        "metagenomeSeq"
-    ],
+    "Maaslin2": [],
     "Macarron": [
-        "Maaslin2",
-        "metagenomeSeq"
+        "Maaslin2"
     ],
     "MACSQuantifyR": [],
     "MACSr": [
@@ -3304,9 +3300,7 @@
         "gdsfmt",
         "oligoClasses"
     ],
-    "mbQTL": [
-        "metagenomeSeq"
-    ],
+    "mbQTL": [],
     "mCSEA": [
         "BSgenome",
         "GenomicAlignments",
@@ -3415,7 +3409,6 @@
         "Rsamtools",
         "rtracklayer"
     ],
-    "metagenomeSeq": [],
     "metaMS": [
         "CAMERA",
         "MSnbase",
@@ -3579,17 +3572,12 @@
         "scater",
         "scuttle"
     ],
-    "microbiomeDASim": [
-        "metagenomeSeq"
-    ],
-    "microbiomeExplorer": [
-        "metagenomeSeq"
-    ],
+    "microbiomeDASim": [],
+    "microbiomeExplorer": [],
     "microbiomeMarker": [
         "ANCOMBC",
         "TreeSummarizedExperiment",
         "decontam",
-        "metagenomeSeq",
         "mia",
         "scater",
         "scuttle"
@@ -3714,8 +3702,7 @@
         "rtracklayer"
     ],
     "MMUPHin": [
-        "Maaslin2",
-        "metagenomeSeq"
+        "Maaslin2"
     ],
     "mnem": [
         "Linnorm"

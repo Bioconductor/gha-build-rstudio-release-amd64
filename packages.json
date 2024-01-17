@@ -782,7 +782,6 @@
         "rtracklayer"
     ],
     "CATALYST": [
-        "FlowSOM",
         "SingleCellExperiment",
         "scater",
         "scuttle"
@@ -893,7 +892,6 @@
         "enrichplot"
     ],
     "censcyt": [
-        "FlowSOM",
         "diffcyt"
     ],
     "Cepo": [
@@ -1547,12 +1545,10 @@
     ],
     "CyTOFpower": [
         "CytoGLMM",
-        "FlowSOM",
         "diffcyt"
     ],
     "cytofQC": [
         "CATALYST",
-        "FlowSOM",
         "SingleCellExperiment",
         "scater",
         "scuttle"
@@ -1798,9 +1794,7 @@
         "rtracklayer",
         "systemPipeR"
     ],
-    "diffcyt": [
-        "FlowSOM"
-    ],
+    "diffcyt": [],
     "DifferentialRegulation": [
         "SingleCellExperiment"
     ],
@@ -2417,7 +2411,6 @@
     "flowGraph": [],
     "flowMap": [],
     "flowMerge": [],
-    "FlowSOM": [],
     "flowSpecs": [],
     "flowStats": [
         "flowWorkspace"
@@ -3573,9 +3566,7 @@
         "mygene",
         "rtracklayer"
     ],
-    "MetaCyto": [
-        "FlowSOM"
-    ],
+    "MetaCyto": [],
     "metagene": [
         "GenomicAlignments",
         "GenomicFeatures",
@@ -6227,7 +6218,6 @@
     ],
     "spillR": [
         "CATALYST",
-        "FlowSOM",
         "SingleCellExperiment",
         "scater",
         "scuttle"
@@ -6637,7 +6627,6 @@
         "RedeR"
     ],
     "treekoR": [
-        "FlowSOM",
         "SingleCellExperiment",
         "diffcyt"
     ],

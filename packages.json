@@ -1643,21 +1643,18 @@
     "CytoML": [
         "flowWorkspace",
         "ggcyto",
-        "ncdfFlow",
         "openCyto"
     ],
     "CytoPipeline": [
         "PeacoQC",
         "flowWorkspace",
-        "ggcyto",
-        "ncdfFlow"
+        "ggcyto"
     ],
     "CytoPipelineGUI": [
         "CytoPipeline",
         "PeacoQC",
         "flowWorkspace",
-        "ggcyto",
-        "ncdfFlow"
+        "ggcyto"
     ],
     "cytoviewer": [
         "EBImage",
@@ -2534,8 +2531,7 @@
     "flowFP": [],
     "flowGate": [
         "flowWorkspace",
-        "ggcyto",
-        "ncdfFlow"
+        "ggcyto"
     ],
     "flowGraph": [],
     "flowMap": [],
@@ -2544,19 +2540,15 @@
     "FlowSOM": [],
     "flowSpecs": [],
     "flowStats": [
-        "flowWorkspace",
-        "ncdfFlow"
+        "flowWorkspace"
     ],
     "flowTime": [],
     "flowTrans": [],
     "flowVS": [
         "flowStats",
-        "flowWorkspace",
-        "ncdfFlow"
+        "flowWorkspace"
     ],
-    "flowWorkspace": [
-        "ncdfFlow"
-    ],
+    "flowWorkspace": [],
     "fmcsR": [
         "ChemmineR"
     ],
@@ -2830,8 +2822,7 @@
         "rtracklayer"
     ],
     "ggcyto": [
-        "flowWorkspace",
-        "ncdfFlow"
+        "flowWorkspace"
     ],
     "ggmanh": [
         "SeqArray",
@@ -3247,8 +3238,7 @@
         "STRINGdb"
     ],
     "ImmuneSpaceR": [
-        "flowWorkspace",
-        "ncdfFlow"
+        "flowWorkspace"
     ],
     "immunoClust": [],
     "immunotation": [],
@@ -4526,7 +4516,6 @@
         "DESeq2",
         "genefilter"
     ],
-    "ncdfFlow": [],
     "ncGTW": [
         "MSnbase",
         "MetaboCoreUtils",
@@ -4724,8 +4713,7 @@
     "onlineFDR": [],
     "ontoProc": [],
     "openCyto": [
-        "flowWorkspace",
-        "ncdfFlow"
+        "flowWorkspace"
     ],
     "OpenStats": [],
     "oposSOM": [],
@@ -4864,8 +4852,7 @@
         "oligoClasses"
     ],
     "PeacoQC": [
-        "flowWorkspace",
-        "ncdfFlow"
+        "flowWorkspace"
     ],
     "peakPantheR": [
         "MSnbase",

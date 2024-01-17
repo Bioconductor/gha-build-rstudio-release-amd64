@@ -2728,13 +2728,13 @@ set LDFLAGS=-L/usr/local/lib
 -- Performing Test HAS_FPIC - Success
 -- Configuring done
 -- Generating done
--- Build files have been written to: /tmp/RtmpJSfINS/R.INSTALLccf2cbc356b/nloptr/src/nlopt-build
-[  1%] Generating nlopt.hpp
+-- Build files have been written to: /tmp/RtmpJAam3C/R.INSTALLcce30921660/nloptr/src/nlopt-build
 [  3%] Generating nlopt.f
+[  3%] Generating nlopt.hpp
 [  3%] Built target generate-fortran
 [  3%] Built target generate-cpp
-[  7%] Building C object CMakeFiles/nlopt.dir/src/algs/direct/DIRect.c.o
 [  7%] Building C object CMakeFiles/nlopt.dir/src/algs/direct/direct_wrap.c.o
+[  7%] Building C object CMakeFiles/nlopt.dir/src/algs/direct/DIRect.c.o
 [  9%] Building C object CMakeFiles/nlopt.dir/src/algs/direct/DIRserial.c.o
 [ 11%] Building C object CMakeFiles/nlopt.dir/src/algs/direct/DIRsubrout.c.o
 [ 13%] Building C object CMakeFiles/nlopt.dir/src/algs/cdirect/cdirect.c.o
@@ -2787,18 +2787,18 @@ Consolidate compiler generated dependencies of target nlopt
 [100%] Built target nlopt
 Install the project...
 -- Install configuration: "Release"
--- Installing: /tmp/RtmpJSfINS/R.INSTALLccf2cbc356b/nloptr/src/nlopt/lib/pkgconfig/nlopt.pc
--- Installing: /tmp/RtmpJSfINS/R.INSTALLccf2cbc356b/nloptr/src/nlopt/include/nlopt.h
--- Installing: /tmp/RtmpJSfINS/R.INSTALLccf2cbc356b/nloptr/src/nlopt/include/nlopt.hpp
--- Installing: /tmp/RtmpJSfINS/R.INSTALLccf2cbc356b/nloptr/src/nlopt/include/nlopt.f
--- Installing: /tmp/RtmpJSfINS/R.INSTALLccf2cbc356b/nloptr/src/nlopt/lib/libnlopt.a
--- Installing: /tmp/RtmpJSfINS/R.INSTALLccf2cbc356b/nloptr/src/nlopt/lib/cmake/nlopt/NLoptLibraryDepends.cmake
--- Installing: /tmp/RtmpJSfINS/R.INSTALLccf2cbc356b/nloptr/src/nlopt/lib/cmake/nlopt/NLoptLibraryDepends-release.cmake
--- Installing: /tmp/RtmpJSfINS/R.INSTALLccf2cbc356b/nloptr/src/nlopt/lib/cmake/nlopt/NLoptConfig.cmake
--- Installing: /tmp/RtmpJSfINS/R.INSTALLccf2cbc356b/nloptr/src/nlopt/lib/cmake/nlopt/NLoptConfigVersion.cmake
--- Installing: /tmp/RtmpJSfINS/R.INSTALLccf2cbc356b/nloptr/src/nlopt/share/man/man3/nlopt.3
--- Installing: /tmp/RtmpJSfINS/R.INSTALLccf2cbc356b/nloptr/src/nlopt/share/man/man3/nlopt_minimize.3
--- Installing: /tmp/RtmpJSfINS/R.INSTALLccf2cbc356b/nloptr/src/nlopt/share/man/man3/nlopt_minimize_constrained.3
+-- Installing: /tmp/RtmpJAam3C/R.INSTALLcce30921660/nloptr/src/nlopt/lib/pkgconfig/nlopt.pc
+-- Installing: /tmp/RtmpJAam3C/R.INSTALLcce30921660/nloptr/src/nlopt/include/nlopt.h
+-- Installing: /tmp/RtmpJAam3C/R.INSTALLcce30921660/nloptr/src/nlopt/include/nlopt.hpp
+-- Installing: /tmp/RtmpJAam3C/R.INSTALLcce30921660/nloptr/src/nlopt/include/nlopt.f
+-- Installing: /tmp/RtmpJAam3C/R.INSTALLcce30921660/nloptr/src/nlopt/lib/libnlopt.a
+-- Installing: /tmp/RtmpJAam3C/R.INSTALLcce30921660/nloptr/src/nlopt/lib/cmake/nlopt/NLoptLibraryDepends.cmake
+-- Installing: /tmp/RtmpJAam3C/R.INSTALLcce30921660/nloptr/src/nlopt/lib/cmake/nlopt/NLoptLibraryDepends-release.cmake
+-- Installing: /tmp/RtmpJAam3C/R.INSTALLcce30921660/nloptr/src/nlopt/lib/cmake/nlopt/NLoptConfig.cmake
+-- Installing: /tmp/RtmpJAam3C/R.INSTALLcce30921660/nloptr/src/nlopt/lib/cmake/nlopt/NLoptConfigVersion.cmake
+-- Installing: /tmp/RtmpJAam3C/R.INSTALLcce30921660/nloptr/src/nlopt/share/man/man3/nlopt.3
+-- Installing: /tmp/RtmpJAam3C/R.INSTALLcce30921660/nloptr/src/nlopt/share/man/man3/nlopt_minimize.3
+-- Installing: /tmp/RtmpJAam3C/R.INSTALLcce30921660/nloptr/src/nlopt/share/man/man3/nlopt_minimize_constrained.3
 mv: cannot move 'nlopt/lib' to a subdirectory of itself, 'nlopt/lib/lib'
 configure: creating ./config.status
 config.status: creating src/Makevars
@@ -6199,7 +6199,7 @@ packaged installation of ‘GGally’ as ‘GGally_2.2.0_R_x86_64-pc-linux-gnu.t
 * DONE (GGally)
 
 The downloaded source packages are in
-	‘/tmp/RtmphKLYPp/downloaded_packages’
+	‘/tmp/RtmpBj2HgC/downloaded_packages’
 Old packages: 'pkgload', 'withr'
 Warning messages:
 1: In install.packages(...) :
@@ -6217,6 +6217,6 @@ Warning messages:
 7: In install.packages(...) :
   installation of package ‘TxDb.Hsapiens.UCSC.hg19.knownGene’ had non-zero exit status
 
-real	16m46.137s
-user	15m36.456s
-sys	1m47.180s
+real	17m24.297s
+user	16m12.457s
+sys	1m49.656s

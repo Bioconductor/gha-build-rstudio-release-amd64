@@ -324,7 +324,6 @@
     "bandle": [
         "MLInterfaces",
         "MSnbase",
-        "MsCoreUtils",
         "PSMatch",
         "QFeatures",
         "genefilter",
@@ -690,7 +689,6 @@
     "CAMERA": [
         "MSnbase",
         "MetaboCoreUtils",
-        "MsCoreUtils",
         "MsExperiment",
         "MsFeatures",
         "PSMatch",
@@ -1059,7 +1057,6 @@
     "cliqueMS": [
         "MSnbase",
         "MetaboCoreUtils",
-        "MsCoreUtils",
         "MsExperiment",
         "MsFeatures",
         "PSMatch",
@@ -1071,7 +1068,6 @@
     "clstutils": [],
     "CluMSID": [
         "MSnbase",
-        "MsCoreUtils",
         "PSMatch",
         "QFeatures",
         "mzR"
@@ -1196,7 +1192,6 @@
     ],
     "CompoundDb": [
         "MetaboCoreUtils",
-        "MsCoreUtils",
         "Spectra"
     ],
     "ComPrAn": [],
@@ -1252,7 +1247,6 @@
     "cosmiq": [
         "MSnbase",
         "MetaboCoreUtils",
-        "MsCoreUtils",
         "MsExperiment",
         "MsFeatures",
         "PSMatch",
@@ -1480,7 +1474,6 @@
     ],
     "DAPAR": [
         "MSnbase",
-        "MsCoreUtils",
         "PSMatch",
         "QFeatures",
         "mzR"
@@ -1568,7 +1561,6 @@
     ],
     "DEP": [
         "MSnbase",
-        "MsCoreUtils",
         "PSMatch",
         "QFeatures",
         "mzR"
@@ -2172,7 +2164,6 @@
         "CAMERA",
         "MSnbase",
         "MetaboCoreUtils",
-        "MsCoreUtils",
         "MsExperiment",
         "MsFeatures",
         "PSMatch",
@@ -2914,7 +2905,6 @@
         "CAMERA",
         "MSnbase",
         "MetaboCoreUtils",
-        "MsCoreUtils",
         "MsExperiment",
         "MsFeatures",
         "PSMatch",
@@ -3051,7 +3041,6 @@
         "CAMERA",
         "MSnbase",
         "MetaboCoreUtils",
-        "MsCoreUtils",
         "MsExperiment",
         "MsFeatures",
         "PSMatch",
@@ -3126,7 +3115,6 @@
         "CAMERA",
         "MSnbase",
         "MetaboCoreUtils",
-        "MsCoreUtils",
         "MsExperiment",
         "MsFeatures",
         "PSMatch",
@@ -3253,13 +3241,10 @@
     "MetaboAnnotation": [
         "CompoundDb",
         "MetaboCoreUtils",
-        "MsCoreUtils",
         "QFeatures",
         "Spectra"
     ],
-    "MetaboCoreUtils": [
-        "MsCoreUtils"
-    ],
+    "MetaboCoreUtils": [],
     "metabolomicsWorkbenchR": [
         "rols",
         "struct"
@@ -3291,7 +3276,6 @@
         "CAMERA",
         "MSnbase",
         "MetaboCoreUtils",
-        "MsCoreUtils",
         "MsExperiment",
         "MsFeatures",
         "PSMatch",
@@ -3326,7 +3310,6 @@
     ],
     "MetCirc": [
         "MetaboCoreUtils",
-        "MsCoreUtils",
         "Spectra"
     ],
     "MethReg": [
@@ -3582,7 +3565,6 @@
     "MobilityTransformR": [
         "MSnbase",
         "MetaboCoreUtils",
-        "MsCoreUtils",
         "MsExperiment",
         "MsFeatures",
         "PSMatch",
@@ -3681,40 +3663,31 @@
     "MQmetrics": [],
     "MsBackendMassbank": [
         "MetaboCoreUtils",
-        "MsCoreUtils",
         "Spectra"
     ],
     "MsBackendMgf": [
         "MetaboCoreUtils",
-        "MsCoreUtils",
         "Spectra"
     ],
     "MsBackendMsp": [
         "MetaboCoreUtils",
-        "MsCoreUtils",
         "Spectra"
     ],
     "MsBackendRawFileReader": [
         "MetaboCoreUtils",
-        "MsCoreUtils",
         "Spectra"
     ],
     "MsBackendSql": [
         "MetaboCoreUtils",
-        "MsCoreUtils",
         "Spectra"
     ],
-    "MsCoreUtils": [],
     "MsDataHub": [],
     "MsExperiment": [
         "MetaboCoreUtils",
-        "MsCoreUtils",
         "QFeatures",
         "Spectra"
     ],
-    "MsFeatures": [
-        "MsCoreUtils"
-    ],
+    "MsFeatures": [],
     "msgbsR": [
         "BSgenome",
         "GenomicAlignments",
@@ -3735,28 +3708,24 @@
     ],
     "msmsEDA": [
         "MSnbase",
-        "MsCoreUtils",
         "PSMatch",
         "QFeatures",
         "mzR"
     ],
     "msmsTests": [
         "MSnbase",
-        "MsCoreUtils",
         "PSMatch",
         "QFeatures",
         "msmsEDA",
         "mzR"
     ],
     "MSnbase": [
-        "MsCoreUtils",
         "PSMatch",
         "QFeatures",
         "mzR"
     ],
     "MSnID": [
         "MSnbase",
-        "MsCoreUtils",
         "PSMatch",
         "QFeatures",
         "msmsEDA",
@@ -3771,12 +3740,10 @@
         "mzR"
     ],
     "msqrob2": [
-        "MsCoreUtils",
         "QFeatures"
     ],
     "MsQuality": [
         "MetaboCoreUtils",
-        "MsCoreUtils",
         "MsExperiment",
         "QFeatures",
         "Spectra"
@@ -3797,7 +3764,6 @@
     ],
     "MSstatsQC": [
         "MSnbase",
-        "MsCoreUtils",
         "PSMatch",
         "QFeatures",
         "mzR",
@@ -3806,7 +3772,6 @@
     "MSstatsQCgui": [
         "MSnbase",
         "MSstatsQC",
-        "MsCoreUtils",
         "PSMatch",
         "QFeatures",
         "mzR",
@@ -3925,7 +3890,6 @@
     "ncGTW": [
         "MSnbase",
         "MetaboCoreUtils",
-        "MsCoreUtils",
         "MsExperiment",
         "MsFeatures",
         "PSMatch",
@@ -4201,7 +4165,6 @@
     "PeacoQC": [],
     "peakPantheR": [
         "MSnbase",
-        "MsCoreUtils",
         "PSMatch",
         "QFeatures",
         "mzR"
@@ -4359,7 +4322,6 @@
     ],
     "PrInCE": [
         "MSnbase",
-        "MsCoreUtils",
         "PSMatch",
         "QFeatures",
         "mzR"
@@ -4401,7 +4363,6 @@
     "pRoloc": [
         "MLInterfaces",
         "MSnbase",
-        "MsCoreUtils",
         "PSMatch",
         "QFeatures",
         "genefilter",
@@ -4410,7 +4371,6 @@
     "pRolocGUI": [
         "MLInterfaces",
         "MSnbase",
-        "MsCoreUtils",
         "PSMatch",
         "QFeatures",
         "genefilter",
@@ -4427,7 +4387,6 @@
     "Prostar": [
         "DAPAR",
         "MSnbase",
-        "MsCoreUtils",
         "PSMatch",
         "QFeatures",
         "mzR"
@@ -4465,13 +4424,11 @@
         "rtracklayer"
     ],
     "PSMatch": [
-        "MsCoreUtils",
         "QFeatures"
     ],
     "psygenet2r": [],
     "ptairMS": [
         "MSnbase",
-        "MsCoreUtils",
         "PSMatch",
         "QFeatures",
         "mzR"
@@ -4510,12 +4467,8 @@
     "QDNAseq": [
         "Rsamtools"
     ],
-    "QFeatures": [
-        "MsCoreUtils"
-    ],
-    "qmtools": [
-        "MsCoreUtils"
-    ],
+    "QFeatures": [],
+    "qmtools": [],
     "qpgraph": [
         "GenomicAlignments",
         "GenomicFeatures",
@@ -4524,7 +4477,6 @@
     ],
     "qPLEXanalyzer": [
         "MSnbase",
-        "MsCoreUtils",
         "PSMatch",
         "QFeatures",
         "mzR"
@@ -4913,7 +4865,6 @@
     "Risa": [
         "MSnbase",
         "MetaboCoreUtils",
-        "MsCoreUtils",
         "MsExperiment",
         "MsFeatures",
         "PSMatch",
@@ -4949,7 +4900,6 @@
     "RMassBank": [
         "ChemmineOB",
         "MSnbase",
-        "MsCoreUtils",
         "PSMatch",
         "QFeatures",
         "mzR"
@@ -5304,7 +5254,6 @@
         "rtracklayer"
     ],
     "scp": [
-        "MsCoreUtils",
         "QFeatures"
     ],
     "scPipe": [
@@ -5688,8 +5637,7 @@
     "specL": [],
     "SpeCond": [],
     "Spectra": [
-        "MetaboCoreUtils",
-        "MsCoreUtils"
+        "MetaboCoreUtils"
     ],
     "SpectralTAD": [
         "HiCcompare"
@@ -5857,7 +5805,6 @@
     ],
     "synapter": [
         "MSnbase",
-        "MsCoreUtils",
         "PSMatch",
         "QFeatures",
         "mzR"
@@ -6018,7 +5965,6 @@
     "topconfects": [],
     "topdownr": [
         "MSnbase",
-        "MsCoreUtils",
         "PSMatch",
         "QFeatures",
         "mzR"
@@ -6336,7 +6282,6 @@
     "xcms": [
         "MSnbase",
         "MetaboCoreUtils",
-        "MsCoreUtils",
         "MsExperiment",
         "MsFeatures",
         "PSMatch",

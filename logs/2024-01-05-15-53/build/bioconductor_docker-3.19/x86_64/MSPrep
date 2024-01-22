@@ -2190,13 +2190,13 @@ set LDFLAGS=-L/usr/local/lib
 -- Performing Test HAS_FPIC - Success
 -- Configuring done
 -- Generating done
--- Build files have been written to: /tmp/RtmpkdFMSj/R.INSTALL2ec128a1daf/nloptr/src/nlopt-build
+-- Build files have been written to: /tmp/RtmpNZH3XL/R.INSTALL2ec230f1276/nloptr/src/nlopt-build
 [  3%] Generating nlopt.hpp
 [  3%] Generating nlopt.f
 [  3%] Built target generate-fortran
 [  3%] Built target generate-cpp
-[  7%] Building C object CMakeFiles/nlopt.dir/src/algs/direct/DIRect.c.o
 [  7%] Building C object CMakeFiles/nlopt.dir/src/algs/direct/direct_wrap.c.o
+[  7%] Building C object CMakeFiles/nlopt.dir/src/algs/direct/DIRect.c.o
 [  9%] Building C object CMakeFiles/nlopt.dir/src/algs/direct/DIRserial.c.o
 [ 11%] Building C object CMakeFiles/nlopt.dir/src/algs/direct/DIRsubrout.c.o
 [ 13%] Building C object CMakeFiles/nlopt.dir/src/algs/cdirect/cdirect.c.o
@@ -2249,18 +2249,18 @@ Consolidate compiler generated dependencies of target nlopt
 [100%] Built target nlopt
 Install the project...
 -- Install configuration: "Release"
--- Installing: /tmp/RtmpkdFMSj/R.INSTALL2ec128a1daf/nloptr/src/nlopt/lib/pkgconfig/nlopt.pc
--- Installing: /tmp/RtmpkdFMSj/R.INSTALL2ec128a1daf/nloptr/src/nlopt/include/nlopt.h
--- Installing: /tmp/RtmpkdFMSj/R.INSTALL2ec128a1daf/nloptr/src/nlopt/include/nlopt.hpp
--- Installing: /tmp/RtmpkdFMSj/R.INSTALL2ec128a1daf/nloptr/src/nlopt/include/nlopt.f
--- Installing: /tmp/RtmpkdFMSj/R.INSTALL2ec128a1daf/nloptr/src/nlopt/lib/libnlopt.a
--- Installing: /tmp/RtmpkdFMSj/R.INSTALL2ec128a1daf/nloptr/src/nlopt/lib/cmake/nlopt/NLoptLibraryDepends.cmake
--- Installing: /tmp/RtmpkdFMSj/R.INSTALL2ec128a1daf/nloptr/src/nlopt/lib/cmake/nlopt/NLoptLibraryDepends-release.cmake
--- Installing: /tmp/RtmpkdFMSj/R.INSTALL2ec128a1daf/nloptr/src/nlopt/lib/cmake/nlopt/NLoptConfig.cmake
--- Installing: /tmp/RtmpkdFMSj/R.INSTALL2ec128a1daf/nloptr/src/nlopt/lib/cmake/nlopt/NLoptConfigVersion.cmake
--- Installing: /tmp/RtmpkdFMSj/R.INSTALL2ec128a1daf/nloptr/src/nlopt/share/man/man3/nlopt.3
--- Installing: /tmp/RtmpkdFMSj/R.INSTALL2ec128a1daf/nloptr/src/nlopt/share/man/man3/nlopt_minimize.3
--- Installing: /tmp/RtmpkdFMSj/R.INSTALL2ec128a1daf/nloptr/src/nlopt/share/man/man3/nlopt_minimize_constrained.3
+-- Installing: /tmp/RtmpNZH3XL/R.INSTALL2ec230f1276/nloptr/src/nlopt/lib/pkgconfig/nlopt.pc
+-- Installing: /tmp/RtmpNZH3XL/R.INSTALL2ec230f1276/nloptr/src/nlopt/include/nlopt.h
+-- Installing: /tmp/RtmpNZH3XL/R.INSTALL2ec230f1276/nloptr/src/nlopt/include/nlopt.hpp
+-- Installing: /tmp/RtmpNZH3XL/R.INSTALL2ec230f1276/nloptr/src/nlopt/include/nlopt.f
+-- Installing: /tmp/RtmpNZH3XL/R.INSTALL2ec230f1276/nloptr/src/nlopt/lib/libnlopt.a
+-- Installing: /tmp/RtmpNZH3XL/R.INSTALL2ec230f1276/nloptr/src/nlopt/lib/cmake/nlopt/NLoptLibraryDepends.cmake
+-- Installing: /tmp/RtmpNZH3XL/R.INSTALL2ec230f1276/nloptr/src/nlopt/lib/cmake/nlopt/NLoptLibraryDepends-release.cmake
+-- Installing: /tmp/RtmpNZH3XL/R.INSTALL2ec230f1276/nloptr/src/nlopt/lib/cmake/nlopt/NLoptConfig.cmake
+-- Installing: /tmp/RtmpNZH3XL/R.INSTALL2ec230f1276/nloptr/src/nlopt/lib/cmake/nlopt/NLoptConfigVersion.cmake
+-- Installing: /tmp/RtmpNZH3XL/R.INSTALL2ec230f1276/nloptr/src/nlopt/share/man/man3/nlopt.3
+-- Installing: /tmp/RtmpNZH3XL/R.INSTALL2ec230f1276/nloptr/src/nlopt/share/man/man3/nlopt_minimize.3
+-- Installing: /tmp/RtmpNZH3XL/R.INSTALL2ec230f1276/nloptr/src/nlopt/share/man/man3/nlopt_minimize_constrained.3
 mv: cannot move 'nlopt/lib' to a subdirectory of itself, 'nlopt/lib/lib'
 configure: creating ./config.status
 config.status: creating src/Makevars
@@ -11232,8 +11232,8 @@ packaged installation of ‘MSPrep’ as ‘MSPrep_1.13.0_R_x86_64-pc-linux-gnu.
 * DONE (MSPrep)
 
 The downloaded source packages are in
-	‘/tmp/Rtmp9PSPIR/downloaded_packages’
+	‘/tmp/RtmpG1Yeun/downloaded_packages’
 
-real	8m1.242s
-user	7m25.161s
-sys	1m3.710s
+real	8m5.574s
+user	7m34.962s
+sys	1m4.518s

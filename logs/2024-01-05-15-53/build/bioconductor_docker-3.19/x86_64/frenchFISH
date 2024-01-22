@@ -2063,12 +2063,12 @@ set LDFLAGS=-L/usr/local/lib
 -- Performing Test HAS_FPIC - Success
 -- Configuring done
 -- Generating done
--- Build files have been written to: /tmp/RtmpKlBR6S/R.INSTALL2654f421300/nloptr/src/nlopt-build
-[  3%] Generating nlopt.hpp
+-- Build files have been written to: /tmp/RtmpSgrizp/R.INSTALL265540fdf07/nloptr/src/nlopt-build
+[  1%] Generating nlopt.hpp
 [  3%] Generating nlopt.f
 [  3%] Built target generate-fortran
 [  3%] Built target generate-cpp
-[  7%] Building C object CMakeFiles/nlopt.dir/src/algs/direct/DIRect.c.o
+[  5%] Building C object CMakeFiles/nlopt.dir/src/algs/direct/DIRect.c.o
 [  7%] Building C object CMakeFiles/nlopt.dir/src/algs/direct/direct_wrap.c.o
 [  9%] Building C object CMakeFiles/nlopt.dir/src/algs/direct/DIRserial.c.o
 [ 11%] Building C object CMakeFiles/nlopt.dir/src/algs/direct/DIRsubrout.c.o
@@ -2122,18 +2122,18 @@ Consolidate compiler generated dependencies of target nlopt
 [100%] Built target nlopt
 Install the project...
 -- Install configuration: "Release"
--- Installing: /tmp/RtmpKlBR6S/R.INSTALL2654f421300/nloptr/src/nlopt/lib/pkgconfig/nlopt.pc
--- Installing: /tmp/RtmpKlBR6S/R.INSTALL2654f421300/nloptr/src/nlopt/include/nlopt.h
--- Installing: /tmp/RtmpKlBR6S/R.INSTALL2654f421300/nloptr/src/nlopt/include/nlopt.hpp
--- Installing: /tmp/RtmpKlBR6S/R.INSTALL2654f421300/nloptr/src/nlopt/include/nlopt.f
--- Installing: /tmp/RtmpKlBR6S/R.INSTALL2654f421300/nloptr/src/nlopt/lib/libnlopt.a
--- Installing: /tmp/RtmpKlBR6S/R.INSTALL2654f421300/nloptr/src/nlopt/lib/cmake/nlopt/NLoptLibraryDepends.cmake
--- Installing: /tmp/RtmpKlBR6S/R.INSTALL2654f421300/nloptr/src/nlopt/lib/cmake/nlopt/NLoptLibraryDepends-release.cmake
--- Installing: /tmp/RtmpKlBR6S/R.INSTALL2654f421300/nloptr/src/nlopt/lib/cmake/nlopt/NLoptConfig.cmake
--- Installing: /tmp/RtmpKlBR6S/R.INSTALL2654f421300/nloptr/src/nlopt/lib/cmake/nlopt/NLoptConfigVersion.cmake
--- Installing: /tmp/RtmpKlBR6S/R.INSTALL2654f421300/nloptr/src/nlopt/share/man/man3/nlopt.3
--- Installing: /tmp/RtmpKlBR6S/R.INSTALL2654f421300/nloptr/src/nlopt/share/man/man3/nlopt_minimize.3
--- Installing: /tmp/RtmpKlBR6S/R.INSTALL2654f421300/nloptr/src/nlopt/share/man/man3/nlopt_minimize_constrained.3
+-- Installing: /tmp/RtmpSgrizp/R.INSTALL265540fdf07/nloptr/src/nlopt/lib/pkgconfig/nlopt.pc
+-- Installing: /tmp/RtmpSgrizp/R.INSTALL265540fdf07/nloptr/src/nlopt/include/nlopt.h
+-- Installing: /tmp/RtmpSgrizp/R.INSTALL265540fdf07/nloptr/src/nlopt/include/nlopt.hpp
+-- Installing: /tmp/RtmpSgrizp/R.INSTALL265540fdf07/nloptr/src/nlopt/include/nlopt.f
+-- Installing: /tmp/RtmpSgrizp/R.INSTALL265540fdf07/nloptr/src/nlopt/lib/libnlopt.a
+-- Installing: /tmp/RtmpSgrizp/R.INSTALL265540fdf07/nloptr/src/nlopt/lib/cmake/nlopt/NLoptLibraryDepends.cmake
+-- Installing: /tmp/RtmpSgrizp/R.INSTALL265540fdf07/nloptr/src/nlopt/lib/cmake/nlopt/NLoptLibraryDepends-release.cmake
+-- Installing: /tmp/RtmpSgrizp/R.INSTALL265540fdf07/nloptr/src/nlopt/lib/cmake/nlopt/NLoptConfig.cmake
+-- Installing: /tmp/RtmpSgrizp/R.INSTALL265540fdf07/nloptr/src/nlopt/lib/cmake/nlopt/NLoptConfigVersion.cmake
+-- Installing: /tmp/RtmpSgrizp/R.INSTALL265540fdf07/nloptr/src/nlopt/share/man/man3/nlopt.3
+-- Installing: /tmp/RtmpSgrizp/R.INSTALL265540fdf07/nloptr/src/nlopt/share/man/man3/nlopt_minimize.3
+-- Installing: /tmp/RtmpSgrizp/R.INSTALL265540fdf07/nloptr/src/nlopt/share/man/man3/nlopt_minimize_constrained.3
 mv: cannot move 'nlopt/lib' to a subdirectory of itself, 'nlopt/lib/lib'
 configure: creating ./config.status
 config.status: creating src/Makevars
@@ -9851,8 +9851,8 @@ packaged installation of ‘frenchFISH’ as ‘frenchFISH_1.15.0_R_x86_64-pc-li
 * DONE (frenchFISH)
 
 The downloaded source packages are in
-	‘/tmp/RtmpvHNLX8/downloaded_packages’
+	‘/tmp/RtmpLUwqCB/downloaded_packages’
 
-real	6m54.155s
-user	6m30.005s
-sys	0m46.683s
+real	6m31.123s
+user	6m9.256s
+sys	0m45.886s

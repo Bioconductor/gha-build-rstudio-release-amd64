@@ -286,7 +286,6 @@
         "GenomicFeatures",
         "Rsamtools",
         "bumphunter",
-        "gdsfmt",
         "lumi",
         "methylumi",
         "minfi",
@@ -771,8 +770,7 @@
     "CNVRanger": [
         "GDSArray",
         "SNPRelate",
-        "SeqArray",
-        "gdsfmt"
+        "SeqArray"
     ],
     "CNVrd2": [
         "BSgenome",
@@ -1552,8 +1550,7 @@
         "sva"
     ],
     "GBScleanR": [
-        "SeqArray",
-        "gdsfmt"
+        "SeqArray"
     ],
     "gcapc": [
         "BSgenome",
@@ -1572,10 +1569,8 @@
     ],
     "GDSArray": [
         "SNPRelate",
-        "SeqArray",
-        "gdsfmt"
+        "SeqArray"
     ],
-    "gdsfmt": [],
     "geneAttribution": [
         "GenomicAlignments",
         "GenomicFeatures",
@@ -1596,8 +1591,7 @@
         "GWASTools",
         "SNPRelate",
         "SeqArray",
-        "SeqVarTools",
-        "gdsfmt"
+        "SeqVarTools"
     ],
     "GeneStructureTools": [
         "BSgenome",
@@ -1703,8 +1697,7 @@
         "rtracklayer"
     ],
     "ggmanh": [
-        "SeqArray",
-        "gdsfmt"
+        "SeqArray"
     ],
     "girafe": [
         "GenomicAlignments",
@@ -1816,9 +1809,7 @@
         "VariantAnnotation",
         "rtracklayer"
     ],
-    "GWASTools": [
-        "gdsfmt"
-    ],
+    "GWASTools": [],
     "gwasurvivr": [
         "BSgenome",
         "GWASTools",
@@ -1827,7 +1818,6 @@
         "Rsamtools",
         "SNPRelate",
         "VariantAnnotation",
-        "gdsfmt",
         "rtracklayer"
     ],
     "h5vc": [
@@ -2158,8 +2148,7 @@
         "sva"
     ],
     "mBPCR": [
-        "GWASTools",
-        "gdsfmt"
+        "GWASTools"
     ],
     "mCSEA": [
         "BSgenome",
@@ -2959,7 +2948,6 @@
         "SeqVarTools",
         "VariantAnnotation",
         "ensembldb",
-        "gdsfmt",
         "rtracklayer"
     ],
     "ramwas": [
@@ -3370,8 +3358,7 @@
         "rtracklayer"
     ],
     "SAIGEgds": [
-        "SeqArray",
-        "gdsfmt"
+        "SeqArray"
     ],
     "SARC": [
         "GenomicAlignments",
@@ -3412,12 +3399,9 @@
         "Rsamtools",
         "rtracklayer"
     ],
-    "SCArray": [
-        "gdsfmt"
-    ],
+    "SCArray": [],
     "SCArray.sat": [
-        "SCArray",
-        "gdsfmt"
+        "SCArray"
     ],
     "scBFA": [
         "zinbwave"
@@ -3533,9 +3517,7 @@
         "rtracklayer",
         "seqArchR"
     ],
-    "SeqArray": [
-        "gdsfmt"
-    ],
+    "SeqArray": [],
     "seqCAT": [
         "BSgenome",
         "GenomicAlignments",
@@ -3550,8 +3532,7 @@
         "rtracklayer"
     ],
     "SeqVarTools": [
-        "SeqArray",
-        "gdsfmt"
+        "SeqArray"
     ],
     "SEtools": [
         "sva"
@@ -3666,9 +3647,7 @@
         "VariantAnnotation",
         "rtracklayer"
     ],
-    "SNPRelate": [
-        "gdsfmt"
-    ],
+    "SNPRelate": [],
     "soGGi": [
         "GenomicAlignments",
         "Rsamtools",
@@ -4047,8 +4026,7 @@
     "VariantExperiment": [
         "GDSArray",
         "SNPRelate",
-        "SeqArray",
-        "gdsfmt"
+        "SeqArray"
     ],
     "VariantFiltering": [
         "BSgenome",

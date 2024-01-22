@@ -2463,12 +2463,12 @@ set LDFLAGS=-L/usr/local/lib
 -- Performing Test HAS_FPIC - Success
 -- Configuring done
 -- Generating done
--- Build files have been written to: /tmp/RtmpteEUgx/R.INSTALL2f742b96c07/nloptr/src/nlopt-build
-[  3%] Generating nlopt.f
+-- Build files have been written to: /tmp/RtmpgiSZmL/R.INSTALL2f7236d2eb7/nloptr/src/nlopt-build
 [  3%] Generating nlopt.hpp
+[  3%] Generating nlopt.f
 [  3%] Built target generate-fortran
 [  3%] Built target generate-cpp
-[  7%] Building C object CMakeFiles/nlopt.dir/src/algs/direct/DIRect.c.o
+[  5%] Building C object CMakeFiles/nlopt.dir/src/algs/direct/DIRect.c.o
 [  7%] Building C object CMakeFiles/nlopt.dir/src/algs/direct/direct_wrap.c.o
 [  9%] Building C object CMakeFiles/nlopt.dir/src/algs/direct/DIRserial.c.o
 [ 11%] Building C object CMakeFiles/nlopt.dir/src/algs/direct/DIRsubrout.c.o
@@ -2522,18 +2522,18 @@ Consolidate compiler generated dependencies of target nlopt
 [100%] Built target nlopt
 Install the project...
 -- Install configuration: "Release"
--- Installing: /tmp/RtmpteEUgx/R.INSTALL2f742b96c07/nloptr/src/nlopt/lib/pkgconfig/nlopt.pc
--- Installing: /tmp/RtmpteEUgx/R.INSTALL2f742b96c07/nloptr/src/nlopt/include/nlopt.h
--- Installing: /tmp/RtmpteEUgx/R.INSTALL2f742b96c07/nloptr/src/nlopt/include/nlopt.hpp
--- Installing: /tmp/RtmpteEUgx/R.INSTALL2f742b96c07/nloptr/src/nlopt/include/nlopt.f
--- Installing: /tmp/RtmpteEUgx/R.INSTALL2f742b96c07/nloptr/src/nlopt/lib/libnlopt.a
--- Installing: /tmp/RtmpteEUgx/R.INSTALL2f742b96c07/nloptr/src/nlopt/lib/cmake/nlopt/NLoptLibraryDepends.cmake
--- Installing: /tmp/RtmpteEUgx/R.INSTALL2f742b96c07/nloptr/src/nlopt/lib/cmake/nlopt/NLoptLibraryDepends-release.cmake
--- Installing: /tmp/RtmpteEUgx/R.INSTALL2f742b96c07/nloptr/src/nlopt/lib/cmake/nlopt/NLoptConfig.cmake
--- Installing: /tmp/RtmpteEUgx/R.INSTALL2f742b96c07/nloptr/src/nlopt/lib/cmake/nlopt/NLoptConfigVersion.cmake
--- Installing: /tmp/RtmpteEUgx/R.INSTALL2f742b96c07/nloptr/src/nlopt/share/man/man3/nlopt.3
--- Installing: /tmp/RtmpteEUgx/R.INSTALL2f742b96c07/nloptr/src/nlopt/share/man/man3/nlopt_minimize.3
--- Installing: /tmp/RtmpteEUgx/R.INSTALL2f742b96c07/nloptr/src/nlopt/share/man/man3/nlopt_minimize_constrained.3
+-- Installing: /tmp/RtmpgiSZmL/R.INSTALL2f7236d2eb7/nloptr/src/nlopt/lib/pkgconfig/nlopt.pc
+-- Installing: /tmp/RtmpgiSZmL/R.INSTALL2f7236d2eb7/nloptr/src/nlopt/include/nlopt.h
+-- Installing: /tmp/RtmpgiSZmL/R.INSTALL2f7236d2eb7/nloptr/src/nlopt/include/nlopt.hpp
+-- Installing: /tmp/RtmpgiSZmL/R.INSTALL2f7236d2eb7/nloptr/src/nlopt/include/nlopt.f
+-- Installing: /tmp/RtmpgiSZmL/R.INSTALL2f7236d2eb7/nloptr/src/nlopt/lib/libnlopt.a
+-- Installing: /tmp/RtmpgiSZmL/R.INSTALL2f7236d2eb7/nloptr/src/nlopt/lib/cmake/nlopt/NLoptLibraryDepends.cmake
+-- Installing: /tmp/RtmpgiSZmL/R.INSTALL2f7236d2eb7/nloptr/src/nlopt/lib/cmake/nlopt/NLoptLibraryDepends-release.cmake
+-- Installing: /tmp/RtmpgiSZmL/R.INSTALL2f7236d2eb7/nloptr/src/nlopt/lib/cmake/nlopt/NLoptConfig.cmake
+-- Installing: /tmp/RtmpgiSZmL/R.INSTALL2f7236d2eb7/nloptr/src/nlopt/lib/cmake/nlopt/NLoptConfigVersion.cmake
+-- Installing: /tmp/RtmpgiSZmL/R.INSTALL2f7236d2eb7/nloptr/src/nlopt/share/man/man3/nlopt.3
+-- Installing: /tmp/RtmpgiSZmL/R.INSTALL2f7236d2eb7/nloptr/src/nlopt/share/man/man3/nlopt_minimize.3
+-- Installing: /tmp/RtmpgiSZmL/R.INSTALL2f7236d2eb7/nloptr/src/nlopt/share/man/man3/nlopt_minimize_constrained.3
 mv: cannot move 'nlopt/lib' to a subdirectory of itself, 'nlopt/lib/lib'
 configure: creating ./config.status
 config.status: creating src/Makevars
@@ -15291,14 +15291,14 @@ ERROR: dependency ‘ggseqlogo’ is not available for package ‘omicsViewer’
 * removing ‘/tmp/tmp/built/omicsViewer’
 
 The downloaded source packages are in
-	‘/tmp/RtmpzNp1uI/downloaded_packages’
+	‘/tmp/RtmpQIwR40/downloaded_packages’
 Warning message:
 In install.packages(...) :
   installation of package ‘omicsViewer’ had non-zero exit status
 
-real	15m47.704s
-user	14m29.098s
-sys	2m15.798s
+real	15m52.637s
+user	14m35.390s
+sys	2m15.905s
 * installing *source* package ‘unittest’ ...
 ** package ‘unittest’ successfully unpacked and MD5 sums checked
 ** using staged installation

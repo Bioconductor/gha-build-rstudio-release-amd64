@@ -2042,17 +2042,14 @@
         "SummarizedExperiment"
     ],
     "CytoML": [
-        "ggcyto",
         "openCyto"
     ],
     "CytoPipeline": [
-        "PeacoQC",
-        "ggcyto"
+        "PeacoQC"
     ],
     "CytoPipelineGUI": [
         "CytoPipeline",
-        "PeacoQC",
-        "ggcyto"
+        "PeacoQC"
     ],
     "cytoviewer": [
         "EBImage",
@@ -3080,9 +3077,7 @@
     "flowCHIC": [
         "EBImage"
     ],
-    "flowGate": [
-        "ggcyto"
-    ],
+    "flowGate": [],
     "flowStats": [],
     "flowVS": [
         "flowStats"
@@ -3424,7 +3419,6 @@
         "ensembldb",
         "rtracklayer"
     ],
-    "ggcyto": [],
     "ggkegg": [
         "AnnotationDbi"
     ],

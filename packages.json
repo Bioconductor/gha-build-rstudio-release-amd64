@@ -35,7 +35,6 @@
         "ensembldb",
         "genefilter",
         "ggbio",
-        "oligoClasses",
         "rtracklayer"
     ],
     "affyILM": [
@@ -66,7 +65,6 @@
         "ensembldb",
         "genefilter",
         "ggbio",
-        "oligoClasses",
         "rtracklayer"
     ],
     "AHMassBank": [
@@ -179,8 +177,7 @@
     ],
     "ArrayExpress": [
         "affxparser",
-        "oligo",
-        "oligoClasses"
+        "oligo"
     ],
     "arrayMvout": [
         "GenomicFeatures",
@@ -881,8 +878,7 @@
     "ChIPXpress": [
         "affxparser",
         "frma",
-        "oligo",
-        "oligoClasses"
+        "oligo"
     ],
     "ChromHeatMap": [
         "annotate",
@@ -985,8 +981,7 @@
     ],
     "cn.farms": [
         "affxparser",
-        "oligo",
-        "oligoClasses"
+        "oligo"
     ],
     "CNEr": [
         "annotate",
@@ -1250,15 +1245,12 @@
         "ensembldb",
         "rtracklayer"
     ],
-    "crlmm": [
-        "oligoClasses"
-    ],
+    "crlmm": [],
     "crossmeta": [
         "affxparser",
         "annotate",
         "genefilter",
         "oligo",
-        "oligoClasses",
         "sva"
     ],
     "csaw": [],
@@ -1600,8 +1592,7 @@
         "ArrayExpress",
         "affxparser",
         "annotate",
-        "oligo",
-        "oligoClasses"
+        "oligo"
     ],
     "DSS": [
         "BSgenome",
@@ -1984,8 +1975,7 @@
     "FoldGO": [],
     "frma": [
         "affxparser",
-        "oligo",
-        "oligoClasses"
+        "oligo"
     ],
     "FunChIP": [],
     "funtooNorm": [
@@ -2643,8 +2633,7 @@
     ],
     "ITALICS": [
         "affxparser",
-        "oligo",
-        "oligoClasses"
+        "oligo"
     ],
     "IVAS": [
         "GenomicFeatures",
@@ -2759,7 +2748,6 @@
         "genefilter",
         "methylumi",
         "minfi",
-        "oligoClasses",
         "rtracklayer"
     ],
     "MAGeCKFlute": [
@@ -2831,9 +2819,7 @@
     "mbkmeans": [
         "SingleCellExperiment"
     ],
-    "mBPCR": [
-        "oligoClasses"
-    ],
+    "mBPCR": [],
     "MBQN": [],
     "mCSEA": [
         "BSgenome",
@@ -3111,8 +3097,7 @@
     ],
     "mimager": [
         "affxparser",
-        "oligo",
-        "oligoClasses"
+        "oligo"
     ],
     "MineICA": [
         "AnnotationForge",
@@ -3139,7 +3124,6 @@
         "BSgenome",
         "VanillaICE",
         "crlmm",
-        "oligoClasses",
         "rtracklayer"
     ],
     "miQC": [
@@ -3563,10 +3547,8 @@
         "rtracklayer"
     ],
     "oligo": [
-        "affxparser",
-        "oligoClasses"
+        "affxparser"
     ],
-    "oligoClasses": [],
     "OmaDB": [],
     "omicade4": [
         "made4"
@@ -3700,8 +3682,7 @@
     ],
     "pdInfoBuilder": [
         "affxparser",
-        "oligo",
-        "oligoClasses"
+        "oligo"
     ],
     "peakPantheR": [
         "MSnbase",
@@ -3941,8 +3922,7 @@
     ],
     "puma": [
         "affxparser",
-        "oligo",
-        "oligoClasses"
+        "oligo"
     ],
     "PureCN": [
         "BSgenome",
@@ -4474,7 +4454,6 @@
         "annotate",
         "genefilter",
         "oligo",
-        "oligoClasses",
         "sva"
     ],
     "scanMiR": [],
@@ -5436,7 +5415,6 @@
     "VanillaICE": [
         "BSgenome",
         "crlmm",
-        "oligoClasses",
         "rtracklayer"
     ],
     "VarCon": [

@@ -73,10 +73,8 @@
         "affxparser"
     ],
     "affylmGUI": [
-        "AnnotationDbi",
-        "affyPLM"
+        "AnnotationDbi"
     ],
-    "affyPLM": [],
     "AGDEX": [
         "AnnotationDbi",
         "GSEABase",
@@ -385,7 +383,6 @@
     ],
     "arrayQualityMetrics": [
         "AnnotationDbi",
-        "affyPLM",
         "annotate",
         "beadarray",
         "genefilter"
@@ -5651,7 +5648,6 @@
     "mimager": [
         "SummarizedExperiment",
         "affxparser",
-        "affyPLM",
         "oligo",
         "oligoClasses"
     ],

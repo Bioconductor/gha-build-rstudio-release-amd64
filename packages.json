@@ -2076,7 +2076,6 @@
         "BSgenome",
         "rtracklayer"
     ],
-    "HiCcompare": [],
     "HiCDCPlus": [
         "BSgenome",
         "GenomicFeatures",
@@ -2088,7 +2087,6 @@
         "rtracklayer"
     ],
     "HiCDOC": [
-        "HiCcompare",
         "multiHiCcompare"
     ],
     "HiCExperiment": [],
@@ -2963,9 +2961,7 @@
     "multiGSEA": [
         "graphite"
     ],
-    "multiHiCcompare": [
-        "HiCcompare"
-    ],
+    "multiHiCcompare": [],
     "multiMiR": [],
     "MultimodalExperiment": [],
     "MultiRNAflow": [],
@@ -4348,9 +4344,7 @@
         "rtracklayer"
     ],
     "speckle": [],
-    "SpectralTAD": [
-        "HiCcompare"
-    ],
+    "SpectralTAD": [],
     "SPIAT": [
         "SpatialExperiment",
         "dittoSeq"
@@ -4500,9 +4494,7 @@
         "ensembldb",
         "rtracklayer"
     ],
-    "TADCompare": [
-        "HiCcompare"
-    ],
+    "TADCompare": [],
     "TAPseq": [
         "BSgenome",
         "GenomicFeatures",

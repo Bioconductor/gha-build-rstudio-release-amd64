@@ -1894,7 +1894,6 @@
         "BSgenome",
         "rtracklayer"
     ],
-    "HiCcompare": [],
     "HiCDCPlus": [
         "BSgenome",
         "GenomicFeatures",
@@ -1906,7 +1905,6 @@
         "rtracklayer"
     ],
     "HiCDOC": [
-        "HiCcompare",
         "multiHiCcompare"
     ],
     "HiCExperiment": [],
@@ -2696,9 +2694,7 @@
         "rtracklayer"
     ],
     "multiGSEA": [],
-    "multiHiCcompare": [
-        "HiCcompare"
-    ],
+    "multiHiCcompare": [],
     "MultimodalExperiment": [],
     "MultiRNAflow": [],
     "mumosa": [
@@ -3984,9 +3980,7 @@
         "rtracklayer"
     ],
     "speckle": [],
-    "SpectralTAD": [
-        "HiCcompare"
-    ],
+    "SpectralTAD": [],
     "SPIAT": [
         "SpatialExperiment",
         "dittoSeq"
@@ -4123,9 +4117,7 @@
         "ensembldb",
         "rtracklayer"
     ],
-    "TADCompare": [
-        "HiCcompare"
-    ],
+    "TADCompare": [],
     "TAPseq": [
         "BSgenome",
         "GenomicFeatures",

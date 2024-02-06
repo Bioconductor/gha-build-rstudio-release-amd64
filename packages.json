@@ -156,7 +156,6 @@
     ],
     "BANDITS": [],
     "bandle": [
-        "MSnbase",
         "pRoloc"
     ],
     "Basic4Cseq": [
@@ -351,7 +350,6 @@
         "rtracklayer"
     ],
     "CAMERA": [
-        "MSnbase",
         "xcms"
     ],
     "cardelino": [
@@ -517,12 +515,9 @@
         "rtracklayer"
     ],
     "cliqueMS": [
-        "MSnbase",
         "xcms"
     ],
-    "CluMSID": [
-        "MSnbase"
-    ],
+    "CluMSID": [],
     "cn.farms": [
         "affxparser",
         "oligo"
@@ -641,7 +636,6 @@
         "rtracklayer"
     ],
     "cosmiq": [
-        "MSnbase",
         "xcms"
     ],
     "CoverageView": [
@@ -753,9 +747,7 @@
         "GenomicFeatures",
         "rtracklayer"
     ],
-    "DAPAR": [
-        "MSnbase"
-    ],
+    "DAPAR": [],
     "decompTumor2Sig": [
         "BSgenome",
         "GenomicFeatures",
@@ -795,9 +787,7 @@
         "ensembldb",
         "rtracklayer"
     ],
-    "DEP": [
-        "MSnbase"
-    ],
+    "DEP": [],
     "derfinder": [
         "BSgenome",
         "GenomicFeatures",
@@ -1108,7 +1098,6 @@
     ],
     "flagme": [
         "CAMERA",
-        "MSnbase",
         "xcms"
     ],
     "FLAMES": [
@@ -1457,7 +1446,6 @@
     ],
     "IPO": [
         "CAMERA",
-        "MSnbase",
         "xcms"
     ],
     "IRISFGM": [],
@@ -1507,7 +1495,6 @@
     ],
     "LOBSTAHS": [
         "CAMERA",
-        "MSnbase",
         "xcms"
     ],
     "lumi": [
@@ -1543,7 +1530,6 @@
     ],
     "MAIT": [
         "CAMERA",
-        "MSnbase",
         "xcms"
     ],
     "MANOR": [],
@@ -1622,7 +1608,6 @@
     ],
     "metaMS": [
         "CAMERA",
-        "MSnbase",
         "xcms"
     ],
     "metaseqR2": [
@@ -1770,7 +1755,6 @@
         "rtracklayer"
     ],
     "MobilityTransformR": [
-        "MSnbase",
         "xcms"
     ],
     "MoleculeExperiment": [
@@ -1829,24 +1813,16 @@
         "rtracklayer"
     ],
     "msImpute": [],
-    "msmsEDA": [
-        "MSnbase"
-    ],
+    "msmsEDA": [],
     "msmsTests": [
-        "MSnbase",
         "msmsEDA"
     ],
-    "MSnbase": [],
     "MSnID": [
-        "MSnbase",
         "msmsEDA",
         "msmsTests"
     ],
-    "MSstatsQC": [
-        "MSnbase"
-    ],
+    "MSstatsQC": [],
     "MSstatsQCgui": [
-        "MSnbase",
         "MSstatsQC"
     ],
     "multicrispr": [
@@ -1908,7 +1884,6 @@
         "rtracklayer"
     ],
     "ncGTW": [
-        "MSnbase",
         "xcms"
     ],
     "nearBynding": [
@@ -2007,9 +1982,7 @@
         "affxparser",
         "oligo"
     ],
-    "peakPantheR": [
-        "MSnbase"
-    ],
+    "peakPantheR": [],
     "peco": [],
     "periodicDNA": [
         "BSgenome",
@@ -2067,9 +2040,7 @@
         "ensembldb",
         "rtracklayer"
     ],
-    "PrInCE": [
-        "MSnbase"
-    ],
+    "PrInCE": [],
     "proActiv": [
         "GenomicFeatures",
         "rtracklayer"
@@ -2088,16 +2059,12 @@
         "rtracklayer",
         "soGGi"
     ],
-    "pRoloc": [
-        "MSnbase"
-    ],
+    "pRoloc": [],
     "pRolocGUI": [
-        "MSnbase",
         "pRoloc"
     ],
     "Prostar": [
-        "DAPAR",
-        "MSnbase"
+        "DAPAR"
     ],
     "proteasy": [
         "GenomicFeatures",
@@ -2120,9 +2087,7 @@
         "recount",
         "rtracklayer"
     ],
-    "ptairMS": [
-        "MSnbase"
-    ],
+    "ptairMS": [],
     "puma": [
         "affxparser",
         "oligo"
@@ -2146,9 +2111,7 @@
         "GenomicFeatures",
         "rtracklayer"
     ],
-    "qPLEXanalyzer": [
-        "MSnbase"
-    ],
+    "qPLEXanalyzer": [],
     "qsea": [
         "BSgenome",
         "rtracklayer"
@@ -2366,7 +2329,6 @@
         "rtracklayer"
     ],
     "Risa": [
-        "MSnbase",
         "xcms"
     ],
     "RITAN": [
@@ -2384,9 +2346,7 @@
         "regioneR",
         "rtracklayer"
     ],
-    "RMassBank": [
-        "MSnbase"
-    ],
+    "RMassBank": [],
     "Rmmquant": [
         "GenomicFeatures",
         "rtracklayer"
@@ -2798,9 +2758,7 @@
     "synapsis": [
         "EBImage"
     ],
-    "synapter": [
-        "MSnbase"
-    ],
+    "synapter": [],
     "syntenet": [
         "rtracklayer"
     ],
@@ -2860,9 +2818,7 @@
         "VariantAnnotation",
         "rtracklayer"
     ],
-    "topdownr": [
-        "MSnbase"
-    ],
+    "topdownr": [],
     "trackViewer": [
         "BSgenome",
         "GenomicFeatures",
@@ -3013,9 +2969,7 @@
     "wiggleplotr": [
         "rtracklayer"
     ],
-    "xcms": [
-        "MSnbase"
-    ],
+    "xcms": [],
     "XNAString": [
         "BSgenome",
         "rtracklayer"

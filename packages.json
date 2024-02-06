@@ -229,7 +229,6 @@
         "SpatialExperiment",
         "SummarizedExperiment",
         "VariantAnnotation",
-        "alabaster.base",
         "alabaster.bumpy",
         "alabaster.mae",
         "alabaster.matrix",
@@ -242,15 +241,11 @@
         "biomaRt",
         "rtracklayer"
     ],
-    "alabaster.base": [],
-    "alabaster.bumpy": [
-        "alabaster.base"
-    ],
+    "alabaster.bumpy": [],
     "alabaster.files": [
         "Biostrings",
         "GenomicRanges",
-        "Rsamtools",
-        "alabaster.base"
+        "Rsamtools"
     ],
     "alabaster.mae": [
         "DelayedArray",
@@ -260,7 +255,6 @@
         "S4Arrays",
         "SparseArray",
         "SummarizedExperiment",
-        "alabaster.base",
         "alabaster.matrix",
         "alabaster.ranges",
         "alabaster.se"
@@ -269,12 +263,10 @@
         "DelayedArray",
         "HDF5Array",
         "S4Arrays",
-        "SparseArray",
-        "alabaster.base"
+        "SparseArray"
     ],
     "alabaster.ranges": [
-        "GenomicRanges",
-        "alabaster.base"
+        "GenomicRanges"
     ],
     "alabaster.sce": [
         "DelayedArray",
@@ -284,7 +276,6 @@
         "SingleCellExperiment",
         "SparseArray",
         "SummarizedExperiment",
-        "alabaster.base",
         "alabaster.matrix",
         "alabaster.ranges",
         "alabaster.se"
@@ -296,7 +287,6 @@
         "S4Arrays",
         "SparseArray",
         "SummarizedExperiment",
-        "alabaster.base",
         "alabaster.matrix",
         "alabaster.ranges"
     ],
@@ -309,15 +299,13 @@
         "SparseArray",
         "SpatialExperiment",
         "SummarizedExperiment",
-        "alabaster.base",
         "alabaster.matrix",
         "alabaster.ranges",
         "alabaster.sce",
         "alabaster.se"
     ],
     "alabaster.string": [
-        "Biostrings",
-        "alabaster.base"
+        "Biostrings"
     ],
     "alabaster.vcf": [
         "AnnotationDbi",
@@ -334,7 +322,6 @@
         "SparseArray",
         "SummarizedExperiment",
         "VariantAnnotation",
-        "alabaster.base",
         "alabaster.matrix",
         "alabaster.ranges",
         "alabaster.se",

@@ -51,7 +51,6 @@
     "alabaster": [
         "BSgenome",
         "GenomicFeatures",
-        "SpatialExperiment",
         "VariantAnnotation",
         "alabaster.sce",
         "alabaster.spatial",
@@ -60,7 +59,6 @@
     ],
     "alabaster.sce": [],
     "alabaster.spatial": [
-        "SpatialExperiment",
         "alabaster.sce"
     ],
     "alabaster.vcf": [
@@ -205,9 +203,7 @@
         "PSMatch",
         "pRoloc"
     ],
-    "Banksy": [
-        "SpatialExperiment"
-    ],
+    "Banksy": [],
     "basecallQC": [
         "ShortRead"
     ],
@@ -918,9 +914,7 @@
     "CTexploreR": [
         "CTdata"
     ],
-    "CTSV": [
-        "SpatialExperiment"
-    ],
+    "CTSV": [],
     "cummeRbund": [
         "BSgenome",
         "GenomicFeatures",
@@ -937,8 +931,7 @@
         "scuttle"
     ],
     "cytomapper": [
-        "EBImage",
-        "SpatialExperiment"
+        "EBImage"
     ],
     "CytoPipeline": [],
     "CytoPipelineGUI": [
@@ -946,7 +939,6 @@
     ],
     "cytoviewer": [
         "EBImage",
-        "SpatialExperiment",
         "cytomapper"
     ],
     "dada2": [
@@ -1059,9 +1051,7 @@
         "regioneR",
         "rtracklayer"
     ],
-    "DESpace": [
-        "SpatialExperiment"
-    ],
+    "DESpace": [],
     "destiny": [],
     "DEsubs": [],
     "DEWSeq": [],
@@ -1327,9 +1317,7 @@
     "escape": [
         "UCell"
     ],
-    "escheR": [
-        "SpatialExperiment"
-    ],
+    "escheR": [],
     "EventPointer": [
         "BSgenome",
         "GenomicFeatures",
@@ -1351,9 +1339,7 @@
         "OrganismDbi",
         "rtracklayer"
     ],
-    "ExperimentSubset": [
-        "SpatialExperiment"
-    ],
+    "ExperimentSubset": [],
     "extraChIPs": [
         "BSgenome",
         "GenomicFeatures",
@@ -1577,9 +1563,7 @@
         "rtracklayer"
     ],
     "ggsc": [],
-    "ggspavis": [
-        "SpatialExperiment"
-    ],
+    "ggspavis": [],
     "girafe": [
         "ShortRead"
     ],
@@ -1726,9 +1710,7 @@
     "HiTC": [
         "rtracklayer"
     ],
-    "hoodscanR": [
-        "SpatialExperiment"
-    ],
+    "hoodscanR": [],
     "HTSeqGenie": [
         "BSgenome",
         "GenomicFeatures",
@@ -1781,7 +1763,6 @@
     ],
     "imcRtools": [
         "EBImage",
-        "SpatialExperiment",
         "cytomapper",
         "scuttle"
     ],
@@ -1925,7 +1906,6 @@
     "lipidr": [],
     "lisaClust": [
         "ClassifyR",
-        "SpatialExperiment",
         "spicyR"
     ],
     "LOBSTAHS": [
@@ -2266,8 +2246,7 @@
     ],
     "mogsa": [],
     "MoleculeExperiment": [
-        "EBImage",
-        "SpatialExperiment"
+        "EBImage"
     ],
     "monaLisa": [
         "BSgenome",
@@ -2469,9 +2448,7 @@
     "NewWave": [
         "SharedObject"
     ],
-    "nnSVG": [
-        "SpatialExperiment"
-    ],
+    "nnSVG": [],
     "NoRCE": [
         "GenomicFeatures",
         "rtracklayer"
@@ -3217,7 +3194,6 @@
         "AUCell",
         "GenomicFeatures",
         "SingleCellSignalR",
-        "SpatialExperiment",
         "ensembldb",
         "rtracklayer",
         "scran",
@@ -3226,9 +3202,7 @@
     "scGPS": [],
     "schex": [],
     "scHOT": [],
-    "scider": [
-        "SpatialExperiment"
-    ],
+    "scider": [],
     "scMerge": [
         "batchelor",
         "scater",
@@ -3387,7 +3361,6 @@
     ],
     "signifinder": [
         "GenomicFeatures",
-        "SpatialExperiment",
         "consensusOV",
         "ensembldb",
         "rtracklayer"
@@ -3400,7 +3373,6 @@
     ],
     "simpleSeg": [
         "EBImage",
-        "SpatialExperiment",
         "cytomapper"
     ],
     "SingleCellSignalR": [
@@ -3479,16 +3451,9 @@
         "BSgenome",
         "rtracklayer"
     ],
-    "spaSim": [
-        "SpatialExperiment"
-    ],
-    "spatialDE": [
-        "SpatialExperiment"
-    ],
-    "SpatialExperiment": [],
-    "SpatialFeatureExperiment": [
-        "SpatialExperiment"
-    ],
+    "spaSim": [],
+    "spatialDE": [],
+    "SpatialFeatureExperiment": [],
     "spatialHeatmap": [
         "scater",
         "scran",
@@ -3514,12 +3479,10 @@
     "speckle": [],
     "SpectralTAD": [],
     "SPIAT": [
-        "SpatialExperiment",
         "dittoSeq"
     ],
     "spicyR": [
-        "ClassifyR",
-        "SpatialExperiment"
+        "ClassifyR"
     ],
     "spiky": [
         "BSgenome",
@@ -3551,9 +3514,7 @@
         "ensembldb",
         "rtracklayer"
     ],
-    "SpotClean": [
-        "SpatialExperiment"
-    ],
+    "SpotClean": [],
     "SPOTlight": [],
     "SPsimSeq": [],
     "srnadiff": [
@@ -3570,7 +3531,6 @@
         "GenomicFeatures",
         "RUVSeq",
         "ShortRead",
-        "SpatialExperiment",
         "rtracklayer"
     ],
     "staRank": [
@@ -3578,12 +3538,8 @@
         "cellHTS2"
     ],
     "StarBioTrek": [],
-    "Statial": [
-        "SpatialExperiment"
-    ],
-    "stJoincount": [
-        "SpatialExperiment"
-    ],
+    "Statial": [],
+    "stJoincount": [],
     "strandCheckR": [
         "GenomicFeatures",
         "rtracklayer"
@@ -3681,7 +3637,6 @@
     ],
     "tidySingleCellExperiment": [],
     "tidySpatialExperiment": [
-        "SpatialExperiment",
         "tidySingleCellExperiment"
     ],
     "tilingArray": [],
@@ -3867,12 +3822,10 @@
     ],
     "vidger": [],
     "VisiumIO": [
-        "SpatialExperiment",
         "TENxIO"
     ],
     "vissE": [],
     "Voyager": [
-        "SpatialExperiment",
         "SpatialFeatureExperiment"
     ],
     "VplotR": [],

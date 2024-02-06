@@ -1391,17 +1391,14 @@
         "SpatialExperiment"
     ],
     "CytoML": [
-        "ggcyto",
         "openCyto"
     ],
     "CytoPipeline": [
-        "PeacoQC",
-        "ggcyto"
+        "PeacoQC"
     ],
     "CytoPipelineGUI": [
         "CytoPipeline",
-        "PeacoQC",
-        "ggcyto"
+        "PeacoQC"
     ],
     "cytoviewer": [
         "EBImage",
@@ -2110,9 +2107,7 @@
     "flowCHIC": [
         "EBImage"
     ],
-    "flowGate": [
-        "ggcyto"
-    ],
+    "flowGate": [],
     "flowVS": [],
     "FoldGO": [],
     "frma": [
@@ -2324,7 +2319,6 @@
         "ensembldb",
         "rtracklayer"
     ],
-    "ggcyto": [],
     "ggsc": [
         "SingleCellExperiment"
     ],

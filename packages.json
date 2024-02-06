@@ -51,15 +51,11 @@
         "BSgenome",
         "GenomicFeatures",
         "VariantAnnotation",
-        "alabaster.sce",
         "alabaster.spatial",
         "alabaster.vcf",
         "rtracklayer"
     ],
-    "alabaster.sce": [],
-    "alabaster.spatial": [
-        "alabaster.sce"
-    ],
+    "alabaster.spatial": [],
     "alabaster.vcf": [
         "BSgenome",
         "GenomicFeatures",

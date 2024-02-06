@@ -1,0 +1,278 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''ANF'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.19 (BiocManager 1.30.22), R Under development (unstable)
+  (2024-01-31 r85845)
+Installing package(s) 'ANF'
+also installing the dependencies ‘dbplyr’, ‘filelock’, ‘prettyGraphs’, ‘AnnotationHub’, ‘BiocFileCache’, ‘ExPosition’, ‘alluvial’, ‘ExperimentHub’, ‘SNFtool’
+
+trying URL 'https://cloud.r-project.org/src/contrib/dbplyr_2.4.0.tar.gz'
+Content type 'application/x-gzip' length 760884 bytes (743 KB)
+==================================================
+downloaded 743 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/filelock_1.0.3.tar.gz'
+Content type 'application/x-gzip' length 15443 bytes (15 KB)
+==================================================
+downloaded 15 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/prettyGraphs_2.1.6.tar.gz'
+Content type 'application/x-gzip' length 16893 bytes (16 KB)
+==================================================
+downloaded 16 KB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/AnnotationHub_3.11.1.tar.gz'
+Content type 'application/x-gzip' length 994032 bytes (970 KB)
+==================================================
+downloaded 970 KB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/BiocFileCache_2.11.1.tar.gz'
+Content type 'application/x-gzip' length 299452 bytes (292 KB)
+==================================================
+downloaded 292 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/ExPosition_2.8.23.tar.gz'
+Content type 'application/x-gzip' length 63329 bytes (61 KB)
+==================================================
+downloaded 61 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/alluvial_0.1-2.tar.gz'
+Content type 'application/x-gzip' length 518360 bytes (506 KB)
+==================================================
+downloaded 506 KB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/ExperimentHub_2.11.1.tar.gz'
+Content type 'application/x-gzip' length 496940 bytes (485 KB)
+==================================================
+downloaded 485 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/SNFtool_2.3.1.tar.gz'
+Content type 'application/x-gzip' length 230492 bytes (225 KB)
+==================================================
+downloaded 225 KB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/ANF_1.25.0.tar.gz'
+Content type 'application/x-gzip' length 697291 bytes (680 KB)
+==================================================
+downloaded 680 KB
+
+* installing *source* package ‘dbplyr’ ...
+** package ‘dbplyr’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘dbplyr’ as ‘dbplyr_2.4.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (dbplyr)
+* installing *source* package ‘filelock’ ...
+** package ‘filelock’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+rm -f filelock.so init.o filelock-unix.o locklist.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c filelock-unix.c -o filelock-unix.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c locklist.c -o locklist.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o filelock.so init.o filelock-unix.o locklist.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-filelock/00new/filelock/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘filelock’ as ‘filelock_1.0.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (filelock)
+* installing *source* package ‘prettyGraphs’ ...
+** package ‘prettyGraphs’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘prettyGraphs’ as ‘prettyGraphs_2.1.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (prettyGraphs)
+* installing *source* package ‘alluvial’ ...
+** package ‘alluvial’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘alluvial’ as ‘alluvial_0.1-2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (alluvial)
+* installing *source* package ‘ANF’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘ANF’ as ‘ANF_1.25.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ANF)
+* installing *source* package ‘BiocFileCache’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘BiocFileCache’ as ‘BiocFileCache_2.11.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (BiocFileCache)
+* installing *source* package ‘ExPosition’ ...
+** package ‘ExPosition’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘ExPosition’ as ‘ExPosition_2.8.23_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ExPosition)
+* installing *source* package ‘AnnotationHub’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘AnnotationHub’ as ‘AnnotationHub_3.11.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (AnnotationHub)
+* installing *source* package ‘SNFtool’ ...
+** package ‘SNFtool’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘SNFtool’ as ‘SNFtool_2.3.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (SNFtool)
+* installing *source* package ‘ExperimentHub’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘ExperimentHub’ as ‘ExperimentHub_2.11.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ExperimentHub)
+
+The downloaded source packages are in
+	‘/tmp/RtmpjqdXMS/downloaded_packages’
+
+real	0m55.907s
+user	0m48.146s
+sys	0m9.436s
+* installing *source* package ‘ExPosition’ ...
+** package ‘ExPosition’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘ExPosition’ as ‘ExPosition_2.8.23_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ExPosition)
+* installing *source* package ‘prettyGraphs’ ...
+** package ‘prettyGraphs’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘prettyGraphs’ as ‘prettyGraphs_2.1.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (prettyGraphs)
+* installing *source* package ‘SNFtool’ ...
+** package ‘SNFtool’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘SNFtool’ as ‘SNFtool_2.3.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (SNFtool)

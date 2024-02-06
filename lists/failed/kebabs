@@ -1,0 +1,597 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''kebabs'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.19 (BiocManager 1.30.22), R Under development (unstable)
+  (2024-01-31 r85845)
+Installing package(s) 'kebabs'
+also installing the dependencies ‘proxy’, ‘kernlab’, ‘e1071’, ‘LiblineaR’, ‘apcluster’, ‘SparseM’
+
+trying URL 'https://cloud.r-project.org/src/contrib/proxy_0.4-27.tar.gz'
+Content type 'application/x-gzip' length 74622 bytes (72 KB)
+==================================================
+downloaded 72 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/kernlab_0.9-32.tar.gz'
+Content type 'application/x-gzip' length 1215773 bytes (1.2 MB)
+==================================================
+downloaded 1.2 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/e1071_1.7-14.tar.gz'
+Content type 'application/x-gzip' length 326383 bytes (318 KB)
+==================================================
+downloaded 318 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/LiblineaR_2.10-23.tar.gz'
+Content type 'application/x-gzip' length 47843 bytes (46 KB)
+==================================================
+downloaded 46 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/apcluster_1.4.11.tar.gz'
+Content type 'application/x-gzip' length 1166100 bytes (1.1 MB)
+==================================================
+downloaded 1.1 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/SparseM_1.81.tar.gz'
+Content type 'application/x-gzip' length 735100 bytes (717 KB)
+==================================================
+downloaded 717 KB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/kebabs_1.37.0.tar.gz'
+Content type 'application/x-gzip' length 2402619 bytes (2.3 MB)
+==================================================
+downloaded 2.3 MB
+
+* installing *source* package ‘proxy’ ...
+** package ‘proxy’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c apply.c -o apply.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c arrayIndex.c -o arrayIndex.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c distance.c -o distance.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c dll.c -o dll.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c util.c -o util.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o proxy.so apply.o arrayIndex.o distance.o dll.o util.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-proxy/00new/proxy/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘proxy’ as ‘proxy_0.4-27_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (proxy)
+* installing *source* package ‘kernlab’ ...
+** package ‘kernlab’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+using C++ compiler: ‘g++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c brweight.cpp -o brweight.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ctable.cpp -o ctable.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cweight.cpp -o cweight.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c dbreakpt.c -o dbreakpt.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c dcauchy.c -o dcauchy.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c dgpnrm.c -o dgpnrm.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c dgpstep.c -o dgpstep.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c dprecond.c -o dprecond.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c dprsrch.c -o dprsrch.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c dspcg.c -o dspcg.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c dtron.c -o dtron.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c dtrpcg.c -o dtrpcg.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c dtrqsol.c -o dtrqsol.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c esa.cpp -o esa.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c expdecayweight.cpp -o expdecayweight.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c inductionsort.cpp -o inductionsort.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c kspectrumweight.cpp -o kspectrumweight.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c lcp.cpp -o lcp.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c misc.c -o misc.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c msufsort.cpp -o msufsort.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c solvebqp.c -o solvebqp.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c stringk.c -o stringk.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c stringkernel.cpp -o stringkernel.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c svm.cpp -o svm.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c wkasailcp.cpp -o wkasailcp.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c wmsufsort.cpp -o wmsufsort.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o kernlab.so brweight.o ctable.o cweight.o dbreakpt.o dcauchy.o dgpnrm.o dgpstep.o dprecond.o dprsrch.o dspcg.o dtron.o dtrpcg.o dtrqsol.o esa.o expdecayweight.o inductionsort.o init.o kspectrumweight.o lcp.o misc.o msufsort.o solvebqp.o stringk.o stringkernel.o svm.o wkasailcp.o wmsufsort.o -llapack -lblas -lgfortran -lm -lquadmath -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-kernlab/00new/kernlab/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+Creating a new generic function for ‘pattern’ in package ‘kernlab’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘kernlab’ as ‘kernlab_0.9-32_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (kernlab)
+* installing *source* package ‘LiblineaR’ ...
+** package ‘LiblineaR’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+using C++ compiler: ‘g++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c linear.cpp -o linear.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c predictLinear.c -o predictLinear.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c trainLinear.c -o trainLinear.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c tron.cpp -o tron.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o LiblineaR.so init.o linear.o predictLinear.o trainLinear.o tron.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-LiblineaR/00new/LiblineaR/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘LiblineaR’ as ‘LiblineaR_2.10-23_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (LiblineaR)
+* installing *source* package ‘apcluster’ ...
+** package ‘apcluster’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+using C++ compiler: ‘g++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c R_init_apcluster.cpp -o R_init_apcluster.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c aggExClusterC.cpp -o aggExClusterC.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c apclusterC.cpp -o apclusterC.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c apclusterLeveragedC.cpp -o apclusterLeveragedC.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c apclusterSparseC.cpp -o apclusterSparseC.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c distanceL.c -o distanceL.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c preferenceRangeC.cpp -o preferenceRangeC.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c preferenceRangeSparseC.cpp -o preferenceRangeSparseC.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o apcluster.so R_init_apcluster.o aggExClusterC.o apclusterC.o apclusterLeveragedC.o apclusterSparseC.o distanceL.o preferenceRangeC.o preferenceRangeSparseC.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-apcluster/00new/apcluster/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Creating a new generic function for ‘heatmap’ in package ‘apcluster’
+Creating a generic function for ‘cutree’ from package ‘stats’ in package ‘apcluster’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘apcluster’ as ‘apcluster_1.4.11_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (apcluster)
+* installing *source* package ‘SparseM’ ...
+** package ‘SparseM’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+using Fortran compiler: ‘GNU Fortran (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+gfortran  -fpic  -g -O2  -c bckslv.f -o bckslv.o
+gfortran  -fpic  -g -O2  -c chol.f -o chol.o
+gfortran  -fpic  -g -O2  -c chol2csr.f -o chol2csr.o
+gfortran  -fpic  -g -O2  -c cholesky.f -o cholesky.o
+cholesky.f:2948:72:
+
+ 2948 |                          IF  ( NODE )  400, 900, 500
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Arithmetic IF statement at (1)
+cholesky.f:2982:72:
+
+ 2982 |                  IF  ( RNODE )  1100, 1800, 1200
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Arithmetic IF statement at (1)
+cholesky.f:3299:72:
+
+ 3299 |                      IF  ( ENODE )  400, 800, 500
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Arithmetic IF statement at (1)
+cholesky.f:3356:72:
+
+ 3356 |                              IF  ( NODE )  1000, 2100, 1100
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Arithmetic IF statement at (1)
+cholesky.f:3430:72:
+
+ 3430 |                                          IF  ( NODE )  1700, 2000, 1800
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Arithmetic IF statement at (1)
+gfortran  -fpic  -g -O2  -c csr.f -o csr.o
+gfortran  -fpic  -g -O2  -c extract.f -o extract.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gfortran  -fpic  -g -O2  -c sparskit.f -o sparskit.o
+gfortran  -fpic  -g -O2  -c subscr.f -o subscr.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o SparseM.so bckslv.o chol.o chol2csr.o cholesky.o csr.o extract.o init.o sparskit.o subscr.o -lgfortran -lm -lquadmath -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-SparseM/00new/SparseM/libs
+** R
+** data
+** demo
+** inst
+** byte-compile and prepare package for lazy loading
+Creating a generic function for ‘diag’ from package ‘base’ in package ‘SparseM’
+Creating a generic function for ‘diag<-’ from package ‘base’ in package ‘SparseM’
+Creating a generic function for ‘norm’ from package ‘base’ in package ‘SparseM’
+Creating a new generic function for ‘backsolve’ in package ‘SparseM’
+Creating a generic function for ‘forwardsolve’ from package ‘base’ in package ‘SparseM’
+Creating a generic function for ‘model.response’ from package ‘stats’ in package ‘SparseM’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘SparseM’ as ‘SparseM_1.81_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (SparseM)
+* installing *source* package ‘e1071’ ...
+** package ‘e1071’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+using C++ compiler: ‘g++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Rsvm.c -o Rsvm.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cmeans.c -o cmeans.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cshell.c -o cshell.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c floyd.c -o floyd.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c svm.cpp -o svm.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o e1071.so Rsvm.o cmeans.o cshell.o floyd.o init.o svm.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-e1071/00new/e1071/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘e1071’ as ‘e1071_1.7-14_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (e1071)
+* installing *source* package ‘kebabs’ ...
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+using C++ compiler: ‘g++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DSTRICT_R_HEADERS -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I'/tmp/tmp/built/Biostrings/include' -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Biostrings_stubs.c -o Biostrings_stubs.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DSTRICT_R_HEADERS -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I'/tmp/tmp/built/Biostrings/include' -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ByteStringVector.c -o ByteStringVector.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DSTRICT_R_HEADERS -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I'/tmp/tmp/built/Biostrings/include' -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ExplicitRepC.cpp -o ExplicitRepC.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DSTRICT_R_HEADERS -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I'/tmp/tmp/built/Biostrings/include' -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c FeatureWeightsPosDepC.cpp -o FeatureWeightsPosDepC.o
+FeatureWeightsPosDepC.cpp: In instantiation of ‘bool getWeightsPerPosition(T, SEXPREC**, kh_pdfw_t*, kh_pdfi_t*, bool, int, uint64_t, uint64_t, T*) [with T = unsigned char; SEXP = SEXPREC*; uint64_t = long unsigned int]’:
+FeatureWeightsPosDepC.cpp:103:41:   required from here
+FeatureWeightsPosDepC.cpp:58:29: warning: format ‘%llu’ expects argument of type ‘long long unsigned int’, but argument 2 has type ‘int’ [-Wformat=]
+   58 |             Rprintf("key %llu not found in hashmap during determination of feature weights\n", keys[i]);
+      |                          ~~~^                                                                  ~~~~~
+      |                             |                                                                      |
+      |                             long long unsigned int                                                 int
+      |                          %u
+FeatureWeightsPosDepC.cpp:75:33: warning: format ‘%llu’ expects argument of type ‘long long unsigned int’, but argument 2 has type ‘uint64_t’ {aka ‘long unsigned int’} [-Wformat=]
+   75 |             Rprintf("pattern %llu not found in hashmap during determination of feature weights\n", featIndex);
+      |                              ~~~^                                                                  ~~~~~~~~~
+      |                                 |                                                                  |
+      |                                 long long unsigned int                                             uint64_t {aka long unsigned int}
+      |                              %lu
+FeatureWeightsPosDepC.cpp: In instantiation of ‘bool getWeightsPerPosition(T, SEXPREC**, kh_pdfw_t*, kh_pdfi_t*, bool, int, uint64_t, uint64_t, T*) [with T = short unsigned int; SEXP = SEXPREC*; uint64_t = long unsigned int]’:
+FeatureWeightsPosDepC.cpp:109:41:   required from here
+FeatureWeightsPosDepC.cpp:58:29: warning: format ‘%llu’ expects argument of type ‘long long unsigned int’, but argument 2 has type ‘int’ [-Wformat=]
+   58 |             Rprintf("key %llu not found in hashmap during determination of feature weights\n", keys[i]);
+      |                          ~~~^                                                                  ~~~~~
+      |                             |                                                                      |
+      |                             long long unsigned int                                                 int
+      |                          %u
+FeatureWeightsPosDepC.cpp:75:33: warning: format ‘%llu’ expects argument of type ‘long long unsigned int’, but argument 2 has type ‘uint64_t’ {aka ‘long unsigned int’} [-Wformat=]
+   75 |             Rprintf("pattern %llu not found in hashmap during determination of feature weights\n", featIndex);
+      |                              ~~~^                                                                  ~~~~~~~~~
+      |                                 |                                                                  |
+      |                                 long long unsigned int                                             uint64_t {aka long unsigned int}
+      |                              %lu
+FeatureWeightsPosDepC.cpp: In instantiation of ‘bool getWeightsPerPosition(T, SEXPREC**, kh_pdfw_t*, kh_pdfi_t*, bool, int, uint64_t, uint64_t, T*) [with T = unsigned int; SEXP = SEXPREC*; uint64_t = long unsigned int]’:
+FeatureWeightsPosDepC.cpp:116:41:   required from here
+FeatureWeightsPosDepC.cpp:58:29: warning: format ‘%llu’ expects argument of type ‘long long unsigned int’, but argument 2 has type ‘unsigned int’ [-Wformat=]
+   58 |             Rprintf("key %llu not found in hashmap during determination of feature weights\n", keys[i]);
+      |                          ~~~^                                                                  ~~~~~
+      |                             |                                                                      |
+      |                             long long unsigned int                                                 unsigned int
+      |                          %u
+FeatureWeightsPosDepC.cpp:75:33: warning: format ‘%llu’ expects argument of type ‘long long unsigned int’, but argument 2 has type ‘uint64_t’ {aka ‘long unsigned int’} [-Wformat=]
+   75 |             Rprintf("pattern %llu not found in hashmap during determination of feature weights\n", featIndex);
+      |                              ~~~^                                                                  ~~~~~~~~~
+      |                                 |                                                                  |
+      |                                 long long unsigned int                                             uint64_t {aka long unsigned int}
+      |                              %lu
+FeatureWeightsPosDepC.cpp: In instantiation of ‘bool getWeightsPerPosition(T, SEXPREC**, kh_pdfw_t*, kh_pdfi_t*, bool, int, uint64_t, uint64_t, T*) [with T = long unsigned int; SEXP = SEXPREC*; uint64_t = long unsigned int]’:
+FeatureWeightsPosDepC.cpp:122:41:   required from here
+FeatureWeightsPosDepC.cpp:58:29: warning: format ‘%llu’ expects argument of type ‘long long unsigned int’, but argument 2 has type ‘long unsigned int’ [-Wformat=]
+   58 |             Rprintf("key %llu not found in hashmap during determination of feature weights\n", keys[i]);
+      |                          ~~~^                                                                  ~~~~~
+      |                             |                                                                      |
+      |                             long long unsigned int                                                 long unsigned int
+      |                          %lu
+FeatureWeightsPosDepC.cpp:75:33: warning: format ‘%llu’ expects argument of type ‘long long unsigned int’, but argument 2 has type ‘uint64_t’ {aka ‘long unsigned int’} [-Wformat=]
+   75 |             Rprintf("pattern %llu not found in hashmap during determination of feature weights\n", featIndex);
+      |                              ~~~^                                                                  ~~~~~~~~~
+      |                                 |                                                                  |
+      |                                 long long unsigned int                                             uint64_t {aka long unsigned int}
+      |                              %lu
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DSTRICT_R_HEADERS -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I'/tmp/tmp/built/Biostrings/include' -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c GappyPairC.cpp -o GappyPairC.o
+GappyPairC.cpp: In function ‘bool getIndexMap(ByteStringVector, int, Rcpp::IntegerVector, ByteStringVector, ByteStringVector, Rcpp::IntegerVector, Rcpp::IntegerVector, int, int, bool, bool, bool, alphaInfo*, ByteStringVector, uint64_t, bool, bool, void**, uint64_t*, bool, uint64_t*, double**)’:
+GappyPairC.cpp:1960:80: warning: format ‘%llu’ expects argument of type ‘long long unsigned int’, but argument 2 has type ‘uint64_t’ {aka ‘long unsigned int’} [-Wformat=]
+ 1960 |                                                     Rprintf("Storage of key %llu in feature count hashmap failed\n",
+      |                                                                             ~~~^
+      |                                                                                |
+      |                                                                                long long unsigned int
+      |                                                                             %lu
+ 1961 |                                                             fIndex);
+      |                                                             ~~~~~~              
+      |                                                             |
+      |                                                             uint64_t {aka long unsigned int}
+GappyPairC.cpp:1991:76: warning: format ‘%llu’ expects argument of type ‘long long unsigned int’, but argument 2 has type ‘uint64_t’ {aka ‘long unsigned int’} [-Wformat=]
+ 1991 |                                                 Rprintf("Storage of key %llu in hashmap failed\n", fIndex);
+      |                                                                         ~~~^                       ~~~~~~
+      |                                                                            |                       |
+      |                                                                            long long unsigned int  uint64_t {aka long unsigned int}
+      |                                                                         %lu
+GappyPairC.cpp:2138:80: warning: format ‘%llu’ expects argument of type ‘long long unsigned int’, but argument 2 has type ‘uint64_t’ {aka ‘long unsigned int’} [-Wformat=]
+ 2138 |                                                     Rprintf("Storage of key %llu in feature count hashmap failed\n",
+      |                                                                             ~~~^
+      |                                                                                |
+      |                                                                                long long unsigned int
+      |                                                                             %lu
+ 2139 |                                                             fIndex);
+      |                                                             ~~~~~~              
+      |                                                             |
+      |                                                             uint64_t {aka long unsigned int}
+GappyPairC.cpp:2169:76: warning: format ‘%llu’ expects argument of type ‘long long unsigned int’, but argument 2 has type ‘uint64_t’ {aka ‘long unsigned int’} [-Wformat=]
+ 2169 |                                                 Rprintf("Storage of key %llu in hashmap failed\n", fIndex);
+      |                                                                         ~~~^                       ~~~~~~
+      |                                                                            |                       |
+      |                                                                            long long unsigned int  uint64_t {aka long unsigned int}
+      |                                                                         %lu
+GappyPairC.cpp: In function ‘void featuresToHashmapGappyPair(Rcpp::NumericMatrix, int, int, int, alphaInfo*, bool, ByteStringVector, Rcpp::IntegerVector)’:
+GappyPairC.cpp:3671:40: warning: format ‘%llu’ expects argument of type ‘long long unsigned int’, but argument 2 has type ‘uint64_t’ {aka ‘long unsigned int’} [-Wformat=]
+ 3671 |             Rprintf("Storage of key %llu in hashmap failed\n", featureIndex);
+      |                                     ~~~^                       ~~~~~~~~~~~~
+      |                                        |                       |
+      |                                        long long unsigned int  uint64_t {aka long unsigned int}
+      |                                     %lu
+GappyPairC.cpp: In function ‘void genPredProfileGappyPair(Rcpp::NumericMatrix, ByteStringVector, Rcpp::IntegerVector, int, ByteStringVector, ByteStringVector, int, bool, bool, int, int, int, int, Rcpp::NumericMatrix, int, bool, bool, bool)’:
+GappyPairC.cpp:4614:72: warning: format ‘%llu’ expects argument of type ‘long long unsigned int’, but argument 2 has type ‘uint64_t’ {aka ‘long unsigned int’} [-Wformat=]
+ 4614 |                                             Rprintf("Storage of key %llu in feature count hashmap failed\n",
+      |                                                                     ~~~^
+      |                                                                        |
+      |                                                                        long long unsigned int
+      |                                                                     %lu
+ 4615 |                                                     fIndex);
+      |                                                     ~~~~~~              
+      |                                                     |
+      |                                                     uint64_t {aka long unsigned int}
+GappyPairC.cpp:4737:72: warning: format ‘%llu’ expects argument of type ‘long long unsigned int’, but argument 2 has type ‘uint64_t’ {aka ‘long unsigned int’} [-Wformat=]
+ 4737 |                                             Rprintf("Storage of key %llu in feature count hashmap failed\n",
+      |                                                                     ~~~^
+      |                                                                        |
+      |                                                                        long long unsigned int
+      |                                                                     %lu
+ 4738 |                                                     featureIndex1);
+      |                                                     ~~~~~~~~~~~~~       
+      |                                                     |
+      |                                                     uint64_t {aka long unsigned int}
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DSTRICT_R_HEADERS -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I'/tmp/tmp/built/Biostrings/include' -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c IRanges_stubs.c -o IRanges_stubs.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DSTRICT_R_HEADERS -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I'/tmp/tmp/built/Biostrings/include' -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c KernelUtils.cpp -o KernelUtils.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DSTRICT_R_HEADERS -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I'/tmp/tmp/built/Biostrings/include' -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c MismatchC.cpp -o MismatchC.o
+MismatchC.cpp: In function ‘void mutateFeatureIndex(uint64_t, ifMutateFeature*)’:
+MismatchC.cpp:765:51: warning: format ‘%llu’ expects argument of type ‘long long unsigned int’, but argument 2 has type ‘uint64_t’ {aka ‘long unsigned int’} [-Wformat=]
+  765 |                         Rprintf("Feature index %llu not found in index mapping\n", currFeatureIndex);
+      |                                                ~~~^                                ~~~~~~~~~~~~~~~~
+      |                                                   |                                |
+      |                                                   long long unsigned int           uint64_t {aka long unsigned int}
+      |                                                %lu
+MismatchC.cpp:846:56: warning: format ‘%llu’ expects argument of type ‘long long unsigned int’, but argument 2 has type ‘uint64_t’ {aka ‘long unsigned int’} [-Wformat=]
+  846 |                             Rprintf("Storage of key %llu in feature count hashmap failed\n",
+      |                                                     ~~~^
+      |                                                        |
+      |                                                        long long unsigned int
+      |                                                     %lu
+  847 |                                     currFeatureIndex);
+      |                                     ~~~~~~~~~~~~~~~~    
+      |                                     |
+      |                                     uint64_t {aka long unsigned int}
+MismatchC.cpp:879:60: warning: format ‘%llu’ expects argument of type ‘long long unsigned int’, but argument 2 has type ‘uint64_t’ {aka ‘long unsigned int’} [-Wformat=]
+  879 |                                 Rprintf("Storage of key %llu in hashmap failed\n", currFeatureIndex);
+      |                                                         ~~~^                       ~~~~~~~~~~~~~~~~
+      |                                                            |                       |
+      |                                                            long long unsigned int  uint64_t {aka long unsigned int}
+      |                                                         %lu
+MismatchC.cpp: In function ‘void featuresToHashmapMismatch(Rcpp::NumericMatrix, int, int, int, alphaInfo*)’:
+MismatchC.cpp:2123:40: warning: format ‘%llu’ expects argument of type ‘long long unsigned int’, but argument 2 has type ‘uint64_t’ {aka ‘long unsigned int’} [-Wformat=]
+ 2123 |             Rprintf("Storage of key %llu in hashmap failed\n", featureIndex);
+      |                                     ~~~^                       ~~~~~~~~~~~~
+      |                                        |                       |
+      |                                        long long unsigned int  uint64_t {aka long unsigned int}
+      |                                     %lu
+MismatchC.cpp: In function ‘void mutateFeatureIndexPredProf(uint64_t, int, int, int, int, int, uint64_t*, Rcpp::NumericMatrix, Rcpp::NumericMatrix, bool, bool, kh_fc_t*, double*, bool)’:
+MismatchC.cpp:2191:52: warning: format ‘%llu’ expects argument of type ‘long long unsigned int’, but argument 2 has type ‘uint64_t’ {aka ‘long unsigned int’} [-Wformat=]
+ 2191 |                         Rprintf("Storage of key %llu in feature count hashmap failed\n",
+      |                                                 ~~~^
+      |                                                    |
+      |                                                    long long unsigned int
+      |                                                 %lu
+ 2192 |                                 featureIndex);
+      |                                 ~~~~~~~~~~~~        
+      |                                 |
+      |                                 uint64_t {aka long unsigned int}
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DSTRICT_R_HEADERS -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I'/tmp/tmp/built/Biostrings/include' -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c MotifC.cpp -o MotifC.o
+MotifC.cpp: In function ‘bool createMotifTree(ByteStringVector, int, prefTreeMotif*, int, int*, indexBlock*, bool*, alphaInfo*, bool)’:
+MotifC.cpp:286:33: warning: too many arguments for format [-Wformat-extra-args]
+  286 |                         Rprintf("Substitution group within substitution group\n",
+      |                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DSTRICT_R_HEADERS -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I'/tmp/tmp/built/Biostrings/include' -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c PredictionC.cpp -o PredictionC.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DSTRICT_R_HEADERS -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I'/tmp/tmp/built/Biostrings/include' -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c PredictionProfileC.cpp -o PredictionProfileC.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DSTRICT_R_HEADERS -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I'/tmp/tmp/built/Biostrings/include' -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c R_init_kebabs.cpp -o R_init_kebabs.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DSTRICT_R_HEADERS -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I'/tmp/tmp/built/Biostrings/include' -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Rsvm.c -o Rsvm.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DSTRICT_R_HEADERS -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I'/tmp/tmp/built/Biostrings/include' -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c SparseMatrixHash.cpp -o SparseMatrixHash.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DSTRICT_R_HEADERS -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I'/tmp/tmp/built/Biostrings/include' -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c SpectrumC.cpp -o SpectrumC.o
+SpectrumC.cpp: In function ‘bool getIndexMap(ByteStringVector, int, Rcpp::IntegerVector, ByteStringVector, ByteStringVector, Rcpp::IntegerVector, Rcpp::IntegerVector, int, bool, bool, bool, alphaInfo*, ByteStringVector, uint64_t, bool, bool, void**, uint64_t*, bool, uint64_t*, double**)’:
+SpectrumC.cpp:1459:76: warning: format ‘%llu’ expects argument of type ‘long long unsigned int’, but argument 2 has type ‘uint64_t’ {aka ‘long unsigned int’} [-Wformat=]
+ 1459 |                                                 Rprintf("Storage of key %llu in feature count hashmap failed\n",
+      |                                                                         ~~~^
+      |                                                                            |
+      |                                                                            long long unsigned int
+      |                                                                         %lu
+ 1460 |                                                         fIndex);
+      |                                                         ~~~~~~              
+      |                                                         |
+      |                                                         uint64_t {aka long unsigned int}
+SpectrumC.cpp:1490:72: warning: format ‘%llu’ expects argument of type ‘long long unsigned int’, but argument 2 has type ‘uint64_t’ {aka ‘long unsigned int’} [-Wformat=]
+ 1490 |                                             Rprintf("Storage of key %llu in hashmap failed\n", fIndex);
+      |                                                                     ~~~^                       ~~~~~~
+      |                                                                        |                       |
+      |                                                                        long long unsigned int  uint64_t {aka long unsigned int}
+      |                                                                     %lu
+SpectrumC.cpp:1580:72: warning: format ‘%llu’ expects argument of type ‘long long unsigned int’, but argument 2 has type ‘uint64_t’ {aka ‘long unsigned int’} [-Wformat=]
+ 1580 |                                             Rprintf("Storage of key %llu in feature count hashmap failed\n",
+      |                                                                     ~~~^
+      |                                                                        |
+      |                                                                        long long unsigned int
+      |                                                                     %lu
+ 1581 |                                                     fIndex);
+      |                                                     ~~~~~~              
+      |                                                     |
+      |                                                     uint64_t {aka long unsigned int}
+SpectrumC.cpp:1611:68: warning: format ‘%llu’ expects argument of type ‘long long unsigned int’, but argument 2 has type ‘uint64_t’ {aka ‘long unsigned int’} [-Wformat=]
+ 1611 |                                         Rprintf("Storage of key %llu in hashmap failed\n", fIndex);
+      |                                                                 ~~~^                       ~~~~~~
+      |                                                                    |                       |
+      |                                                                    long long unsigned int  uint64_t {aka long unsigned int}
+      |                                                                 %lu
+SpectrumC.cpp:1710:76: warning: format ‘%llu’ expects argument of type ‘long long unsigned int’, but argument 2 has type ‘uint64_t’ {aka ‘long unsigned int’} [-Wformat=]
+ 1710 |                                                 Rprintf("Storage of key %llu in feature count hashmap failed\n",
+      |                                                                         ~~~^
+      |                                                                            |
+      |                                                                            long long unsigned int
+      |                                                                         %lu
+ 1711 |                                                         fIndex * numAnnPowK + annotIndex);
+      |                                                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                                             |
+      |                                                                             uint64_t {aka long unsigned int}
+SpectrumC.cpp:1742:72: warning: format ‘%llu’ expects argument of type ‘long long unsigned int’, but argument 2 has type ‘uint64_t’ {aka ‘long unsigned int’} [-Wformat=]
+ 1742 |                                             Rprintf("Storage of key %llu in hashmap failed\n",
+      |                                                                     ~~~^
+      |                                                                        |
+      |                                                                        long long unsigned int
+      |                                                                     %lu
+ 1743 |                                                     fIndex * numAnnPowK + annotIndex);
+      |                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                                         |
+      |                                                                         uint64_t {aka long unsigned int}
+SpectrumC.cpp:1838:72: warning: format ‘%llu’ expects argument of type ‘long long unsigned int’, but argument 2 has type ‘uint64_t’ {aka ‘long unsigned int’} [-Wformat=]
+ 1838 |                                             Rprintf("Storage of key %llu in feature count hashmap failed\n",
+      |                                                                     ~~~^
+      |                                                                        |
+      |                                                                        long long unsigned int
+      |                                                                     %lu
+ 1839 |                                                     fIndex * numAnnPowK + annotIndex);
+      |                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                                         |
+      |                                                                         uint64_t {aka long unsigned int}
+SpectrumC.cpp:1870:68: warning: format ‘%llu’ expects argument of type ‘long long unsigned int’, but argument 2 has type ‘uint64_t’ {aka ‘long unsigned int’} [-Wformat=]
+ 1870 |                                         Rprintf("Storage of key %llu in hashmap failed\n",
+      |                                                                 ~~~^
+      |                                                                    |
+      |                                                                    long long unsigned int
+      |                                                                 %lu
+ 1871 |                                                 fIndex * numAnnPowK + annotIndex);
+      |                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                                     |
+      |                                                                     uint64_t {aka long unsigned int}
+SpectrumC.cpp: In function ‘void featuresToHashmapSpectrum(Rcpp::NumericMatrix, int, int, alphaInfo*, bool, ByteStringVector, Rcpp::IntegerVector)’:
+SpectrumC.cpp:3389:40: warning: format ‘%llu’ expects argument of type ‘long long unsigned int’, but argument 2 has type ‘uint64_t’ {aka ‘long unsigned int’} [-Wformat=]
+ 3389 |             Rprintf("Storage of key %llu in hashmap failed\n", featureIndex);
+      |                                     ~~~^                       ~~~~~~~~~~~~
+      |                                        |                       |
+      |                                        long long unsigned int  uint64_t {aka long unsigned int}
+      |                                     %lu
+SpectrumC.cpp: In function ‘void genPredProfileSpectrum(Rcpp::NumericMatrix, ByteStringVector, Rcpp::IntegerVector, int, ByteStringVector, ByteStringVector, int, bool, bool, int, int, int, Rcpp::NumericMatrix, int, bool, bool, bool)’:
+SpectrumC.cpp:4122:68: warning: format ‘%llu’ expects argument of type ‘long long unsigned int’, but argument 2 has type ‘uint64_t’ {aka ‘long unsigned int’} [-Wformat=]
+ 4122 |                                         Rprintf("Storage of key %llu in feature count hashmap failed\n",
+      |                                                                 ~~~^
+      |                                                                    |
+      |                                                                    long long unsigned int
+      |                                                                 %lu
+ 4123 |                                                 fIndex);
+      |                                                 ~~~~~~              
+      |                                                 |
+      |                                                 uint64_t {aka long unsigned int}
+SpectrumC.cpp:4202:64: warning: format ‘%llu’ expects argument of type ‘long long unsigned int’, but argument 2 has type ‘uint64_t’ {aka ‘long unsigned int’} [-Wformat=]
+ 4202 |                                     Rprintf("Storage of key %llu in feature count hashmap failed\n",
+      |                                                             ~~~^
+      |                                                                |
+      |                                                                long long unsigned int
+      |                                                             %lu
+ 4203 |                                             fIndex);
+      |                                             ~~~~~~              
+      |                                             |
+      |                                             uint64_t {aka long unsigned int}
+SpectrumC.cpp:4289:68: warning: format ‘%llu’ expects argument of type ‘long long unsigned int’, but argument 2 has type ‘uint64_t’ {aka ‘long unsigned int’} [-Wformat=]
+ 4289 |                                         Rprintf("Storage of key %llu in feature count hashmap failed\n",
+      |                                                                 ~~~^
+      |                                                                    |
+      |                                                                    long long unsigned int
+      |                                                                 %lu
+ 4290 |                                                 fIndex * numAnnPowK + annotIndex);
+      |                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                                     |
+      |                                                                     uint64_t {aka long unsigned int}
+SpectrumC.cpp:4377:64: warning: format ‘%llu’ expects argument of type ‘long long unsigned int’, but argument 2 has type ‘uint64_t’ {aka ‘long unsigned int’} [-Wformat=]
+ 4377 |                                     Rprintf("Storage of key %llu in feature count hashmap failed\n",
+      |                                                             ~~~^
+      |                                                                |
+      |                                                                long long unsigned int
+      |                                                             %lu
+ 4378 |                                             fIndex * numAnnPowK + annotIndex);
+      |                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                                 |
+      |                                                                 uint64_t {aka long unsigned int}
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DSTRICT_R_HEADERS -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I'/tmp/tmp/built/Biostrings/include' -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c SymmetricPairC.cpp -o SymmetricPairC.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DSTRICT_R_HEADERS -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I'/tmp/tmp/built/Biostrings/include' -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Utils.cpp -o Utils.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DSTRICT_R_HEADERS -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I'/tmp/tmp/built/Biostrings/include' -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c XVector_stubs.c -o XVector_stubs.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -DSTRICT_R_HEADERS -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I'/tmp/tmp/built/Biostrings/include' -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c svm.cpp -o svm.o
+svm.cpp: In function ‘void print_string_stdout(const char*)’:
+svm.cpp:50:12: error: format not a string literal and no format arguments [-Werror=format-security]
+   50 |     Rprintf(s);
+      |     ~~~~~~~^~~
+cc1plus: some warnings being treated as errors
+make: *** [/usr/local/lib/R/etc/Makeconf:200: svm.o] Error 1
+ERROR: compilation failed for package ‘kebabs’
+* removing ‘/tmp/tmp/built/kebabs’
+
+The downloaded source packages are in
+	‘/tmp/RtmpiG940a/downloaded_packages’
+Warning message:
+In install.packages(...) :
+  installation of package ‘kebabs’ had non-zero exit status
+
+real	1m55.637s
+user	1m44.088s
+sys	0m11.468s

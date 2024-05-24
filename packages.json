@@ -1569,7 +1569,6 @@
     "bnem": [
         "AnnotationDbi",
         "Biostrings",
-        "CellNOptR",
         "GenomeInfoDb",
         "KEGGREST",
         "annotate",
@@ -2198,7 +2197,6 @@
         "scater",
         "scuttle"
     ],
-    "CellNOptR": [],
     "CellScore": [
         "DelayedArray",
         "GenomeInfoDb",
@@ -2827,18 +2825,10 @@
         "pwalign",
         "rtracklayer"
     ],
-    "CNORdt": [
-        "CellNOptR"
-    ],
-    "CNORfeeder": [
-        "CellNOptR"
-    ],
-    "CNORfuzzy": [
-        "CellNOptR"
-    ],
-    "CNORode": [
-        "CellNOptR"
-    ],
+    "CNORdt": [],
+    "CNORfeeder": [],
+    "CNORfuzzy": [],
+    "CNORode": [],
     "CNTools": [
         "AnnotationDbi",
         "Biostrings",
@@ -8485,8 +8475,7 @@
         "GenomicRanges"
     ],
     "MEIGOR": [
-        "CNORode",
-        "CellNOptR"
+        "CNORode"
     ],
     "Melissa": [
         "BPRMeth",

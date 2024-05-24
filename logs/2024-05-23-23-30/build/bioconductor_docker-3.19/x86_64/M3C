@@ -13,15 +13,10 @@ Content type 'binary/octet-stream' length 2597662 bytes (2.5 MB)
 downloaded 2.5 MB
 
 trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/farver_2.1.2.tar.gz'
-Error in download.file(url, destfile, method, mode = "wb", ...) : 
-  cannot open URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/farver_2.1.2.tar.gz'
-In addition: Warning messages:
-1: In download.file(url, destfile, method, mode = "wb", ...) :
-  downloaded length 0 != reported length 132
-2: In download.file(url, destfile, method, mode = "wb", ...) :
-  cannot open URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/farver_2.1.2.tar.gz': HTTP status was '504 Gateway Timeout'
-Warning in download.packages(pkgs, destdir = tmpd, available = available,  :
-  download of package ‘farver’ failed
+Content type 'binary/octet-stream' length 1466846 bytes (1.4 MB)
+==================================================
+downloaded 1.4 MB
+
 trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/labeling_0.4.3.tar.gz'
 Content type 'binary/octet-stream' length 61014 bytes (59 KB)
 ==================================================
@@ -147,6 +142,11 @@ downloaded 582 KB
 * creating tarball
 packaged installation of ‘colorspace’ as ‘colorspace_2.1-0_R_x86_64-pc-linux-gnu.tar.gz’
 * DONE (colorspace)
+* installing *binary* package ‘farver’ ...
+* ‘farver’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘farver’ as ‘farver_2.1.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (farver)
 * installing *binary* package ‘labeling’ ...
 * ‘labeling’ was already a binary package and will not be rebuilt
 * creating tarball
@@ -281,10 +281,10 @@ packaged installation of ‘M3C’ as ‘M3C_1.26.0_R_x86_64-pc-linux-gnu.tar.gz
 * DONE (M3C)
 
 The downloaded source packages are in
-	‘/tmp/RtmpTjj4b7/downloaded_packages’
+	‘/tmp/Rtmpmrrb0E/downloaded_packages’
 Old packages: 'cachem', 'fastmap', 'openssl', 'ragg', 'rmarkdown',
   'systemfonts', 'xfun', 'KernSmooth'
 
-real	1m32.022s
-user	0m14.747s
-sys	0m5.448s
+real	0m32.847s
+user	0m15.240s
+sys	0m5.523s

@@ -1,0 +1,173 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''HumanTranscriptomeCompendium'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/jammy/latest
+Bioconductor version 3.19 (BiocManager 1.30.23), R 4.4.0 (2024-04-24)
+Installing package(s) 'HumanTranscriptomeCompendium'
+also installing the dependencies ‘dbplyr’, ‘filelock’, ‘rjson’, ‘beeswarm’, ‘tximportData’, ‘tximport’, ‘BiocFileCache’, ‘rhdf5client’
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/dbplyr_2.5.0.tar.gz'
+Content type 'binary/octet-stream' length 1248394 bytes (1.2 MB)
+==================================================
+downloaded 1.2 MB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/filelock_1.0.3.tar.gz'
+Content type 'binary/octet-stream' length 24754 bytes (24 KB)
+==================================================
+downloaded 24 KB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/rjson_0.2.21.tar.gz'
+Content type 'binary/octet-stream' length 150864 bytes (147 KB)
+==================================================
+downloaded 147 KB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/beeswarm_0.4.0.tar.gz'
+Content type 'binary/octet-stream' length 78309 bytes (76 KB)
+==================================================
+downloaded 76 KB
+
+trying URL 'https://bioconductor.org/packages/3.19/data/experiment/src/contrib/tximportData_1.32.0.tar.gz'
+Content type 'application/x-gzip' length 316744258 bytes (302.1 MB)
+==================================================
+downloaded 302.1 MB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/tximport_1.32.0.tar.gz'
+Content type 'application/x-gzip' length 315227 bytes (307 KB)
+==================================================
+downloaded 307 KB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/BiocFileCache_2.12.0.tar.gz'
+Content type 'application/x-gzip' length 297080 bytes (290 KB)
+==================================================
+downloaded 290 KB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/rhdf5client_1.26.0.tar.gz'
+Content type 'application/x-gzip' length 543706 bytes (530 KB)
+==================================================
+downloaded 530 KB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/HumanTranscriptomeCompendium_1.20.0.tar.gz'
+Content type 'application/x-gzip' length 2926898 bytes (2.8 MB)
+==================================================
+downloaded 2.8 MB
+
+* installing *binary* package ‘dbplyr’ ...
+* ‘dbplyr’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘dbplyr’ as ‘dbplyr_2.5.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (dbplyr)
+* installing *binary* package ‘filelock’ ...
+* ‘filelock’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘filelock’ as ‘filelock_1.0.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (filelock)
+* installing *binary* package ‘rjson’ ...
+* ‘rjson’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘rjson’ as ‘rjson_0.2.21_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rjson)
+* installing *binary* package ‘beeswarm’ ...
+* ‘beeswarm’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘beeswarm’ as ‘beeswarm_0.4.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (beeswarm)
+* installing *source* package ‘tximportData’ ...
+** using staged installation
+** inst
+** help
+No man pages found in package  ‘tximportData’ 
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘tximportData’ as ‘tximportData_1.32.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tximportData)
+* installing *source* package ‘tximport’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘tximport’ as ‘tximport_1.32.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tximport)
+* installing *source* package ‘HumanTranscriptomeCompendium’ ...
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+Warning in fun(libname, pkgname) :
+  Package 'HumanTranscriptomeCompendium' is deprecated and will be
+  removed from Bioconductor version 3.20. Please see rhdf5client as
+  replacement.
+** testing if installed package can be loaded from final location
+Warning in fun(libname, pkgname) :
+  Package 'HumanTranscriptomeCompendium' is deprecated and will be
+  removed from Bioconductor version 3.20. Please see rhdf5client as
+  replacement.
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘HumanTranscriptomeCompendium’ as ‘HumanTranscriptomeCompendium_1.20.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (HumanTranscriptomeCompendium)
+* installing *source* package ‘BiocFileCache’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘BiocFileCache’ as ‘BiocFileCache_2.12.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (BiocFileCache)
+* installing *source* package ‘rhdf5client’ ...
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c extract.c -o extract.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o rhdf5client.so extract.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-rhdf5client/00new/rhdf5client/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘rhdf5client’ as ‘rhdf5client_1.26.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rhdf5client)
+
+The downloaded source packages are in
+	‘/tmp/RtmpFWkjbY/downloaded_packages’
+Old packages: 'cachem', 'fastmap', 'openssl', 'ragg', 'rmarkdown',
+  'systemfonts', 'xfun', 'KernSmooth'
+
+real	2m41.018s
+user	2m29.485s
+sys	0m9.204s

@@ -150,7 +150,6 @@
         "GenomicFeatures"
     ],
     "bandle": [
-        "MSnbase",
         "pRoloc"
     ],
     "Basic4Cseq": [
@@ -312,7 +311,6 @@
         "ensembldb"
     ],
     "CAMERA": [
-        "MSnbase",
         "xcms"
     ],
     "CaMutQC": [
@@ -460,9 +458,7 @@
     "cliProfiler": [
         "BSgenome"
     ],
-    "CluMSID": [
-        "MSnbase"
-    ],
+    "CluMSID": [],
     "clusterExperiment": [
         "zinbwave"
     ],
@@ -556,7 +552,6 @@
         "regioneR"
     ],
     "cosmiq": [
-        "MSnbase",
         "xcms"
     ],
     "cosmosR": [],
@@ -659,9 +654,7 @@
         "EDASeq",
         "GenomicFeatures"
     ],
-    "DAPAR": [
-        "MSnbase"
-    ],
+    "DAPAR": [],
     "dar": [
         "mia"
     ],
@@ -706,9 +699,7 @@
         "VariantAnnotation",
         "ensembldb"
     ],
-    "DEP": [
-        "MSnbase"
-    ],
+    "DEP": [],
     "derfinder": [
         "BSgenome",
         "GenomicFeatures",
@@ -982,7 +973,6 @@
     ],
     "flagme": [
         "CAMERA",
-        "MSnbase",
         "xcms"
     ],
     "FLAMES": [
@@ -1300,7 +1290,6 @@
     ],
     "IPO": [
         "CAMERA",
-        "MSnbase",
         "xcms"
     ],
     "iSEEfier": [
@@ -1350,7 +1339,6 @@
     ],
     "LOBSTAHS": [
         "CAMERA",
-        "MSnbase",
         "xcms"
     ],
     "lumi": [
@@ -1385,7 +1373,6 @@
     ],
     "MAIT": [
         "CAMERA",
-        "MSnbase",
         "xcms"
     ],
     "mariner": [
@@ -1454,7 +1441,6 @@
     "metagene2": [],
     "metaMS": [
         "CAMERA",
-        "MSnbase",
         "xcms"
     ],
     "MetaPhOR": [
@@ -1653,25 +1639,17 @@
         "txdbmaker"
     ],
     "msImpute": [],
-    "msmsEDA": [
-        "MSnbase"
-    ],
+    "msmsEDA": [],
     "msmsTests": [
-        "MSnbase",
         "msmsEDA"
     ],
-    "MSnbase": [],
     "MSnID": [
-        "MSnbase",
         "msmsEDA",
         "msmsTests"
     ],
     "MSPrep": [],
-    "MSstatsQC": [
-        "MSnbase"
-    ],
+    "MSstatsQC": [],
     "MSstatsQCgui": [
-        "MSnbase",
         "MSstatsQC"
     ],
     "multicrispr": [
@@ -1733,7 +1711,6 @@
         "bsseq"
     ],
     "ncGTW": [
-        "MSnbase",
         "xcms"
     ],
     "nearBynding": [
@@ -1830,9 +1807,7 @@
     "pdInfoBuilder": [
         "oligo"
     ],
-    "peakPantheR": [
-        "MSnbase"
-    ],
+    "peakPantheR": [],
     "peco": [],
     "periodicDNA": [
         "BSgenome"
@@ -1882,9 +1857,7 @@
         "biovizBase",
         "ensembldb"
     ],
-    "PrInCE": [
-        "MSnbase"
-    ],
+    "PrInCE": [],
     "proActiv": [
         "GenomicFeatures",
         "txdbmaker"
@@ -1900,18 +1873,14 @@
         "rGREAT",
         "soGGi"
     ],
-    "pRoloc": [
-        "MSnbase"
-    ],
+    "pRoloc": [],
     "pRolocGUI": [
-        "MSnbase",
         "pRoloc"
     ],
     "PROMISE": [],
     "PROPS": [],
     "Prostar": [
-        "DAPAR",
-        "MSnbase"
+        "DAPAR"
     ],
     "ProteoDisco": [
         "BSgenome",
@@ -1927,9 +1896,7 @@
         "derfinder",
         "recount"
     ],
-    "ptairMS": [
-        "MSnbase"
-    ],
+    "ptairMS": [],
     "puma": [
         "oligo"
     ],
@@ -1949,9 +1916,7 @@
     "qpgraph": [
         "GenomicFeatures"
     ],
-    "qPLEXanalyzer": [
-        "MSnbase"
-    ],
+    "qPLEXanalyzer": [],
     "qsea": [
         "BSgenome"
     ],
@@ -2146,9 +2111,7 @@
     "RJMCMCNucleosomes": [
         "consensusSeekeR"
     ],
-    "RMassBank": [
-        "MSnbase"
-    ],
+    "RMassBank": [],
     "Rmmquant": [
         "GenomicFeatures"
     ],
@@ -2528,9 +2491,7 @@
         "StructuralVariantAnnotation",
         "VariantAnnotation"
     ],
-    "synapter": [
-        "MSnbase"
-    ],
+    "synapter": [],
     "syntenet": [],
     "systemPipeR": [],
     "tadar": [
@@ -2590,9 +2551,7 @@
         "VariantAnnotation"
     ],
     "TOP": [],
-    "topdownr": [
-        "MSnbase"
-    ],
+    "topdownr": [],
     "trackViewer": [
         "BSgenome",
         "GenomicFeatures",
@@ -2741,9 +2700,7 @@
         "GenomicFeatures"
     ],
     "wiggleplotr": [],
-    "xcms": [
-        "MSnbase"
-    ],
+    "xcms": [],
     "XDE": [],
     "XNAString": [
         "BSgenome"

@@ -1,4 +1,4 @@
-FROM ghcr.io/bioconductor/bioconductor:devel as build
+FROM ghcr.io/bioconductor/bioconductor:RELEASE_3_19 as build
 ARG LIBRARY
 ARG PKG
 ARG PLATFORM

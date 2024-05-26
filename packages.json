@@ -2033,12 +2033,9 @@
         "XVector"
     ],
     "basilisk": [
-        "basilisk.utils",
-        "dir.expiry"
+        "basilisk.utils"
     ],
-    "basilisk.utils": [
-        "dir.expiry"
-    ],
+    "basilisk.utils": [],
     "batchelor": [
         "Biobase",
         "BiocGenerics",
@@ -2632,8 +2629,7 @@
     "BiocHail": [
         "BiocGenerics",
         "basilisk",
-        "basilisk.utils",
-        "dir.expiry"
+        "basilisk.utils"
     ],
     "BiocHubsShiny": [
         "AnnotationDbi",
@@ -2757,8 +2753,7 @@
         "UCSC.utils",
         "XVector",
         "basilisk",
-        "basilisk.utils",
-        "dir.expiry"
+        "basilisk.utils"
     ],
     "biocViews": [
         "Biobase",
@@ -4116,8 +4111,7 @@
     ],
     "cbpManager": [
         "basilisk",
-        "basilisk.utils",
-        "dir.expiry"
+        "basilisk.utils"
     ],
     "ccfindR": [
         "Biobase",
@@ -4573,8 +4567,7 @@
         "UCSC.utils",
         "XVector",
         "basilisk",
-        "basilisk.utils",
-        "dir.expiry"
+        "basilisk.utils"
     ],
     "CGHbase": [
         "Biobase",
@@ -6734,7 +6727,6 @@
         "crisprBase",
         "crisprBowtie",
         "crisprScore",
-        "dir.expiry",
         "rtracklayer",
         "txdbmaker"
     ],
@@ -6752,8 +6744,7 @@
         "UCSC.utils",
         "XVector",
         "basilisk",
-        "basilisk.utils",
-        "dir.expiry"
+        "basilisk.utils"
     ],
     "CRISPRseek": [
         "BSgenome",
@@ -6818,7 +6809,6 @@
         "crisprDesign",
         "crisprScore",
         "crisprViz",
-        "dir.expiry",
         "ensembldb",
         "pwalign",
         "rtracklayer",
@@ -6884,7 +6874,6 @@
         "crisprDesign",
         "crisprScore",
         "crisprViz",
-        "dir.expiry",
         "ensembldb",
         "rtracklayer",
         "txdbmaker"
@@ -6926,7 +6915,6 @@
         "crisprBowtie",
         "crisprDesign",
         "crisprScore",
-        "dir.expiry",
         "ensembldb",
         "rtracklayer",
         "txdbmaker"
@@ -8188,8 +8176,7 @@
     ],
     "densvis": [
         "basilisk",
-        "basilisk.utils",
-        "dir.expiry"
+        "basilisk.utils"
     ],
     "DEP": [
         "AnnotationFilter",
@@ -8694,7 +8681,6 @@
         "XVector",
         "edgeR"
     ],
-    "dir.expiry": [],
     "DirichletMultinomial": [
         "BiocGenerics",
         "IRanges",
@@ -11055,7 +11041,6 @@
         "biomaRt",
         "biovizBase",
         "bluster",
-        "dir.expiry",
         "edgeR",
         "ensembldb",
         "ggbio",
@@ -14086,7 +14071,6 @@
         "XVector",
         "basilisk",
         "basilisk.utils",
-        "dir.expiry",
         "rhdf5",
         "rhdf5filters"
     ],
@@ -16143,8 +16127,7 @@
         "UCSC.utils",
         "XVector",
         "basilisk",
-        "basilisk.utils",
-        "dir.expiry"
+        "basilisk.utils"
     ],
     "made4": [
         "Biobase",
@@ -18804,7 +18787,6 @@
         "XVector",
         "basilisk",
         "basilisk.utils",
-        "dir.expiry",
         "rhdf5",
         "rhdf5filters"
     ],
@@ -21470,7 +21452,6 @@
         "XVector",
         "basilisk",
         "basilisk.utils",
-        "dir.expiry",
         "rhdf5",
         "rhdf5filters"
     ],
@@ -21794,7 +21775,6 @@
         "XVector",
         "basilisk",
         "basilisk.utils",
-        "dir.expiry",
         "fgsea",
         "qvalue"
     ],
@@ -24324,8 +24304,7 @@
         "BiocParallel",
         "S4Vectors",
         "basilisk",
-        "basilisk.utils",
-        "dir.expiry"
+        "basilisk.utils"
     ],
     "RcwlPipelines": [
         "BiocGenerics",
@@ -24333,8 +24312,7 @@
         "Rcwl",
         "S4Vectors",
         "basilisk",
-        "basilisk.utils",
-        "dir.expiry"
+        "basilisk.utils"
     ],
     "RCy3": [
         "BiocGenerics",
@@ -24380,7 +24358,6 @@
     "REBET": [],
     "rebook": [
         "BiocGenerics",
-        "dir.expiry",
         "graph"
     ],
     "receptLoss": [
@@ -24498,7 +24475,6 @@
         "basilisk",
         "basilisk.utils",
         "bumphunter",
-        "dir.expiry",
         "genefilter",
         "minfi",
         "multtest",
@@ -24959,8 +24935,7 @@
         "RcwlPipelines",
         "S4Vectors",
         "basilisk",
-        "basilisk.utils",
-        "dir.expiry"
+        "basilisk.utils"
     ],
     "rexposome": [
         "Biobase",
@@ -27330,7 +27305,6 @@
         "basilisk.utils",
         "beachmat",
         "biomaRt",
-        "dir.expiry",
         "edgeR",
         "rhdf5",
         "rhdf5filters",
@@ -27666,7 +27640,6 @@
         "basilisk",
         "basilisk.utils",
         "beachmat",
-        "dir.expiry",
         "scater",
         "scuttle",
         "sparseMatrixStats"
@@ -28474,7 +28447,6 @@
         "basilisk",
         "basilisk.utils",
         "biomformat",
-        "dir.expiry",
         "multtest",
         "phyloseq",
         "rhdf5",
@@ -28699,7 +28671,6 @@
         "beachmat",
         "bluster",
         "celda",
-        "dir.expiry",
         "edgeR",
         "ensembldb",
         "genefilter",
@@ -28858,8 +28829,7 @@
         "SparseArray",
         "XVector",
         "basilisk",
-        "basilisk.utils",
-        "dir.expiry"
+        "basilisk.utils"
     ],
     "skewr": [
         "AnnotationDbi",
@@ -28994,8 +28964,7 @@
     ],
     "snifter": [
         "basilisk",
-        "basilisk.utils",
-        "dir.expiry"
+        "basilisk.utils"
     ],
     "SNPediaR": [],
     "SNPhood": [
@@ -29286,8 +29255,7 @@
         "UCSC.utils",
         "XVector",
         "basilisk",
-        "basilisk.utils",
-        "dir.expiry"
+        "basilisk.utils"
     ],
     "SpatialDecon": [
         "Biobase",
@@ -32648,7 +32616,6 @@
         "basilisk",
         "basilisk.utils",
         "beachmat",
-        "dir.expiry",
         "scuttle",
         "sparseMatrixStats",
         "zellkonverter"
@@ -33280,8 +33247,7 @@
         "UCSC.utils",
         "XVector",
         "basilisk",
-        "basilisk.utils",
-        "dir.expiry"
+        "basilisk.utils"
     ],
     "zenith": [
         "AnnotationDbi",

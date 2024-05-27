@@ -1,0 +1,58 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''CTdata'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/jammy/latest
+Bioconductor version 3.19 (BiocManager 1.30.23), R 4.4.0 (2024-04-24)
+Installing package(s) 'CTdata'
+also installing the dependency ‘SingleCellExperiment’
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/SingleCellExperiment_1.26.0.tar.gz'
+Content type 'application/x-gzip' length 979460 bytes (956 KB)
+==================================================
+downloaded 956 KB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/CTdata_1.4.0.tar.gz'
+Content type 'application/x-gzip' length 434781 bytes (424 KB)
+==================================================
+downloaded 424 KB
+
+* installing *source* package ‘SingleCellExperiment’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘SingleCellExperiment’ as ‘SingleCellExperiment_1.26.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (SingleCellExperiment)
+* installing *source* package ‘CTdata’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘CTdata’ as ‘CTdata_1.4.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (CTdata)
+
+The downloaded source packages are in
+	‘/tmp/RtmpdxSwqW/downloaded_packages’
+Old packages: 'cachem', 'fastmap', 'openssl', 'ragg', 'rmarkdown',
+  'systemfonts', 'textshaping', 'xfun', 'KernSmooth'
+
+real	0m28.265s
+user	0m24.881s
+sys	0m3.078s

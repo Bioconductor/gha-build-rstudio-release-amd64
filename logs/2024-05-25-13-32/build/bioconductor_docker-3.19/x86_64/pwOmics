@@ -1,0 +1,135 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''pwOmics'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/jammy/latest
+Bioconductor version 3.19 (BiocManager 1.30.23), R 4.4.0 (2024-04-24)
+Installing package(s) 'pwOmics'
+also installing the dependencies ‘proxy’, ‘corpcor’, ‘e1071’, ‘ebdbNet’, ‘longitudinal’, ‘Mfuzz’
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/proxy_0.4-27.tar.gz'
+Content type 'binary/octet-stream' length 175590 bytes (171 KB)
+==================================================
+downloaded 171 KB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/corpcor_1.6.10.tar.gz'
+Content type 'binary/octet-stream' length 116072 bytes (113 KB)
+==================================================
+downloaded 113 KB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/e1071_1.7-14.tar.gz'
+Content type 'binary/octet-stream' length 596026 bytes (582 KB)
+==================================================
+downloaded 582 KB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/ebdbNet_1.2.8.tar.gz'
+Content type 'binary/octet-stream' length 95845 bytes (93 KB)
+==================================================
+downloaded 93 KB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/longitudinal_1.1.13.tar.gz'
+Content type 'binary/octet-stream' length 81043 bytes (79 KB)
+==================================================
+downloaded 79 KB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/Mfuzz_2.64.0.tar.gz'
+Content type 'application/x-gzip' length 685374 bytes (669 KB)
+==================================================
+downloaded 669 KB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/pwOmics_1.36.0.tar.gz'
+Content type 'application/x-gzip' length 903416 bytes (882 KB)
+==================================================
+downloaded 882 KB
+
+* installing *binary* package ‘proxy’ ...
+* ‘proxy’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘proxy’ as ‘proxy_0.4-27_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (proxy)
+* installing *binary* package ‘corpcor’ ...
+* ‘corpcor’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘corpcor’ as ‘corpcor_1.6.10_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (corpcor)
+* installing *binary* package ‘ebdbNet’ ...
+* ‘ebdbNet’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘ebdbNet’ as ‘ebdbNet_1.2.8_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ebdbNet)
+* installing *source* package ‘pwOmics’ ...
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+Warning in fun(libname, pkgname) :
+  Package 'pwOmics' is deprecated and will be removed from Bioconductor
+  version 3.20
+** testing if installed package can be loaded from final location
+Warning in fun(libname, pkgname) :
+  Package 'pwOmics' is deprecated and will be removed from Bioconductor
+  version 3.20
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘pwOmics’ as ‘pwOmics_1.36.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (pwOmics)
+* installing *binary* package ‘e1071’ ...
+* ‘e1071’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘e1071’ as ‘e1071_1.7-14_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (e1071)
+* installing *binary* package ‘longitudinal’ ...
+* ‘longitudinal’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘longitudinal’ as ‘longitudinal_1.1.13_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (longitudinal)
+* installing *source* package ‘Mfuzz’ ...
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+Warning: no DISPLAY variable so Tk is not available
+** help
+Warning: /tmp/RtmpVJMpKP/R.INSTALL13148188622/Mfuzz/man/cselection.Rd:25: unexpected '}'
+Warning: cselection.Rd:25: All text must be in a section
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+Warning: no DISPLAY variable so Tk is not available
+** testing if installed package can be loaded from final location
+Warning: no DISPLAY variable so Tk is not available
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘Mfuzz’ as ‘Mfuzz_2.64.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Mfuzz)
+
+The downloaded source packages are in
+	‘/tmp/RtmpiI3FSg/downloaded_packages’
+Old packages: 'cachem', 'fastmap', 'openssl', 'ragg', 'rmarkdown',
+  'systemfonts', 'textshaping', 'xfun', 'KernSmooth'
+
+real	0m25.951s
+user	0m18.833s
+sys	0m3.631s
+* installing *binary* package ‘fdrtool’ ...
+* ‘fdrtool’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘fdrtool’ as ‘fdrtool_1.2.17_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (fdrtool)
+* installing *binary* package ‘ebdbNet’ ...
+* ‘ebdbNet’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘ebdbNet’ as ‘ebdbNet_1.2.8_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ebdbNet)
+* installing *binary* package ‘GeneNet’ ...
+* ‘GeneNet’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘GeneNet’ as ‘GeneNet_1.2.16_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (GeneNet)

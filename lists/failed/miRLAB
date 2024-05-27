@@ -1,0 +1,246 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''miRLAB'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/jammy/latest
+Bioconductor version 3.19 (BiocManager 1.30.23), R 4.4.0 (2024-04-24)
+Installing package(s) 'miRLAB'
+also installing the dependencies ‘libcoin’, ‘inum’, ‘DEoptimR’, ‘stabs’, ‘nnls’, ‘quadprog’, ‘partykit’, ‘gsl’, ‘ggm’, ‘corpcor’, ‘robustbase’, ‘vcd’, ‘bdsmatrix’, ‘sfsmisc’, ‘fastICA’, ‘mboost’, ‘energy’, ‘entropy’, ‘glmnet’, ‘pcalg’, ‘InvariantCausalPrediction’
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/libcoin_1.0-10.tar.gz'
+Content type 'binary/octet-stream' length 809800 bytes (790 KB)
+==================================================
+downloaded 790 KB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/inum_1.0-5.tar.gz'
+Content type 'binary/octet-stream' length 37321 bytes (36 KB)
+==================================================
+downloaded 36 KB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/DEoptimR_1.1-3.tar.gz'
+Content type 'binary/octet-stream' length 74537 bytes (72 KB)
+==================================================
+downloaded 72 KB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/stabs_0.6-4.tar.gz'
+Content type 'binary/octet-stream' length 142173 bytes (138 KB)
+==================================================
+downloaded 138 KB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/nnls_1.5.tar.gz'
+Content type 'binary/octet-stream' length 36764 bytes (35 KB)
+==================================================
+downloaded 35 KB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/quadprog_1.5-8.tar.gz'
+Content type 'binary/octet-stream' length 30827 bytes (30 KB)
+==================================================
+downloaded 30 KB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/partykit_1.2-20.tar.gz'
+Content type 'binary/octet-stream' length 2420947 bytes (2.3 MB)
+==================================================
+downloaded 2.3 MB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/gsl_2.1-8.tar.gz'
+Content type 'binary/octet-stream' length 528870 bytes (516 KB)
+==================================================
+downloaded 516 KB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/ggm_2.5.1.tar.gz'
+Content type 'application/x-tar' length 78701 bytes (76 KB)
+==================================================
+downloaded 76 KB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/corpcor_1.6.10.tar.gz'
+Content type 'binary/octet-stream' length 116072 bytes (113 KB)
+==================================================
+downloaded 113 KB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/robustbase_0.99-2.tar.gz'
+Error in download.file(url, destfile, method, mode = "wb", ...) : 
+  cannot open URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/robustbase_0.99-2.tar.gz'
+In addition: Warning message:
+In download.file(url, destfile, method, mode = "wb", ...) :
+  URL 'https://rspm-sync.rstudio.com/bin/4.4-jammy/6bbb269c8d5e5b1543ce033781660ba0692a8c94e9d7f6c878337a9542756aa3.tar.gz': status was 'SSL connect error'
+Warning in download.packages(pkgs, destdir = tmpd, available = available,  :
+  download of package ‘robustbase’ failed
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/vcd_1.4-12.tar.gz'
+Content type 'binary/octet-stream' length 1301746 bytes (1.2 MB)
+==================================================
+downloaded 1.2 MB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/bdsmatrix_1.3-7.tar.gz'
+Content type 'binary/octet-stream' length 293529 bytes (286 KB)
+==================================================
+downloaded 286 KB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/sfsmisc_1.1-18.tar.gz'
+Content type 'binary/octet-stream' length 677004 bytes (661 KB)
+==================================================
+downloaded 661 KB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/fastICA_1.2-4.tar.gz'
+Content type 'binary/octet-stream' length 41531 bytes (40 KB)
+==================================================
+downloaded 40 KB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/mboost_2.9-10.tar.gz'
+Content type 'binary/octet-stream' length 2317095 bytes (2.2 MB)
+==================================================
+downloaded 2.2 MB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/energy_1.7-11.tar.gz'
+Content type 'binary/octet-stream' length 304246 bytes (297 KB)
+==================================================
+downloaded 297 KB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/entropy_1.3.1.tar.gz'
+Content type 'binary/octet-stream' length 90759 bytes (88 KB)
+==================================================
+downloaded 88 KB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/glmnet_4.1-8.tar.gz'
+Content type 'binary/octet-stream' length 2001229 bytes (1.9 MB)
+==================================================
+downloaded 1.9 MB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/pcalg_2.7-11.tar.gz'
+Content type 'application/x-tar' length 4098294 bytes (3.9 MB)
+==================================================
+downloaded 3.9 MB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/InvariantCausalPrediction_0.8.tar.gz'
+Content type 'binary/octet-stream' length 82985 bytes (81 KB)
+==================================================
+downloaded 81 KB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/miRLAB_1.34.0.tar.gz'
+Content type 'application/x-gzip' length 195123 bytes (190 KB)
+==================================================
+downloaded 190 KB
+
+* installing *binary* package ‘libcoin’ ...
+* ‘libcoin’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘libcoin’ as ‘libcoin_1.0-10_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (libcoin)
+* installing *binary* package ‘DEoptimR’ ...
+* ‘DEoptimR’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘DEoptimR’ as ‘DEoptimR_1.1-3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (DEoptimR)
+* installing *binary* package ‘stabs’ ...
+* ‘stabs’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘stabs’ as ‘stabs_0.6-4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (stabs)
+* installing *binary* package ‘nnls’ ...
+* ‘nnls’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘nnls’ as ‘nnls_1.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (nnls)
+* installing *binary* package ‘quadprog’ ...
+* ‘quadprog’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘quadprog’ as ‘quadprog_1.5-8_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (quadprog)
+* installing *binary* package ‘gsl’ ...
+* ‘gsl’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘gsl’ as ‘gsl_2.1-8_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (gsl)
+* installing *source* package ‘ggm’ ...
+** package ‘ggm’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘ggm’ as ‘ggm_2.5.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggm)
+* installing *binary* package ‘corpcor’ ...
+* ‘corpcor’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘corpcor’ as ‘corpcor_1.6.10_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (corpcor)
+* installing *binary* package ‘vcd’ ...
+* ‘vcd’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘vcd’ as ‘vcd_1.4-12_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (vcd)
+* installing *binary* package ‘bdsmatrix’ ...
+* ‘bdsmatrix’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘bdsmatrix’ as ‘bdsmatrix_1.3-7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (bdsmatrix)
+* installing *binary* package ‘sfsmisc’ ...
+* ‘sfsmisc’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘sfsmisc’ as ‘sfsmisc_1.1-18_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (sfsmisc)
+* installing *binary* package ‘fastICA’ ...
+* ‘fastICA’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘fastICA’ as ‘fastICA_1.2-4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (fastICA)
+* installing *binary* package ‘entropy’ ...
+* ‘entropy’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘entropy’ as ‘entropy_1.3.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (entropy)
+* installing *binary* package ‘glmnet’ ...
+* ‘glmnet’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘glmnet’ as ‘glmnet_4.1-8_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (glmnet)
+* installing *binary* package ‘inum’ ...
+* ‘inum’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘inum’ as ‘inum_1.0-5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (inum)
+* installing *binary* package ‘energy’ ...
+* ‘energy’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘energy’ as ‘energy_1.7-11_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (energy)
+ERROR: dependency ‘robustbase’ is not available for package ‘pcalg’
+* removing ‘/tmp/tmp/built/pcalg’
+* installing *binary* package ‘partykit’ ...
+* ‘partykit’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘partykit’ as ‘partykit_1.2-20_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (partykit)
+* installing *binary* package ‘mboost’ ...
+* ‘mboost’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘mboost’ as ‘mboost_2.9-10_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mboost)
+* installing *binary* package ‘InvariantCausalPrediction’ ...
+* ‘InvariantCausalPrediction’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘InvariantCausalPrediction’ as ‘InvariantCausalPrediction_0.8_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (InvariantCausalPrediction)
+ERROR: dependency ‘pcalg’ is not available for package ‘miRLAB’
+* removing ‘/tmp/tmp/built/miRLAB’
+
+The downloaded source packages are in
+	‘/tmp/RtmpUeXnUM/downloaded_packages’
+Old packages: 'cachem', 'fastmap', 'openssl', 'ragg', 'rmarkdown',
+  'systemfonts', 'textshaping', 'xfun', 'KernSmooth'
+Warning messages:
+1: In install.packages(...) :
+  installation of package ‘pcalg’ had non-zero exit status
+2: In install.packages(...) :
+  installation of package ‘miRLAB’ had non-zero exit status
+
+real	0m30.523s
+user	0m12.220s
+sys	0m4.454s

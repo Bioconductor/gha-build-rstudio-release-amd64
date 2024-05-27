@@ -1,0 +1,44 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''ensemblVEP'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/jammy/latest
+Bioconductor version 3.19 (BiocManager 1.30.23), R 4.4.0 (2024-04-24)
+Installing package(s) 'ensemblVEP'
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/ensemblVEP_1.46.0.tar.gz'
+Content type 'application/x-gzip' length 130032 bytes (126 KB)
+==================================================
+downloaded 126 KB
+
+* installing *source* package ‘ensemblVEP’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+Warning in fun(libname, pkgname) :
+  Package 'ensemblVEP' is deprecated and will be removed from
+  Bioconductor version 3.20; Functionality has been moved to
+  VariantAnnotation
+** testing if installed package can be loaded from final location
+Warning in fun(libname, pkgname) :
+  Package 'ensemblVEP' is deprecated and will be removed from
+  Bioconductor version 3.20; Functionality has been moved to
+  VariantAnnotation
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘ensemblVEP’ as ‘ensemblVEP_1.46.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ensemblVEP)
+
+The downloaded source packages are in
+	‘/tmp/RtmpXRDEPb/downloaded_packages’
+Old packages: 'cachem', 'fastmap', 'openssl', 'ragg', 'rmarkdown',
+  'systemfonts', 'textshaping', 'xfun', 'KernSmooth'
+
+real	0m30.592s
+user	0m26.591s
+sys	0m2.403s

@@ -1,29 +1,23 @@
 {
     "affycoretools": [
-        "OrganismDbi",
         "ReportingTools",
         "ggbio"
     ],
     "AgiMicroRna": [
-        "OrganismDbi",
         "ReportingTools",
         "affycoretools",
         "ggbio"
     ],
     "AHMassBank": [
-        "AnnotationHubData",
-        "OrganismDbi"
+        "AnnotationHubData"
     ],
     "alabaster": [],
     "AllelicImbalance": [
         "Gviz"
     ],
-    "AnnotationHubData": [
-        "OrganismDbi"
-    ],
+    "AnnotationHubData": [],
     "appreci8R": [
-        "GenomicScores",
-        "OrganismDbi"
+        "GenomicScores"
     ],
     "arrayMvout": [
         "lumi",
@@ -32,9 +26,7 @@
     "ASpli": [
         "Gviz"
     ],
-    "ATACCoGAPS": [
-        "OrganismDbi"
-    ],
+    "ATACCoGAPS": [],
     "ATACseqQC": [
         "GenomicScores"
     ],
@@ -53,17 +45,14 @@
         "Gviz"
     ],
     "biscuiteer": [
-        "OrganismDbi",
         "dmrseq"
     ],
     "BOBaFIT": [
-        "OrganismDbi",
         "ggbio"
     ],
     "borealis": [],
     "BubbleTree": [],
     "CAFE": [
-        "OrganismDbi",
         "ggbio"
     ],
     "CAGEfightR": [
@@ -71,7 +60,6 @@
         "Gviz"
     ],
     "cageminer": [
-        "OrganismDbi",
         "ggbio"
     ],
     "CAGEr": [
@@ -144,7 +132,6 @@
     "DeMixT": [],
     "derfinder": [],
     "derfinderPlot": [
-        "OrganismDbi",
         "derfinder",
         "ggbio"
     ],
@@ -163,33 +150,24 @@
     "enhancerHomologSearch": [],
     "ENmix": [],
     "epimutacions": [
-        "Gviz",
-        "OrganismDbi"
+        "Gviz"
     ],
     "epiregulon": [],
     "epivizr": [
-        "OrganismDbi",
         "epivizrData"
     ],
     "epivizrChart": [
-        "OrganismDbi",
         "epivizrData"
     ],
-    "epivizrData": [
-        "OrganismDbi"
-    ],
+    "epivizrData": [],
     "epivizrStandalone": [
-        "OrganismDbi",
         "epivizr",
         "epivizrData"
     ],
-    "erma": [
-        "OrganismDbi"
-    ],
+    "erma": [],
     "esATAC": [],
     "ExperimentHubData": [
-        "AnnotationHubData",
-        "OrganismDbi"
+        "AnnotationHubData"
     ],
     "extraChIPs": [
         "GenomicInteractions",
@@ -200,7 +178,6 @@
         "methylumi"
     ],
     "FLAMES": [
-        "OrganismDbi",
         "ggbio"
     ],
     "FRASER": [],
@@ -216,23 +193,18 @@
         "Gviz"
     ],
     "GenomicOZone": [
-        "OrganismDbi",
         "ggbio"
     ],
     "GenomicPlot": [],
     "GenomicScores": [],
-    "ggbio": [
-        "OrganismDbi"
-    ],
+    "ggbio": [],
     "gmapR": [],
     "GNOSIS": [
         "RTCGAToolbox",
         "cBioPortalData"
     ],
     "GRaNIE": [],
-    "GSReg": [
-        "OrganismDbi"
-    ],
+    "GSReg": [],
     "GUIDEseq": [],
     "Gviz": [],
     "HiCDCPlus": [
@@ -247,11 +219,8 @@
         "lumi",
         "methylumi"
     ],
-    "iNETgrate": [
-        "OrganismDbi"
-    ],
+    "iNETgrate": [],
     "intansv": [
-        "OrganismDbi",
         "ggbio"
     ],
     "IntEREst": [],
@@ -272,8 +241,7 @@
         "Gviz"
     ],
     "mCSEA": [
-        "Gviz",
-        "OrganismDbi"
+        "Gviz"
     ],
     "MEAL": [
         "Gviz",
@@ -291,8 +259,7 @@
     "methylCC": [],
     "methylclock": [
         "AnnotationHubData",
-        "ExperimentHubData",
-        "OrganismDbi"
+        "ExperimentHubData"
     ],
     "methylGSA": [
         "methylumi",
@@ -318,7 +285,6 @@
         "Gviz"
     ],
     "msgbsR": [
-        "OrganismDbi",
         "easyRNASeq",
         "ggbio"
     ],
@@ -343,7 +309,6 @@
         "Gviz"
     ],
     "OMICsPCA": [],
-    "OrganismDbi": [],
     "pageRank": [],
     "PING": [
         "Gviz"
@@ -363,7 +328,6 @@
     "quantro": [],
     "QuasR": [],
     "R3CPET": [
-        "OrganismDbi",
         "ggbio"
     ],
     "RAIDS": [],
@@ -383,14 +347,12 @@
     ],
     "REMP": [],
     "ReportingTools": [
-        "OrganismDbi",
         "ggbio"
     ],
     "RESOLVE": [],
     "RiboCrypt": [],
     "RiboDiPA": [],
     "RiboProfiling": [
-        "OrganismDbi",
         "ggbio"
     ],
     "ribosomeProfilingQC": [],
@@ -432,11 +394,9 @@
     "scone": [],
     "scoreInvHap": [],
     "scruff": [
-        "OrganismDbi",
         "ggbio"
     ],
     "scTreeViz": [
-        "OrganismDbi",
         "epivizr",
         "epivizrData"
     ],
@@ -453,7 +413,6 @@
         "wateRmelon"
     ],
     "SomaticSignatures": [
-        "OrganismDbi",
         "ggbio"
     ],
     "SOMNiBUS": [],
@@ -488,8 +447,7 @@
     "txcutr": [],
     "tximeta": [],
     "uncoverappLib": [
-        "Gviz",
-        "OrganismDbi"
+        "Gviz"
     ],
     "UPDhmm": [],
     "VariantFiltering": [
@@ -505,7 +463,6 @@
         "methylumi"
     ],
     "YAPSA": [
-        "OrganismDbi",
         "SomaticSignatures",
         "ggbio"
     ],

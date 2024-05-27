@@ -67,8 +67,7 @@
         "Rsamtools",
         "S4Vectors",
         "UCSC.utils",
-        "XVector",
-        "marray"
+        "XVector"
     ],
     "aCGH": [
         "Biobase",
@@ -1168,9 +1167,7 @@
         "siggenes",
         "sparseMatrixStats"
     ],
-    "arrayQuality": [
-        "marray"
-    ],
+    "arrayQuality": [],
     "arrayQualityMetrics": [
         "AnnotationDbi",
         "Biobase",
@@ -1200,8 +1197,7 @@
         "MSstats",
         "S4Vectors",
         "UCSC.utils",
-        "XVector",
-        "marray"
+        "XVector"
     ],
     "ASICS": [
         "Biobase",
@@ -2702,7 +2698,6 @@
         "bumphunter",
         "dmrseq",
         "graph",
-        "marray",
         "regioneR",
         "rhdf5",
         "rhdf5filters",
@@ -4065,8 +4060,7 @@
         "Rsamtools",
         "S4Vectors",
         "UCSC.utils",
-        "XVector",
-        "marray"
+        "XVector"
     ],
     "cfDNAPro": [
         "BSgenome",
@@ -4107,13 +4101,11 @@
         "basilisk.utils"
     ],
     "CGHbase": [
-        "Biobase",
-        "marray"
+        "Biobase"
     ],
     "CGHcall": [
         "Biobase",
-        "CGHbase",
-        "marray"
+        "CGHbase"
     ],
     "cghMCR": [
         "AnnotationDbi",
@@ -4132,13 +4124,11 @@
     "CGHnormaliter": [
         "Biobase",
         "CGHbase",
-        "CGHcall",
-        "marray"
+        "CGHcall"
     ],
     "CGHregions": [
         "Biobase",
-        "CGHbase",
-        "marray"
+        "CGHbase"
     ],
     "ChemmineOB": [],
     "ChemmineR": [],
@@ -5470,7 +5460,6 @@
         "biovizBase",
         "ensembldb",
         "graph",
-        "marray",
         "methylPipe",
         "rtracklayer",
         "topGO"
@@ -5686,8 +5675,7 @@
         "sparseMatrixStats"
     ],
     "convert": [
-        "Biobase",
-        "marray"
+        "Biobase"
     ],
     "copa": [
         "Biobase"
@@ -5751,7 +5739,6 @@
         "UCSC.utils",
         "XVector",
         "fgsea",
-        "marray",
         "piano"
     ],
     "Cormotif": [
@@ -8350,8 +8337,7 @@
     ],
     "dupRadar": [],
     "dyebias": [
-        "Biobase",
-        "marray"
+        "Biobase"
     ],
     "easier": [
         "AnnotationDbi",
@@ -10558,7 +10544,6 @@
         "gDRcore",
         "gDRimport",
         "gDRutils",
-        "marray",
         "piano"
     ],
     "gDRcore": [
@@ -10597,7 +10582,6 @@
         "XVector",
         "fgsea",
         "gDRutils",
-        "marray",
         "piano"
     ],
     "gDRstyle": [
@@ -10709,8 +10693,7 @@
         "Rsamtools",
         "S4Vectors",
         "UCSC.utils",
-        "XVector",
-        "marray"
+        "XVector"
     ],
     "geneClassifiers": [
         "Biobase"
@@ -14784,7 +14767,6 @@
         "UCSC.utils",
         "XVector"
     ],
-    "marray": [],
     "martini": [
         "snpStats"
     ],
@@ -15943,7 +15925,6 @@
         "biomaRt",
         "biovizBase",
         "ensembldb",
-        "marray",
         "rtracklayer"
     ],
     "methylscaper": [
@@ -16467,7 +16448,6 @@
         "genefilter",
         "graph",
         "lumi",
-        "marray",
         "methylumi",
         "minfi",
         "multtest",
@@ -17696,12 +17676,9 @@
         "UCSC.utils",
         "XVector"
     ],
-    "MSstats": [
-        "marray"
-    ],
+    "MSstats": [],
     "MSstatsBig": [
-        "MSstats",
-        "marray"
+        "MSstats"
     ],
     "MSstatsLiP": [
         "Biostrings",
@@ -17712,8 +17689,7 @@
         "MSstatsTMT",
         "S4Vectors",
         "UCSC.utils",
-        "XVector",
-        "marray"
+        "XVector"
     ],
     "MSstatsPTM": [
         "Biostrings",
@@ -17723,8 +17699,7 @@
         "MSstatsTMT",
         "S4Vectors",
         "UCSC.utils",
-        "XVector",
-        "marray"
+        "XVector"
     ],
     "MSstatsQC": [
         "AnnotationFilter",
@@ -17788,12 +17763,10 @@
         "MSstatsTMT",
         "S4Vectors",
         "UCSC.utils",
-        "XVector",
-        "marray"
+        "XVector"
     ],
     "MSstatsTMT": [
-        "MSstats",
-        "marray"
+        "MSstats"
     ],
     "MuData": [
         "Biobase",
@@ -18645,9 +18618,7 @@
         "XVector",
         "fgsea"
     ],
-    "nnNorm": [
-        "marray"
-    ],
+    "nnNorm": [],
     "nnSVG": [
         "Biobase",
         "BiocParallel",
@@ -18917,12 +18888,9 @@
         "UCSC.utils",
         "XVector"
     ],
-    "OLIN": [
-        "marray"
-    ],
+    "OLIN": [],
     "OLINgui": [
         "OLIN",
-        "marray",
         "tkWidgets"
     ],
     "omada": [
@@ -19820,7 +19788,6 @@
         "biomaRt",
         "fgsea",
         "genefu",
-        "marray",
         "piano"
     ],
     "pdInfoBuilder": [
@@ -20020,7 +19987,6 @@
         "UCSC.utils",
         "XVector",
         "fgsea",
-        "marray",
         "piano"
     ],
     "phenomis": [
@@ -20140,8 +20106,7 @@
     "piano": [
         "Biobase",
         "BiocParallel",
-        "fgsea",
-        "marray"
+        "fgsea"
     ],
     "PICS": [
         "Biobase",
@@ -21192,8 +21157,7 @@
         "Rsamtools",
         "S4Vectors",
         "UCSC.utils",
-        "XVector",
-        "marray"
+        "XVector"
     ],
     "QFeatures": [
         "AnnotationFilter",
@@ -21576,7 +21540,6 @@
         "UCSC.utils",
         "XVector",
         "fgsea",
-        "marray",
         "piano"
     ],
     "raer": [
@@ -21761,9 +21724,7 @@
         "UCSC.utils",
         "XVector"
     ],
-    "RBM": [
-        "marray"
-    ],
+    "RBM": [],
     "Rbowtie2": [
         "BiocParallel",
         "Biostrings",
@@ -27107,9 +27068,7 @@
     "STdeconvolve": [
         "BiocParallel"
     ],
-    "stepNorm": [
-        "marray"
-    ],
+    "stepNorm": [],
     "stJoincount": [
         "Biobase",
         "DelayedArray",
@@ -28091,8 +28050,7 @@
         "vsn"
     ],
     "timecourse": [
-        "Biobase",
-        "marray"
+        "Biobase"
     ],
     "timeOmics": [
         "BiocParallel",
@@ -28287,7 +28245,6 @@
         "UCSC.utils",
         "XVector",
         "fgsea",
-        "marray",
         "piano"
     ],
     "TPP": [
@@ -28820,8 +28777,7 @@
     "TurboNorm": [
         "Biobase",
         "affy",
-        "convert",
-        "marray"
+        "convert"
     ],
     "TVTB": [
         "AnnotationDbi",
@@ -29846,7 +29802,6 @@
         "UCSC.utils",
         "XVector",
         "fgsea",
-        "marray",
         "piano"
     ],
     "XINA": [],

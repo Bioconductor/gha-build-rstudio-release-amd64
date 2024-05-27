@@ -156,19 +156,12 @@
     "Basic4Cseq": [
         "BSgenome"
     ],
-    "BASiCS": [
-        "scran"
-    ],
+    "BASiCS": [],
     "BASiCStan": [
-        "BASiCS",
-        "scran"
+        "BASiCS"
     ],
-    "BatchQC": [
-        "scran"
-    ],
-    "BayesSpace": [
-        "scran"
-    ],
+    "BatchQC": [],
+    "BayesSpace": [],
     "BBCAnalyzer": [
         "BSgenome",
         "GenomicFeatures",
@@ -362,9 +355,7 @@
         "enrichplot"
     ],
     "CCPROMISE": [],
-    "celda": [
-        "scran"
-    ],
+    "celda": [],
     "CellBarcode": [],
     "cellHTS2": [],
     "CelliD": [],
@@ -433,9 +424,7 @@
         "oligo"
     ],
     "ChromHeatMap": [],
-    "ChromSCape": [
-        "scran"
-    ],
+    "ChromSCape": [],
     "chromVAR": [
         "BSgenome",
         "CNEr",
@@ -461,9 +450,7 @@
         "SGSeq",
         "txdbmaker"
     ],
-    "CiteFuse": [
-        "scran"
-    ],
+    "CiteFuse": [],
     "cleanUpdTSeq": [
         "BSgenome"
     ],
@@ -693,8 +680,7 @@
         "VariantAnnotation"
     ],
     "decontX": [
-        "celda",
-        "scran"
+        "celda"
     ],
     "deconvR": [
         "GenomicFeatures",
@@ -769,9 +755,7 @@
         "GenomicFeatures",
         "ensembldb"
     ],
-    "Dino": [
-        "scran"
-    ],
+    "Dino": [],
     "distinct": [],
     "DMCFB": [],
     "DMCHMM": [],
@@ -895,13 +879,11 @@
         "BSgenome",
         "CNEr",
         "TFBSTools",
-        "motifmatchr",
-        "scran"
+        "motifmatchr"
     ],
     "epiregulon.extra": [
         "clusterProfiler",
-        "enrichplot",
-        "scran"
+        "enrichplot"
     ],
     "EpiTxDb": [
         "GenomicFeatures",
@@ -1023,7 +1005,6 @@
         "biovizBase",
         "ensembldb",
         "ggbio",
-        "scran",
         "txdbmaker"
     ],
     "FRASER": [
@@ -1394,9 +1375,7 @@
         "methylumi",
         "minfi"
     ],
-    "lute": [
-        "scran"
-    ],
+    "lute": [],
     "M3Drop": [],
     "m6Aboost": [
         "BSgenome"
@@ -1660,9 +1639,7 @@
         "clusterProfiler",
         "enrichplot"
     ],
-    "MOSim": [
-        "scran"
-    ],
+    "MOSim": [],
     "Motif2Site": [
         "BSgenome"
     ],
@@ -1700,9 +1677,7 @@
         "ggbio",
         "txdbmaker"
     ],
-    "msImpute": [
-        "scran"
-    ],
+    "msImpute": [],
     "msmsEDA": [
         "MSnbase"
     ],
@@ -1737,9 +1712,7 @@
         "regioneR"
     ],
     "multiHiCcompare": [],
-    "mumosa": [
-        "scran"
-    ],
+    "mumosa": [],
     "MungeSumstats": [
         "BSgenome",
         "GenomicFeatures",
@@ -1908,9 +1881,7 @@
         "biovizBase",
         "ensembldb"
     ],
-    "pipeComp": [
-        "scran"
-    ],
+    "pipeComp": [],
     "pipeFrame": [
         "BSgenome"
     ],
@@ -2104,8 +2075,7 @@
     ],
     "RegEnrich": [],
     "RegionalST": [
-        "BayesSpace",
-        "scran"
+        "BayesSpace"
     ],
     "regioneR": [
         "BSgenome"
@@ -2338,21 +2308,15 @@
     "SCANVIS": [],
     "scBFA": [],
     "scCB2": [],
-    "scDblFinder": [
-        "scran"
-    ],
-    "scDD": [
-        "scran"
-    ],
+    "scDblFinder": [],
+    "scDD": [],
     "scFeatures": [
         "GenomicFeatures",
         "SingleCellSignalR",
-        "ensembldb",
-        "scran"
+        "ensembldb"
     ],
     "scMerge": [
-        "M3Drop",
-        "scran"
+        "M3Drop"
     ],
     "scmeth": [
         "BSgenome",
@@ -2376,7 +2340,6 @@
     ],
     "scp": [],
     "scPipe": [],
-    "scran": [],
     "scRNAseqApp": [
         "slingshot"
     ],
@@ -2403,7 +2366,6 @@
         "ensembldb",
         "epivizr",
         "epivizrData",
-        "scran",
         "txdbmaker"
     ],
     "scviR": [],
@@ -2470,9 +2432,7 @@
     "simpleSeg": [
         "cytomapper"
     ],
-    "SingleCellSignalR": [
-        "scran"
-    ],
+    "SingleCellSignalR": [],
     "singleCellTK": [
         "GenomicFeatures",
         "M3Drop",
@@ -2480,8 +2440,7 @@
         "celda",
         "ensembldb",
         "scDblFinder",
-        "scMerge",
-        "scran"
+        "scMerge"
     ],
     "SingleMoleculeFootprinting": [
         "BSgenome",
@@ -2531,18 +2490,14 @@
         "bsseq",
         "regioneR"
     ],
-    "Spaniel": [
-        "scran"
-    ],
+    "Spaniel": [],
     "sparrow": [],
     "SparseSignatures": [
         "BSgenome"
     ],
     "spatialDE": [],
     "SpatialFeatureExperiment": [],
-    "spatialHeatmap": [
-        "scran"
-    ],
+    "spatialHeatmap": [],
     "spatzie": [
         "BSgenome",
         "CNEr",

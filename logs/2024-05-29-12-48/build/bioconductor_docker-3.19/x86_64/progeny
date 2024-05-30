@@ -1,0 +1,80 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''progeny'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/jammy/latest
+Bioconductor version 3.19 (BiocManager 1.30.23), R 4.4.0 (2024-04-24)
+Installing package(s) 'progeny'
+also installing the dependencies ‘airway’, ‘biomaRt’
+
+trying URL 'https://bioconductor.org/packages/3.19/data/experiment/src/contrib/airway_1.24.0.tar.gz'
+Content type 'application/x-gzip' length 24755619 bytes (23.6 MB)
+==================================================
+downloaded 23.6 MB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/biomaRt_2.60.0.tar.gz'
+Content type 'application/x-gzip' length 859866 bytes (839 KB)
+==================================================
+downloaded 839 KB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/progeny_1.26.0.tar.gz'
+Content type 'application/x-gzip' length 10603321 bytes (10.1 MB)
+==================================================
+downloaded 10.1 MB
+
+* installing *source* package ‘airway’ ...
+** using staged installation
+** data
+** inst
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘airway’ as ‘airway_1.24.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (airway)
+* installing *source* package ‘biomaRt’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘biomaRt’ as ‘biomaRt_2.60.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (biomaRt)
+* installing *source* package ‘progeny’ ...
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘progeny’ as ‘progeny_1.26.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (progeny)
+
+The downloaded source packages are in
+	‘/tmp/RtmpZelUcr/downloaded_packages’
+Old packages: 'cachem', 'fastmap', 'highr', 'knitr', 'openssl', 'ragg',
+  'rmarkdown', 'systemfonts', 'textshaping', 'xfun', 'KernSmooth'
+
+real	0m30.769s
+user	0m26.770s
+sys	0m3.722s

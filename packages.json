@@ -12,8 +12,7 @@
         "a4Preproc",
         "annaffy",
         "annotate",
-        "genefilter",
-        "multtest"
+        "genefilter"
     ],
     "a4Base": [
         "AnnotationDbi",
@@ -26,16 +25,13 @@
         "a4Preproc",
         "annaffy",
         "annotate",
-        "genefilter",
-        "multtest"
+        "genefilter"
     ],
     "a4Classif": [
         "a4Preproc"
     ],
     "a4Preproc": [],
-    "ABarray": [
-        "multtest"
-    ],
+    "ABarray": [],
     "ACE": [
         "Biostrings",
         "CGHcall",
@@ -47,9 +43,7 @@
         "UCSC.utils",
         "XVector"
     ],
-    "aCGH": [
-        "multtest"
-    ],
+    "aCGH": [],
     "ADaCGH2": [
         "AnnotationDbi",
         "Biostrings",
@@ -61,7 +55,6 @@
         "aCGH",
         "annotate",
         "genefilter",
-        "multtest",
         "tilingArray",
         "vsn"
     ],
@@ -125,8 +118,7 @@
         "IRanges",
         "KEGGREST",
         "UCSC.utils",
-        "XVector",
-        "multtest"
+        "XVector"
     ],
     "adverSCarial": [
         "DelayedArray",
@@ -512,8 +504,7 @@
         "SparseArray",
         "SummarizedExperiment",
         "UCSC.utils",
-        "XVector",
-        "multtest"
+        "XVector"
     ],
     "AllelicImbalance": [
         "AnnotationDbi",
@@ -765,9 +756,7 @@
         "regioneR",
         "rtracklayer"
     ],
-    "anota": [
-        "multtest"
-    ],
+    "anota": [],
     "anota2seq": [
         "DESeq2",
         "DelayedArray",
@@ -778,8 +767,7 @@
         "SparseArray",
         "SummarizedExperiment",
         "UCSC.utils",
-        "XVector",
-        "multtest"
+        "XVector"
     ],
     "APAlyzer": [
         "AnnotationDbi",
@@ -910,7 +898,6 @@
         "lumi",
         "methylumi",
         "minfi",
-        "multtest",
         "rtracklayer",
         "siggenes"
     ],
@@ -1082,7 +1069,6 @@
         "biomaRt",
         "ensembldb",
         "motifStack",
-        "multtest",
         "pwalign",
         "regioneR",
         "rtracklayer",
@@ -1675,7 +1661,6 @@
         "genefilter",
         "metagenomeSeq",
         "mia",
-        "multtest",
         "phyloseq",
         "scater",
         "scuttle",
@@ -1748,8 +1733,7 @@
         "KEGGREST",
         "UCSC.utils",
         "XVector",
-        "annotate",
-        "multtest"
+        "annotate"
     ],
     "BiFET": [
         "GenomeInfoDb",
@@ -1790,7 +1774,6 @@
         "lumi",
         "methylumi",
         "minfi",
-        "multtest",
         "rtracklayer",
         "siggenes",
         "wateRmelon"
@@ -3405,7 +3388,6 @@
         "XVector",
         "biomaRt",
         "ensembldb",
-        "multtest",
         "pwalign",
         "regioneR",
         "rtracklayer",
@@ -4277,7 +4259,6 @@
         "UCSC.utils",
         "XVector",
         "biomformat",
-        "multtest",
         "phyloseq"
     ],
     "coMethDMR": [
@@ -4489,7 +4470,6 @@
         "bumphunter",
         "genefilter",
         "minfi",
-        "multtest",
         "rtracklayer",
         "siggenes"
     ],
@@ -4685,8 +4665,7 @@
         "rtracklayer"
     ],
     "CRImage": [
-        "aCGH",
-        "multtest"
+        "aCGH"
     ],
     "CRISPRball": [
         "AnnotationDbi",
@@ -5472,7 +5451,6 @@
         "biomformat",
         "bluster",
         "mia",
-        "multtest",
         "phyloseq",
         "scater",
         "scuttle"
@@ -5489,8 +5467,7 @@
         "XVector",
         "epiNEM",
         "graphite",
-        "mnem",
-        "multtest"
+        "mnem"
     ],
     "ddPCRclust": [
         "flowCore",
@@ -5615,7 +5592,6 @@
         "genefilter",
         "methylKit",
         "minfi",
-        "multtest",
         "rtracklayer",
         "siggenes"
     ],
@@ -5933,7 +5909,6 @@
         "XVector",
         "biomaRt",
         "ensembldb",
-        "multtest",
         "pwalign",
         "regioneR",
         "rtracklayer",
@@ -6073,7 +6048,6 @@
         "SummarizedExperiment",
         "UCSC.utils",
         "XVector",
-        "multtest",
         "pcaMethods"
     ],
     "diffcyt": [
@@ -6318,7 +6292,6 @@
         "methylumi",
         "minfi",
         "missMethyl",
-        "multtest",
         "rtracklayer",
         "siggenes"
     ],
@@ -6760,7 +6733,6 @@
         "beachmat",
         "gage",
         "globaltest",
-        "multtest",
         "pathview",
         "safe",
         "topGO"
@@ -6858,7 +6830,6 @@
         "genefilter",
         "geneplotter",
         "minfi",
-        "multtest",
         "rtracklayer",
         "siggenes"
     ],
@@ -7089,7 +7060,6 @@
         "ensembldb",
         "genefilter",
         "minfi",
-        "multtest",
         "rtracklayer",
         "siggenes",
         "txdbmaker"
@@ -7781,7 +7751,6 @@
         "lumi",
         "methylumi",
         "minfi",
-        "multtest",
         "rtracklayer",
         "siggenes"
     ],
@@ -8100,7 +8069,6 @@
         "bumphunter",
         "genefilter",
         "minfi",
-        "multtest",
         "rtracklayer",
         "siggenes"
     ],
@@ -9474,7 +9442,6 @@
         "UCSC.utils",
         "XVector",
         "iPAC",
-        "multtest",
         "pwalign"
     ],
     "GreyListChIP": [
@@ -9671,7 +9638,6 @@
         "XVector",
         "biomaRt",
         "ensembldb",
-        "multtest",
         "pwalign",
         "regioneR",
         "rtracklayer",
@@ -9883,8 +9849,7 @@
         "SparseArray",
         "SummarizedExperiment",
         "UCSC.utils",
-        "XVector",
-        "multtest"
+        "XVector"
     ],
     "hiAnnotator": [
         "BSgenome",
@@ -10297,7 +10262,6 @@
         "lumi",
         "methylumi",
         "minfi",
-        "multtest",
         "rtracklayer",
         "siggenes"
     ],
@@ -10507,7 +10471,6 @@
         "genefilter",
         "graphite",
         "minfi",
-        "multtest",
         "rtracklayer",
         "siggenes",
         "txdbmaker"
@@ -10719,7 +10682,6 @@
         "IRanges",
         "UCSC.utils",
         "XVector",
-        "multtest",
         "pwalign"
     ],
     "ipdDb": [
@@ -11066,7 +11028,6 @@
         "rtracklayer"
     ],
     "KCsmart": [
-        "multtest",
         "siggenes"
     ],
     "kebabs": [
@@ -11410,7 +11371,6 @@
         "genefilter",
         "methylumi",
         "minfi",
-        "multtest",
         "rtracklayer",
         "siggenes"
     ],
@@ -11572,7 +11532,6 @@
         "genefilter",
         "methylumi",
         "minfi",
-        "multtest",
         "oligoClasses",
         "rtracklayer",
         "siggenes"
@@ -11836,7 +11795,6 @@
         "annotate",
         "biomformat",
         "genefilter",
-        "multtest",
         "phyloseq",
         "sva"
     ],
@@ -11968,7 +11926,6 @@
         "methylumi",
         "minfi",
         "missMethyl",
-        "multtest",
         "rtracklayer",
         "siggenes",
         "sva"
@@ -11999,7 +11956,6 @@
         "lumi",
         "methylumi",
         "minfi",
-        "multtest",
         "rtracklayer",
         "siggenes",
         "wateRmelon"
@@ -12169,9 +12125,7 @@
         "rols",
         "struct"
     ],
-    "metabomxtr": [
-        "multtest"
-    ],
+    "metabomxtr": [],
     "MetaboSignal": [
         "AnnotationDbi",
         "AnnotationFilter",
@@ -12451,7 +12405,6 @@
         "bumphunter",
         "genefilter",
         "minfi",
-        "multtest",
         "rtracklayer",
         "siggenes"
     ],
@@ -12482,7 +12435,6 @@
         "bumphunter",
         "genefilter",
         "minfi",
-        "multtest",
         "plyranges",
         "rtracklayer",
         "siggenes"
@@ -12521,7 +12473,6 @@
         "bumphunter",
         "genefilter",
         "minfi",
-        "multtest",
         "rtracklayer",
         "siggenes",
         "txdbmaker"
@@ -12557,7 +12508,6 @@
         "methylumi",
         "minfi",
         "missMethyl",
-        "multtest",
         "rtracklayer",
         "siggenes"
     ],
@@ -12713,7 +12663,6 @@
         "bumphunter",
         "genefilter",
         "minfi",
-        "multtest",
         "rtracklayer",
         "siggenes"
     ],
@@ -12851,7 +12800,6 @@
         "UCSC.utils",
         "XVector",
         "biomformat",
-        "multtest",
         "phyloseq"
     ],
     "microbiomeDASim": [
@@ -12862,7 +12810,6 @@
         "XVector",
         "biomformat",
         "metagenomeSeq",
-        "multtest",
         "phyloseq"
     ],
     "microbiomeExplorer": [
@@ -12908,7 +12855,6 @@
         "bluster",
         "metagenomeSeq",
         "mia",
-        "multtest",
         "phyloseq",
         "scater",
         "scuttle"
@@ -13050,7 +12996,6 @@
         "lumi",
         "methylumi",
         "minfi",
-        "multtest",
         "rtracklayer",
         "siggenes"
     ],
@@ -13077,7 +13022,6 @@
         "annotate",
         "bumphunter",
         "genefilter",
-        "multtest",
         "rtracklayer",
         "siggenes"
     ],
@@ -13242,7 +13186,6 @@
         "fabia",
         "fgsea",
         "graphite",
-        "multtest",
         "rqubic"
     ],
     "missMethyl": [
@@ -13270,7 +13213,6 @@
         "genefilter",
         "methylumi",
         "minfi",
-        "multtest",
         "rtracklayer",
         "siggenes"
     ],
@@ -14201,8 +14143,7 @@
         "UCSC.utils",
         "XVector",
         "fgsea",
-        "graphite",
-        "multtest"
+        "graphite"
     ],
     "multiHiCcompare": [
         "DelayedArray",
@@ -14280,7 +14221,6 @@
         "UCSC.utils",
         "XVector"
     ],
-    "multtest": [],
     "mumosa": [
         "BiocNeighbors",
         "BiocSingular",
@@ -14494,7 +14434,6 @@
         "csaw",
         "ensembldb",
         "motifStack",
-        "multtest",
         "pwalign",
         "regioneR",
         "rtracklayer",
@@ -14668,9 +14607,7 @@
         "UCSC.utils",
         "XVector"
     ],
-    "nethet": [
-        "multtest"
-    ],
+    "nethet": [],
     "netresponse": [
         "Rgraphviz"
     ],
@@ -14744,7 +14681,6 @@
         "bumphunter",
         "genefilter",
         "minfi",
-        "multtest",
         "pandaR",
         "quantro",
         "rtracklayer",
@@ -14914,9 +14850,7 @@
         "plyranges",
         "rtracklayer"
     ],
-    "OCplus": [
-        "multtest"
-    ],
+    "OCplus": [],
     "octad": [
         "AnnotationDbi",
         "AnnotationHub",
@@ -15057,8 +14991,7 @@
         "SparseArray",
         "SummarizedExperiment",
         "UCSC.utils",
-        "XVector",
-        "multtest"
+        "XVector"
     ],
     "omicRexposome": [
         "AnnotationDbi",
@@ -15569,8 +15502,7 @@
         "annotate",
         "clusterProfiler",
         "enrichplot",
-        "fgsea",
-        "multtest"
+        "fgsea"
     ],
     "panp": [],
     "pareg": [
@@ -15646,7 +15578,6 @@
         "UCSC.utils",
         "XVector",
         "biomformat",
-        "multtest",
         "phyloseq"
     ],
     "pathRender": [
@@ -15972,8 +15903,7 @@
         "IRanges",
         "UCSC.utils",
         "XVector",
-        "biomformat",
-        "multtest"
+        "biomformat"
     ],
     "piano": [
         "fgsea"
@@ -16308,7 +16238,6 @@
         "UCSC.utils",
         "XVector",
         "biomformat",
-        "multtest",
         "phyloseq"
     ],
     "preciseTAD": [
@@ -16329,7 +16258,6 @@
         "UCSC.utils",
         "XVector",
         "aCGH",
-        "multtest",
         "rCGH",
         "rtracklayer"
     ],
@@ -16341,8 +16269,7 @@
         "KEGGREST",
         "UCSC.utils",
         "XVector",
-        "annotate",
-        "multtest"
+        "annotate"
     ],
     "primirTSS": [
         "AnnotationDbi",
@@ -16996,7 +16923,6 @@
         "bumphunter",
         "genefilter",
         "minfi",
-        "multtest",
         "rtracklayer",
         "siggenes"
     ],
@@ -17009,7 +16935,6 @@
         "UCSC.utils",
         "XVector",
         "iPAC",
-        "multtest",
         "pwalign"
     ],
     "QuasR": [
@@ -17190,9 +17115,7 @@
         "ensembldb",
         "rtracklayer"
     ],
-    "rain": [
-        "multtest"
-    ],
+    "rain": [],
     "ramr": [
         "GenomeInfoDb",
         "GenomicRanges",
@@ -17323,7 +17246,6 @@
         "UCSC.utils",
         "XVector",
         "aCGH",
-        "multtest",
         "rtracklayer"
     ],
     "RcisTarget": [
@@ -17351,7 +17273,6 @@
         "UCSC.utils",
         "XVector",
         "biomformat",
-        "multtest",
         "phyloseq"
     ],
     "Rcpi": [
@@ -17418,7 +17339,6 @@
         "UCSC.utils",
         "XVector",
         "biomformat",
-        "multtest",
         "phyloseq"
     ],
     "recount": [
@@ -17487,7 +17407,6 @@
         "bumphunter",
         "genefilter",
         "minfi",
-        "multtest",
         "rtracklayer",
         "siggenes"
     ],
@@ -17537,7 +17456,6 @@
         "XVector",
         "biomaRt",
         "ensembldb",
-        "multtest",
         "pwalign",
         "regioneR",
         "rtracklayer",
@@ -17729,7 +17647,6 @@
         "bumphunter",
         "genefilter",
         "minfi",
-        "multtest",
         "rtracklayer",
         "siggenes"
     ],
@@ -18457,7 +18374,6 @@
         "genefilter",
         "methylumi",
         "minfi",
-        "multtest",
         "rtracklayer",
         "siggenes"
     ],
@@ -18534,7 +18450,6 @@
         "UCSC.utils",
         "XVector",
         "biomformat",
-        "multtest",
         "phyloseq"
     ],
     "rprimer": [
@@ -18689,9 +18604,7 @@
         "XVector",
         "viper"
     ],
-    "RTopper": [
-        "multtest"
-    ],
+    "RTopper": [],
     "Rtpca": [],
     "rtracklayer": [
         "BiocIO",
@@ -18845,7 +18758,6 @@
         "SummarizedExperiment",
         "UCSC.utils",
         "XVector",
-        "multtest",
         "plyranges",
         "rtracklayer"
     ],
@@ -19265,7 +19177,6 @@
         "beachmat",
         "bluster",
         "ensembldb",
-        "multtest",
         "rtracklayer",
         "scran",
         "scuttle"
@@ -20138,7 +20049,6 @@
         "bumphunter",
         "genefilter",
         "minfi",
-        "multtest",
         "rtracklayer",
         "siggenes"
     ],
@@ -20166,7 +20076,6 @@
         "bumphunter",
         "genefilter",
         "minfi",
-        "multtest",
         "rtracklayer",
         "siggenes"
     ],
@@ -20192,7 +20101,6 @@
         "UCSC.utils",
         "XVector",
         "biomformat",
-        "multtest",
         "phyloseq"
     ],
     "SICtools": [
@@ -20241,9 +20149,7 @@
         "UCSC.utils",
         "XVector"
     ],
-    "siggenes": [
-        "multtest"
-    ],
+    "siggenes": [],
     "signatureSearch": [
         "AnnotationDbi",
         "AnnotationHub",
@@ -20374,7 +20280,6 @@
         "UCSC.utils",
         "XVector",
         "biomformat",
-        "multtest",
         "phyloseq"
     ],
     "SIMD": [],
@@ -20486,7 +20391,6 @@
         "XVector",
         "beachmat",
         "bluster",
-        "multtest",
         "scran",
         "scuttle"
     ],
@@ -20540,7 +20444,6 @@
         "celda",
         "ensembldb",
         "genefilter",
-        "multtest",
         "rtracklayer",
         "scDblFinder",
         "scMerge",
@@ -20678,7 +20581,6 @@
         "lumi",
         "methylumi",
         "minfi",
-        "multtest",
         "rtracklayer",
         "siggenes",
         "wateRmelon"
@@ -20854,7 +20756,6 @@
         "UCSC.utils",
         "XVector",
         "iPAC",
-        "multtest",
         "pwalign"
     ],
     "Spaniel": [
@@ -21370,7 +21271,6 @@
         "UCSC.utils",
         "XVector",
         "biomformat",
-        "multtest",
         "phyloseq"
     ],
     "SQLDataFrame": [
@@ -21681,7 +21581,6 @@
         "XVector",
         "biomaRt",
         "biomformat",
-        "multtest",
         "phyloseq"
     ],
     "survtype": [
@@ -21810,7 +21709,6 @@
         "UCSC.utils",
         "XVector",
         "cleaver",
-        "multtest",
         "mzR",
         "pcaMethods",
         "vsn"
@@ -22637,7 +22535,6 @@
         "UCSC.utils",
         "XVector",
         "anota",
-        "multtest",
         "topGO"
     ],
     "transmogR": [
@@ -22832,7 +22729,6 @@
         "sva"
     ],
     "trio": [
-        "multtest",
         "siggenes"
     ],
     "triplex": [
@@ -23547,7 +23443,6 @@
         "biomaRt",
         "csaw",
         "ensembldb",
-        "multtest",
         "pwalign",
         "regioneR",
         "rtracklayer",
@@ -23593,7 +23488,6 @@
         "lumi",
         "methylumi",
         "minfi",
-        "multtest",
         "rtracklayer",
         "siggenes"
     ],
@@ -23626,7 +23520,6 @@
         "XVector",
         "annaffy",
         "gcrma",
-        "multtest",
         "vsn"
     ],
     "weitrix": [
@@ -23715,7 +23608,6 @@
         "XVector",
         "annotate",
         "genefilter",
-        "multtest",
         "siggenes"
     ],
     "Xeva": [
@@ -23827,7 +23719,6 @@
         "bumphunter",
         "genefilter",
         "minfi",
-        "multtest",
         "quantro",
         "rtracklayer",
         "siggenes"

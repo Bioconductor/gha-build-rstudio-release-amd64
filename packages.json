@@ -210,7 +210,6 @@
         "gcrma",
         "genefilter",
         "ggbio",
-        "graph",
         "oligoClasses",
         "rtracklayer",
         "txdbmaker"
@@ -261,8 +260,7 @@
         "S4Vectors",
         "UCSC.utils",
         "XVector",
-        "annotate",
-        "graph"
+        "annotate"
     ],
     "aggregateBioVar": [
         "DelayedArray",
@@ -317,7 +315,6 @@
         "gcrma",
         "genefilter",
         "ggbio",
-        "graph",
         "oligoClasses",
         "rtracklayer",
         "txdbmaker"
@@ -348,7 +345,6 @@
         "XVector",
         "biocViews",
         "biomaRt",
-        "graph",
         "rtracklayer",
         "txdbmaker"
     ],
@@ -624,7 +620,6 @@
         "UCSC.utils",
         "XVector",
         "affy",
-        "graph",
         "hypergraph",
         "makecdfenv"
     ],
@@ -833,7 +828,6 @@
         "XVector",
         "biocViews",
         "biomaRt",
-        "graph",
         "rtracklayer",
         "txdbmaker"
     ],
@@ -912,8 +906,7 @@
         "Rgraphviz",
         "S4Vectors",
         "UCSC.utils",
-        "XVector",
-        "graph"
+        "XVector"
     ],
     "apeglm": [
         "DelayedArray",
@@ -942,7 +935,6 @@
         "SummarizedExperiment",
         "UCSC.utils",
         "XVector",
-        "graph",
         "topGO"
     ],
     "appreci8R": [
@@ -971,7 +963,6 @@
         "VariantAnnotation",
         "XVector",
         "biomaRt",
-        "graph",
         "rhdf5",
         "rtracklayer",
         "txdbmaker"
@@ -1165,7 +1156,6 @@
         "biomaRt",
         "chromVAR",
         "fgsea",
-        "graph",
         "motifmatchr",
         "projectR",
         "pwalign",
@@ -1206,7 +1196,6 @@
         "annotate",
         "biomaRt",
         "ensembldb",
-        "graph",
         "motifStack",
         "multtest",
         "pwalign",
@@ -1304,8 +1293,7 @@
         "UCSC.utils",
         "XVector",
         "annotate",
-        "genefilter",
-        "graph"
+        "genefilter"
     ],
     "AUCell": [
         "AnnotationDbi",
@@ -1323,8 +1311,7 @@
         "SummarizedExperiment",
         "UCSC.utils",
         "XVector",
-        "annotate",
-        "graph"
+        "annotate"
     ],
     "autonomics": [
         "DelayedArray",
@@ -1911,7 +1898,6 @@
         "S4Vectors",
         "UCSC.utils",
         "XVector",
-        "graph",
         "topGO"
     ],
     "bgx": [
@@ -1935,7 +1921,6 @@
         "UCSC.utils",
         "XVector",
         "annotate",
-        "graph",
         "multtest"
     ],
     "BiFET": [
@@ -1948,7 +1933,6 @@
     ],
     "BiGGR": [
         "Rgraphviz",
-        "graph",
         "hyperdraw",
         "hypergraph",
         "rsbml"
@@ -2044,18 +2028,14 @@
         "enrichplot",
         "fgsea",
         "geNetClassifier",
-        "graph",
         "graphite",
         "rtracklayer"
     ],
     "BiocCheck": [
         "RBGL",
-        "biocViews",
-        "graph"
+        "biocViews"
     ],
-    "BiocFHIR": [
-        "graph"
-    ],
+    "BiocFHIR": [],
     "biocGraph": [
         "AnnotationDbi",
         "Biostrings",
@@ -2067,8 +2047,7 @@
         "UCSC.utils",
         "XVector",
         "annotate",
-        "geneplotter",
-        "graph"
+        "geneplotter"
     ],
     "BiocHail": [
         "basilisk"
@@ -2115,7 +2094,6 @@
         "SummarizedExperiment",
         "UCSC.utils",
         "XVector",
-        "graph",
         "rhdf5",
         "rtracklayer"
     ],
@@ -2129,13 +2107,11 @@
         "S4Vectors",
         "UCSC.utils",
         "XVector",
-        "annotate",
-        "graph"
+        "annotate"
     ],
     "BiocPkgTools": [
         "RBGL",
-        "biocViews",
-        "graph"
+        "biocViews"
     ],
     "BiocSet": [
         "AnnotationDbi",
@@ -2172,8 +2148,7 @@
         "basilisk"
     ],
     "biocViews": [
-        "RBGL",
-        "graph"
+        "RBGL"
     ],
     "bioDist": [],
     "biomaRt": [
@@ -2190,8 +2165,7 @@
         "rhdf5"
     ],
     "BioMVCClass": [
-        "Rgraphviz",
-        "graph"
+        "Rgraphviz"
     ],
     "biomvRCNS": [
         "AnnotationDbi",
@@ -2229,8 +2203,7 @@
         "S4Vectors",
         "UCSC.utils",
         "XVector",
-        "fgsea",
-        "graph"
+        "fgsea"
     ],
     "BioNERO": [
         "AnnotationDbi",
@@ -2260,8 +2233,7 @@
         "RBGL",
         "S4Vectors",
         "UCSC.utils",
-        "XVector",
-        "graph"
+        "XVector"
     ],
     "BioQC": [],
     "biosigner": [
@@ -2357,7 +2329,6 @@
         "bsseq",
         "bumphunter",
         "dmrseq",
-        "graph",
         "regioneR",
         "rhdf5",
         "rtracklayer",
@@ -2431,8 +2402,7 @@
         "Rgraphviz",
         "S4Vectors",
         "UCSC.utils",
-        "XVector",
-        "graph"
+        "XVector"
     ],
     "BloodGen3Module": [
         "AnnotationDbi",
@@ -2492,7 +2462,6 @@
         "annotate",
         "epiNEM",
         "genefilter",
-        "graph",
         "mnem",
         "sva",
         "vsn"
@@ -2524,7 +2493,6 @@
         "biovizBase",
         "ensembldb",
         "ggbio",
-        "graph",
         "plyranges",
         "rtracklayer",
         "txdbmaker"
@@ -2836,7 +2804,6 @@
         "biovizBase",
         "ensembldb",
         "ggbio",
-        "graph",
         "rtracklayer",
         "txdbmaker"
     ],
@@ -2901,7 +2868,6 @@
         "ensembldb",
         "genefilter",
         "ggbio",
-        "graph",
         "rtracklayer",
         "sva",
         "txdbmaker"
@@ -2962,7 +2928,6 @@
         "UCSC.utils",
         "XVector",
         "affy",
-        "graph",
         "mzR",
         "pcaMethods",
         "vsn",
@@ -3018,7 +2983,6 @@
         "cBioPortalData",
         "geNetClassifier",
         "genefilter",
-        "graph",
         "hopach",
         "phenoTest",
         "rtracklayer"
@@ -3114,8 +3078,7 @@
         "UCSC.utils",
         "XVector",
         "annotate",
-        "genefilter",
-        "graph"
+        "genefilter"
     ],
     "categoryCompare": [
         "AnnotationDbi",
@@ -3134,8 +3097,7 @@
         "UCSC.utils",
         "XVector",
         "annotate",
-        "genefilter",
-        "graph"
+        "genefilter"
     ],
     "cbaf": [
         "AnnotationDbi",
@@ -3225,7 +3187,6 @@
         "clusterProfiler",
         "enrichplot",
         "fgsea",
-        "graph",
         "graphite"
     ],
     "cbpManager": [
@@ -3271,8 +3232,7 @@
         "S4Vectors",
         "UCSC.utils",
         "XVector",
-        "annotate",
-        "graph"
+        "annotate"
     ],
     "CDI": [
         "DelayedArray",
@@ -3379,7 +3339,6 @@
         "affy",
         "annotate",
         "genefilter",
-        "graph",
         "vsn"
     ],
     "CelliD": [
@@ -3412,7 +3371,6 @@
         "S4Vectors",
         "UCSC.utils",
         "XVector",
-        "graph",
         "topGO"
     ],
     "CellMapper": [
@@ -3440,8 +3398,7 @@
     ],
     "CellNOptR": [
         "RBGL",
-        "Rgraphviz",
-        "graph"
+        "Rgraphviz"
     ],
     "CellScore": [
         "DelayedArray",
@@ -3522,7 +3479,6 @@
         "clusterProfiler",
         "enrichplot",
         "fgsea",
-        "graph",
         "snpStats"
     ],
     "CexoR": [
@@ -3666,7 +3622,6 @@
         "biomaRt",
         "biovizBase",
         "ensembldb",
-        "graph",
         "rtracklayer"
     ],
     "ChIPanalyser": [
@@ -3773,7 +3728,6 @@
         "XVector",
         "biomaRt",
         "ensembldb",
-        "graph",
         "multtest",
         "pwalign",
         "regioneR",
@@ -4023,8 +3977,7 @@
         "S4Vectors",
         "UCSC.utils",
         "XVector",
-        "biomaRt",
-        "graph"
+        "biomaRt"
     ],
     "cicero": [
         "AnnotationDbi",
@@ -4053,7 +4006,6 @@
         "biomaRt",
         "biovizBase",
         "ensembldb",
-        "graph",
         "monocle",
         "rtracklayer"
     ],
@@ -4210,7 +4162,6 @@
         "UCSC.utils",
         "XVector",
         "annotate",
-        "graph",
         "qpgraph",
         "rtracklayer"
     ],
@@ -4409,26 +4360,22 @@
     "CNORdt": [
         "CellNOptR",
         "RBGL",
-        "Rgraphviz",
-        "graph"
+        "Rgraphviz"
     ],
     "CNORfeeder": [
         "CellNOptR",
         "RBGL",
-        "Rgraphviz",
-        "graph"
+        "Rgraphviz"
     ],
     "CNORfuzzy": [
         "CellNOptR",
         "RBGL",
-        "Rgraphviz",
-        "graph"
+        "Rgraphviz"
     ],
     "CNORode": [
         "CellNOptR",
         "RBGL",
-        "Rgraphviz",
-        "graph"
+        "Rgraphviz"
     ],
     "CNTools": [
         "AnnotationDbi",
@@ -4776,7 +4723,6 @@
         "biomaRt",
         "biovizBase",
         "ensembldb",
-        "graph",
         "methylPipe",
         "rtracklayer",
         "topGO"
@@ -4835,8 +4781,7 @@
         "flowClust",
         "flowCore",
         "flowMeans",
-        "flowMerge",
-        "graph"
+        "flowMerge"
     ],
     "ConsensusClusterPlus": [],
     "consensusDE": [
@@ -4895,7 +4840,6 @@
         "beachmat",
         "biomaRt",
         "genefu",
-        "graph",
         "rhdf5"
     ],
     "consensusSeekeR": [
@@ -4929,7 +4873,6 @@
         "SummarizedExperiment",
         "UCSC.utils",
         "XVector",
-        "graph",
         "topGO"
     ],
     "conumee": [
@@ -5087,8 +5030,7 @@
         "UCSC.utils",
         "XVector",
         "annotate",
-        "decoupleR",
-        "graph"
+        "decoupleR"
     ],
     "COTAN": [
         "BiocSingular",
@@ -5172,7 +5114,6 @@
         "UCSC.utils",
         "XVector",
         "annotate",
-        "graph",
         "rtracklayer"
     ],
     "CRImage": [
@@ -5212,7 +5153,6 @@
         "dittoSeq",
         "enrichplot",
         "fgsea",
-        "graph",
         "pathview"
     ],
     "crisprBase": [
@@ -5682,8 +5622,7 @@
         "flowClust",
         "flowCore",
         "flowDensity",
-        "flowViz",
-        "graph"
+        "flowViz"
     ],
     "cycle": [
         "Mfuzz"
@@ -5811,7 +5750,6 @@
         "flowCore",
         "flowWorkspace",
         "ggcyto",
-        "graph",
         "ncdfFlow"
     ],
     "cytoMEM": [
@@ -5832,7 +5770,6 @@
         "flowViz",
         "flowWorkspace",
         "ggcyto",
-        "graph",
         "ncdfFlow",
         "openCyto"
     ],
@@ -5851,7 +5788,6 @@
         "flowCore",
         "flowWorkspace",
         "ggcyto",
-        "graph",
         "ncdfFlow"
     ],
     "CytoPipelineGUI": [
@@ -5870,7 +5806,6 @@
         "flowCore",
         "flowWorkspace",
         "ggcyto",
-        "graph",
         "ncdfFlow"
     ],
     "cytoviewer": [
@@ -6052,7 +5987,6 @@
         "UCSC.utils",
         "XVector",
         "epiNEM",
-        "graph",
         "graphite",
         "mnem",
         "multtest"
@@ -6103,7 +6037,6 @@
         "enrichplot",
         "fgsea",
         "genefilter",
-        "graph",
         "pathview",
         "sva"
     ],
@@ -6279,8 +6212,7 @@
         "NCIgraph",
         "RBGL",
         "RCy3",
-        "Rgraphviz",
-        "graph"
+        "Rgraphviz"
     ],
     "DEGreport": [
         "ComplexHeatmap",
@@ -6512,7 +6444,6 @@
         "derfinderHelper",
         "ensembldb",
         "ggbio",
-        "graph",
         "rtracklayer",
         "txdbmaker"
     ],
@@ -6541,7 +6472,6 @@
         "XVector",
         "biomaRt",
         "ensembldb",
-        "graph",
         "multtest",
         "pwalign",
         "regioneR",
@@ -6601,8 +6531,7 @@
         "SparseArray",
         "SummarizedExperiment",
         "UCSC.utils",
-        "XVector",
-        "graph"
+        "XVector"
     ],
     "DEWSeq": [
         "DESeq2",
@@ -7147,7 +7076,6 @@
         "XVector",
         "annotate",
         "beachmat",
-        "graph",
         "graphite",
         "pathview",
         "safe",
@@ -7439,7 +7367,6 @@
         "beachmat",
         "gage",
         "globaltest",
-        "graph",
         "multtest",
         "pathview",
         "rhdf5",
@@ -7580,7 +7507,6 @@
         "UCSC.utils",
         "XVector",
         "annotate",
-        "graph",
         "graphite",
         "pathview",
         "safe"
@@ -7611,8 +7537,7 @@
         "UCSC.utils",
         "XVector",
         "enrichplot",
-        "fgsea",
-        "graph"
+        "fgsea"
     ],
     "ensembldb": [
         "AnnotationDbi",
@@ -7793,7 +7718,6 @@
         "bumphunter",
         "ensembldb",
         "genefilter",
-        "graph",
         "minfi",
         "multtest",
         "rhdf5",
@@ -7804,7 +7728,6 @@
     "epiNEM": [
         "RBGL",
         "Rgraphviz",
-        "graph",
         "mnem"
     ],
     "epiregulon": [
@@ -7842,7 +7765,6 @@
         "annotate",
         "beachmat",
         "bluster",
-        "graph",
         "motifmatchr",
         "pwalign",
         "rhdf5",
@@ -7945,7 +7867,6 @@
         "bumphunter",
         "ensembldb",
         "epivizrData",
-        "graph",
         "rtracklayer",
         "txdbmaker"
     ],
@@ -7973,7 +7894,6 @@
         "biomaRt",
         "ensembldb",
         "epivizrData",
-        "graph",
         "rtracklayer",
         "txdbmaker"
     ],
@@ -8000,7 +7920,6 @@
         "XVector",
         "biomaRt",
         "ensembldb",
-        "graph",
         "rtracklayer",
         "txdbmaker"
     ],
@@ -8030,7 +7949,6 @@
         "ensembldb",
         "epivizr",
         "epivizrData",
-        "graph",
         "rtracklayer",
         "txdbmaker"
     ],
@@ -8059,7 +7977,6 @@
         "VariantAnnotation",
         "XVector",
         "biomaRt",
-        "graph",
         "rtracklayer",
         "txdbmaker"
     ],
@@ -8140,7 +8057,6 @@
         "XVector",
         "annotate",
         "beachmat",
-        "graph",
         "rhdf5"
     ],
     "escheR": [
@@ -8213,7 +8129,6 @@
         "UCSC.utils",
         "XVector",
         "fgsea",
-        "graph",
         "rhdf5",
         "rtracklayer"
     ],
@@ -8294,7 +8209,6 @@
         "XVector",
         "biocViews",
         "biomaRt",
-        "graph",
         "rtracklayer",
         "txdbmaker"
     ],
@@ -8506,8 +8420,7 @@
         "XVector"
     ],
     "fedup": [
-        "RCy3",
-        "graph"
+        "RCy3"
     ],
     "FELLA": [
         "Biostrings",
@@ -8552,8 +8465,7 @@
         "siggenes"
     ],
     "fgga": [
-        "RBGL",
-        "graph"
+        "RBGL"
     ],
     "fgsea": [],
     "FilterFFPE": [
@@ -8637,7 +8549,6 @@
         "UCSC.utils",
         "XVector",
         "affy",
-        "graph",
         "mzR",
         "pcaMethods",
         "vsn",
@@ -8683,7 +8594,6 @@
         "bluster",
         "ensembldb",
         "ggbio",
-        "graph",
         "rhdf5",
         "rtracklayer",
         "scater",
@@ -8716,8 +8626,7 @@
     ],
     "flowClust": [
         "S4Vectors",
-        "flowCore",
-        "graph"
+        "flowCore"
     ],
     "flowCore": [
         "S4Vectors"
@@ -8750,7 +8659,6 @@
         "flowCore",
         "flowWorkspace",
         "ggcyto",
-        "graph",
         "ncdfFlow"
     ],
     "flowMatch": [
@@ -8765,8 +8673,7 @@
         "Rgraphviz",
         "S4Vectors",
         "flowClust",
-        "flowCore",
-        "graph"
+        "flowCore"
     ],
     "flowPloidy": [
         "S4Vectors",
@@ -8793,7 +8700,6 @@
         "flowCore",
         "flowViz",
         "flowWorkspace",
-        "graph",
         "ncdfFlow"
     ],
     "flowTime": [
@@ -8804,8 +8710,7 @@
         "S4Vectors",
         "flowClust",
         "flowCore",
-        "flowViz",
-        "graph"
+        "flowViz"
     ],
     "flowViz": [
         "S4Vectors",
@@ -8824,7 +8729,6 @@
         "flowStats",
         "flowViz",
         "flowWorkspace",
-        "graph",
         "ncdfFlow"
     ],
     "flowWorkspace": [
@@ -8837,7 +8741,6 @@
         "SparseArray",
         "XVector",
         "flowCore",
-        "graph",
         "ncdfFlow"
     ],
     "fmcsR": [
@@ -8992,8 +8895,7 @@
         "KEGGREST",
         "S4Vectors",
         "UCSC.utils",
-        "XVector",
-        "graph"
+        "XVector"
     ],
     "GARS": [
         "AnnotationDbi",
@@ -9041,8 +8943,7 @@
         "RBGL",
         "S4Vectors",
         "UCSC.utils",
-        "XVector",
-        "graph"
+        "XVector"
     ],
     "GBScleanR": [
         "Biostrings",
@@ -9118,7 +9019,6 @@
         "clusterProfiler",
         "enrichplot",
         "fgsea",
-        "graph",
         "pathview"
     ],
     "gDNAx": [
@@ -9203,8 +9103,7 @@
     "gDRstyle": [
         "BiocCheck",
         "RBGL",
-        "biocViews",
-        "graph"
+        "biocViews"
     ],
     "gDRutils": [
         "BumpyMatrix",
@@ -9347,8 +9246,7 @@
         "genefilter"
     ],
     "GeneNetworkBuilder": [
-        "Rgraphviz",
-        "graph"
+        "Rgraphviz"
     ],
     "geneplotter": [
         "AnnotationDbi",
@@ -9601,7 +9499,6 @@
         "SummarizedExperiment",
         "UCSC.utils",
         "XVector",
-        "graph",
         "rtracklayer"
     ],
     "GenomicInteractions": [
@@ -9659,7 +9556,6 @@
         "biovizBase",
         "ensembldb",
         "ggbio",
-        "graph",
         "rtracklayer",
         "txdbmaker"
     ],
@@ -9823,7 +9719,6 @@
         "UCSC.utils",
         "XVector",
         "annotate",
-        "graph",
         "rhdf5"
     ],
     "gespeR": [
@@ -9843,7 +9738,6 @@
         "biomaRt",
         "cellHTS2",
         "genefilter",
-        "graph",
         "vsn"
     ],
     "getDEE2": [
@@ -9897,7 +9791,6 @@
         "biomaRt",
         "biovizBase",
         "ensembldb",
-        "graph",
         "rtracklayer",
         "txdbmaker"
     ],
@@ -9912,7 +9805,6 @@
         "XVector",
         "flowCore",
         "flowWorkspace",
-        "graph",
         "ncdfFlow"
     ],
     "ggkegg": [
@@ -10013,7 +9905,6 @@
         "clusterProfiler",
         "enrichplot",
         "fgsea",
-        "graph",
         "graphite",
         "rtracklayer"
     ],
@@ -10101,8 +9992,7 @@
         "UCSC.utils",
         "XVector",
         "annotate",
-        "globaltest",
-        "graph"
+        "globaltest"
     ],
     "globaltest": [
         "AnnotationDbi",
@@ -10166,8 +10056,7 @@
         "UCSC.utils",
         "XVector",
         "annotate",
-        "genefilter",
-        "graph"
+        "genefilter"
     ],
     "gmoviz": [
         "AnnotationDbi",
@@ -10337,8 +10226,7 @@
         "UCSC.utils",
         "XVector",
         "annotate",
-        "genefilter",
-        "graph"
+        "genefilter"
     ],
     "GOTHiC": [
         "BSgenome",
@@ -10402,14 +10290,10 @@
         "XVector",
         "biomaRt",
         "ensembldb",
-        "graph",
         "rtracklayer",
         "topGO"
     ],
-    "graph": [],
-    "GraphAT": [
-        "graph"
-    ],
+    "GraphAT": [],
     "graphite": [
         "AnnotationDbi",
         "Biostrings",
@@ -10418,8 +10302,7 @@
         "KEGGREST",
         "S4Vectors",
         "UCSC.utils",
-        "XVector",
-        "graph"
+        "XVector"
     ],
     "GraphPAC": [
         "Biostrings",
@@ -10503,8 +10386,7 @@
         "S4Vectors",
         "UCSC.utils",
         "XVector",
-        "annotate",
-        "graph"
+        "annotate"
     ],
     "GSEABenchmarkeR": [
         "AnnotationDbi",
@@ -10528,7 +10410,6 @@
         "UCSC.utils",
         "XVector",
         "annotate",
-        "graph",
         "graphite",
         "pathview",
         "safe"
@@ -10545,8 +10426,7 @@
         "UCSC.utils",
         "XVector",
         "biomaRt",
-        "fgsea",
-        "graph"
+        "fgsea"
     ],
     "GSReg": [
         "AnnotationDbi",
@@ -10569,7 +10449,6 @@
         "UCSC.utils",
         "XVector",
         "biomaRt",
-        "graph",
         "rtracklayer",
         "txdbmaker"
     ],
@@ -10584,8 +10463,7 @@
         "UCSC.utils",
         "XVector",
         "annotate",
-        "genefilter",
-        "graph"
+        "genefilter"
     ],
     "GSVA": [
         "AnnotationDbi",
@@ -10610,7 +10488,6 @@
         "XVector",
         "annotate",
         "beachmat",
-        "graph",
         "rhdf5"
     ],
     "gtrellis": [
@@ -10647,7 +10524,6 @@
         "XVector",
         "biomaRt",
         "ensembldb",
-        "graph",
         "multtest",
         "pwalign",
         "regioneR",
@@ -10806,7 +10682,6 @@
         "XVector",
         "affy",
         "altcdfenvs",
-        "graph",
         "hypergraph",
         "makecdfenv"
     ],
@@ -11264,12 +11139,9 @@
     "HybridMTest": [],
     "hyperdraw": [
         "Rgraphviz",
-        "graph",
         "hypergraph"
     ],
-    "hypergraph": [
-        "graph"
-    ],
+    "hypergraph": [],
     "iasva": [
         "DelayedArray",
         "GenomeInfoDb",
@@ -11563,7 +11435,6 @@
         "enrichplot",
         "fgsea",
         "genefilter",
-        "graph",
         "graphite",
         "minfi",
         "multtest",
@@ -11679,7 +11550,6 @@
         "biovizBase",
         "ensembldb",
         "ggbio",
-        "graph",
         "rtracklayer",
         "txdbmaker"
     ],
@@ -11713,8 +11583,7 @@
         "UCSC.utils",
         "XVector",
         "annotate",
-        "genefilter",
-        "graph"
+        "genefilter"
     ],
     "InterCellar": [
         "AnnotationDbi",
@@ -11837,7 +11706,6 @@
         "UCSC.utils",
         "XVector",
         "affy",
-        "graph",
         "mzR",
         "pcaMethods",
         "vsn",
@@ -12183,8 +12051,7 @@
         "XVector"
     ],
     "KEGGgraph": [
-        "Rgraphviz",
-        "graph"
+        "Rgraphviz"
     ],
     "KEGGlincs": [
         "AnnotationDbi",
@@ -12196,8 +12063,7 @@
         "Rgraphviz",
         "S4Vectors",
         "UCSC.utils",
-        "XVector",
-        "graph"
+        "XVector"
     ],
     "keggorthology": [
         "AnnotationDbi",
@@ -12207,8 +12073,7 @@
         "KEGGREST",
         "S4Vectors",
         "UCSC.utils",
-        "XVector",
-        "graph"
+        "XVector"
     ],
     "KEGGREST": [
         "Biostrings",
@@ -12460,7 +12325,6 @@
         "UCSC.utils",
         "XVector",
         "affy",
-        "graph",
         "mzR",
         "pcaMethods",
         "vsn",
@@ -12500,8 +12364,7 @@
     ],
     "lpNet": [
         "KEGGgraph",
-        "Rgraphviz",
-        "graph"
+        "Rgraphviz"
     ],
     "LRBaseDbi": [
         "AnnotationDbi",
@@ -12750,7 +12613,6 @@
         "clusterProfiler",
         "enrichplot",
         "fgsea",
-        "graph",
         "pathview"
     ],
     "magpie": [
@@ -12813,7 +12675,6 @@
         "UCSC.utils",
         "XVector",
         "affy",
-        "graph",
         "mzR",
         "pcaMethods",
         "vsn",
@@ -12947,8 +12808,7 @@
         "SummarizedExperiment",
         "UCSC.utils",
         "XVector",
-        "annotate",
-        "graph"
+        "annotate"
     ],
     "MatrixQCvis": [
         "AnnotationDbi",
@@ -13109,7 +12969,6 @@
         "biovizBase",
         "ensembldb",
         "fgsea",
-        "graph",
         "rtracklayer",
         "txdbmaker"
     ],
@@ -13264,8 +13123,7 @@
         "CNORode",
         "CellNOptR",
         "RBGL",
-        "Rgraphviz",
-        "graph"
+        "Rgraphviz"
     ],
     "Melissa": [
         "BPRMeth",
@@ -13326,8 +13184,7 @@
         "UCSC.utils",
         "XVector",
         "annotate",
-        "genefilter",
-        "graph"
+        "genefilter"
     ],
     "MesKit": [
         "AnnotationDbi",
@@ -13416,7 +13273,6 @@
         "XVector",
         "biomaRt",
         "ensembldb",
-        "graph",
         "hpar",
         "mygene",
         "rtracklayer",
@@ -13470,7 +13326,6 @@
         "UCSC.utils",
         "XVector",
         "affy",
-        "graph",
         "mzR",
         "pcaMethods",
         "vsn",
@@ -13503,8 +13358,7 @@
         "XVector",
         "clusterProfiler",
         "enrichplot",
-        "fgsea",
-        "graph"
+        "fgsea"
     ],
     "metapone": [
         "fgsea"
@@ -13765,7 +13619,6 @@
         "biomaRt",
         "bumphunter",
         "genefilter",
-        "graph",
         "minfi",
         "multtest",
         "rhdf5",
@@ -14335,7 +14188,6 @@
         "biomaRt",
         "bumphunter",
         "genefilter",
-        "graph",
         "lumi",
         "methylumi",
         "minfi",
@@ -14453,8 +14305,7 @@
         "Rgraphviz",
         "S4Vectors",
         "UCSC.utils",
-        "XVector",
-        "graph"
+        "XVector"
     ],
     "MIRit": [
         "AnnotationDbi",
@@ -14474,7 +14325,6 @@
         "UCSC.utils",
         "XVector",
         "fgsea",
-        "graph",
         "graphite"
     ],
     "miRLAB": [
@@ -14500,8 +14350,7 @@
         "XVector",
         "annotate",
         "biomaRt",
-        "genefilter",
-        "graph"
+        "genefilter"
     ],
     "miRNAmeConverter": [
         "AnnotationDbi",
@@ -14547,7 +14396,6 @@
         "enrichplot",
         "fabia",
         "fgsea",
-        "graph",
         "graphite",
         "multtest",
         "rqubic"
@@ -14684,8 +14532,7 @@
         "metagenomeSeq"
     ],
     "mnem": [
-        "Rgraphviz",
-        "graph"
+        "Rgraphviz"
     ],
     "moanin": [
         "AnnotationDbi",
@@ -14701,7 +14548,6 @@
         "SummarizedExperiment",
         "UCSC.utils",
         "XVector",
-        "graph",
         "topGO"
     ],
     "mobileRNA": [
@@ -14753,8 +14599,7 @@
         "rhdf5"
     ],
     "MOGAMUN": [
-        "RCy3",
-        "graph"
+        "RCy3"
     ],
     "mogsa": [
         "AnnotationDbi",
@@ -14768,7 +14613,6 @@
         "XVector",
         "annotate",
         "genefilter",
-        "graph",
         "graphite"
     ],
     "MoleculeExperiment": [
@@ -14828,8 +14672,7 @@
     ],
     "monocle": [
         "RBGL",
-        "biocViews",
-        "graph"
+        "biocViews"
     ],
     "Moonlight2R": [
         "AnnotationDbi",
@@ -15228,7 +15071,6 @@
         "ensembldb",
         "genomeIntervals",
         "ggbio",
-        "graph",
         "pwalign",
         "rtracklayer",
         "txdbmaker"
@@ -15599,7 +15441,6 @@
         "UCSC.utils",
         "XVector",
         "fgsea",
-        "graph",
         "graphite",
         "multtest"
     ],
@@ -15825,8 +15666,7 @@
         "SparseArray",
         "SummarizedExperiment",
         "UCSC.utils",
-        "XVector",
-        "graph"
+        "XVector"
     ],
     "mygene": [
         "AnnotationDbi",
@@ -15910,7 +15750,6 @@
         "biovizBase",
         "csaw",
         "ensembldb",
-        "graph",
         "motifStack",
         "multtest",
         "pwalign",
@@ -16013,8 +15852,7 @@
         "KEGGgraph",
         "RBGL",
         "RCy3",
-        "Rgraphviz",
-        "graph"
+        "Rgraphviz"
     ],
     "ncRNAtools": [
         "GenomeInfoDb",
@@ -16062,7 +15900,6 @@
         "RBGL",
         "Rgraphviz",
         "epiNEM",
-        "graph",
         "mnem"
     ],
     "NetActivity": [
@@ -16103,12 +15940,10 @@
         "XVector"
     ],
     "nethet": [
-        "graph",
         "multtest"
     ],
     "netresponse": [
-        "Rgraphviz",
-        "graph"
+        "Rgraphviz"
     ],
     "NetSAM": [
         "AnnotationDbi",
@@ -16183,7 +16018,6 @@
         "biomaRt",
         "bumphunter",
         "genefilter",
-        "graph",
         "minfi",
         "multtest",
         "pandaR",
@@ -16330,8 +16164,7 @@
         "S4Vectors",
         "UCSC.utils",
         "XVector",
-        "annotate",
-        "graph"
+        "annotate"
     ],
     "nucleoSim": [
         "IRanges",
@@ -16411,7 +16244,6 @@
         "annotate",
         "beachmat",
         "biomaRt",
-        "graph",
         "pwalign",
         "rhdf5",
         "rtracklayer"
@@ -16496,7 +16328,6 @@
         "S4Vectors",
         "UCSC.utils",
         "XVector",
-        "graph",
         "topGO"
     ],
     "omicade4": [
@@ -16640,8 +16471,7 @@
         "biomaRt"
     ],
     "OncoSimulR": [
-        "Rgraphviz",
-        "graph"
+        "Rgraphviz"
     ],
     "ontoProc": [
         "AnnotationDbi",
@@ -16658,8 +16488,7 @@
         "SparseArray",
         "SummarizedExperiment",
         "UCSC.utils",
-        "XVector",
-        "graph"
+        "XVector"
     ],
     "openCyto": [
         "DelayedArray",
@@ -16674,7 +16503,6 @@
         "flowCore",
         "flowViz",
         "flowWorkspace",
-        "graph",
         "ncdfFlow"
     ],
     "openPrimeR": [
@@ -16709,8 +16537,7 @@
         "S4Vectors",
         "UCSC.utils",
         "XVector",
-        "biomaRt",
-        "graph"
+        "biomaRt"
     ],
     "oppar": [
         "AnnotationDbi",
@@ -16736,7 +16563,6 @@
         "XVector",
         "annotate",
         "beachmat",
-        "graph",
         "rhdf5"
     ],
     "optimalFlow": [
@@ -16831,7 +16657,6 @@
         "UCSC.utils",
         "XVector",
         "biomaRt",
-        "graph",
         "rtracklayer",
         "txdbmaker"
     ],
@@ -17021,8 +16846,7 @@
         "XVector"
     ],
     "paircompviz": [
-        "Rgraphviz",
-        "graph"
+        "Rgraphviz"
     ],
     "pairedGSEA": [
         "AnnotationDbi",
@@ -17090,7 +16914,6 @@
         "clusterProfiler",
         "enrichplot",
         "fgsea",
-        "graph",
         "multtest"
     ],
     "panp": [
@@ -17189,8 +17012,7 @@
         "Rgraphviz",
         "S4Vectors",
         "UCSC.utils",
-        "XVector",
-        "graph"
+        "XVector"
     ],
     "pathview": [
         "AnnotationDbi",
@@ -17202,8 +17024,7 @@
         "Rgraphviz",
         "S4Vectors",
         "UCSC.utils",
-        "XVector",
-        "graph"
+        "XVector"
     ],
     "pcaExplorer": [
         "AnnotationDbi",
@@ -17229,7 +17050,6 @@
         "annotate",
         "biomaRt",
         "genefilter",
-        "graph",
         "topGO"
     ],
     "pcaMethods": [],
@@ -17297,7 +17117,6 @@
         "XVector",
         "flowCore",
         "flowWorkspace",
-        "graph",
         "ncdfFlow"
     ],
     "peakPantheR": [
@@ -17487,12 +17306,9 @@
         "annotate",
         "biomaRt",
         "genefilter",
-        "graph",
         "hopach"
     ],
-    "PhenStat": [
-        "graph"
-    ],
+    "PhenStat": [],
     "philr": [],
     "PhIPData": [
         "DelayedArray",
@@ -17533,7 +17349,6 @@
         "UCSC.utils",
         "XVector",
         "bioDist",
-        "graph",
         "topGO"
     ],
     "phyloseq": [
@@ -17581,7 +17396,6 @@
         "clusterProfiler",
         "enrichplot",
         "fgsea",
-        "graph",
         "graphite"
     ],
     "PING": [
@@ -17808,7 +17622,6 @@
         "SummarizedExperiment",
         "UCSC.utils",
         "XVector",
-        "graph",
         "ontoProc"
     ],
     "polyester": [
@@ -17865,8 +17678,7 @@
         "UCSC.utils",
         "XVector",
         "biomaRt",
-        "fgsea",
-        "graph"
+        "fgsea"
     ],
     "pqsfinder": [
         "Biostrings",
@@ -18183,8 +17995,7 @@
         "S4Vectors",
         "UCSC.utils",
         "XVector",
-        "annotate",
-        "graph"
+        "annotate"
     ],
     "PROPER": [],
     "PROPS": [
@@ -18327,7 +18138,6 @@
         "UCSC.utils",
         "XVector",
         "biomaRt",
-        "graph",
         "topGO"
     ],
     "ptairMS": [
@@ -18453,8 +18263,7 @@
         "S4Vectors",
         "UCSC.utils",
         "XVector",
-        "biomaRt",
-        "graph"
+        "biomaRt"
     ],
     "qckitfastq": [],
     "qcmetrics": [
@@ -18523,7 +18332,6 @@
         "UCSC.utils",
         "XVector",
         "annotate",
-        "graph",
         "rtracklayer"
     ],
     "qPLEXanalyzer": [
@@ -18742,7 +18550,6 @@
         "biovizBase",
         "ensembldb",
         "ggbio",
-        "graph",
         "rtracklayer",
         "txdbmaker"
     ],
@@ -18932,9 +18739,7 @@
         "rtracklayer"
     ],
     "rawDiag": [],
-    "RbcBook1": [
-        "graph"
-    ],
+    "RbcBook1": [],
     "Rbec": [
         "Biostrings",
         "DelayedArray",
@@ -18953,15 +18758,11 @@
         "dada2",
         "pwalign"
     ],
-    "RBGL": [
-        "graph"
-    ],
+    "RBGL": [],
     "RBioFormats": [
         "S4Vectors"
     ],
-    "RBioinf": [
-        "graph"
-    ],
+    "RBioinf": [],
     "rBLAST": [
         "Biostrings",
         "GenomeInfoDb",
@@ -19048,8 +18849,7 @@
         "SummarizedExperiment",
         "UCSC.utils",
         "XVector",
-        "annotate",
-        "graph"
+        "annotate"
     ],
     "RCM": [
         "Biostrings",
@@ -19097,12 +18897,8 @@
         "S4Vectors",
         "basilisk"
     ],
-    "RCy3": [
-        "graph"
-    ],
-    "RCyjs": [
-        "graph"
-    ],
+    "RCy3": [],
+    "RCyjs": [],
     "ReactomeGSA": [],
     "ReactomePA": [
         "AnnotationDbi",
@@ -19117,13 +18913,10 @@
         "XVector",
         "enrichplot",
         "fgsea",
-        "graph",
         "graphite"
     ],
     "ReadqPCR": [],
-    "rebook": [
-        "graph"
-    ],
+    "rebook": [],
     "receptLoss": [
         "DelayedArray",
         "GenomeInfoDb",
@@ -19272,7 +19065,6 @@
         "XVector",
         "biomaRt",
         "ensembldb",
-        "graph",
         "multtest",
         "pwalign",
         "regioneR",
@@ -19446,7 +19238,6 @@
         "biomaRt",
         "biovizBase",
         "ensembldb",
-        "graph",
         "rtracklayer"
     ],
     "REMP": [
@@ -19534,7 +19325,6 @@
         "ensembldb",
         "genefilter",
         "ggbio",
-        "graph",
         "rtracklayer",
         "txdbmaker"
     ],
@@ -19679,12 +19469,8 @@
         "regioneR",
         "rtracklayer"
     ],
-    "RGraph2js": [
-        "graph"
-    ],
-    "Rgraphviz": [
-        "graph"
-    ],
+    "RGraph2js": [],
+    "Rgraphviz": [],
     "rGREAT": [
         "AnnotationDbi",
         "BiocIO",
@@ -19813,7 +19599,6 @@
         "biovizBase",
         "ensembldb",
         "ggbio",
-        "graph",
         "rtracklayer",
         "txdbmaker"
     ],
@@ -19919,7 +19704,6 @@
         "UCSC.utils",
         "XVector",
         "ensembldb",
-        "graph",
         "rtracklayer",
         "topGO"
     ],
@@ -20071,7 +19855,6 @@
         "cellHTS2",
         "genefilter",
         "geneplotter",
-        "graph",
         "vsn"
     ],
     "RNAmodR": [
@@ -20322,8 +20105,7 @@
         "Rgraphviz",
         "S4Vectors",
         "UCSC.utils",
-        "XVector",
-        "graph"
+        "XVector"
     ],
     "ropls": [
         "DelayedArray",
@@ -20419,9 +20201,7 @@
         "UCSC.utils",
         "XVector"
     ],
-    "rsbml": [
-        "graph"
-    ],
+    "rsbml": [],
     "rScudo": [
         "DelayedArray",
         "GenomeInfoDb",
@@ -20539,9 +20319,7 @@
         "UCSC.utils",
         "XVector"
     ],
-    "Rtreemix": [
-        "graph"
-    ],
+    "Rtreemix": [],
     "rTRM": [
         "AnnotationDbi",
         "Biostrings",
@@ -20767,7 +20545,6 @@
         "SummarizedExperiment",
         "UCSC.utils",
         "XVector",
-        "graph",
         "pathview"
     ],
     "SC3": [
@@ -21143,7 +20920,6 @@
         "beachmat",
         "bluster",
         "ensembldb",
-        "graph",
         "multtest",
         "rhdf5",
         "rtracklayer",
@@ -21562,7 +21338,6 @@
         "biovizBase",
         "ensembldb",
         "ggbio",
-        "graph",
         "pwalign",
         "rtracklayer",
         "txdbmaker"
@@ -21614,7 +21389,6 @@
         "enrichplot",
         "fgsea",
         "genefilter",
-        "graph",
         "graphite",
         "meshr",
         "schex"
@@ -21636,7 +21410,6 @@
         "UCSC.utils",
         "XVector",
         "annotate",
-        "graph",
         "schex"
     ],
     "scTHI": [],
@@ -21673,7 +21446,6 @@
         "ensembldb",
         "epivizr",
         "epivizrData",
-        "graph",
         "rtracklayer",
         "scater",
         "scran",
@@ -22194,8 +21966,7 @@
         "SummarizedExperiment",
         "UCSC.utils",
         "XVector",
-        "biocViews",
-        "graph"
+        "biocViews"
     ],
     "SigFuge": [
         "GenomeInfoDb",
@@ -22232,7 +22003,6 @@
         "clusterProfiler",
         "enrichplot",
         "fgsea",
-        "graph",
         "rhdf5"
     ],
     "signeR": [
@@ -22293,7 +22063,6 @@
         "consensusOV",
         "ensembldb",
         "genefu",
-        "graph",
         "rhdf5",
         "rtracklayer",
         "sparrow"
@@ -22531,7 +22300,6 @@
         "celda",
         "ensembldb",
         "genefilter",
-        "graph",
         "multtest",
         "rhdf5",
         "rtracklayer",
@@ -22605,8 +22373,7 @@
         "SummarizedExperiment",
         "UCSC.utils",
         "XVector",
-        "annotate",
-        "graph"
+        "annotate"
     ],
     "SiPSiC": [
         "DelayedArray",
@@ -22703,8 +22470,7 @@
         "SummarizedExperiment",
         "UCSC.utils",
         "XVector",
-        "annotate",
-        "graph"
+        "annotate"
     ],
     "slingshot": [
         "DelayedArray",
@@ -22832,7 +22598,6 @@
         "biovizBase",
         "ensembldb",
         "ggbio",
-        "graph",
         "pcaMethods",
         "rtracklayer",
         "txdbmaker"
@@ -22920,8 +22685,7 @@
         "SparseArray",
         "UCSC.utils",
         "XVector",
-        "annotate",
-        "graph"
+        "annotate"
     ],
     "SparseArray": [
         "IRanges",
@@ -23143,8 +22907,7 @@
     "SPEM": [],
     "SPIA": [
         "KEGGgraph",
-        "Rgraphviz",
-        "graph"
+        "Rgraphviz"
     ],
     "SPIAT": [
         "DelayedArray",
@@ -23300,7 +23063,6 @@
         "SummarizedExperiment",
         "UCSC.utils",
         "XVector",
-        "graph",
         "rtracklayer"
     ],
     "splineTimeR": [
@@ -23313,8 +23075,7 @@
         "S4Vectors",
         "UCSC.utils",
         "XVector",
-        "annotate",
-        "graph"
+        "annotate"
     ],
     "SPLINTER": [
         "AnnotationDbi",
@@ -23459,8 +23220,7 @@
         "XVector"
     ],
     "SRAdb": [
-        "GEOquery",
-        "graph"
+        "GEOquery"
     ],
     "srnadiff": [
         "AnnotationDbi",
@@ -23512,7 +23272,6 @@
         "SummarizedExperiment",
         "UCSC.utils",
         "XVector",
-        "graph",
         "graphite"
     ],
     "ssPATHS": [
@@ -23592,7 +23351,6 @@
         "annotate",
         "cellHTS2",
         "genefilter",
-        "graph",
         "vsn"
     ],
     "STATegRa": [
@@ -23649,8 +23407,7 @@
         "rtracklayer"
     ],
     "Streamer": [
-        "RBGL",
-        "graph"
+        "RBGL"
     ],
     "struct": [
         "DelayedArray",
@@ -24089,7 +23846,6 @@
         "annotate",
         "beachmat",
         "genefilter",
-        "graph",
         "rhdf5",
         "singscore",
         "sva"
@@ -24347,8 +24103,7 @@
         "S4Vectors",
         "UCSC.utils",
         "XVector",
-        "annotate",
-        "graph"
+        "annotate"
     ],
     "tidybulk": [
         "DelayedArray",
@@ -24505,8 +24260,7 @@
         "SummarizedExperiment",
         "UCSC.utils",
         "XVector",
-        "annotate",
-        "graph"
+        "annotate"
     ],
     "TitanCNA": [
         "AnnotationDbi",
@@ -24629,8 +24383,7 @@
         "KEGGREST",
         "S4Vectors",
         "UCSC.utils",
-        "XVector",
-        "graph"
+        "XVector"
     ],
     "ToxicoGx": [
         "BumpyMatrix",
@@ -24745,7 +24498,6 @@
         "UCSC.utils",
         "XVector",
         "biomaRt",
-        "graph",
         "topGO"
     ],
     "transcriptR": [
@@ -24815,7 +24567,6 @@
         "UCSC.utils",
         "XVector",
         "anota",
-        "graph",
         "multtest",
         "topGO"
     ],
@@ -24849,8 +24600,7 @@
         "RCy3",
         "S4Vectors",
         "UCSC.utils",
-        "XVector",
-        "graph"
+        "XVector"
     ],
     "TransView": [
         "GenomeInfoDb",
@@ -25085,8 +24835,7 @@
         "tRNA"
     ],
     "TRONCO": [
-        "Rgraphviz",
-        "graph"
+        "Rgraphviz"
     ],
     "TSCAN": [
         "DelayedArray",
@@ -25316,7 +25065,6 @@
         "biomaRt",
         "biovizBase",
         "ensembldb",
-        "graph",
         "rtracklayer",
         "txdbmaker"
     ],
@@ -25389,7 +25137,6 @@
     "uSORT": [
         "RBGL",
         "biocViews",
-        "graph",
         "monocle"
     ],
     "VAExprs": [
@@ -25517,7 +25264,6 @@
         "biomaRt",
         "biovizBase",
         "ensembldb",
-        "graph",
         "rhdf5",
         "rtracklayer"
     ],
@@ -25660,7 +25406,6 @@
         "XVector",
         "biomaRt",
         "fgsea",
-        "graph",
         "topGO"
     ],
     "VisiumIO": [
@@ -25691,8 +25436,7 @@
         "S4Vectors",
         "UCSC.utils",
         "XVector",
-        "annotate",
-        "graph"
+        "annotate"
     ],
     "Voyager": [
         "BiocNeighbors",
@@ -25769,7 +25513,6 @@
         "UCSC.utils",
         "VariantAnnotation",
         "XVector",
-        "graph",
         "gwascat",
         "rtracklayer",
         "snpStats"
@@ -25805,7 +25548,6 @@
         "biomaRt",
         "csaw",
         "ensembldb",
-        "graph",
         "multtest",
         "pwalign",
         "regioneR",
@@ -26076,7 +25818,6 @@
         "biovizBase",
         "ensembldb",
         "ggbio",
-        "graph",
         "gtrellis",
         "pcaMethods",
         "rtracklayer",
@@ -26148,7 +25889,6 @@
         "UCSC.utils",
         "XVector",
         "annotate",
-        "graph",
         "graphite",
         "pathview",
         "safe",

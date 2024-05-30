@@ -1,0 +1,39 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''OLINgui'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/jammy/latest
+Bioconductor version 3.19 (BiocManager 1.30.23), R 4.4.0 (2024-04-24)
+Installing package(s) 'OLINgui'
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/OLINgui_1.78.0.tar.gz'
+Content type 'application/x-gzip' length 235908 bytes (230 KB)
+==================================================
+downloaded 230 KB
+
+* installing *source* package ‘OLINgui’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Warning: no DISPLAY variable so Tk is not available
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+Warning: no DISPLAY variable so Tk is not available
+** testing if installed package can be loaded from final location
+Warning: no DISPLAY variable so Tk is not available
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘OLINgui’ as ‘OLINgui_1.78.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (OLINgui)
+
+The downloaded source packages are in
+	‘/tmp/Rtmpv5xeAg/downloaded_packages’
+Old packages: 'cachem', 'fastmap', 'highr', 'knitr', 'openssl', 'ragg',
+  'rmarkdown', 'systemfonts', 'textshaping', 'xfun', 'KernSmooth'
+
+real	0m6.326s
+user	0m4.007s
+sys	0m1.413s

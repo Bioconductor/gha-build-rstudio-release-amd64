@@ -191,7 +191,6 @@
     "bandle": [
         "MLInterfaces",
         "MSnbase",
-        "PSMatch",
         "pRoloc"
     ],
     "Banksy": [],
@@ -412,7 +411,6 @@
     ],
     "CAMERA": [
         "MSnbase",
-        "PSMatch",
         "xcms"
     ],
     "CaMutQC": [
@@ -624,8 +622,7 @@
         "rtracklayer"
     ],
     "CluMSID": [
-        "MSnbase",
-        "PSMatch"
+        "MSnbase"
     ],
     "clusterExperiment": [
         "zinbwave"
@@ -742,7 +739,6 @@
     ],
     "cosmiq": [
         "MSnbase",
-        "PSMatch",
         "xcms"
     ],
     "cosmosR": [],
@@ -876,8 +872,7 @@
         "sva"
     ],
     "DAPAR": [
-        "MSnbase",
-        "PSMatch"
+        "MSnbase"
     ],
     "dar": [
         "mia",
@@ -937,8 +932,7 @@
         "rtracklayer"
     ],
     "DEP": [
-        "MSnbase",
-        "PSMatch"
+        "MSnbase"
     ],
     "derfinder": [
         "BSgenome",
@@ -1301,7 +1295,6 @@
     "flagme": [
         "CAMERA",
         "MSnbase",
-        "PSMatch",
         "xcms"
     ],
     "FLAMES": [
@@ -1720,7 +1713,6 @@
     "IPO": [
         "CAMERA",
         "MSnbase",
-        "PSMatch",
         "xcms"
     ],
     "iSEEde": [],
@@ -1793,7 +1785,6 @@
     "LOBSTAHS": [
         "CAMERA",
         "MSnbase",
-        "PSMatch",
         "xcms"
     ],
     "lumi": [
@@ -1840,7 +1831,6 @@
     "MAIT": [
         "CAMERA",
         "MSnbase",
-        "PSMatch",
         "xcms"
     ],
     "mariner": [
@@ -1928,7 +1918,6 @@
     "metaMS": [
         "CAMERA",
         "MSnbase",
-        "PSMatch",
         "xcms"
     ],
     "MetaPhOR": [
@@ -2186,20 +2175,15 @@
         "scran"
     ],
     "msmsEDA": [
-        "MSnbase",
-        "PSMatch"
+        "MSnbase"
     ],
     "msmsTests": [
         "MSnbase",
-        "PSMatch",
         "msmsEDA"
     ],
-    "MSnbase": [
-        "PSMatch"
-    ],
+    "MSnbase": [],
     "MSnID": [
         "MSnbase",
-        "PSMatch",
         "msmsEDA",
         "msmsTests"
     ],
@@ -2209,13 +2193,11 @@
     "msqrob2": [],
     "MsQuality": [],
     "MSstatsQC": [
-        "MSnbase",
-        "PSMatch"
+        "MSnbase"
     ],
     "MSstatsQCgui": [
         "MSnbase",
-        "MSstatsQC",
-        "PSMatch"
+        "MSstatsQC"
     ],
     "MultiBaC": [],
     "multicrispr": [
@@ -2294,7 +2276,6 @@
     ],
     "ncGTW": [
         "MSnbase",
-        "PSMatch",
         "xcms"
     ],
     "nearBynding": [
@@ -2430,8 +2411,7 @@
         "oligo"
     ],
     "peakPantheR": [
-        "MSnbase",
-        "PSMatch"
+        "MSnbase"
     ],
     "PECA": [],
     "peco": [
@@ -2513,8 +2493,7 @@
         "rtracklayer"
     ],
     "PrInCE": [
-        "MSnbase",
-        "PSMatch"
+        "MSnbase"
     ],
     "proActiv": [
         "GenomicFeatures",
@@ -2538,13 +2517,11 @@
     ],
     "pRoloc": [
         "MLInterfaces",
-        "MSnbase",
-        "PSMatch"
+        "MSnbase"
     ],
     "pRolocGUI": [
         "MLInterfaces",
         "MSnbase",
-        "PSMatch",
         "pRoloc"
     ],
     "PROMISE": [],
@@ -2553,8 +2530,7 @@
     ],
     "Prostar": [
         "DAPAR",
-        "MSnbase",
-        "PSMatch"
+        "MSnbase"
     ],
     "ProteoDisco": [
         "BSgenome",
@@ -2573,11 +2549,9 @@
         "recount",
         "rtracklayer"
     ],
-    "PSMatch": [],
     "psygenet2r": [],
     "ptairMS": [
-        "MSnbase",
-        "PSMatch"
+        "MSnbase"
     ],
     "puma": [
         "oligo"
@@ -2602,8 +2576,7 @@
         "rtracklayer"
     ],
     "qPLEXanalyzer": [
-        "MSnbase",
-        "PSMatch"
+        "MSnbase"
     ],
     "qsea": [
         "BSgenome",
@@ -2861,8 +2834,7 @@
         "rtracklayer"
     ],
     "RMassBank": [
-        "MSnbase",
-        "PSMatch"
+        "MSnbase"
     ],
     "Rmmquant": [
         "GenomicFeatures",
@@ -3404,8 +3376,7 @@
     ],
     "SVMDO": [],
     "synapter": [
-        "MSnbase",
-        "PSMatch"
+        "MSnbase"
     ],
     "syntenet": [
         "rtracklayer"
@@ -3494,8 +3465,7 @@
         "ClassifyR"
     ],
     "topdownr": [
-        "MSnbase",
-        "PSMatch"
+        "MSnbase"
     ],
     "tpSVG": [],
     "trackViewer": [
@@ -3701,8 +3671,7 @@
         "rtracklayer"
     ],
     "xcms": [
-        "MSnbase",
-        "PSMatch"
+        "MSnbase"
     ],
     "XDE": [],
     "Xeva": [],

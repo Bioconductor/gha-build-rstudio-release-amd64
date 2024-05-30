@@ -2506,7 +2506,6 @@
         "Rsamtools",
         "biomaRt",
         "rtracklayer",
-        "tRNA",
         "tRNAdbImport",
         "txdbmaker"
     ],
@@ -7632,16 +7631,12 @@
         "genefilter",
         "sva"
     ],
-    "tRNA": [],
-    "tRNAdbImport": [
-        "tRNA"
-    ],
+    "tRNAdbImport": [],
     "tRNAscanImport": [
         "BSgenome",
         "GenomicAlignments",
         "Rsamtools",
-        "rtracklayer",
-        "tRNA"
+        "rtracklayer"
     ],
     "TSCAN": [
         "SingleCellExperiment",

@@ -65,7 +65,6 @@
     ],
     "ATACCoGAPS": [
         "OrganismDbi",
-        "TFBSTools",
         "chromVAR",
         "motifmatchr",
         "rGREAT",
@@ -74,16 +73,13 @@
     "ATACseqQC": [
         "ChIPpeakAnno",
         "GenomicScores",
-        "TFBSTools",
         "ensembldb",
         "motifStack"
     ],
     "ATACseqTFEA": [
-        "TFBSTools",
         "motifmatchr"
     ],
     "atSNP": [
-        "TFBSTools",
         "motifStack"
     ],
     "BadRegionFinder": [
@@ -216,9 +212,7 @@
     ],
     "ChIPseeker": [],
     "ChIPXpress": [],
-    "chromVAR": [
-        "TFBSTools"
-    ],
+    "chromVAR": [],
     "cicero": [
         "Gviz",
         "VariantAnnotation",
@@ -333,7 +327,6 @@
         "txdbmaker"
     ],
     "dagLogo": [
-        "TFBSTools",
         "motifStack"
     ],
     "DAMEfinder": [
@@ -417,7 +410,6 @@
         "ensembldb"
     ],
     "enhancerHomologSearch": [
-        "TFBSTools",
         "motifmatchr"
     ],
     "ENmix": [
@@ -444,7 +436,6 @@
         "txdbmaker"
     ],
     "epiregulon": [
-        "TFBSTools",
         "motifmatchr"
     ],
     "EpiTxDb": [
@@ -484,7 +475,6 @@
     ],
     "esATAC": [
         "ChIPseeker",
-        "TFBSTools",
         "motifmatchr"
     ],
     "EventPointer": [
@@ -733,9 +723,7 @@
         "biovizBase",
         "ensembldb"
     ],
-    "MatrixRider": [
-        "TFBSTools"
-    ],
+    "MatrixRider": [],
     "mCSEA": [
         "Gviz",
         "OrganismDbi",
@@ -773,9 +761,7 @@
         "DSS",
         "txdbmaker"
     ],
-    "MethReg": [
-        "TFBSTools"
-    ],
+    "MethReg": [],
     "methrix": [],
     "MethylAid": [
         "bumphunter",
@@ -837,26 +823,19 @@
         "VariantAnnotation",
         "deepSNV"
     ],
-    "monaLisa": [
-        "TFBSTools"
-    ],
+    "monaLisa": [],
     "Moonlight2R": [
         "EpiMix"
     ],
     "motifbreakR": [
         "Gviz",
-        "TFBSTools",
         "VariantAnnotation",
         "biovizBase",
         "ensembldb",
         "motifStack"
     ],
-    "motifmatchr": [
-        "TFBSTools"
-    ],
-    "motifStack": [
-        "TFBSTools"
-    ],
+    "motifmatchr": [],
+    "motifStack": [],
     "msgbsR": [
         "OrganismDbi",
         "VariantAnnotation",
@@ -895,7 +874,6 @@
         "ChIPpeakAnno",
         "GenomicScores",
         "Gviz",
-        "TFBSTools",
         "VariantAnnotation",
         "biovizBase",
         "ensembldb",
@@ -938,7 +916,6 @@
     ],
     "OutSplice": [],
     "pageRank": [
-        "TFBSTools",
         "motifmatchr"
     ],
     "Pigengene": [],
@@ -955,7 +932,6 @@
     "primirTSS": [
         "GenomicScores",
         "Gviz",
-        "TFBSTools",
         "VariantAnnotation",
         "biovizBase",
         "ensembldb"
@@ -1094,7 +1070,6 @@
     ],
     "ribosomeProfilingQC": [
         "RUVSeq",
-        "TFBSTools",
         "motifStack",
         "txdbmaker"
     ],
@@ -1275,7 +1250,6 @@
     "spatzie": [
         "GenomicInteractions",
         "Gviz",
-        "TFBSTools",
         "VariantAnnotation",
         "biovizBase",
         "ensembldb",
@@ -1321,7 +1295,6 @@
     "terraTCGAdata": [
         "TCGAutils"
     ],
-    "TFBSTools": [],
     "TFEA.ChIP": [],
     "TFHAZ": [
         "ORFik",

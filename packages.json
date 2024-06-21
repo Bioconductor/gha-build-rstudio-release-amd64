@@ -471,7 +471,6 @@
     ],
     "bioCancer": [
         "DOSE",
-        "GOSemSim",
         "GenomicAlignments",
         "GenomicFeatures",
         "MultiAssayExperiment",
@@ -722,7 +721,6 @@
     ],
     "CaMutQC": [
         "DOSE",
-        "GOSemSim",
         "MesKit",
         "clusterProfiler",
         "enrichplot"
@@ -801,7 +799,6 @@
         "AnnotationHub",
         "DOSE",
         "ExperimentHub",
-        "GOSemSim",
         "clusterProfiler",
         "enrichplot",
         "graphite"
@@ -859,7 +856,6 @@
     ],
     "CEMiTool": [
         "DOSE",
-        "GOSemSim",
         "clusterProfiler",
         "enrichplot"
     ],
@@ -868,7 +864,6 @@
     ],
     "CeTF": [
         "DOSE",
-        "GOSemSim",
         "clusterProfiler",
         "enrichplot"
     ],
@@ -977,7 +972,6 @@
     ],
     "ChIPseeker": [
         "DOSE",
-        "GOSemSim",
         "GenomicAlignments",
         "GenomicFeatures",
         "enrichplot",
@@ -1100,7 +1094,6 @@
     ],
     "clusterProfiler": [
         "DOSE",
-        "GOSemSim",
         "enrichplot"
     ],
     "clustifyr": [
@@ -1307,7 +1300,6 @@
         "AnnotationHub",
         "DOSE",
         "ExperimentHub",
-        "GOSemSim",
         "MAGeCKFlute",
         "PCAtools",
         "SingleCellExperiment",
@@ -1556,7 +1548,6 @@
     "debCAM": [],
     "debrowser": [
         "DOSE",
-        "GOSemSim",
         "annotate",
         "clusterProfiler",
         "enrichplot",
@@ -1790,9 +1781,7 @@
         "genefilter",
         "sva"
     ],
-    "DOSE": [
-        "GOSemSim"
-    ],
+    "DOSE": [],
     "doubletrouble": [
         "GenomicAlignments",
         "GenomicFeatures",
@@ -1839,7 +1828,6 @@
     ],
     "EasyCellType": [
         "DOSE",
-        "GOSemSim",
         "clusterProfiler",
         "enrichplot"
     ],
@@ -1920,12 +1908,10 @@
         "safe"
     ],
     "enrichplot": [
-        "DOSE",
-        "GOSemSim"
+        "DOSE"
     ],
     "enrichViewNet": [
         "DOSE",
-        "GOSemSim",
         "enrichplot"
     ],
     "ensembldb": [
@@ -2005,7 +1991,6 @@
     ],
     "epiregulon.extra": [
         "DOSE",
-        "GOSemSim",
         "SingleCellExperiment",
         "clusterProfiler",
         "enrichplot",
@@ -2075,7 +2060,6 @@
         "CNEr",
         "ChIPseeker",
         "DOSE",
-        "GOSemSim",
         "GenomicAlignments",
         "GenomicFeatures",
         "ShortRead",
@@ -2162,7 +2146,6 @@
     ],
     "famat": [
         "DOSE",
-        "GOSemSim",
         "clusterProfiler",
         "enrichplot"
     ],
@@ -2297,7 +2280,6 @@
     ],
     "GDCRNATools": [
         "DOSE",
-        "GOSemSim",
         "clusterProfiler",
         "enrichplot",
         "pathview"
@@ -2333,7 +2315,6 @@
         "MultiAssayExperiment"
     ],
     "GeDi": [
-        "GOSemSim",
         "GeneTonic"
     ],
     "gemma.R": [],
@@ -2476,7 +2457,6 @@
     ],
     "gINTomics": [
         "DOSE",
-        "GOSemSim",
         "GenomicAlignments",
         "GenomicFeatures",
         "MultiAssayExperiment",
@@ -2547,7 +2527,6 @@
     "GOpro": [
         "MultiAssayExperiment"
     ],
-    "GOSemSim": [],
     "goseq": [
         "GenomicAlignments",
         "GenomicFeatures",
@@ -2556,7 +2535,6 @@
     ],
     "goSorensen": [
         "DOSE",
-        "GOSemSim",
         "clusterProfiler",
         "enrichplot"
     ],
@@ -2846,7 +2824,6 @@
     ],
     "iNETgrate": [
         "DOSE",
-        "GOSemSim",
         "GenomicAlignments",
         "GenomicFeatures",
         "OrganismDbi",
@@ -3140,7 +3117,6 @@
         "AnnotationHub",
         "DOSE",
         "ExperimentHub",
-        "GOSemSim",
         "clusterProfiler",
         "enrichplot",
         "pathview"
@@ -3274,7 +3250,6 @@
     "meshes": [
         "AnnotationHub",
         "DOSE",
-        "GOSemSim",
         "MeSHDbi",
         "enrichplot"
     ],
@@ -3325,7 +3300,6 @@
     ],
     "MetaPhOR": [
         "DOSE",
-        "GOSemSim",
         "clusterProfiler",
         "enrichplot"
     ],
@@ -3408,7 +3382,6 @@
     ],
     "methylGSA": [
         "DOSE",
-        "GOSemSim",
         "GenomicAlignments",
         "GenomicFeatures",
         "annotate",
@@ -3510,7 +3483,6 @@
     ],
     "MicrobiomeProfiler": [
         "DOSE",
-        "GOSemSim",
         "clusterProfiler",
         "enrichplot"
     ],
@@ -3575,7 +3547,6 @@
     "mirIntegrator": [],
     "MIRit": [
         "DOSE",
-        "GOSemSim",
         "MultiAssayExperiment",
         "clusterProfiler",
         "enrichplot",
@@ -3593,7 +3564,6 @@
     "miRSM": [
         "BicARE",
         "DOSE",
-        "GOSemSim",
         "GSEABase",
         "ReactomePA",
         "annotate",
@@ -3667,7 +3637,6 @@
         "DOSE",
         "EpiMix",
         "ExperimentHub",
-        "GOSemSim",
         "GenomicAlignments",
         "GenomicFeatures",
         "clusterProfiler",
@@ -3676,7 +3645,6 @@
     ],
     "MoonlightR": [
         "DOSE",
-        "GOSemSim",
         "TCGAbiolinks",
         "clusterProfiler",
         "enrichplot"
@@ -3686,7 +3654,6 @@
     ],
     "mosdef": [
         "DOSE",
-        "GOSemSim",
         "GenomicAlignments",
         "GenomicFeatures",
         "clusterProfiler",
@@ -4173,15 +4140,13 @@
     "panelcn.mops": [],
     "PanomiR": [
         "DOSE",
-        "GOSemSim",
         "GSEABase",
         "annotate",
         "clusterProfiler",
         "enrichplot"
     ],
     "pareg": [
-        "DOSE",
-        "GOSemSim"
+        "DOSE"
     ],
     "partCNV": [
         "AnnotationHub",
@@ -4193,7 +4158,6 @@
     ],
     "pathlinkR": [
         "DOSE",
-        "GOSemSim",
         "clusterProfiler",
         "enrichplot"
     ],
@@ -4268,7 +4232,6 @@
     ],
     "Pigengene": [
         "DOSE",
-        "GOSemSim",
         "ReactomePA",
         "clusterProfiler",
         "enrichplot",
@@ -4388,7 +4351,6 @@
     "profileplyr": [
         "ChIPseeker",
         "DOSE",
-        "GOSemSim",
         "GenomicAlignments",
         "GenomicFeatures",
         "ShortRead",
@@ -4626,15 +4588,12 @@
         "GSEABase",
         "annotate"
     ],
-    "Rcpi": [
-        "GOSemSim"
-    ],
+    "Rcpi": [],
     "RCSL": [
         "SingleCellExperiment"
     ],
     "ReactomePA": [
         "DOSE",
-        "GOSemSim",
         "enrichplot",
         "graphite"
     ],
@@ -4679,8 +4638,7 @@
     ],
     "RegEnrich": [
         "BiocSet",
-        "DOSE",
-        "GOSemSim"
+        "DOSE"
     ],
     "regionalpcs": [
         "PCAtools"
@@ -4998,9 +4956,7 @@
         "ensembldb",
         "rtracklayer"
     ],
-    "rrvgo": [
-        "GOSemSim"
-    ],
+    "rrvgo": [],
     "rScudo": [],
     "RSVSim": [
         "GenomicAlignments",
@@ -5280,7 +5236,6 @@
         "AnnotationHub",
         "Category",
         "DOSE",
-        "GOSemSim",
         "GOstats",
         "GSEABase",
         "MeSHDbi",
@@ -5326,7 +5281,6 @@
     "segmenter": [
         "ChIPseeker",
         "DOSE",
-        "GOSemSim",
         "GenomicAlignments",
         "GenomicFeatures",
         "enrichplot",
@@ -5351,7 +5305,6 @@
         "BSgenome",
         "ChIPseeker",
         "DOSE",
-        "GOSemSim",
         "GenomicAlignments",
         "GenomicFeatures",
         "clusterProfiler",
@@ -5423,7 +5376,6 @@
         "AnnotationHub",
         "DOSE",
         "ExperimentHub",
-        "GOSemSim",
         "GSEABase",
         "annotate",
         "clusterProfiler",
@@ -5472,9 +5424,7 @@
         "SpatialExperiment",
         "cytomapper"
     ],
-    "simplifyEnrichment": [
-        "GOSemSim"
-    ],
+    "simplifyEnrichment": [],
     "single": [
         "GenomicAlignments"
     ],
@@ -5845,8 +5795,7 @@
         "rtracklayer"
     ],
     "SVMDO": [
-        "DOSE",
-        "GOSemSim"
+        "DOSE"
     ],
     "SWATH2stats": [],
     "switchde": [
@@ -5912,7 +5861,6 @@
     ],
     "TDbasedUFEadv": [
         "DOSE",
-        "GOSemSim",
         "enrichplot"
     ],
     "TEKRABber": [
@@ -6063,7 +6011,6 @@
         "glmGamPoi"
     ],
     "tRanslatome": [
-        "GOSemSim",
         "topGO"
     ],
     "transmogR": [
@@ -6272,7 +6219,6 @@
     ],
     "vidger": [],
     "ViSEAGO": [
-        "GOSemSim",
         "topGO"
     ],
     "VisiumIO": [

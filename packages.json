@@ -275,7 +275,6 @@
         "methylPipe"
     ],
     "consensusDE": [
-        "EDASeq",
         "RUVSeq",
         "ensembldb"
     ],
@@ -341,9 +340,7 @@
     "DAMEfinder": [
         "VariantAnnotation"
     ],
-    "DaMiRseq": [
-        "EDASeq"
-    ],
+    "DaMiRseq": [],
     "Damsel": [
         "OrganismDbi",
         "VariantAnnotation",
@@ -418,7 +415,6 @@
     "DrugVsDisease": [],
     "DSS": [],
     "easyRNASeq": [],
-    "EDASeq": [],
     "ELMER": [
         "Gviz",
         "VariantAnnotation",
@@ -539,8 +535,7 @@
         "VariantAnnotation"
     ],
     "GARS": [
-        "DaMiRseq",
-        "EDASeq"
+        "DaMiRseq"
     ],
     "gatom": [],
     "gDNAx": [
@@ -770,7 +765,6 @@
     ],
     "metaseqR2": [
         "DSS",
-        "EDASeq",
         "txdbmaker"
     ],
     "MethReg": [],
@@ -902,7 +896,6 @@
     "NoRCE": [],
     "nullranges": [],
     "octad": [
-        "EDASeq",
         "RUVSeq"
     ],
     "OGRE": [
@@ -1081,7 +1074,6 @@
         "txdbmaker"
     ],
     "ribosomeProfilingQC": [
-        "EDASeq",
         "RUVSeq",
         "motifStack",
         "txdbmaker"
@@ -1147,9 +1139,7 @@
     "RTCGAToolbox": [
         "TCGAutils"
     ],
-    "RUVSeq": [
-        "EDASeq"
-    ],
+    "RUVSeq": [],
     "SARC": [],
     "saseR": [
         "ASpli",
@@ -1172,7 +1162,6 @@
         "annotatr"
     ],
     "scone": [
-        "EDASeq",
         "RUVSeq"
     ],
     "scoreInvHap": [
@@ -1279,7 +1268,6 @@
         "ensembldb"
     ],
     "standR": [
-        "EDASeq",
         "RUVSeq"
     ],
     "STdeconvolve": [],

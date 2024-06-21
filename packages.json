@@ -283,7 +283,6 @@
         "SummarizedExperiment",
         "VariantAnnotation",
         "XVector",
-        "alabaster.base",
         "alabaster.bumpy",
         "alabaster.mae",
         "alabaster.matrix",
@@ -295,18 +294,15 @@
         "alabaster.vcf",
         "rtracklayer"
     ],
-    "alabaster.base": [],
     "alabaster.bumpy": [
-        "BumpyMatrix",
-        "alabaster.base"
+        "BumpyMatrix"
     ],
     "alabaster.files": [
         "Biostrings",
         "GenomeInfoDb",
         "GenomicRanges",
         "Rsamtools",
-        "XVector",
-        "alabaster.base"
+        "XVector"
     ],
     "alabaster.mae": [
         "DelayedArray",
@@ -318,7 +314,6 @@
         "SparseArray",
         "SummarizedExperiment",
         "XVector",
-        "alabaster.base",
         "alabaster.matrix",
         "alabaster.ranges",
         "alabaster.se"
@@ -328,14 +323,12 @@
         "HDF5Array",
         "S4Arrays",
         "SparseArray",
-        "XVector",
-        "alabaster.base"
+        "XVector"
     ],
     "alabaster.ranges": [
         "GenomeInfoDb",
         "GenomicRanges",
-        "XVector",
-        "alabaster.base"
+        "XVector"
     ],
     "alabaster.sce": [
         "DelayedArray",
@@ -347,7 +340,6 @@
         "SparseArray",
         "SummarizedExperiment",
         "XVector",
-        "alabaster.base",
         "alabaster.matrix",
         "alabaster.ranges",
         "alabaster.se"
@@ -361,7 +353,6 @@
         "SparseArray",
         "SummarizedExperiment",
         "XVector",
-        "alabaster.base",
         "alabaster.matrix",
         "alabaster.ranges"
     ],
@@ -376,7 +367,6 @@
         "SpatialExperiment",
         "SummarizedExperiment",
         "XVector",
-        "alabaster.base",
         "alabaster.matrix",
         "alabaster.ranges",
         "alabaster.sce",
@@ -385,8 +375,7 @@
     "alabaster.string": [
         "Biostrings",
         "GenomeInfoDb",
-        "XVector",
-        "alabaster.base"
+        "XVector"
     ],
     "alabaster.vcf": [
         "AnnotationDbi",
@@ -405,7 +394,6 @@
         "SummarizedExperiment",
         "VariantAnnotation",
         "XVector",
-        "alabaster.base",
         "alabaster.matrix",
         "alabaster.ranges",
         "alabaster.se",
@@ -16942,7 +16930,6 @@
         "TSCAN",
         "TrajectoryUtils",
         "XVector",
-        "alabaster.base",
         "alabaster.matrix",
         "alabaster.ranges",
         "alabaster.sce",

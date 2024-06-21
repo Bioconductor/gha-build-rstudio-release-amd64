@@ -147,7 +147,6 @@
         "VariantAnnotation",
         "alabaster.mae",
         "alabaster.matrix",
-        "alabaster.ranges",
         "alabaster.sce",
         "alabaster.se",
         "alabaster.spatial",
@@ -160,26 +159,22 @@
         "MultiAssayExperiment",
         "SummarizedExperiment",
         "alabaster.matrix",
-        "alabaster.ranges",
         "alabaster.se"
     ],
     "alabaster.matrix": [
         "HDF5Array"
     ],
-    "alabaster.ranges": [],
     "alabaster.sce": [
         "HDF5Array",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "alabaster.matrix",
-        "alabaster.ranges",
         "alabaster.se"
     ],
     "alabaster.se": [
         "HDF5Array",
         "SummarizedExperiment",
-        "alabaster.matrix",
-        "alabaster.ranges"
+        "alabaster.matrix"
     ],
     "alabaster.spatial": [
         "HDF5Array",
@@ -187,7 +182,6 @@
         "SpatialExperiment",
         "SummarizedExperiment",
         "alabaster.matrix",
-        "alabaster.ranges",
         "alabaster.sce",
         "alabaster.se"
     ],
@@ -200,7 +194,6 @@
         "SummarizedExperiment",
         "VariantAnnotation",
         "alabaster.matrix",
-        "alabaster.ranges",
         "alabaster.se",
         "rtracklayer"
     ],
@@ -8084,7 +8077,6 @@
         "TSCAN",
         "TrajectoryUtils",
         "alabaster.matrix",
-        "alabaster.ranges",
         "alabaster.sce",
         "alabaster.se",
         "annotate",

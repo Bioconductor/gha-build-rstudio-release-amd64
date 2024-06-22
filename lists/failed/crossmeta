@@ -1,0 +1,72 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''crossmeta'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/jammy/latest
+Warning: unable to access index for repository https://p3m.dev/cran/__linux__/jammy/latest/src/contrib:
+  cannot open URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/PACKAGES'
+Bioconductor version 3.19 (BiocManager 1.30.23), R 4.4.0 (2024-04-24)
+Installing package(s) 'crossmeta'
+Warning: unable to access index for repository https://p3m.dev/cran/__linux__/jammy/latest/src/contrib:
+  cannot open URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/PACKAGES'
+Warning: dependencies ‘DT’, ‘fdrtool’, ‘metaMA’, ‘reader’, ‘shinyjs’, ‘shinyBS’, ‘shinyWidgets’, ‘shinypanel’, ‘readxl’ are not available
+also installing the dependencies ‘GEOquery’, ‘lydata’
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/GEOquery_2.72.0.tar.gz'
+Content type 'application/x-gzip' length 13692930 bytes (13.1 MB)
+==================================================
+downloaded 13.1 MB
+
+trying URL 'https://bioconductor.org/packages/3.19/data/experiment/src/contrib/lydata_1.30.0.tar.gz'
+Content type 'application/x-gzip' length 166570597 bytes (158.9 MB)
+==================================================
+downloaded 158.9 MB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/crossmeta_1.30.0.tar.gz'
+Content type 'application/x-gzip' length 3090488 bytes (2.9 MB)
+==================================================
+downloaded 2.9 MB
+
+* installing *source* package ‘GEOquery’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘GEOquery’ as ‘GEOquery_2.72.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (GEOquery)
+* installing *source* package ‘lydata’ ...
+** using staged installation
+** inst
+** help
+No man pages found in package  ‘lydata’ 
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘lydata’ as ‘lydata_1.30.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (lydata)
+ERROR: dependencies ‘DT’, ‘fdrtool’, ‘metaMA’, ‘reader’, ‘shinyjs’, ‘shinyBS’, ‘shinyWidgets’, ‘shinypanel’, ‘readxl’ are not available for package ‘crossmeta’
+* removing ‘/tmp/tmp/built/crossmeta’
+
+The downloaded source packages are in
+	‘/tmp/Rtmp9ptsDn/downloaded_packages’
+Warning: unable to access index for repository https://p3m.dev/cran/__linux__/jammy/latest/src/contrib:
+  cannot open URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/PACKAGES'
+Old packages: 'KEGGREST'
+Warning message:
+In install.packages(...) :
+  installation of package ‘crossmeta’ had non-zero exit status
+
+real	20m59.036s
+user	2m37.806s
+sys	0m7.720s

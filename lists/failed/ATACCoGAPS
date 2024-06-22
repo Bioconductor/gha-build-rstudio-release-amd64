@@ -1,0 +1,101 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''ATACCoGAPS'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/jammy/latest
+Warning: unable to access index for repository https://p3m.dev/cran/__linux__/jammy/latest/src/contrib:
+  cannot open URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/PACKAGES'
+Bioconductor version 3.19 (BiocManager 1.30.23), R 4.4.0 (2024-04-24)
+Installing package(s) 'ATACCoGAPS'
+Warning: unable to access index for repository https://p3m.dev/cran/__linux__/jammy/latest/src/contrib:
+  cannot open URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/PACKAGES'
+Warning: dependencies ‘tidyverse’, ‘NMF’, ‘ggalluvial’, ‘MatrixModels’, ‘umap’, ‘tsne’ are not available
+also installing the dependencies ‘OrganismDbi’, ‘projectR’, ‘Homo.sapiens’, ‘Mus.musculus’
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/OrganismDbi_1.46.0.tar.gz'
+Content type 'application/x-gzip' length 395206 bytes (385 KB)
+==================================================
+downloaded 385 KB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/projectR_1.20.0.tar.gz'
+Content type 'application/x-gzip' length 5916151 bytes (5.6 MB)
+==================================================
+downloaded 5.6 MB
+
+trying URL 'https://bioconductor.org/packages/3.19/data/annotation/src/contrib/Homo.sapiens_1.3.1.tar.gz'
+Content type 'application/x-gzip' length 1617 bytes
+==================================================
+downloaded 1617 bytes
+
+trying URL 'https://bioconductor.org/packages/3.19/data/annotation/src/contrib/Mus.musculus_1.3.1.tar.gz'
+Content type 'application/x-gzip' length 1618 bytes
+==================================================
+downloaded 1618 bytes
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/ATACCoGAPS_1.6.0.tar.gz'
+Content type 'application/x-gzip' length 2913463 bytes (2.8 MB)
+==================================================
+downloaded 2.8 MB
+
+* installing *source* package ‘OrganismDbi’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘OrganismDbi’ as ‘OrganismDbi_1.46.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (OrganismDbi)
+ERROR: dependencies ‘NMF’, ‘ggalluvial’, ‘MatrixModels’, ‘umap’, ‘tsne’ are not available for package ‘projectR’
+* removing ‘/tmp/tmp/built/projectR’
+* installing *source* package ‘Homo.sapiens’ ...
+** using staged installation
+** R
+** data
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘Homo.sapiens’ as ‘Homo.sapiens_1.3.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Homo.sapiens)
+* installing *source* package ‘Mus.musculus’ ...
+** using staged installation
+** R
+** data
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘Mus.musculus’ as ‘Mus.musculus_1.3.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Mus.musculus)
+ERROR: dependencies ‘projectR’, ‘tidyverse’ are not available for package ‘ATACCoGAPS’
+* removing ‘/tmp/tmp/built/ATACCoGAPS’
+
+The downloaded source packages are in
+	‘/tmp/RtmpVMn2wE/downloaded_packages’
+Warning: unable to access index for repository https://p3m.dev/cran/__linux__/jammy/latest/src/contrib:
+  cannot open URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/PACKAGES'
+Old packages: 'KEGGREST'
+Warning messages:
+1: In install.packages(...) :
+  installation of package ‘projectR’ had non-zero exit status
+2: In install.packages(...) :
+  installation of package ‘ATACCoGAPS’ had non-zero exit status
+
+real	20m22.986s
+user	1m59.281s
+sys	0m13.236s

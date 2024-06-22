@@ -1945,10 +1945,7 @@
         "UCSC.utils",
         "XVector"
     ],
-    "basilisk": [
-        "basilisk.utils"
-    ],
-    "basilisk.utils": [],
+    "basilisk": [],
     "batchelor": [
         "Biobase",
         "BiocGenerics",
@@ -2515,8 +2512,7 @@
     ],
     "BiocHail": [
         "BiocGenerics",
-        "basilisk",
-        "basilisk.utils"
+        "basilisk"
     ],
     "BiocHubsShiny": [
         "AnnotationDbi",
@@ -2636,8 +2632,7 @@
         "SummarizedExperiment",
         "UCSC.utils",
         "XVector",
-        "basilisk",
-        "basilisk.utils"
+        "basilisk"
     ],
     "biocViews": [
         "Biobase",
@@ -3936,8 +3931,7 @@
         "graphite"
     ],
     "cbpManager": [
-        "basilisk",
-        "basilisk.utils"
+        "basilisk"
     ],
     "ccfindR": [
         "Biobase",
@@ -4372,8 +4366,7 @@
         "S4Vectors",
         "UCSC.utils",
         "XVector",
-        "basilisk",
-        "basilisk.utils"
+        "basilisk"
     ],
     "CGHbase": [
         "Biobase",
@@ -6503,7 +6496,6 @@
         "VariantAnnotation",
         "XVector",
         "basilisk",
-        "basilisk.utils",
         "biomaRt",
         "crisprBase",
         "crisprBowtie",
@@ -6524,8 +6516,7 @@
         "S4Vectors",
         "UCSC.utils",
         "XVector",
-        "basilisk",
-        "basilisk.utils"
+        "basilisk"
     ],
     "CRISPRseek": [
         "BSgenome",
@@ -6580,7 +6571,6 @@
         "VariantAnnotation",
         "XVector",
         "basilisk",
-        "basilisk.utils",
         "biomaRt",
         "biovizBase",
         "crisprBase",
@@ -6643,7 +6633,6 @@
         "VariantAnnotation",
         "XVector",
         "basilisk",
-        "basilisk.utils",
         "biomaRt",
         "biovizBase",
         "crisprBase",
@@ -6684,7 +6673,6 @@
         "VariantAnnotation",
         "XVector",
         "basilisk",
-        "basilisk.utils",
         "biomaRt",
         "biovizBase",
         "crisprBase",
@@ -7925,8 +7913,7 @@
         "rtracklayer"
     ],
     "densvis": [
-        "basilisk",
-        "basilisk.utils"
+        "basilisk"
     ],
     "DEP": [
         "AnnotationFilter",
@@ -10660,7 +10647,6 @@
         "XVector",
         "bambu",
         "basilisk",
-        "basilisk.utils",
         "beachmat",
         "biomaRt",
         "biovizBase",
@@ -13589,7 +13575,6 @@
         "UCSC.utils",
         "XVector",
         "basilisk",
-        "basilisk.utils",
         "rhdf5",
         "rhdf5filters"
     ],
@@ -15595,8 +15580,7 @@
         "S4Vectors",
         "UCSC.utils",
         "XVector",
-        "basilisk",
-        "basilisk.utils"
+        "basilisk"
     ],
     "made4": [
         "Biobase",
@@ -18137,7 +18121,6 @@
         "SparseArray",
         "XVector",
         "basilisk",
-        "basilisk.utils",
         "rhdf5",
         "rhdf5filters"
     ],
@@ -20721,7 +20704,6 @@
         "UCSC.utils",
         "XVector",
         "basilisk",
-        "basilisk.utils",
         "rhdf5",
         "rhdf5filters"
     ],
@@ -21028,7 +21010,6 @@
         "UCSC.utils",
         "XVector",
         "basilisk",
-        "basilisk.utils",
         "fgsea"
     ],
     "parglms": [
@@ -23435,16 +23416,14 @@
         "BiocGenerics",
         "BiocParallel",
         "S4Vectors",
-        "basilisk",
-        "basilisk.utils"
+        "basilisk"
     ],
     "RcwlPipelines": [
         "BiocGenerics",
         "BiocParallel",
         "Rcwl",
         "S4Vectors",
-        "basilisk",
-        "basilisk.utils"
+        "basilisk"
     ],
     "RCy3": [
         "BiocGenerics",
@@ -23597,7 +23576,6 @@
         "XVector",
         "annotate",
         "basilisk",
-        "basilisk.utils",
         "bumphunter",
         "genefilter",
         "minfi",
@@ -24040,8 +24018,7 @@
         "Rcwl",
         "RcwlPipelines",
         "S4Vectors",
-        "basilisk",
-        "basilisk.utils"
+        "basilisk"
     ],
     "rexposome": [
         "Biobase",
@@ -26332,7 +26309,6 @@
         "UCSC.utils",
         "XVector",
         "basilisk",
-        "basilisk.utils",
         "beachmat",
         "biomaRt",
         "edgeR",
@@ -26654,7 +26630,6 @@
         "UCSC.utils",
         "XVector",
         "basilisk",
-        "basilisk.utils",
         "beachmat",
         "scater",
         "scuttle",
@@ -27426,7 +27401,6 @@
         "UCSC.utils",
         "XVector",
         "basilisk",
-        "basilisk.utils",
         "biomformat",
         "multtest",
         "phyloseq",
@@ -27639,7 +27613,6 @@
         "alabaster.se",
         "annotate",
         "basilisk",
-        "basilisk.utils",
         "batchelor",
         "beachmat",
         "bluster",
@@ -27793,8 +27766,7 @@
         "S4Vectors",
         "SparseArray",
         "XVector",
-        "basilisk",
-        "basilisk.utils"
+        "basilisk"
     ],
     "skewr": [
         "AnnotationDbi",
@@ -27950,8 +27922,7 @@
         "XVector"
     ],
     "snifter": [
-        "basilisk",
-        "basilisk.utils"
+        "basilisk"
     ],
     "SNPhood": [
         "AnnotationDbi",
@@ -28224,8 +28195,7 @@
         "SummarizedExperiment",
         "UCSC.utils",
         "XVector",
-        "basilisk",
-        "basilisk.utils"
+        "basilisk"
     ],
     "SpatialDecon": [
         "Biobase",
@@ -31429,7 +31399,6 @@
         "UCSC.utils",
         "XVector",
         "basilisk",
-        "basilisk.utils",
         "beachmat",
         "scuttle",
         "sparseMatrixStats",
@@ -32027,8 +31996,7 @@
         "SummarizedExperiment",
         "UCSC.utils",
         "XVector",
-        "basilisk",
-        "basilisk.utils"
+        "basilisk"
     ],
     "zenith": [
         "AnnotationDbi",

@@ -100,7 +100,6 @@
         "XVector",
         "aCGH",
         "affy",
-        "affyio",
         "annotate",
         "genefilter",
         "multtest",
@@ -213,8 +212,7 @@
     ],
     "affy": [
         "Biobase",
-        "BiocGenerics",
-        "affyio"
+        "BiocGenerics"
     ],
     "affycomp": [
         "Biobase",
@@ -223,8 +221,7 @@
     "affyContam": [
         "Biobase",
         "BiocGenerics",
-        "affy",
-        "affyio"
+        "affy"
     ],
     "affycoretools": [
         "AnnotationDbi",
@@ -262,7 +259,6 @@
         "VariantAnnotation",
         "XVector",
         "affy",
-        "affyio",
         "annotate",
         "biomaRt",
         "biovizBase",
@@ -286,10 +282,8 @@
         "UCSC.utils",
         "XVector",
         "affy",
-        "affyio",
         "gcrma"
     ],
-    "affyio": [],
     "affylmGUI": [
         "AnnotationDbi",
         "Biobase",
@@ -303,7 +297,6 @@
         "XVector",
         "affy",
         "affyPLM",
-        "affyio",
         "gcrma"
     ],
     "affyPLM": [
@@ -316,14 +309,12 @@
         "UCSC.utils",
         "XVector",
         "affy",
-        "affyio",
         "gcrma"
     ],
     "AffyRNADegradation": [
         "Biobase",
         "BiocGenerics",
-        "affy",
-        "affyio"
+        "affy"
     ],
     "AGDEX": [
         "AnnotationDbi",
@@ -392,7 +383,6 @@
         "XVector",
         "affy",
         "affycoretools",
-        "affyio",
         "annotate",
         "biomaRt",
         "biovizBase",
@@ -771,7 +761,6 @@
         "UCSC.utils",
         "XVector",
         "affy",
-        "affyio",
         "graph",
         "hypergraph",
         "makecdfenv"
@@ -1216,7 +1205,6 @@
         "SummarizedExperiment",
         "UCSC.utils",
         "XVector",
-        "affyio",
         "oligo",
         "oligoClasses"
     ],
@@ -1247,7 +1235,6 @@
         "XVector",
         "affy",
         "affyContam",
-        "affyio",
         "annotate",
         "bumphunter",
         "genefilter",
@@ -1278,7 +1265,6 @@
         "XVector",
         "affy",
         "affyPLM",
-        "affyio",
         "annotate",
         "beadarray",
         "gcrma",
@@ -1629,7 +1615,6 @@
         "UCSC.utils",
         "XVector",
         "affy",
-        "affyio",
         "edgeR",
         "vsn"
     ],
@@ -1802,7 +1787,6 @@
         "UCSC.utils",
         "XVector",
         "affy",
-        "affyio",
         "annotate",
         "biomaRt",
         "genefilter",
@@ -2345,7 +2329,6 @@
         "UCSC.utils",
         "XVector",
         "affy",
-        "affyio",
         "gcrma"
     ],
     "BicARE": [
@@ -2407,7 +2390,6 @@
         "UCSC.utils",
         "XVector",
         "affy",
-        "affyio",
         "annotate",
         "bumphunter",
         "genefilter",
@@ -3071,7 +3053,6 @@
         "UCSC.utils",
         "XVector",
         "affy",
-        "affyio",
         "annotate",
         "edgeR",
         "epiNEM",
@@ -3485,7 +3466,6 @@
         "VariantAnnotation",
         "XVector",
         "affy",
-        "affyio",
         "annotate",
         "biomaRt",
         "biovizBase",
@@ -3634,7 +3614,6 @@
         "UCSC.utils",
         "XVector",
         "affy",
-        "affyio",
         "graph",
         "mzID",
         "mzR",
@@ -4137,7 +4116,6 @@
         "UCSC.utils",
         "XVector",
         "affy",
-        "affyio",
         "annotate",
         "genefilter",
         "graph",
@@ -4469,7 +4447,6 @@
         "VariantAnnotation",
         "XVector",
         "affy",
-        "affyio",
         "annotate",
         "beachmat",
         "biomaRt",
@@ -4835,7 +4812,6 @@
         "UCSC.utils",
         "XVector",
         "affy",
-        "affyio",
         "frma",
         "oligo",
         "oligoClasses"
@@ -5258,7 +5234,6 @@
         "UCSC.utils",
         "XVector",
         "affy",
-        "affyio",
         "mzID",
         "mzR",
         "pcaMethods",
@@ -5413,7 +5388,6 @@
         "SummarizedExperiment",
         "UCSC.utils",
         "XVector",
-        "affyio",
         "oligo",
         "oligoClasses"
     ],
@@ -6208,8 +6182,7 @@
     "Cormotif": [
         "Biobase",
         "BiocGenerics",
-        "affy",
-        "affyio"
+        "affy"
     ],
     "corral": [
         "Biobase",
@@ -6270,7 +6243,6 @@
         "UCSC.utils",
         "XVector",
         "affy",
-        "affyio",
         "mzID",
         "mzR",
         "pcaMethods",
@@ -6737,7 +6709,6 @@
         "SummarizedExperiment",
         "UCSC.utils",
         "XVector",
-        "affyio",
         "oligoClasses"
     ],
     "crossmeta": [
@@ -6759,7 +6730,6 @@
         "UCSC.utils",
         "XVector",
         "affy",
-        "affyio",
         "annotate",
         "edgeR",
         "genefilter",
@@ -7443,7 +7413,6 @@
         "UCSC.utils",
         "XVector",
         "affy",
-        "affyio",
         "mzID",
         "mzR",
         "pcaMethods",
@@ -7981,7 +7950,6 @@
         "UCSC.utils",
         "XVector",
         "affy",
-        "affyio",
         "mzID",
         "mzR",
         "pcaMethods",
@@ -8752,7 +8720,6 @@
         "Biobase",
         "BiocGenerics",
         "affy",
-        "affyio",
         "vsn"
     ],
     "DOSE": [
@@ -8929,7 +8896,6 @@
         "UCSC.utils",
         "XVector",
         "affy",
-        "affyio",
         "annotate",
         "biomaRt",
         "oligo",
@@ -10179,8 +10145,7 @@
     "ExiMiR": [
         "Biobase",
         "BiocGenerics",
-        "affy",
-        "affyio"
+        "affy"
     ],
     "ExperimentHub": [
         "AnnotationDbi",
@@ -10530,7 +10495,6 @@
         "UCSC.utils",
         "XVector",
         "affy",
-        "affyio",
         "annotate",
         "bumphunter",
         "genefilter",
@@ -10651,7 +10615,6 @@
         "UCSC.utils",
         "XVector",
         "affy",
-        "affyio",
         "graph",
         "mzID",
         "mzR",
@@ -10997,15 +10960,13 @@
         "UCSC.utils",
         "XVector",
         "affy",
-        "affyio",
         "oligo",
         "oligoClasses"
     ],
     "frmaTools": [
         "Biobase",
         "BiocGenerics",
-        "affy",
-        "affyio"
+        "affy"
     ],
     "funtooNorm": [
         "AnnotationDbi",
@@ -11245,8 +11206,7 @@
         "S4Vectors",
         "UCSC.utils",
         "XVector",
-        "affy",
-        "affyio"
+        "affy"
     ],
     "GDCRNATools": [
         "AnnotationDbi",
@@ -12106,8 +12066,7 @@
     "GEOsubmission": [
         "Biobase",
         "BiocGenerics",
-        "affy",
-        "affyio"
+        "affy"
     ],
     "GeoTcgaData": [
         "Biobase",
@@ -12156,7 +12115,6 @@
         "UCSC.utils",
         "XVector",
         "affy",
-        "affyio",
         "annotate",
         "biomaRt",
         "cellHTS2",
@@ -13344,7 +13302,6 @@
         "UCSC.utils",
         "XVector",
         "affy",
-        "affyio",
         "altcdfenvs",
         "graph",
         "hypergraph",
@@ -13997,7 +13954,6 @@
         "UCSC.utils",
         "XVector",
         "affy",
-        "affyio",
         "annotate",
         "bumphunter",
         "genefilter",
@@ -14649,7 +14605,6 @@
         "UCSC.utils",
         "XVector",
         "affy",
-        "affyio",
         "graph",
         "mzID",
         "mzR",
@@ -14928,7 +14883,6 @@
         "SummarizedExperiment",
         "UCSC.utils",
         "XVector",
-        "affyio",
         "oligo",
         "oligoClasses"
     ],
@@ -15396,7 +15350,6 @@
         "UCSC.utils",
         "XVector",
         "affy",
-        "affyio",
         "graph",
         "mzID",
         "mzR",
@@ -15501,7 +15454,6 @@
         "UCSC.utils",
         "XVector",
         "affy",
-        "affyio",
         "annotate",
         "bumphunter",
         "genefilter",
@@ -15715,7 +15667,6 @@
         "SummarizedExperiment",
         "UCSC.utils",
         "XVector",
-        "affyio",
         "annotate",
         "bumphunter",
         "crlmm",
@@ -15827,7 +15778,6 @@
         "UCSC.utils",
         "XVector",
         "affy",
-        "affyio",
         "graph",
         "mzID",
         "mzR",
@@ -15838,8 +15788,7 @@
     "makecdfenv": [
         "Biobase",
         "BiocGenerics",
-        "affy",
-        "affyio"
+        "affy"
     ],
     "MANOR": [],
     "MAPFX": [
@@ -15863,7 +15812,6 @@
         "UCSC.utils",
         "XVector",
         "affy",
-        "affyio",
         "gcrma"
     ],
     "mariner": [
@@ -15957,7 +15905,6 @@
         "UCSC.utils",
         "XVector",
         "affy",
-        "affyio",
         "gcrma"
     ],
     "massiR": [
@@ -16023,7 +15970,6 @@
         "UCSC.utils",
         "XVector",
         "affy",
-        "affyio",
         "pcaMethods",
         "proDA",
         "vsn"
@@ -16131,7 +16077,6 @@
         "SummarizedExperiment",
         "UCSC.utils",
         "XVector",
-        "affyio",
         "oligoClasses"
     ],
     "MBQN": [
@@ -16296,7 +16241,6 @@
         "UCSC.utils",
         "XVector",
         "affy",
-        "affyio",
         "annotate",
         "bumphunter",
         "genefilter",
@@ -16632,7 +16576,6 @@
         "UCSC.utils",
         "XVector",
         "affy",
-        "affyio",
         "graph",
         "mzID",
         "mzR",
@@ -16716,7 +16659,6 @@
         "UCSC.utils",
         "XVector",
         "affy",
-        "affyio",
         "annotate",
         "beachmat",
         "biomaRt",
@@ -17646,7 +17588,6 @@
         "XVector",
         "affy",
         "affyPLM",
-        "affyio",
         "gcrma",
         "oligo",
         "oligoClasses"
@@ -17683,7 +17624,6 @@
         "UCSC.utils",
         "XVector",
         "affy",
-        "affyio",
         "annotate",
         "biomaRt",
         "bumphunter",
@@ -17756,7 +17696,6 @@
         "UCSC.utils",
         "VanillaICE",
         "XVector",
-        "affyio",
         "crlmm",
         "oligoClasses",
         "rtracklayer"
@@ -18871,7 +18810,6 @@
         "UCSC.utils",
         "XVector",
         "affy",
-        "affyio",
         "mzID",
         "mzR",
         "pcaMethods",
@@ -18898,7 +18836,6 @@
         "UCSC.utils",
         "XVector",
         "affy",
-        "affyio",
         "edgeR",
         "msmsEDA",
         "mzID",
@@ -18926,7 +18863,6 @@
         "UCSC.utils",
         "XVector",
         "affy",
-        "affyio",
         "mzID",
         "mzR",
         "pcaMethods",
@@ -18957,7 +18893,6 @@
         "UCSC.utils",
         "XVector",
         "affy",
-        "affyio",
         "edgeR",
         "msmsEDA",
         "msmsTests",
@@ -19088,7 +19023,6 @@
         "UCSC.utils",
         "XVector",
         "affy",
-        "affyio",
         "mzID",
         "mzR",
         "pcaMethods",
@@ -19117,7 +19051,6 @@
         "UCSC.utils",
         "XVector",
         "affy",
-        "affyio",
         "mzID",
         "mzR",
         "pcaMethods",
@@ -19754,7 +19687,6 @@
         "UCSC.utils",
         "XVector",
         "affy",
-        "affyio",
         "mzID",
         "mzR",
         "pcaMethods",
@@ -20111,7 +20043,6 @@
         "UCSC.utils",
         "XVector",
         "affy",
-        "affyio",
         "vsn"
     ],
     "NormqPCR": [
@@ -20317,7 +20248,6 @@
         "SummarizedExperiment",
         "UCSC.utils",
         "XVector",
-        "affyio",
         "oligoClasses"
     ],
     "oligoClasses": [
@@ -20333,8 +20263,7 @@
         "SparseArray",
         "SummarizedExperiment",
         "UCSC.utils",
-        "XVector",
-        "affyio"
+        "XVector"
     ],
     "OLIN": [
         "marray"
@@ -21081,8 +21010,7 @@
     "panp": [
         "Biobase",
         "BiocGenerics",
-        "affy",
-        "affyio"
+        "affy"
     ],
     "PANR": [],
     "pareg": [
@@ -21314,7 +21242,6 @@
         "SummarizedExperiment",
         "UCSC.utils",
         "XVector",
-        "affyio",
         "oligo",
         "oligoClasses"
     ],
@@ -21357,7 +21284,6 @@
         "UCSC.utils",
         "XVector",
         "affy",
-        "affyio",
         "mzID",
         "mzR",
         "pcaMethods",
@@ -21376,7 +21302,6 @@
         "UCSC.utils",
         "XVector",
         "affy",
-        "affyio",
         "annotate",
         "genefilter"
     ],
@@ -21814,8 +21739,7 @@
     "plier": [
         "Biobase",
         "BiocGenerics",
-        "affy",
-        "affyio"
+        "affy"
     ],
     "plotgardener": [
         "Biobase",
@@ -22084,7 +22008,6 @@
         "UCSC.utils",
         "XVector",
         "affy",
-        "affyio",
         "biomformat",
         "multtest",
         "phyloseq",
@@ -22115,7 +22038,6 @@
         "XVector",
         "aCGH",
         "affy",
-        "affyio",
         "multtest",
         "rCGH",
         "rtracklayer"
@@ -22196,7 +22118,6 @@
         "UCSC.utils",
         "XVector",
         "affy",
-        "affyio",
         "mzID",
         "mzR",
         "pcaMethods",
@@ -22357,7 +22278,6 @@
         "UCSC.utils",
         "XVector",
         "affy",
-        "affyio",
         "annotate",
         "biomaRt",
         "genefilter",
@@ -22391,7 +22311,6 @@
         "UCSC.utils",
         "XVector",
         "affy",
-        "affyio",
         "annotate",
         "biomaRt",
         "genefilter",
@@ -22458,7 +22377,6 @@
         "UCSC.utils",
         "XVector",
         "affy",
-        "affyio",
         "mzID",
         "mzR",
         "pcaMethods",
@@ -22516,7 +22434,6 @@
         "UCSC.utils",
         "XVector",
         "affy",
-        "affyio",
         "annotate",
         "genefilter",
         "vsn"
@@ -22611,7 +22528,6 @@
         "UCSC.utils",
         "XVector",
         "affy",
-        "affyio",
         "mzID",
         "mzR",
         "pcaMethods",
@@ -22634,7 +22550,6 @@
         "UCSC.utils",
         "XVector",
         "affy",
-        "affyio",
         "oligo",
         "oligoClasses"
     ],
@@ -22669,14 +22584,12 @@
     "pvac": [
         "Biobase",
         "BiocGenerics",
-        "affy",
-        "affyio"
+        "affy"
     ],
     "pvca": [
         "Biobase",
         "BiocGenerics",
         "affy",
-        "affyio",
         "vsn"
     ],
     "Pviz": [
@@ -22804,8 +22717,7 @@
     "qpcrNorm": [
         "Biobase",
         "BiocGenerics",
-        "affy",
-        "affyio"
+        "affy"
     ],
     "qpgraph": [
         "AnnotationDbi",
@@ -22856,7 +22768,6 @@
         "UCSC.utils",
         "XVector",
         "affy",
-        "affyio",
         "mzID",
         "mzR",
         "pcaMethods",
@@ -23449,7 +23360,6 @@
         "XVector",
         "aCGH",
         "affy",
-        "affyio",
         "multtest",
         "rtracklayer"
     ],
@@ -24623,7 +24533,6 @@
         "UCSC.utils",
         "XVector",
         "affy",
-        "affyio",
         "mzID",
         "mzR",
         "pcaMethods",
@@ -24748,7 +24657,6 @@
         "UCSC.utils",
         "XVector",
         "affy",
-        "affyio",
         "annotate",
         "cellHTS2",
         "genefilter",
@@ -24985,8 +24893,7 @@
     "Rnits": [
         "Biobase",
         "BiocGenerics",
-        "affy",
-        "affyio"
+        "affy"
     ],
     "roar": [
         "Biobase",
@@ -25092,7 +24999,6 @@
         "UCSC.utils",
         "XVector",
         "affy",
-        "affyio",
         "biomformat",
         "multtest",
         "phyloseq",
@@ -25666,7 +25572,6 @@
         "UCSC.utils",
         "XVector",
         "affy",
-        "affyio",
         "annotate",
         "edgeR",
         "genefilter",
@@ -27917,7 +27822,6 @@
         "UCSC.utils",
         "XVector",
         "affy",
-        "affyio",
         "annotate",
         "bumphunter",
         "genefilter",
@@ -29051,7 +28955,6 @@
         "UCSC.utils",
         "XVector",
         "affy",
-        "affyio",
         "annotate",
         "cellHTS2",
         "genefilter",
@@ -29062,7 +28965,6 @@
         "Biobase",
         "BiocGenerics",
         "affy",
-        "affyio",
         "edgeR"
     ],
     "Statial": [
@@ -29452,7 +29354,6 @@
         "UCSC.utils",
         "XVector",
         "affy",
-        "affyio",
         "cleaver",
         "multtest",
         "mzID",
@@ -30127,7 +30028,6 @@
         "UCSC.utils",
         "XVector",
         "affy",
-        "affyio",
         "annotate",
         "genefilter",
         "vsn"
@@ -30305,7 +30205,6 @@
         "UCSC.utils",
         "XVector",
         "affy",
-        "affyio",
         "mzID",
         "mzR",
         "pcaMethods",
@@ -30908,7 +30807,6 @@
         "Biobase",
         "BiocGenerics",
         "affy",
-        "affyio",
         "convert",
         "marray"
     ],
@@ -31289,7 +31187,6 @@
         "SummarizedExperiment",
         "UCSC.utils",
         "XVector",
-        "affyio",
         "crlmm",
         "oligoClasses",
         "rtracklayer"
@@ -31680,8 +31577,7 @@
     "vsn": [
         "Biobase",
         "BiocGenerics",
-        "affy",
-        "affyio"
+        "affy"
     ],
     "vtpnet": [
         "AnnotationDbi",
@@ -31800,7 +31696,6 @@
         "UCSC.utils",
         "XVector",
         "affy",
-        "affyio",
         "annotate",
         "bumphunter",
         "genefilter",
@@ -31850,7 +31745,6 @@
         "UCSC.utils",
         "XVector",
         "affy",
-        "affyio",
         "annaffy",
         "gcrma",
         "multtest",
@@ -31935,7 +31829,6 @@
         "UCSC.utils",
         "XVector",
         "affy",
-        "affyio",
         "mzID",
         "mzR",
         "pcaMethods",

@@ -14,7 +14,6 @@
         "BSgenome",
         "Category",
         "GOstats",
-        "GSEABase",
         "GenomicFeatures",
         "OrganismDbi",
         "ReportingTools",
@@ -26,14 +25,11 @@
         "oligoClasses",
         "txdbmaker"
     ],
-    "AGDEX": [
-        "GSEABase"
-    ],
+    "AGDEX": [],
     "AgiMicroRna": [
         "BSgenome",
         "Category",
         "GOstats",
-        "GSEABase",
         "GenomicFeatures",
         "OrganismDbi",
         "ReportingTools",
@@ -171,12 +167,9 @@
     "attract": [
         "Category",
         "GOstats",
-        "GSEABase",
         "genefilter"
     ],
-    "AUCell": [
-        "GSEABase"
-    ],
+    "AUCell": [],
     "BadRegionFinder": [
         "BSgenome",
         "GenomicFeatures",
@@ -226,9 +219,7 @@
         "genefilter",
         "sva"
     ],
-    "BicARE": [
-        "GSEABase"
-    ],
+    "BicARE": [],
     "bigmelon": [
         "GenomicFeatures",
         "bumphunter",
@@ -254,9 +245,7 @@
     "BiocOncoTK": [
         "GenomicFeatures"
     ],
-    "BioCor": [
-        "GSEABase"
-    ],
+    "BioCor": [],
     "biomvRCNS": [
         "BSgenome",
         "GenomicFeatures",
@@ -397,7 +386,6 @@
     ],
     "canceR": [
         "Category",
-        "GSEABase",
         "GenomicFeatures",
         "RTCGAToolbox",
         "TCGAutils",
@@ -415,13 +403,11 @@
     ],
     "CATALYST": [],
     "Category": [
-        "GSEABase",
         "genefilter"
     ],
     "categoryCompare": [
         "Category",
         "GOstats",
-        "GSEABase",
         "genefilter"
     ],
     "cbaf": [
@@ -441,13 +427,11 @@
         "enrichplot"
     ],
     "CCPROMISE": [
-        "GSEABase",
         "PROMISE"
     ],
     "celda": [],
     "cellHTS2": [
         "Category",
-        "GSEABase",
         "genefilter"
     ],
     "CelliD": [],
@@ -662,7 +646,6 @@
         "ensembldb"
     ],
     "consensusOV": [
-        "GSEABase",
         "GSVA",
         "genefu"
     ],
@@ -686,9 +669,7 @@
         "MSnbase",
         "xcms"
     ],
-    "cosmosR": [
-        "GSEABase"
-    ],
+    "cosmosR": [],
     "countsimQC": [
         "genefilter"
     ],
@@ -696,7 +677,6 @@
         "genefilter"
     ],
     "cpvSNP": [
-        "GSEABase",
         "GenomicFeatures"
     ],
     "CRISPRball": [
@@ -961,7 +941,6 @@
     ],
     "dreamlet": [
         "EnrichmentBrowser",
-        "GSEABase",
         "zenith"
     ],
     "drugTargetInteractions": [
@@ -990,7 +969,6 @@
         "sva"
     ],
     "EGSEA": [
-        "GSEABase",
         "GSVA"
     ],
     "ELMER": [
@@ -1013,9 +991,7 @@
         "genefilter",
         "minfi"
     ],
-    "EnrichmentBrowser": [
-        "GSEABase"
-    ],
+    "EnrichmentBrowser": [],
     "enrichplot": [],
     "enrichViewNet": [
         "enrichplot"
@@ -1058,7 +1034,6 @@
         "AUCell",
         "BSgenome",
         "CNEr",
-        "GSEABase",
         "TFBSTools",
         "motifmatchr"
     ],
@@ -1121,7 +1096,6 @@
     ],
     "escape": [
         "AUCell",
-        "GSEABase",
         "GSVA"
     ],
     "EventPointer": [
@@ -1309,12 +1283,9 @@
         "genefilter",
         "sva"
     ],
-    "gep2pep": [
-        "GSEABase"
-    ],
+    "gep2pep": [],
     "gespeR": [
         "Category",
-        "GSEABase",
         "cellHTS2",
         "genefilter"
     ],
@@ -1337,9 +1308,7 @@
         "GenomicFeatures",
         "TCGAutils"
     ],
-    "GlobalAncova": [
-        "GSEABase"
-    ],
+    "GlobalAncova": [],
     "gmapR": [
         "BSgenome",
         "GenomicFeatures",
@@ -1348,7 +1317,6 @@
     "GmicR": [
         "Category",
         "GOstats",
-        "GSEABase",
         "genefilter"
     ],
     "gmoviz": [
@@ -1370,7 +1338,6 @@
     ],
     "GOstats": [
         "Category",
-        "GSEABase",
         "genefilter"
     ],
     "GOTHiC": [
@@ -1384,10 +1351,8 @@
         "BSgenome"
     ],
     "groHMM": [],
-    "GSEABase": [],
     "GSEABenchmarkeR": [
-        "EnrichmentBrowser",
-        "GSEABase"
+        "EnrichmentBrowser"
     ],
     "gsean": [],
     "GSReg": [
@@ -1396,12 +1361,9 @@
         "txdbmaker"
     ],
     "GSRI": [
-        "GSEABase",
         "genefilter"
     ],
-    "GSVA": [
-        "GSEABase"
-    ],
+    "GSVA": [],
     "GUIDEseq": [
         "BSgenome",
         "CRISPRseek",
@@ -1493,7 +1455,6 @@
     "ideal": [
         "Category",
         "GOstats",
-        "GSEABase",
         "GenomicFeatures",
         "genefilter",
         "goseq",
@@ -1543,7 +1504,6 @@
     ],
     "interactiveDisplay": [
         "Category",
-        "GSEABase",
         "genefilter"
     ],
     "IntEREst": [
@@ -1674,9 +1634,7 @@
         "biovizBase",
         "ensembldb"
     ],
-    "mastR": [
-        "GSEABase"
-    ],
+    "mastR": [],
     "MatrixRider": [
         "BSgenome",
         "CNEr",
@@ -1731,7 +1689,6 @@
     ],
     "meshr": [
         "Category",
-        "GSEABase",
         "genefilter"
     ],
     "MetaboSignal": [
@@ -1856,7 +1813,6 @@
     "MineICA": [
         "Category",
         "GOstats",
-        "GSEABase",
         "GenomicFeatures",
         "bumphunter",
         "genefilter",
@@ -1886,12 +1842,10 @@
     "miRLAB": [
         "Category",
         "GOstats",
-        "GSEABase",
         "genefilter"
     ],
     "miRSM": [
         "BicARE",
-        "GSEABase",
         "ReactomePA",
         "clusterProfiler",
         "enrichplot"
@@ -1917,7 +1871,6 @@
     ],
     "mobileRNA": [],
     "mogsa": [
-        "GSEABase",
         "genefilter"
     ],
     "monaLisa": [
@@ -2087,7 +2040,6 @@
     "netZooR": [
         "Category",
         "GOstats",
-        "GSEABase",
         "GenomicFeatures",
         "bumphunter",
         "genefilter",
@@ -2099,15 +2051,12 @@
         "GenomicFeatures"
     ],
     "normr": [],
-    "npGSEA": [
-        "GSEABase"
-    ],
+    "npGSEA": [],
     "nullranges": [
         "plyranges"
     ],
     "octad": [
         "EDASeq",
-        "GSEABase",
         "GSVA",
         "GenomicFeatures",
         "RUVSeq"
@@ -2135,7 +2084,6 @@
         "VariantAnnotation"
     ],
     "oppar": [
-        "GSEABase",
         "GSVA"
     ],
     "ORFhunteR": [
@@ -2177,7 +2125,6 @@
         "sva"
     ],
     "PanomiR": [
-        "GSEABase",
         "clusterProfiler",
         "enrichplot"
     ],
@@ -2190,7 +2137,6 @@
     "pcaExplorer": [
         "Category",
         "GOstats",
-        "GSEABase",
         "genefilter"
     ],
     "PDATK": [
@@ -2213,7 +2159,6 @@
     "phenomis": [],
     "phenoTest": [
         "Category",
-        "GSEABase",
         "genefilter"
     ],
     "PhyloProfile": [],
@@ -2295,9 +2240,7 @@
         "genefilter",
         "pRoloc"
     ],
-    "PROMISE": [
-        "GSEABase"
-    ],
+    "PROMISE": [],
     "PROPS": [
         "genefilter",
         "sva"
@@ -2417,8 +2360,7 @@
         "GenomicFeatures"
     ],
     "RcisTarget": [
-        "AUCell",
-        "GSEABase"
+        "AUCell"
     ],
     "ReactomePA": [
         "enrichplot"
@@ -2489,7 +2431,6 @@
         "BSgenome",
         "Category",
         "GOstats",
-        "GSEABase",
         "GenomicFeatures",
         "OrganismDbi",
         "VariantAnnotation",
@@ -2586,7 +2527,6 @@
     ],
     "RNAinteract": [
         "Category",
-        "GSEABase",
         "cellHTS2",
         "genefilter"
     ],
@@ -2702,7 +2642,6 @@
     "scDD": [],
     "scFeatures": [
         "AUCell",
-        "GSEABase",
         "GSVA",
         "GenomicFeatures",
         "SingleCellSignalR",
@@ -2748,15 +2687,12 @@
     "scTensor": [
         "Category",
         "GOstats",
-        "GSEABase",
         "ReactomePA",
         "enrichplot",
         "genefilter",
         "meshr"
     ],
-    "scTGIF": [
-        "GSEABase"
-    ],
+    "scTGIF": [],
     "scTreeViz": [
         "GenomicFeatures",
         "OrganismDbi",
@@ -2816,7 +2752,6 @@
         "genefilter"
     ],
     "signatureSearch": [
-        "GSEABase",
         "clusterProfiler",
         "enrichplot"
     ],
@@ -2826,7 +2761,6 @@
         "VariantAnnotation"
     ],
     "signifinder": [
-        "GSEABase",
         "GSVA",
         "GenomicFeatures",
         "consensusOV",
@@ -2843,7 +2777,6 @@
     "simpleSeg": [],
     "SingleCellSignalR": [],
     "singleCellTK": [
-        "GSEABase",
         "GSVA",
         "GenomicFeatures",
         "M3Drop",
@@ -2864,9 +2797,7 @@
         "VariantAnnotation",
         "txdbmaker"
     ],
-    "singscore": [
-        "GSEABase"
-    ],
+    "singscore": [],
     "sitadela": [
         "GenomicFeatures",
         "txdbmaker"
@@ -2880,9 +2811,7 @@
         "minfi",
         "wateRmelon"
     ],
-    "slalom": [
-        "GSEABase"
-    ],
+    "slalom": [],
     "slingshot": [],
     "SMITE": [
         "GenomicFeatures",
@@ -2913,9 +2842,7 @@
         "regioneR"
     ],
     "Spaniel": [],
-    "sparrow": [
-        "GSEABase"
-    ],
+    "sparrow": [],
     "SparseSignatures": [
         "BSgenome"
     ],
@@ -2953,9 +2880,7 @@
     "SplicingGraphs": [
         "GenomicFeatures"
     ],
-    "splineTimeR": [
-        "GSEABase"
-    ],
+    "splineTimeR": [],
     "SPLINTER": [
         "BSgenome",
         "GenomicFeatures",
@@ -2981,7 +2906,6 @@
     ],
     "staRank": [
         "Category",
-        "GSEABase",
         "cellHTS2",
         "genefilter"
     ],
@@ -3030,7 +2954,6 @@
     ],
     "TBSignatureProfiler": [
         "ASSIGN",
-        "GSEABase",
         "GSVA",
         "genefilter",
         "singscore",
@@ -3060,9 +2983,7 @@
         "ORFik",
         "txdbmaker"
     ],
-    "TFutils": [
-        "GSEABase"
-    ],
+    "TFutils": [],
     "tidyCoverage": [],
     "tidyomics": [
         "nullranges",
@@ -3073,9 +2994,7 @@
     "tilingArray": [
         "genefilter"
     ],
-    "TissueEnrich": [
-        "GSEABase"
-    ],
+    "TissueEnrich": [],
     "TitanCNA": [
         "BSgenome",
         "GenomicFeatures",
@@ -3228,9 +3147,7 @@
     "velociraptor": [],
     "ViSEAGO": [],
     "VisiumIO": [],
-    "vissE": [
-        "GSEABase"
-    ],
+    "vissE": [],
     "Voyager": [
         "SpatialFeatureExperiment"
     ],
@@ -3291,8 +3208,7 @@
         "quantro"
     ],
     "zenith": [
-        "EnrichmentBrowser",
-        "GSEABase"
+        "EnrichmentBrowser"
     ],
     "zinbwave": [
         "genefilter"

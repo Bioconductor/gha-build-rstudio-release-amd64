@@ -415,7 +415,6 @@
     ],
     "CAMERA": [
         "MSnbase",
-        "MsExperiment",
         "xcms"
     ],
     "CaMutQC": [
@@ -736,7 +735,6 @@
     ],
     "cosmiq": [
         "MSnbase",
-        "MsExperiment",
         "xcms"
     ],
     "cosmosR": [
@@ -1274,7 +1272,6 @@
     "flagme": [
         "CAMERA",
         "MSnbase",
-        "MsExperiment",
         "xcms"
     ],
     "FLAMES": [
@@ -1677,7 +1674,6 @@
     "IPO": [
         "CAMERA",
         "MSnbase",
-        "MsExperiment",
         "xcms"
     ],
     "iSEEde": [],
@@ -1752,7 +1748,6 @@
     "LOBSTAHS": [
         "CAMERA",
         "MSnbase",
-        "MsExperiment",
         "xcms"
     ],
     "LRcell": [],
@@ -1798,7 +1793,6 @@
     "MAIT": [
         "CAMERA",
         "MSnbase",
-        "MsExperiment",
         "xcms"
     ],
     "mariner": [
@@ -1889,7 +1883,6 @@
     "metaMS": [
         "CAMERA",
         "MSnbase",
-        "MsExperiment",
         "xcms"
     ],
     "MetaPhOR": [
@@ -2136,7 +2129,6 @@
         "TFBSTools"
     ],
     "MsDataHub": [],
-    "MsExperiment": [],
     "msgbsR": [
         "BSgenome",
         "GenomicFeatures",
@@ -2166,9 +2158,7 @@
         "genefilter",
         "sva"
     ],
-    "MsQuality": [
-        "MsExperiment"
-    ],
+    "MsQuality": [],
     "MSstatsQC": [
         "MSnbase"
     ],
@@ -2249,7 +2239,6 @@
     ],
     "ncGTW": [
         "MSnbase",
-        "MsExperiment",
         "xcms"
     ],
     "nearBynding": [
@@ -3534,8 +3523,7 @@
     ],
     "wiggleplotr": [],
     "xcms": [
-        "MSnbase",
-        "MsExperiment"
+        "MSnbase"
     ],
     "XDE": [
         "GeneMeta",

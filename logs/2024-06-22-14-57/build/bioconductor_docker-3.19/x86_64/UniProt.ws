@@ -69,11 +69,11 @@ packaged installation of ‘UniProt.ws’ as ‘UniProt.ws_2.44.0_R_x86_64-pc-li
 * DONE (UniProt.ws)
 
 The downloaded source packages are in
-	‘/tmp/RtmpNTGwXw/downloaded_packages’
+	‘/tmp/Rtmpmc4wHq/downloaded_packages’
 Old packages: 'cachem', 'cli', 'crayon', 'downlit', 'evaluate', 'fastmap',
   'highr', 'knitr', 'openssl', 'ragg', 'rlang', 'rmarkdown', 'systemfonts',
   'textshaping', 'xfun', 'KernSmooth', 'MASS', 'nlme', 'survival'
 
-real	0m18.415s
-user	0m12.306s
-sys	0m2.201s
+real	0m16.612s
+user	0m11.984s
+sys	0m2.210s

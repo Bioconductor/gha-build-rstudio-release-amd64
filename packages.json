@@ -331,7 +331,6 @@
     ],
     "CAMERA": [
         "MSnbase",
-        "MsExperiment",
         "xcms"
     ],
     "CaMutQC": [
@@ -609,7 +608,6 @@
     ],
     "cosmiq": [
         "MSnbase",
-        "MsExperiment",
         "xcms"
     ],
     "cosmosR": [],
@@ -1066,7 +1064,6 @@
     "flagme": [
         "CAMERA",
         "MSnbase",
-        "MsExperiment",
         "xcms"
     ],
     "FLAMES": [
@@ -1411,7 +1408,6 @@
     "IPO": [
         "CAMERA",
         "MSnbase",
-        "MsExperiment",
         "xcms"
     ],
     "iSEEfier": [
@@ -1464,7 +1460,6 @@
     "LOBSTAHS": [
         "CAMERA",
         "MSnbase",
-        "MsExperiment",
         "xcms"
     ],
     "lumi": [
@@ -1505,7 +1500,6 @@
     "MAIT": [
         "CAMERA",
         "MSnbase",
-        "MsExperiment",
         "xcms"
     ],
     "mariner": [
@@ -1581,7 +1575,6 @@
     "metaMS": [
         "CAMERA",
         "MSnbase",
-        "MsExperiment",
         "xcms"
     ],
     "MetaPhOR": [
@@ -1793,7 +1786,6 @@
         "CNEr",
         "TFBSTools"
     ],
-    "MsExperiment": [],
     "msgbsR": [
         "BSgenome",
         "GenomicFeatures",
@@ -1820,9 +1812,7 @@
         "msmsTests"
     ],
     "MSPrep": [],
-    "MsQuality": [
-        "MsExperiment"
-    ],
+    "MsQuality": [],
     "MSstatsQC": [
         "MSnbase"
     ],
@@ -1894,7 +1884,6 @@
     ],
     "ncGTW": [
         "MSnbase",
-        "MsExperiment",
         "xcms"
     ],
     "nearBynding": [
@@ -2962,8 +2951,7 @@
         "GenomicFeatures"
     ],
     "xcms": [
-        "MSnbase",
-        "MsExperiment"
+        "MSnbase"
     ],
     "XDE": [],
     "Xeva": [

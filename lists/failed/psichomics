@@ -1,0 +1,31 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''psichomics'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/jammy/latest
+Warning: unable to access index for repository https://p3m.dev/cran/__linux__/jammy/latest/src/contrib:
+  cannot open URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/PACKAGES'
+Bioconductor version 3.19 (BiocManager 1.30.23), R 4.4.0 (2024-04-24)
+Installing package(s) 'psichomics'
+Warning: unable to access index for repository https://p3m.dev/cran/__linux__/jammy/latest/src/contrib:
+  cannot open URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/PACKAGES'
+Warning: dependencies ‘shinyBS’, ‘colourpicker’, ‘fastICA’, ‘fastmatch’, ‘ggrepel’, ‘highcharter’, ‘pairsD3’, ‘Rfast’, ‘shinyjs’, ‘car’, ‘spelling’ are not available
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/psichomics_1.30.0.tar.gz'
+Content type 'application/x-gzip' length 6407223 bytes (6.1 MB)
+==================================================
+downloaded 6.1 MB
+
+ERROR: dependencies ‘shinyBS’, ‘colourpicker’, ‘fastICA’, ‘fastmatch’, ‘ggrepel’, ‘highcharter’, ‘pairsD3’, ‘Rfast’, ‘shinyjs’ are not available for package ‘psichomics’
+* removing ‘/tmp/tmp/built/psichomics’
+
+The downloaded source packages are in
+	‘/tmp/RtmpXGWgCz/downloaded_packages’
+Warning: unable to access index for repository https://p3m.dev/cran/__linux__/jammy/latest/src/contrib:
+  cannot open URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/PACKAGES'
+Warning message:
+In install.packages(...) :
+  installation of package ‘psichomics’ had non-zero exit status
+
+real	18m12.360s
+user	0m2.663s
+sys	0m2.039s

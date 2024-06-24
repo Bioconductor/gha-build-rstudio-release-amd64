@@ -1,0 +1,42 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''RiboProfiling'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/jammy/latest
+Warning: unable to access index for repository https://p3m.dev/cran/__linux__/jammy/latest/src/contrib:
+  cannot open URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/PACKAGES'
+Bioconductor version 3.19 (BiocManager 1.30.23), R 4.4.0 (2024-04-24)
+Installing package(s) 'RiboProfiling'
+Warning: unable to access index for repository https://p3m.dev/cran/__linux__/jammy/latest/src/contrib:
+  cannot open URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/PACKAGES'
+Warning: dependencies ‘sqldf’, ‘GGally’ are not available
+also installing the dependency ‘ggbio’
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/ggbio_1.52.0.tar.gz'
+Content type 'application/x-gzip' length 3245439 bytes (3.1 MB)
+==================================================
+downloaded 3.1 MB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/RiboProfiling_1.34.0.tar.gz'
+Content type 'application/x-gzip' length 4828581 bytes (4.6 MB)
+==================================================
+downloaded 4.6 MB
+
+ERROR: dependency ‘GGally’ is not available for package ‘ggbio’
+* removing ‘/tmp/tmp/built/ggbio’
+ERROR: dependencies ‘ggbio’, ‘sqldf’ are not available for package ‘RiboProfiling’
+* removing ‘/tmp/tmp/built/RiboProfiling’
+
+The downloaded source packages are in
+	‘/tmp/RtmpcYAREp/downloaded_packages’
+Warning: unable to access index for repository https://p3m.dev/cran/__linux__/jammy/latest/src/contrib:
+  cannot open URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/PACKAGES'
+Warning messages:
+1: In install.packages(...) :
+  installation of package ‘ggbio’ had non-zero exit status
+2: In install.packages(...) :
+  installation of package ‘RiboProfiling’ had non-zero exit status
+
+real	18m12.642s
+user	0m2.769s
+sys	0m2.557s

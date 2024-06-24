@@ -1,0 +1,209 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''methrix'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/jammy/latest
+Warning: unable to access index for repository https://p3m.dev/cran/__linux__/jammy/latest/src/contrib:
+  cannot open URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/PACKAGES'
+Bioconductor version 3.19 (BiocManager 1.30.23), R 4.4.0 (2024-04-24)
+Installing package(s) 'methrix'
+Warning: unable to access index for repository https://p3m.dev/cran/__linux__/jammy/latest/src/contrib:
+  cannot open URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/PACKAGES'
+Warning: dependencies ‘restfulr’, ‘gtools’, ‘R.utils’, ‘permute’, ‘dbplyr’, ‘filelock’ are not available
+also installing the dependencies ‘GenomicAlignments’, ‘BiocIO’, ‘beachmat’, ‘BiocFileCache’, ‘AnnotationHub’, ‘rtracklayer’, ‘BSgenome’, ‘DSS’, ‘bsseq’, ‘BSgenome.Mmusculus.UCSC.mm9’, ‘MafDb.1Kgenomes.phase3.GRCh38’, ‘MafDb.1Kgenomes.phase3.hs37d5’, ‘BSgenome.Hsapiens.UCSC.hg19’, ‘GenomicScores’
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/GenomicAlignments_1.40.0.tar.gz'
+Content type 'application/x-gzip' length 2266620 bytes (2.2 MB)
+==================================================
+downloaded 2.2 MB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/BiocIO_1.14.0.tar.gz'
+Content type 'application/x-gzip' length 230564 bytes (225 KB)
+==================================================
+downloaded 225 KB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/beachmat_2.20.0.tar.gz'
+Content type 'application/x-gzip' length 515309 bytes (503 KB)
+==================================================
+downloaded 503 KB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/BiocFileCache_2.12.0.tar.gz'
+Content type 'application/x-gzip' length 297080 bytes (290 KB)
+==================================================
+downloaded 290 KB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/AnnotationHub_3.12.0.tar.gz'
+Content type 'application/x-gzip' length 992371 bytes (969 KB)
+==================================================
+downloaded 969 KB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/rtracklayer_1.64.0.tar.gz'
+Content type 'application/x-gzip' length 3951281 bytes (3.8 MB)
+==================================================
+downloaded 3.8 MB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/BSgenome_1.72.0.tar.gz'
+Content type 'application/x-gzip' length 5718748 bytes (5.5 MB)
+==================================================
+downloaded 5.5 MB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/DSS_2.52.0.tar.gz'
+Content type 'application/x-gzip' length 2128752 bytes (2.0 MB)
+==================================================
+downloaded 2.0 MB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/bsseq_1.40.0.tar.gz'
+Content type 'application/x-gzip' length 2882807 bytes (2.7 MB)
+==================================================
+downloaded 2.7 MB
+
+trying URL 'https://bioconductor.org/packages/3.19/data/annotation/src/contrib/BSgenome.Mmusculus.UCSC.mm9_1.4.0.tar.gz'
+Content type 'application/x-gzip' length 621955864 bytes (593.1 MB)
+==================================================
+downloaded 593.1 MB
+
+trying URL 'https://bioconductor.org/packages/3.19/data/annotation/src/contrib/MafDb.1Kgenomes.phase3.GRCh38_3.10.0.tar.gz'
+Content type 'application/x-gzip' length 1602406831 bytes (1528.2 MB)
+==================================================
+downloaded 1528.2 MB
+
+trying URL 'https://bioconductor.org/packages/3.19/data/annotation/src/contrib/MafDb.1Kgenomes.phase3.hs37d5_3.10.0.tar.gz'
+Content type 'application/x-gzip' length 1623464748 bytes (1548.3 MB)
+==================================================
+downloaded 1548.3 MB
+
+trying URL 'https://bioconductor.org/packages/3.19/data/annotation/src/contrib/BSgenome.Hsapiens.UCSC.hg19_1.4.3.tar.gz'
+Content type 'application/x-gzip' length 710245413 bytes (677.3 MB)
+==================================================
+downloaded 677.3 MB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/GenomicScores_2.16.0.tar.gz'
+Content type 'application/x-gzip' length 1691586 bytes (1.6 MB)
+==================================================
+downloaded 1.6 MB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/methrix_1.18.0.tar.gz'
+Content type 'application/x-gzip' length 4140291 bytes (3.9 MB)
+==================================================
+downloaded 3.9 MB
+
+* installing *source* package ‘GenomicAlignments’ ...
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c IRanges_stubs.c -o IRanges_stubs.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c R_init_GenomicAlignments.c -o R_init_GenomicAlignments.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c S4Vectors_stubs.c -o S4Vectors_stubs.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cigar_utils.c -o cigar_utils.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c coordinate_mapping_methods.c -o coordinate_mapping_methods.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c encodeOverlaps_methods.c -o encodeOverlaps_methods.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o GenomicAlignments.so IRanges_stubs.o R_init_GenomicAlignments.o S4Vectors_stubs.o cigar_utils.o coordinate_mapping_methods.o encodeOverlaps_methods.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-GenomicAlignments/00new/GenomicAlignments/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘GenomicAlignments’ as ‘GenomicAlignments_1.40.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (GenomicAlignments)
+* installing *source* package ‘BiocIO’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘BiocIO’ as ‘BiocIO_1.14.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (BiocIO)
+* installing *source* package ‘beachmat’ ...
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+using C++17
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c delayed_isometric_binary.cpp -o delayed_isometric_binary.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c delayed_isometric_math.cpp -o delayed_isometric_math.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c delayed_isometric_unary.cpp -o delayed_isometric_unary.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c delayed_other.cpp -o delayed_other.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c dense_matrix.cpp -o dense_matrix.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c fragment_sparse_rows.cpp -o fragment_sparse_rows.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c sparse_matrix.cpp -o sparse_matrix.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c tatami_utils.cpp -o tatami_utils.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c unknown_matrix.cpp -o unknown_matrix.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o beachmat.so RcppExports.o delayed_isometric_binary.o delayed_isometric_math.o delayed_isometric_unary.o delayed_other.o dense_matrix.o fragment_sparse_rows.o sparse_matrix.o tatami_utils.o unknown_matrix.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-beachmat/00new/beachmat/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘beachmat’ as ‘beachmat_2.20.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (beachmat)
+ERROR: dependencies ‘dbplyr’, ‘filelock’ are not available for package ‘BiocFileCache’
+* removing ‘/tmp/tmp/built/BiocFileCache’
+ERROR: dependency ‘BiocFileCache’ is not available for package ‘AnnotationHub’
+* removing ‘/tmp/tmp/built/AnnotationHub’
+ERROR: dependency ‘restfulr’ is not available for package ‘rtracklayer’
+* removing ‘/tmp/tmp/built/rtracklayer’
+ERROR: dependency ‘rtracklayer’ is not available for package ‘BSgenome’
+* removing ‘/tmp/tmp/built/BSgenome’
+ERROR: dependencies ‘BiocFileCache’, ‘AnnotationHub’ are not available for package ‘GenomicScores’
+* removing ‘/tmp/tmp/built/GenomicScores’
+ERROR: dependencies ‘gtools’, ‘R.utils’, ‘permute’, ‘BSgenome’ are not available for package ‘bsseq’
+* removing ‘/tmp/tmp/built/bsseq’
+ERROR: dependency ‘BSgenome’ is not available for package ‘BSgenome.Mmusculus.UCSC.mm9’
+* removing ‘/tmp/tmp/built/BSgenome.Mmusculus.UCSC.mm9’
+ERROR: dependencies ‘GenomicScores’, ‘BSgenome’ are not available for package ‘MafDb.1Kgenomes.phase3.GRCh38’
+* removing ‘/tmp/tmp/built/MafDb.1Kgenomes.phase3.GRCh38’
+ERROR: dependencies ‘GenomicScores’, ‘BSgenome’ are not available for package ‘MafDb.1Kgenomes.phase3.hs37d5’
+* removing ‘/tmp/tmp/built/MafDb.1Kgenomes.phase3.hs37d5’
+ERROR: dependency ‘BSgenome’ is not available for package ‘BSgenome.Hsapiens.UCSC.hg19’
+* removing ‘/tmp/tmp/built/BSgenome.Hsapiens.UCSC.hg19’
+ERROR: dependencies ‘rtracklayer’, ‘BSgenome’ are not available for package ‘methrix’
+* removing ‘/tmp/tmp/built/methrix’
+ERROR: dependency ‘bsseq’ is not available for package ‘DSS’
+* removing ‘/tmp/tmp/built/DSS’
+
+The downloaded source packages are in
+	‘/tmp/Rtmp5wNGl7/downloaded_packages’
+Warning: unable to access index for repository https://p3m.dev/cran/__linux__/jammy/latest/src/contrib:
+  cannot open URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/PACKAGES'
+There were 12 warnings (use warnings() to see them)
+
+real	28m55.110s
+user	8m6.040s
+sys	0m47.389s
+ERROR: dependencies ‘dbplyr’, ‘filelock’ are not available for package ‘BiocFileCache’
+* removing ‘/tmp/tmp/built/BiocFileCache’
+ERROR: dependency ‘restfulr’ is not available for package ‘rtracklayer’
+* removing ‘/tmp/tmp/built/rtracklayer’
+ERROR: dependency ‘BiocFileCache’ is not available for package ‘AnnotationHub’
+* removing ‘/tmp/tmp/built/AnnotationHub’
+ERROR: dependency ‘rtracklayer’ is not available for package ‘BSgenome’
+* removing ‘/tmp/tmp/built/BSgenome’
+ERROR: dependencies ‘BiocFileCache’, ‘AnnotationHub’ are not available for package ‘GenomicScores’
+* removing ‘/tmp/tmp/built/GenomicScores’
+ERROR: dependency ‘BSgenome’ is not available for package ‘SNPlocs.Hsapiens.dbSNP149.GRCh38’
+* removing ‘/tmp/tmp/built/SNPlocs.Hsapiens.dbSNP149.GRCh38’
+ERROR: dependencies ‘GenomicScores’, ‘BSgenome’ are not available for package ‘MafDb.1Kgenomes.phase3.GRCh38’
+* removing ‘/tmp/tmp/built/MafDb.1Kgenomes.phase3.GRCh38’

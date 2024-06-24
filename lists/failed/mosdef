@@ -1,0 +1,70 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''mosdef'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/jammy/latest
+Warning: unable to access index for repository https://p3m.dev/cran/__linux__/jammy/latest/src/contrib:
+  cannot open URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/PACKAGES'
+Bioconductor version 3.19 (BiocManager 1.30.23), R 4.4.0 (2024-04-24)
+Installing package(s) 'mosdef'
+Warning: unable to access index for repository https://p3m.dev/cran/__linux__/jammy/latest/src/contrib:
+  cannot open URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/PACKAGES'
+Warning: dependencies ‘DT’, ‘backbone’, ‘bs4Dash’, ‘circlize’, ‘colourpicker’, ‘ComplexUpset’, ‘dendextend’, ‘dynamicTreeCut’, ‘expm’, ‘rintrojs’, ‘shinyAce’, ‘shinycssloaders’, ‘shinyWidgets’, ‘tippy’, ‘visNetwork’, ‘GetoptLong’, ‘GlobalOptions’ are not available
+also installing the dependencies ‘ComplexHeatmap’, ‘macrophage’, ‘GeneTonic’
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/ComplexHeatmap_2.20.0.tar.gz'
+Content type 'application/x-gzip' length 1455466 bytes (1.4 MB)
+==================================================
+downloaded 1.4 MB
+
+trying URL 'https://bioconductor.org/packages/3.19/data/experiment/src/contrib/macrophage_1.20.0.tar.gz'
+Content type 'application/x-gzip' length 536196728 bytes (511.4 MB)
+==================================================
+downloaded 511.4 MB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/GeneTonic_2.8.0.tar.gz'
+Content type 'application/x-gzip' length 9273601 bytes (8.8 MB)
+==================================================
+downloaded 8.8 MB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/mosdef_1.0.0.tar.gz'
+Content type 'application/x-gzip' length 4462634 bytes (4.3 MB)
+==================================================
+downloaded 4.3 MB
+
+ERROR: dependencies ‘circlize’, ‘GetoptLong’, ‘GlobalOptions’ are not available for package ‘ComplexHeatmap’
+* removing ‘/tmp/tmp/built/ComplexHeatmap’
+* installing *source* package ‘macrophage’ ...
+** using staged installation
+** data
+** inst
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘macrophage’ as ‘macrophage_1.20.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (macrophage)
+ERROR: dependency ‘DT’ is not available for package ‘mosdef’
+* removing ‘/tmp/tmp/built/mosdef’
+ERROR: dependencies ‘backbone’, ‘bs4Dash’, ‘circlize’, ‘colourpicker’, ‘ComplexHeatmap’, ‘ComplexUpset’, ‘dendextend’, ‘DT’, ‘dynamicTreeCut’, ‘expm’, ‘rintrojs’, ‘shinyAce’, ‘shinycssloaders’, ‘shinyWidgets’, ‘tippy’, ‘visNetwork’ are not available for package ‘GeneTonic’
+* removing ‘/tmp/tmp/built/GeneTonic’
+
+The downloaded source packages are in
+	‘/tmp/RtmpXIoSkf/downloaded_packages’
+Warning: unable to access index for repository https://p3m.dev/cran/__linux__/jammy/latest/src/contrib:
+  cannot open URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/PACKAGES'
+Warning messages:
+1: In install.packages(...) :
+  installation of package ‘ComplexHeatmap’ had non-zero exit status
+2: In install.packages(...) :
+  installation of package ‘mosdef’ had non-zero exit status
+3: In install.packages(...) :
+  installation of package ‘GeneTonic’ had non-zero exit status
+
+real	19m19.527s
+user	0m56.615s
+sys	0m7.815s

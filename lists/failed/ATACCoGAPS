@@ -1,0 +1,145 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''ATACCoGAPS'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/jammy/latest
+Warning: unable to access index for repository https://p3m.dev/cran/__linux__/jammy/latest/src/contrib:
+  cannot open URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/PACKAGES'
+Bioconductor version 3.19 (BiocManager 1.30.23), R 4.4.0 (2024-04-24)
+Installing package(s) 'ATACCoGAPS'
+Warning: unable to access index for repository https://p3m.dev/cran/__linux__/jammy/latest/src/contrib:
+  cannot open URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/PACKAGES'
+Warning: dependencies ‘msigdbr’, ‘tidyverse’, ‘gplots’, ‘forcats’, ‘NMF’, ‘ROCR’, ‘ggalluvial’, ‘MatrixModels’, ‘cowplot’, ‘ggrepel’, ‘umap’, ‘tsne’, ‘nabor’, ‘DT’, ‘fastmatch’, ‘GetoptLong’, ‘GlobalOptions’, ‘circlize’ are not available
+also installing the dependencies ‘OrganismDbi’, ‘CoGAPS’, ‘projectR’, ‘GeneOverlap’, ‘chromVAR’, ‘fgsea’, ‘rGREAT’, ‘Homo.sapiens’, ‘Mus.musculus’
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/OrganismDbi_1.46.0.tar.gz'
+Content type 'application/x-gzip' length 395206 bytes (385 KB)
+==================================================
+downloaded 385 KB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/CoGAPS_3.24.0.tar.gz'
+Content type 'application/x-gzip' length 20856939 bytes (19.9 MB)
+==================================================
+downloaded 19.9 MB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/projectR_1.20.0.tar.gz'
+Content type 'application/x-gzip' length 5916151 bytes (5.6 MB)
+==================================================
+downloaded 5.6 MB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/GeneOverlap_1.40.0.tar.gz'
+Content type 'application/x-gzip' length 366854 bytes (358 KB)
+==================================================
+downloaded 358 KB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/chromVAR_1.26.0.tar.gz'
+Content type 'application/x-gzip' length 473365 bytes (462 KB)
+==================================================
+downloaded 462 KB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/fgsea_1.30.0.tar.gz'
+Content type 'application/x-gzip' length 4948054 bytes (4.7 MB)
+==================================================
+downloaded 4.7 MB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/rGREAT_2.6.0.tar.gz'
+Content type 'application/x-gzip' length 2887004 bytes (2.8 MB)
+==================================================
+downloaded 2.8 MB
+
+trying URL 'https://bioconductor.org/packages/3.19/data/annotation/src/contrib/Homo.sapiens_1.3.1.tar.gz'
+Content type 'application/x-gzip' length 1617 bytes
+==================================================
+downloaded 1617 bytes
+
+trying URL 'https://bioconductor.org/packages/3.19/data/annotation/src/contrib/Mus.musculus_1.3.1.tar.gz'
+Content type 'application/x-gzip' length 1618 bytes
+==================================================
+downloaded 1618 bytes
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/ATACCoGAPS_1.6.0.tar.gz'
+Content type 'application/x-gzip' length 2913463 bytes (2.8 MB)
+==================================================
+downloaded 2.8 MB
+
+* installing *source* package ‘OrganismDbi’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘OrganismDbi’ as ‘OrganismDbi_1.46.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (OrganismDbi)
+ERROR: dependency ‘gplots’ is not available for package ‘GeneOverlap’
+* removing ‘/tmp/tmp/built/GeneOverlap’
+ERROR: dependencies ‘nabor’, ‘DT’ are not available for package ‘chromVAR’
+* removing ‘/tmp/tmp/built/chromVAR’
+ERROR: dependencies ‘cowplot’, ‘fastmatch’ are not available for package ‘fgsea’
+* removing ‘/tmp/tmp/built/fgsea’
+ERROR: dependencies ‘GetoptLong’, ‘GlobalOptions’, ‘DT’, ‘circlize’ are not available for package ‘rGREAT’
+* removing ‘/tmp/tmp/built/rGREAT’
+ERROR: dependencies ‘gplots’, ‘fgsea’, ‘forcats’ are not available for package ‘CoGAPS’
+* removing ‘/tmp/tmp/built/CoGAPS’
+ERROR: dependencies ‘NMF’, ‘ROCR’, ‘ggalluvial’, ‘fgsea’, ‘MatrixModels’, ‘msigdbr’, ‘cowplot’, ‘ggrepel’, ‘umap’, ‘tsne’ are not available for package ‘projectR’
+* removing ‘/tmp/tmp/built/projectR’
+* installing *source* package ‘Homo.sapiens’ ...
+** using staged installation
+** R
+** data
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘Homo.sapiens’ as ‘Homo.sapiens_1.3.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Homo.sapiens)
+* installing *source* package ‘Mus.musculus’ ...
+** using staged installation
+** R
+** data
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘Mus.musculus’ as ‘Mus.musculus_1.3.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Mus.musculus)
+ERROR: dependencies ‘CoGAPS’, ‘projectR’, ‘GeneOverlap’, ‘msigdbr’, ‘tidyverse’, ‘gplots’, ‘chromVAR’, ‘fgsea’, ‘rGREAT’ are not available for package ‘ATACCoGAPS’
+* removing ‘/tmp/tmp/built/ATACCoGAPS’
+
+The downloaded source packages are in
+	‘/tmp/Rtmp8BBBh9/downloaded_packages’
+Warning: unable to access index for repository https://p3m.dev/cran/__linux__/jammy/latest/src/contrib:
+  cannot open URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/PACKAGES'
+Warning messages:
+1: In install.packages(...) :
+  installation of package ‘GeneOverlap’ had non-zero exit status
+2: In install.packages(...) :
+  installation of package ‘chromVAR’ had non-zero exit status
+3: In install.packages(...) :
+  installation of package ‘fgsea’ had non-zero exit status
+4: In install.packages(...) :
+  installation of package ‘rGREAT’ had non-zero exit status
+5: In install.packages(...) :
+  installation of package ‘CoGAPS’ had non-zero exit status
+6: In install.packages(...) :
+  installation of package ‘projectR’ had non-zero exit status
+7: In install.packages(...) :
+  installation of package ‘ATACCoGAPS’ had non-zero exit status
+
+real	20m21.749s
+user	1m54.455s
+sys	0m10.639s

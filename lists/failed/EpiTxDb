@@ -1,0 +1,65 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''EpiTxDb'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/jammy/latest
+Warning: unable to access index for repository https://p3m.dev/cran/__linux__/jammy/latest/src/contrib:
+  cannot open URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/PACKAGES'
+Bioconductor version 3.19 (BiocManager 1.30.23), R 4.4.0 (2024-04-24)
+Installing package(s) 'EpiTxDb'
+Warning: unable to access index for repository https://p3m.dev/cran/__linux__/jammy/latest/src/contrib:
+  cannot open URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/PACKAGES'
+Warning: dependency ‘rex’ is not available
+also installing the dependencies ‘EpiTxDb.Hs.hg38’, ‘BSgenome.Scerevisiae.UCSC.sacCer3’
+
+trying URL 'https://bioconductor.org/packages/3.19/data/annotation/src/contrib/EpiTxDb.Hs.hg38_0.99.7.tar.gz'
+Content type 'application/x-gzip' length 310131 bytes (302 KB)
+==================================================
+downloaded 302 KB
+
+trying URL 'https://bioconductor.org/packages/3.19/data/annotation/src/contrib/BSgenome.Scerevisiae.UCSC.sacCer3_1.4.0.tar.gz'
+Content type 'application/x-gzip' length 2966747 bytes (2.8 MB)
+==================================================
+downloaded 2.8 MB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/EpiTxDb_1.16.0.tar.gz'
+Content type 'application/x-gzip' length 789371 bytes (770 KB)
+==================================================
+downloaded 770 KB
+
+* installing *source* package ‘BSgenome.Scerevisiae.UCSC.sacCer3’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘BSgenome.Scerevisiae.UCSC.sacCer3’ as ‘BSgenome.Scerevisiae.UCSC.sacCer3_1.4.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (BSgenome.Scerevisiae.UCSC.sacCer3)
+ERROR: dependency ‘rex’ is not available for package ‘EpiTxDb’
+* removing ‘/tmp/tmp/built/EpiTxDb’
+ERROR: dependency ‘EpiTxDb’ is not available for package ‘EpiTxDb.Hs.hg38’
+* removing ‘/tmp/tmp/built/EpiTxDb.Hs.hg38’
+
+The downloaded source packages are in
+	‘/tmp/RtmphkS8u9/downloaded_packages’
+Warning: unable to access index for repository https://p3m.dev/cran/__linux__/jammy/latest/src/contrib:
+  cannot open URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/PACKAGES'
+Warning messages:
+1: In install.packages(...) :
+  installation of package ‘EpiTxDb’ had non-zero exit status
+2: In install.packages(...) :
+  installation of package ‘EpiTxDb.Hs.hg38’ had non-zero exit status
+
+real	18m45.637s
+user	0m30.162s
+sys	0m4.547s
+ERROR: dependency ‘rex’ is not available for package ‘EpiTxDb’
+* removing ‘/tmp/tmp/built/EpiTxDb’
+ERROR: dependency ‘EpiTxDb’ is not available for package ‘EpiTxDb.Hs.hg38’
+* removing ‘/tmp/tmp/built/EpiTxDb.Hs.hg38’

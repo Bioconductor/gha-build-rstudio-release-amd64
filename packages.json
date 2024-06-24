@@ -621,7 +621,6 @@
         "SingleCellExperiment",
         "SummarizedExperiment"
     ],
-    "baySeq": [],
     "BBCAnalyzer": [
         "AnnotationDbi",
         "BSgenome",
@@ -1638,9 +1637,7 @@
         "GOSemSim",
         "enrichplot"
     ],
-    "clusterSeq": [
-        "baySeq"
-    ],
+    "clusterSeq": [],
     "clustifyr": [
         "SingleCellExperiment",
         "SummarizedExperiment"
@@ -7368,8 +7365,7 @@
         "txdbmaker"
     ],
     "riboSeqR": [
-        "Rsamtools",
-        "baySeq"
+        "Rsamtools"
     ],
     "ribosomeProfilingQC": [
         "AnnotationDbi",
@@ -8117,7 +8113,6 @@
         "Rsamtools",
         "ShortRead",
         "SummarizedExperiment",
-        "baySeq",
         "pwalign"
     ],
     "selectKSigs": [

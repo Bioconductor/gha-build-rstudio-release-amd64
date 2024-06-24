@@ -74,10 +74,8 @@
         "txdbmaker"
     ],
     "affylmGUI": [
-        "AnnotationDbi",
-        "affyPLM"
+        "AnnotationDbi"
     ],
-    "affyPLM": [],
     "AGDEX": [
         "AnnotationDbi",
         "GSEABase",
@@ -346,7 +344,6 @@
     ],
     "arrayQualityMetrics": [
         "AnnotationDbi",
-        "affyPLM",
         "annotate",
         "beadarray",
         "genefilter"
@@ -5119,7 +5116,6 @@
     ],
     "mimager": [
         "SummarizedExperiment",
-        "affyPLM",
         "oligo",
         "oligoClasses"
     ],

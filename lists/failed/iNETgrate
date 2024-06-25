@@ -1,0 +1,168 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''iNETgrate'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/jammy/latest
+Warning: unable to access index for repository https://p3m.dev/cran/__linux__/jammy/latest/src/contrib:
+  cannot open URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/PACKAGES'
+Bioconductor version 3.19 (BiocManager 1.30.23), R 4.4.0 (2024-04-24)
+Installing package(s) 'iNETgrate'
+Warning: unable to access index for repository https://p3m.dev/cran/__linux__/jammy/latest/src/contrib:
+  cannot open URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/PACKAGES'
+Warning: dependencies ‘WGCNA’, ‘glmnet’, ‘caret’, ‘Rfast’, ‘bnlearn’, ‘C50’, ‘partykit’, ‘pheatmap’, ‘gdata’, ‘openxlsx’, ‘beanplot’, ‘nor1mix’, ‘mclust’, ‘reshape’, ‘quadprog’, ‘rvest’, ‘doRNG’, ‘base64’ are not available
+also installing the dependencies ‘ReactomePA’, ‘bumphunter’, ‘illuminaio’, ‘ExperimentHub’, ‘TCGAbiolinksGUI.data’, ‘Pigengene’, ‘minfi’, ‘IlluminaHumanMethylation450kanno.ilmn12.hg19’, ‘sesameData’, ‘TCGAbiolinks’
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/ReactomePA_1.48.0.tar.gz'
+Content type 'application/x-gzip' length 57663 bytes (56 KB)
+==================================================
+downloaded 56 KB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/bumphunter_1.46.0.tar.gz'
+Content type 'application/x-gzip' length 2477906 bytes (2.4 MB)
+==================================================
+downloaded 2.4 MB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/illuminaio_0.46.0.tar.gz'
+Content type 'application/x-gzip' length 320498 bytes (312 KB)
+==================================================
+downloaded 312 KB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/ExperimentHub_2.12.0.tar.gz'
+Content type 'application/x-gzip' length 499864 bytes (488 KB)
+==================================================
+downloaded 488 KB
+
+trying URL 'https://bioconductor.org/packages/3.19/data/experiment/src/contrib/TCGAbiolinksGUI.data_1.24.0.tar.gz'
+Content type 'application/x-gzip' length 22921646 bytes (21.9 MB)
+==================================================
+downloaded 21.9 MB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/Pigengene_1.30.0.tar.gz'
+Content type 'application/x-gzip' length 2824684 bytes (2.7 MB)
+==================================================
+downloaded 2.7 MB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/minfi_1.50.0.tar.gz'
+Content type 'application/x-gzip' length 520909 bytes (508 KB)
+==================================================
+downloaded 508 KB
+
+trying URL 'https://bioconductor.org/packages/3.19/data/annotation/src/contrib/IlluminaHumanMethylation450kanno.ilmn12.hg19_0.6.1.tar.gz'
+Content type 'application/x-gzip' length 57892521 bytes (55.2 MB)
+==================================================
+downloaded 55.2 MB
+
+trying URL 'https://bioconductor.org/packages/3.19/data/experiment/src/contrib/sesameData_1.22.0.tar.gz'
+Content type 'application/x-gzip' length 1973947 bytes (1.9 MB)
+==================================================
+downloaded 1.9 MB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/TCGAbiolinks_2.32.0.tar.gz'
+Content type 'application/x-gzip' length 65649632 bytes (62.6 MB)
+==================================================
+downloaded 62.6 MB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/iNETgrate_1.2.0.tar.gz'
+Content type 'application/x-gzip' length 4156451 bytes (4.0 MB)
+==================================================
+downloaded 4.0 MB
+
+* installing *source* package ‘ReactomePA’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘ReactomePA’ as ‘ReactomePA_1.48.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ReactomePA)
+ERROR: dependency ‘doRNG’ is not available for package ‘bumphunter’
+* removing ‘/tmp/tmp/built/bumphunter’
+ERROR: dependency ‘base64’ is not available for package ‘illuminaio’
+* removing ‘/tmp/tmp/built/illuminaio’
+* installing *source* package ‘ExperimentHub’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘ExperimentHub’ as ‘ExperimentHub_2.12.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ExperimentHub)
+* installing *source* package ‘TCGAbiolinksGUI.data’ ...
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘TCGAbiolinksGUI.data’ as ‘TCGAbiolinksGUI.data_1.24.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (TCGAbiolinksGUI.data)
+ERROR: dependencies ‘bnlearn’, ‘C50’, ‘partykit’, ‘WGCNA’, ‘pheatmap’, ‘gdata’, ‘openxlsx’ are not available for package ‘Pigengene’
+* removing ‘/tmp/tmp/built/Pigengene’
+ERROR: dependencies ‘bumphunter’, ‘beanplot’, ‘nor1mix’, ‘illuminaio’, ‘mclust’, ‘reshape’, ‘quadprog’ are not available for package ‘minfi’
+* removing ‘/tmp/tmp/built/minfi’
+* installing *source* package ‘sesameData’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘sesameData’ as ‘sesameData_1.22.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (sesameData)
+ERROR: dependency ‘rvest’ is not available for package ‘TCGAbiolinks’
+* removing ‘/tmp/tmp/built/TCGAbiolinks’
+ERROR: dependency ‘minfi’ is not available for package ‘IlluminaHumanMethylation450kanno.ilmn12.hg19’
+* removing ‘/tmp/tmp/built/IlluminaHumanMethylation450kanno.ilmn12.hg19’
+ERROR: dependencies ‘WGCNA’, ‘Pigengene’, ‘glmnet’, ‘caret’, ‘minfi’, ‘Rfast’ are not available for package ‘iNETgrate’
+* removing ‘/tmp/tmp/built/iNETgrate’
+
+The downloaded source packages are in
+	‘/tmp/RtmpRZA8SF/downloaded_packages’
+Warning: unable to access index for repository https://p3m.dev/cran/__linux__/jammy/latest/src/contrib:
+  cannot open URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/PACKAGES'
+Warning messages:
+1: In install.packages(...) :
+  installation of package ‘bumphunter’ had non-zero exit status
+2: In install.packages(...) :
+  installation of package ‘illuminaio’ had non-zero exit status
+3: In install.packages(...) :
+  installation of package ‘Pigengene’ had non-zero exit status
+4: In install.packages(...) :
+  installation of package ‘minfi’ had non-zero exit status
+5: In install.packages(...) :
+  installation of package ‘TCGAbiolinks’ had non-zero exit status
+6: In install.packages(...) :
+  installation of package ‘IlluminaHumanMethylation450kanno.ilmn12.hg19’ had non-zero exit status
+7: In install.packages(...) :
+  installation of package ‘iNETgrate’ had non-zero exit status
+
+real	19m20.372s
+user	0m59.755s
+sys	0m10.899s

@@ -1,0 +1,51 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''yarn'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/jammy/latest
+Warning: unable to access index for repository https://p3m.dev/cran/__linux__/jammy/latest/src/contrib:
+  cannot open URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/PACKAGES'
+Bioconductor version 3.19 (BiocManager 1.30.23), R 4.4.0 (2024-04-24)
+Installing package(s) 'yarn'
+Warning: unable to access index for repository https://p3m.dev/cran/__linux__/jammy/latest/src/contrib:
+  cannot open URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/PACKAGES'
+Warning: dependencies ‘downloader’, ‘beanplot’, ‘nor1mix’, ‘mclust’, ‘reshape’, ‘quadprog’ are not available
+also installing the dependencies ‘minfi’, ‘quantro’
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/minfi_1.50.0.tar.gz'
+Content type 'application/x-gzip' length 520909 bytes (508 KB)
+==================================================
+downloaded 508 KB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/quantro_1.38.0.tar.gz'
+Content type 'application/x-gzip' length 2878928 bytes (2.7 MB)
+==================================================
+downloaded 2.7 MB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/yarn_1.30.0.tar.gz'
+Content type 'application/x-gzip' length 3114162 bytes (3.0 MB)
+==================================================
+downloaded 3.0 MB
+
+ERROR: dependencies ‘beanplot’, ‘nor1mix’, ‘mclust’, ‘reshape’, ‘quadprog’ are not available for package ‘minfi’
+* removing ‘/tmp/tmp/built/minfi’
+ERROR: dependency ‘minfi’ is not available for package ‘quantro’
+* removing ‘/tmp/tmp/built/quantro’
+ERROR: dependencies ‘downloader’, ‘quantro’ are not available for package ‘yarn’
+* removing ‘/tmp/tmp/built/yarn’
+
+The downloaded source packages are in
+	‘/tmp/Rtmpf9VlB3/downloaded_packages’
+Warning: unable to access index for repository https://p3m.dev/cran/__linux__/jammy/latest/src/contrib:
+  cannot open URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/PACKAGES'
+Warning messages:
+1: In install.packages(...) :
+  installation of package ‘minfi’ had non-zero exit status
+2: In install.packages(...) :
+  installation of package ‘quantro’ had non-zero exit status
+3: In install.packages(...) :
+  installation of package ‘yarn’ had non-zero exit status
+
+real	19m13.859s
+user	0m3.052s
+sys	0m2.881s

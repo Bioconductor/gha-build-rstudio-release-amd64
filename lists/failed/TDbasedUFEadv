@@ -1,0 +1,156 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''TDbasedUFEadv'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/jammy/latest
+Warning: unable to access index for repository https://p3m.dev/cran/__linux__/jammy/latest/src/contrib:
+  cannot open URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/PACKAGES'
+Bioconductor version 3.19 (BiocManager 1.30.23), R 4.4.0 (2024-04-24)
+Installing package(s) 'TDbasedUFEadv'
+Warning: unable to access index for repository https://p3m.dev/cran/__linux__/jammy/latest/src/contrib:
+  cannot open URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/PACKAGES'
+Warning: dependencies ‘rTensor’, ‘enrichR’, ‘aplot’, ‘ggfun’, ‘ggnewscale’, ‘ggraph’, ‘scatterpie’, ‘shadowtext’, ‘yulab.utils’, ‘ape’, ‘tidytree’, ‘fastmatch’ are not available
+also installing the dependencies ‘GO.db’, ‘treeio’, ‘GOSemSim’, ‘ggtree’, ‘HDO.db’, ‘fgsea’, ‘TDbasedUFE’, ‘enrichplot’, ‘DOSE’, ‘MOFAdata’
+
+trying URL 'https://bioconductor.org/packages/3.19/data/annotation/src/contrib/GO.db_3.19.1.tar.gz'
+Content type 'application/x-gzip' length 28531609 bytes (27.2 MB)
+==================================================
+downloaded 27.2 MB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/treeio_1.28.0.tar.gz'
+Content type 'application/x-gzip' length 693419 bytes (677 KB)
+==================================================
+downloaded 677 KB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/GOSemSim_2.30.0.tar.gz'
+Content type 'application/x-gzip' length 605277 bytes (591 KB)
+==================================================
+downloaded 591 KB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/ggtree_3.12.0.tar.gz'
+Content type 'application/x-gzip' length 359019 bytes (350 KB)
+==================================================
+downloaded 350 KB
+
+trying URL 'https://bioconductor.org/packages/3.19/data/annotation/src/contrib/HDO.db_0.99.1.tar.gz'
+Content type 'application/x-gzip' length 1855560 bytes (1.8 MB)
+==================================================
+downloaded 1.8 MB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/fgsea_1.30.0.tar.gz'
+Content type 'application/x-gzip' length 4948054 bytes (4.7 MB)
+==================================================
+downloaded 4.7 MB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/TDbasedUFE_1.4.0.tar.gz'
+Content type 'application/x-gzip' length 1259179 bytes (1.2 MB)
+==================================================
+downloaded 1.2 MB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/enrichplot_1.24.0.tar.gz'
+Content type 'application/x-gzip' length 109671 bytes (107 KB)
+==================================================
+downloaded 107 KB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/DOSE_3.30.1.tar.gz'
+Content type 'application/x-gzip' length 6807201 bytes (6.5 MB)
+==================================================
+downloaded 6.5 MB
+
+trying URL 'https://bioconductor.org/packages/3.19/data/experiment/src/contrib/MOFAdata_1.20.0.tar.gz'
+Content type 'application/x-gzip' length 46373688 bytes (44.2 MB)
+==================================================
+downloaded 44.2 MB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/TDbasedUFEadv_1.4.0.tar.gz'
+Content type 'application/x-gzip' length 3676002 bytes (3.5 MB)
+==================================================
+downloaded 3.5 MB
+
+* installing *source* package ‘GO.db’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘GO.db’ as ‘GO.db_3.19.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (GO.db)
+ERROR: dependencies ‘ape’, ‘tidytree’, ‘yulab.utils’ are not available for package ‘treeio’
+* removing ‘/tmp/tmp/built/treeio’
+* installing *source* package ‘HDO.db’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘HDO.db’ as ‘HDO.db_0.99.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (HDO.db)
+ERROR: dependency ‘fastmatch’ is not available for package ‘fgsea’
+* removing ‘/tmp/tmp/built/fgsea’
+* installing *source* package ‘MOFAdata’ ...
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘MOFAdata’ as ‘MOFAdata_1.20.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (MOFAdata)
+ERROR: dependency ‘yulab.utils’ is not available for package ‘GOSemSim’
+* removing ‘/tmp/tmp/built/GOSemSim’
+ERROR: dependencies ‘ape’, ‘aplot’, ‘ggfun’, ‘yulab.utils’, ‘tidytree’, ‘treeio’ are not available for package ‘ggtree’
+* removing ‘/tmp/tmp/built/ggtree’
+ERROR: dependency ‘rTensor’ is not available for package ‘TDbasedUFE’
+* removing ‘/tmp/tmp/built/TDbasedUFE’
+ERROR: dependencies ‘fgsea’, ‘GOSemSim’, ‘yulab.utils’ are not available for package ‘DOSE’
+* removing ‘/tmp/tmp/built/DOSE’
+ERROR: dependencies ‘aplot’, ‘DOSE’, ‘ggfun’, ‘ggnewscale’, ‘ggraph’, ‘scatterpie’, ‘shadowtext’, ‘GOSemSim’, ‘ggtree’, ‘yulab.utils’ are not available for package ‘enrichplot’
+* removing ‘/tmp/tmp/built/enrichplot’
+ERROR: dependencies ‘TDbasedUFE’, ‘rTensor’, ‘enrichplot’, ‘DOSE’, ‘enrichR’ are not available for package ‘TDbasedUFEadv’
+* removing ‘/tmp/tmp/built/TDbasedUFEadv’
+
+The downloaded source packages are in
+	‘/tmp/RtmpbCKqTJ/downloaded_packages’
+Warning: unable to access index for repository https://p3m.dev/cran/__linux__/jammy/latest/src/contrib:
+  cannot open URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/PACKAGES'
+Warning messages:
+1: In install.packages(...) :
+  installation of package ‘treeio’ had non-zero exit status
+2: In install.packages(...) :
+  installation of package ‘fgsea’ had non-zero exit status
+3: In install.packages(...) :
+  installation of package ‘GOSemSim’ had non-zero exit status
+4: In install.packages(...) :
+  installation of package ‘ggtree’ had non-zero exit status
+5: In install.packages(...) :
+  installation of package ‘TDbasedUFE’ had non-zero exit status
+6: In install.packages(...) :
+  installation of package ‘DOSE’ had non-zero exit status
+7: In install.packages(...) :
+  installation of package ‘enrichplot’ had non-zero exit status
+8: In install.packages(...) :
+  installation of package ‘TDbasedUFEadv’ had non-zero exit status
+
+real	23m43.560s
+user	1m21.317s
+sys	0m9.103s

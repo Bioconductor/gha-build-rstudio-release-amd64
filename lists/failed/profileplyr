@@ -1,0 +1,98 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''profileplyr'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/jammy/latest
+Warning: unable to access index for repository https://p3m.dev/cran/__linux__/jammy/latest/src/contrib:
+  cannot open URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/PACKAGES'
+Bioconductor version 3.19 (BiocManager 1.30.23), R 4.4.1 (2024-06-14)
+Installing package(s) 'profileplyr'
+Warning: unable to access index for repository https://p3m.dev/cran/__linux__/jammy/latest/src/contrib:
+  cannot open URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/PACKAGES'
+Warning: dependencies ‘pheatmap’, ‘circlize’, ‘tiff’, ‘Cairo’, ‘GetoptLong’, ‘GlobalOptions’, ‘DT’ are not available
+also installing the dependencies ‘TxDb.Hsapiens.UCSC.hg38.knownGene’, ‘TxDb.Mmusculus.UCSC.mm10.knownGene’, ‘rGREAT’, ‘EnrichedHeatmap’, ‘ComplexHeatmap’
+
+trying URL 'https://bioconductor.org/packages/3.19/data/annotation/src/contrib/TxDb.Hsapiens.UCSC.hg38.knownGene_3.18.0.tar.gz'
+Content type 'application/x-gzip' length 47184613 bytes (45.0 MB)
+==================================================
+downloaded 45.0 MB
+
+trying URL 'https://bioconductor.org/packages/3.19/data/annotation/src/contrib/TxDb.Mmusculus.UCSC.mm10.knownGene_3.10.0.tar.gz'
+Content type 'application/x-gzip' length 24858207 bytes (23.7 MB)
+==================================================
+downloaded 23.7 MB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/rGREAT_2.6.0.tar.gz'
+Content type 'application/x-gzip' length 2887004 bytes (2.8 MB)
+==================================================
+downloaded 2.8 MB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/EnrichedHeatmap_1.34.0.tar.gz'
+Content type 'application/x-gzip' length 11869896 bytes (11.3 MB)
+==================================================
+downloaded 11.3 MB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/ComplexHeatmap_2.20.0.tar.gz'
+Content type 'application/x-gzip' length 1455466 bytes (1.4 MB)
+==================================================
+downloaded 1.4 MB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/profileplyr_1.20.0.tar.gz'
+Content type 'application/x-gzip' length 2530328 bytes (2.4 MB)
+==================================================
+downloaded 2.4 MB
+
+* installing *source* package ‘TxDb.Hsapiens.UCSC.hg38.knownGene’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘TxDb.Hsapiens.UCSC.hg38.knownGene’ as ‘TxDb.Hsapiens.UCSC.hg38.knownGene_3.18.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (TxDb.Hsapiens.UCSC.hg38.knownGene)
+* installing *source* package ‘TxDb.Mmusculus.UCSC.mm10.knownGene’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘TxDb.Mmusculus.UCSC.mm10.knownGene’ as ‘TxDb.Mmusculus.UCSC.mm10.knownGene_3.10.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (TxDb.Mmusculus.UCSC.mm10.knownGene)
+ERROR: dependencies ‘circlize’, ‘GetoptLong’, ‘GlobalOptions’ are not available for package ‘ComplexHeatmap’
+* removing ‘/tmp/tmp/built/ComplexHeatmap’
+ERROR: dependencies ‘GetoptLong’, ‘GlobalOptions’, ‘DT’, ‘circlize’ are not available for package ‘rGREAT’
+* removing ‘/tmp/tmp/built/rGREAT’
+ERROR: dependencies ‘ComplexHeatmap’, ‘GetoptLong’, ‘circlize’ are not available for package ‘EnrichedHeatmap’
+* removing ‘/tmp/tmp/built/EnrichedHeatmap’
+ERROR: dependencies ‘rGREAT’, ‘pheatmap’, ‘EnrichedHeatmap’, ‘ComplexHeatmap’, ‘circlize’, ‘tiff’ are not available for package ‘profileplyr’
+* removing ‘/tmp/tmp/built/profileplyr’
+
+The downloaded source packages are in
+	‘/tmp/Rtmp2ptLRn/downloaded_packages’
+Warning: unable to access index for repository https://p3m.dev/cran/__linux__/jammy/latest/src/contrib:
+  cannot open URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/PACKAGES'
+Warning messages:
+1: In install.packages(...) :
+  installation of package ‘ComplexHeatmap’ had non-zero exit status
+2: In install.packages(...) :
+  installation of package ‘rGREAT’ had non-zero exit status
+3: In install.packages(...) :
+  installation of package ‘EnrichedHeatmap’ had non-zero exit status
+4: In install.packages(...) :
+  installation of package ‘profileplyr’ had non-zero exit status
+
+real	20m4.213s
+user	1m46.354s
+sys	0m9.209s

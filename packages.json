@@ -54,16 +54,12 @@
         "GenomicFeatures",
         "VariantAnnotation",
         "alabaster.mae",
-        "alabaster.sce",
         "alabaster.spatial",
         "alabaster.vcf",
         "rtracklayer"
     ],
     "alabaster.mae": [],
-    "alabaster.sce": [],
-    "alabaster.spatial": [
-        "alabaster.sce"
-    ],
+    "alabaster.spatial": [],
     "alabaster.vcf": [
         "BSgenome",
         "GenomicFeatures",
@@ -3418,7 +3414,6 @@
         "M3Drop",
         "MAST",
         "TSCAN",
-        "alabaster.sce",
         "batchelor",
         "celda",
         "ensembldb",

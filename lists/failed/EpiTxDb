@@ -1,0 +1,163 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''EpiTxDb'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/jammy/latest
+Warning: unable to access index for repository https://p3m.dev/cran/__linux__/jammy/latest/src/contrib:
+  cannot open URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/PACKAGES'
+Bioconductor version 3.19 (BiocManager 1.30.23), R 4.4.1 (2024-06-14)
+Installing package(s) 'EpiTxDb'
+Warning: unable to access index for repository https://p3m.dev/cran/__linux__/jammy/latest/src/contrib:
+  cannot open URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/PACKAGES'
+Warning: dependencies ‘rex’, ‘httptest’ are not available
+also installing the dependencies ‘txdbmaker’, ‘tRNAdbImport’, ‘AnnotationHub’, ‘EpiTxDb.Hs.hg38’, ‘BSgenome.Hsapiens.UCSC.hg38’, ‘BSgenome.Scerevisiae.UCSC.sacCer3’, ‘TxDb.Hsapiens.UCSC.hg38.knownGene’
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/txdbmaker_1.0.1.tar.gz'
+Content type 'application/x-gzip' length 1033564 bytes (1009 KB)
+==================================================
+downloaded 1009 KB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/tRNAdbImport_1.22.0.tar.gz'
+Content type 'application/x-gzip' length 330725 bytes (322 KB)
+==================================================
+downloaded 322 KB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/AnnotationHub_3.12.0.tar.gz'
+Content type 'application/x-gzip' length 992371 bytes (969 KB)
+==================================================
+downloaded 969 KB
+
+trying URL 'https://bioconductor.org/packages/3.19/data/annotation/src/contrib/EpiTxDb.Hs.hg38_0.99.7.tar.gz'
+Content type 'application/x-gzip' length 310131 bytes (302 KB)
+==================================================
+downloaded 302 KB
+
+trying URL 'https://bioconductor.org/packages/3.19/data/annotation/src/contrib/BSgenome.Hsapiens.UCSC.hg38_1.4.5.tar.gz'
+Content type 'application/x-gzip' length 731245539 bytes (697.4 MB)
+==================================================
+downloaded 697.4 MB
+
+trying URL 'https://bioconductor.org/packages/3.19/data/annotation/src/contrib/BSgenome.Scerevisiae.UCSC.sacCer3_1.4.0.tar.gz'
+Content type 'application/x-gzip' length 2966747 bytes (2.8 MB)
+==================================================
+downloaded 2.8 MB
+
+trying URL 'https://bioconductor.org/packages/3.19/data/annotation/src/contrib/TxDb.Hsapiens.UCSC.hg38.knownGene_3.18.0.tar.gz'
+Content type 'application/x-gzip' length 47184613 bytes (45.0 MB)
+==================================================
+downloaded 45.0 MB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/EpiTxDb_1.16.0.tar.gz'
+Content type 'application/x-gzip' length 789371 bytes (770 KB)
+==================================================
+downloaded 770 KB
+
+* installing *source* package ‘txdbmaker’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘txdbmaker’ as ‘txdbmaker_1.0.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (txdbmaker)
+* installing *source* package ‘tRNAdbImport’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘tRNAdbImport’ as ‘tRNAdbImport_1.22.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tRNAdbImport)
+* installing *source* package ‘AnnotationHub’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘AnnotationHub’ as ‘AnnotationHub_3.12.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (AnnotationHub)
+* installing *source* package ‘BSgenome.Hsapiens.UCSC.hg38’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘BSgenome.Hsapiens.UCSC.hg38’ as ‘BSgenome.Hsapiens.UCSC.hg38_1.4.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (BSgenome.Hsapiens.UCSC.hg38)
+* installing *source* package ‘BSgenome.Scerevisiae.UCSC.sacCer3’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘BSgenome.Scerevisiae.UCSC.sacCer3’ as ‘BSgenome.Scerevisiae.UCSC.sacCer3_1.4.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (BSgenome.Scerevisiae.UCSC.sacCer3)
+* installing *source* package ‘TxDb.Hsapiens.UCSC.hg38.knownGene’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘TxDb.Hsapiens.UCSC.hg38.knownGene’ as ‘TxDb.Hsapiens.UCSC.hg38.knownGene_3.18.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (TxDb.Hsapiens.UCSC.hg38.knownGene)
+ERROR: dependency ‘rex’ is not available for package ‘EpiTxDb’
+* removing ‘/tmp/tmp/built/EpiTxDb’
+ERROR: dependency ‘EpiTxDb’ is not available for package ‘EpiTxDb.Hs.hg38’
+* removing ‘/tmp/tmp/built/EpiTxDb.Hs.hg38’
+
+The downloaded source packages are in
+	‘/tmp/Rtmpye87FJ/downloaded_packages’
+Warning: unable to access index for repository https://p3m.dev/cran/__linux__/jammy/latest/src/contrib:
+  cannot open URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/PACKAGES'
+Warning messages:
+1: In install.packages(...) :
+  installation of package ‘EpiTxDb’ had non-zero exit status
+2: In install.packages(...) :
+  installation of package ‘EpiTxDb.Hs.hg38’ had non-zero exit status
+
+real	23m36.693s
+user	4m44.171s
+sys	0m26.918s
+ERROR: dependency ‘rex’ is not available for package ‘EpiTxDb’
+* removing ‘/tmp/tmp/built/EpiTxDb’
+ERROR: dependency ‘EpiTxDb’ is not available for package ‘EpiTxDb.Hs.hg38’
+* removing ‘/tmp/tmp/built/EpiTxDb.Hs.hg38’

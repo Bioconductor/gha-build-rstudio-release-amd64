@@ -194,8 +194,7 @@
         "RTCGAToolbox",
         "ReactomePA",
         "TCGAutils",
-        "cBioPortalData",
-        "clusterProfiler"
+        "cBioPortalData"
     ],
     "BiocOncoTK": [
         "GenomicFeatures"
@@ -320,9 +319,7 @@
         "MSnbase",
         "xcms"
     ],
-    "CaMutQC": [
-        "clusterProfiler"
-    ],
+    "CaMutQC": [],
     "canceR": [
         "GenomicFeatures",
         "RTCGAToolbox",
@@ -353,19 +350,13 @@
         "RTCGAToolbox",
         "TCGAutils"
     ],
-    "CBNplot": [
-        "clusterProfiler"
-    ],
+    "CBNplot": [],
     "celda": [],
     "cellHTS2": [],
     "CelliD": [],
     "CellMixS": [],
-    "CEMiTool": [
-        "clusterProfiler"
-    ],
-    "CeTF": [
-        "clusterProfiler"
-    ],
+    "CEMiTool": [],
+    "CeTF": [],
     "CexoR": [
         "BSgenome",
         "genomation"
@@ -478,7 +469,6 @@
         "MSnbase"
     ],
     "clusterExperiment": [],
-    "clusterProfiler": [],
     "cn.farms": [
         "oligo",
         "oligoClasses"
@@ -577,8 +567,7 @@
         "GenomicFeatures"
     ],
     "CRISPRball": [
-        "MAGeCKFlute",
-        "clusterProfiler"
+        "MAGeCKFlute"
     ],
     "crisprBowtie": [
         "BSgenome"
@@ -693,9 +682,7 @@
     "dar": [
         "mia"
     ],
-    "debrowser": [
-        "clusterProfiler"
-    ],
+    "debrowser": [],
     "decompTumor2Sig": [
         "BSgenome",
         "GenomicFeatures",
@@ -831,9 +818,7 @@
         "BSgenome",
         "bsseq"
     ],
-    "EasyCellType": [
-        "clusterProfiler"
-    ],
+    "EasyCellType": [],
     "easylift": [],
     "easyRNASeq": [],
     "EDASeq": [
@@ -900,9 +885,7 @@
         "TFBSTools",
         "motifmatchr"
     ],
-    "epiregulon.extra": [
-        "clusterProfiler"
-    ],
+    "epiregulon.extra": [],
     "EpiTxDb": [
         "GenomicFeatures",
         "txdbmaker"
@@ -951,7 +934,6 @@
         "ChIPseeker",
         "GenomicFeatures",
         "TFBSTools",
-        "clusterProfiler",
         "motifmatchr",
         "pipeFrame"
     ],
@@ -981,9 +963,7 @@
         "GenomicFeatures",
         "wiggleplotr"
     ],
-    "famat": [
-        "clusterProfiler"
-    ],
+    "famat": [],
     "fCCAC": [
         "BSgenome",
         "genomation"
@@ -1055,9 +1035,7 @@
     "gcapc": [
         "BSgenome"
     ],
-    "GDCRNATools": [
-        "clusterProfiler"
-    ],
+    "GDCRNATools": [],
     "gDNAx": [
         "BSgenome",
         "GenomicFeatures",
@@ -1140,8 +1118,7 @@
     ],
     "gINTomics": [
         "GenomicFeatures",
-        "ReactomePA",
-        "clusterProfiler"
+        "ReactomePA"
     ],
     "glmSparseNet": [
         "GenomicFeatures",
@@ -1168,9 +1145,7 @@
         "GenomicFeatures",
         "txdbmaker"
     ],
-    "goSorensen": [
-        "clusterProfiler"
-    ],
+    "goSorensen": [],
     "GOstats": [],
     "GOTHiC": [
         "BSgenome"
@@ -1298,7 +1273,6 @@
         "Pigengene",
         "ReactomePA",
         "bumphunter",
-        "clusterProfiler",
         "minfi",
         "txdbmaker"
     ],
@@ -1412,9 +1386,7 @@
         "minfi",
         "oligoClasses"
     ],
-    "MAGeCKFlute": [
-        "clusterProfiler"
-    ],
+    "MAGeCKFlute": [],
     "magpie": [
         "GenomicFeatures",
         "TRESS"
@@ -1493,9 +1465,7 @@
         "MSnbase",
         "xcms"
     ],
-    "MetaPhOR": [
-        "clusterProfiler"
-    ],
+    "MetaPhOR": [],
     "metaseqR2": [
         "BSgenome",
         "DSS",
@@ -1543,7 +1513,6 @@
     "methylGSA": [
         "GenomicFeatures",
         "bumphunter",
-        "clusterProfiler",
         "methylumi",
         "minfi",
         "missMethyl"
@@ -1584,9 +1553,7 @@
         "ANCOMBC",
         "mia"
     ],
-    "MicrobiomeProfiler": [
-        "clusterProfiler"
-    ],
+    "MicrobiomeProfiler": [],
     "mimager": [
         "oligo",
         "oligoClasses"
@@ -1613,15 +1580,12 @@
         "BSgenome",
         "bsseq"
     ],
-    "MIRit": [
-        "clusterProfiler"
-    ],
+    "MIRit": [],
     "miRLAB": [
         "GOstats"
     ],
     "miRSM": [
-        "ReactomePA",
-        "clusterProfiler"
+        "ReactomePA"
     ],
     "missMethyl": [
         "GenomicFeatures",
@@ -1646,15 +1610,11 @@
     ],
     "Moonlight2R": [
         "EpiMix",
-        "GenomicFeatures",
-        "clusterProfiler"
+        "GenomicFeatures"
     ],
-    "MoonlightR": [
-        "clusterProfiler"
-    ],
+    "MoonlightR": [],
     "mosdef": [
         "GenomicFeatures",
-        "clusterProfiler",
         "goseq",
         "txdbmaker"
     ],
@@ -1861,13 +1821,9 @@
         "motifmatchr"
     ],
     "pairedGSEA": [],
-    "PanomiR": [
-        "clusterProfiler"
-    ],
+    "PanomiR": [],
     "PAST": [],
-    "pathlinkR": [
-        "clusterProfiler"
-    ],
+    "pathlinkR": [],
     "pcaExplorer": [
         "GOstats"
     ],
@@ -1888,8 +1844,7 @@
     "phenomis": [],
     "phenoTest": [],
     "Pigengene": [
-        "ReactomePA",
-        "clusterProfiler"
+        "ReactomePA"
     ],
     "PING": [
         "BSgenome",
@@ -2391,8 +2346,7 @@
     "seqArchRplus": [
         "BSgenome",
         "ChIPseeker",
-        "GenomicFeatures",
-        "clusterProfiler"
+        "GenomicFeatures"
     ],
     "seqCAT": [
         "BSgenome",
@@ -2416,9 +2370,7 @@
         "minfi"
     ],
     "SigCheck": [],
-    "signatureSearch": [
-        "clusterProfiler"
-    ],
+    "signatureSearch": [],
     "signeR": [
         "BSgenome",
         "GenomicFeatures",

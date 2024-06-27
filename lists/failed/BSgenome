@@ -1,0 +1,210 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''BSgenome'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/jammy/latest
+Warning: unable to access index for repository https://p3m.dev/cran/__linux__/jammy/latest/src/contrib:
+  cannot open URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/PACKAGES'
+Bioconductor version 3.19 (BiocManager 1.30.23), R 4.4.1 (2024-06-14)
+Installing package(s) 'BSgenome'
+Warning: unable to access index for repository https://p3m.dev/cran/__linux__/jammy/latest/src/contrib:
+  cannot open URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/PACKAGES'
+Warning: dependency ‘restfulr’ is not available
+also installing the dependencies ‘GenomicFeatures’, ‘BiocIO’, ‘rtracklayer’, ‘BSgenome.Celegans.UCSC.ce2’, ‘BSgenome.Hsapiens.UCSC.hg38’, ‘BSgenome.Hsapiens.UCSC.hg38.masked’, ‘BSgenome.Mmusculus.UCSC.mm10’, ‘BSgenome.Rnorvegicus.UCSC.rn5’, ‘BSgenome.Scerevisiae.UCSC.sacCer1’, ‘BSgenome.Hsapiens.NCBI.GRCh38’, ‘TxDb.Hsapiens.UCSC.hg38.knownGene’, ‘TxDb.Mmusculus.UCSC.mm10.knownGene’, ‘SNPlocs.Hsapiens.dbSNP144.GRCh38’, ‘XtraSNPlocs.Hsapiens.dbSNP144.GRCh38’, ‘hgu95av2probe’, ‘BSgenomeForge’
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/GenomicFeatures_1.56.0.tar.gz'
+Content type 'application/x-gzip' length 567951 bytes (554 KB)
+==================================================
+downloaded 554 KB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/BiocIO_1.14.0.tar.gz'
+Content type 'application/x-gzip' length 230564 bytes (225 KB)
+==================================================
+downloaded 225 KB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/rtracklayer_1.64.0.tar.gz'
+Content type 'application/x-gzip' length 3951281 bytes (3.8 MB)
+==================================================
+downloaded 3.8 MB
+
+trying URL 'https://bioconductor.org/packages/3.19/data/annotation/src/contrib/BSgenome.Celegans.UCSC.ce2_1.4.0.tar.gz'
+Content type 'application/x-gzip' length 23653893 bytes (22.6 MB)
+==================================================
+downloaded 22.6 MB
+
+trying URL 'https://bioconductor.org/packages/3.19/data/annotation/src/contrib/BSgenome.Hsapiens.UCSC.hg38_1.4.5.tar.gz'
+Content type 'application/x-gzip' length 731245539 bytes (697.4 MB)
+==================================================
+downloaded 697.4 MB
+
+trying URL 'https://bioconductor.org/packages/3.19/data/annotation/src/contrib/BSgenome.Hsapiens.UCSC.hg38.masked_1.4.5.tar.gz'
+Content type 'application/x-gzip' length 23618742 bytes (22.5 MB)
+==================================================
+downloaded 22.5 MB
+
+trying URL 'https://bioconductor.org/packages/3.19/data/annotation/src/contrib/BSgenome.Mmusculus.UCSC.mm10_1.4.3.tar.gz'
+Content type 'application/x-gzip' length 649827309 bytes (619.7 MB)
+==================================================
+downloaded 619.7 MB
+
+trying URL 'https://bioconductor.org/packages/3.19/data/annotation/src/contrib/BSgenome.Rnorvegicus.UCSC.rn5_1.4.0.tar.gz'
+Content type 'application/x-gzip' length 614635033 bytes (586.2 MB)
+==================================================
+downloaded 586.2 MB
+
+trying URL 'https://bioconductor.org/packages/3.19/data/annotation/src/contrib/BSgenome.Scerevisiae.UCSC.sacCer1_1.4.0.tar.gz'
+Content type 'application/x-gzip' length 2967322 bytes (2.8 MB)
+==================================================
+downloaded 2.8 MB
+
+trying URL 'https://bioconductor.org/packages/3.19/data/annotation/src/contrib/BSgenome.Hsapiens.NCBI.GRCh38_1.3.1000.tar.gz'
+Content type 'application/x-gzip' length 845207156 bytes (806.1 MB)
+==================================================
+downloaded 806.1 MB
+
+trying URL 'https://bioconductor.org/packages/3.19/data/annotation/src/contrib/TxDb.Hsapiens.UCSC.hg38.knownGene_3.18.0.tar.gz'
+Content type 'application/x-gzip' length 47184613 bytes (45.0 MB)
+==================================================
+downloaded 45.0 MB
+
+trying URL 'https://bioconductor.org/packages/3.19/data/annotation/src/contrib/TxDb.Mmusculus.UCSC.mm10.knownGene_3.10.0.tar.gz'
+Content type 'application/x-gzip' length 24858207 bytes (23.7 MB)
+==================================================
+downloaded 23.7 MB
+
+trying URL 'https://bioconductor.org/packages/3.19/data/annotation/src/contrib/SNPlocs.Hsapiens.dbSNP144.GRCh38_0.99.20.tar.gz'
+Content type 'application/x-gzip' length 898581361 bytes (857.0 MB)
+==================================================
+downloaded 857.0 MB
+
+trying URL 'https://bioconductor.org/packages/3.19/data/annotation/src/contrib/XtraSNPlocs.Hsapiens.dbSNP144.GRCh38_0.99.12.tar.gz'
+Content type 'application/x-gzip' length 112432850 bytes (107.2 MB)
+==================================================
+downloaded 107.2 MB
+
+trying URL 'https://bioconductor.org/packages/3.19/data/annotation/src/contrib/hgu95av2probe_2.18.0.tar.gz'
+Content type 'application/x-gzip' length 2543313 bytes (2.4 MB)
+==================================================
+downloaded 2.4 MB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/BSgenomeForge_1.4.0.tar.gz'
+Content type 'application/x-gzip' length 459275 bytes (448 KB)
+==================================================
+downloaded 448 KB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/BSgenome_1.72.0.tar.gz'
+Content type 'application/x-gzip' length 5718748 bytes (5.5 MB)
+==================================================
+downloaded 5.5 MB
+
+* installing *source* package ‘BiocIO’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘BiocIO’ as ‘BiocIO_1.14.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (BiocIO)
+* installing *source* package ‘hgu95av2probe’ ...
+** using staged installation
+** R
+** data
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘hgu95av2probe’ as ‘hgu95av2probe_2.18.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (hgu95av2probe)
+ERROR: dependency ‘restfulr’ is not available for package ‘rtracklayer’
+* removing ‘/tmp/tmp/built/rtracklayer’
+ERROR: dependency ‘rtracklayer’ is not available for package ‘GenomicFeatures’
+* removing ‘/tmp/tmp/built/GenomicFeatures’
+ERROR: dependency ‘rtracklayer’ is not available for package ‘BSgenome’
+* removing ‘/tmp/tmp/built/BSgenome’
+ERROR: dependency ‘BSgenome’ is not available for package ‘BSgenome.Celegans.UCSC.ce2’
+* removing ‘/tmp/tmp/built/BSgenome.Celegans.UCSC.ce2’
+ERROR: dependency ‘BSgenome’ is not available for package ‘BSgenome.Hsapiens.UCSC.hg38’
+* removing ‘/tmp/tmp/built/BSgenome.Hsapiens.UCSC.hg38’
+ERROR: dependency ‘BSgenome’ is not available for package ‘BSgenome.Mmusculus.UCSC.mm10’
+* removing ‘/tmp/tmp/built/BSgenome.Mmusculus.UCSC.mm10’
+ERROR: dependency ‘BSgenome’ is not available for package ‘BSgenome.Rnorvegicus.UCSC.rn5’
+* removing ‘/tmp/tmp/built/BSgenome.Rnorvegicus.UCSC.rn5’
+ERROR: dependency ‘BSgenome’ is not available for package ‘BSgenome.Scerevisiae.UCSC.sacCer1’
+* removing ‘/tmp/tmp/built/BSgenome.Scerevisiae.UCSC.sacCer1’
+ERROR: dependency ‘BSgenome’ is not available for package ‘BSgenome.Hsapiens.NCBI.GRCh38’
+* removing ‘/tmp/tmp/built/BSgenome.Hsapiens.NCBI.GRCh38’
+ERROR: dependency ‘GenomicFeatures’ is not available for package ‘TxDb.Hsapiens.UCSC.hg38.knownGene’
+* removing ‘/tmp/tmp/built/TxDb.Hsapiens.UCSC.hg38.knownGene’
+ERROR: dependency ‘GenomicFeatures’ is not available for package ‘TxDb.Mmusculus.UCSC.mm10.knownGene’
+* removing ‘/tmp/tmp/built/TxDb.Mmusculus.UCSC.mm10.knownGene’
+ERROR: dependency ‘BSgenome’ is not available for package ‘SNPlocs.Hsapiens.dbSNP144.GRCh38’
+* removing ‘/tmp/tmp/built/SNPlocs.Hsapiens.dbSNP144.GRCh38’
+ERROR: dependency ‘BSgenome’ is not available for package ‘XtraSNPlocs.Hsapiens.dbSNP144.GRCh38’
+* removing ‘/tmp/tmp/built/XtraSNPlocs.Hsapiens.dbSNP144.GRCh38’
+ERROR: dependencies ‘BSgenome’, ‘rtracklayer’ are not available for package ‘BSgenomeForge’
+* removing ‘/tmp/tmp/built/BSgenomeForge’
+ERROR: dependencies ‘BSgenome’, ‘BSgenome.Hsapiens.UCSC.hg38’ are not available for package ‘BSgenome.Hsapiens.UCSC.hg38.masked’
+* removing ‘/tmp/tmp/built/BSgenome.Hsapiens.UCSC.hg38.masked’
+
+The downloaded source packages are in
+	‘/tmp/RtmpmBBnig/downloaded_packages’
+Warning: unable to access index for repository https://p3m.dev/cran/__linux__/jammy/latest/src/contrib:
+  cannot open URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/PACKAGES'
+There were 15 warnings (use warnings() to see them)
+
+real	21m51.516s
+user	2m53.337s
+sys	0m38.931s
+ERROR: dependency ‘restfulr’ is not available for package ‘rtracklayer’
+* removing ‘/tmp/tmp/built/rtracklayer’
+ERROR: dependency ‘rtracklayer’ is not available for package ‘BSgenome’
+* removing ‘/tmp/tmp/built/BSgenome’
+ERROR: dependency ‘BSgenome’ is not available for package ‘BSgenome.Hsapiens.UCSC.hg38’
+* removing ‘/tmp/tmp/built/BSgenome.Hsapiens.UCSC.hg38’
+ERROR: dependencies ‘BSgenome’, ‘BSgenome.Hsapiens.UCSC.hg38’ are not available for package ‘BSgenome.Hsapiens.UCSC.hg38.masked’
+* removing ‘/tmp/tmp/built/BSgenome.Hsapiens.UCSC.hg38.masked’
+ERROR: dependency ‘restfulr’ is not available for package ‘rtracklayer’
+* removing ‘/tmp/tmp/built/rtracklayer’
+ERROR: dependency ‘rtracklayer’ is not available for package ‘GenomicFeatures’
+* removing ‘/tmp/tmp/built/GenomicFeatures’
+ERROR: dependency ‘rtracklayer’ is not available for package ‘BSgenome’
+* removing ‘/tmp/tmp/built/BSgenome’
+ERROR: dependency ‘GenomicFeatures’ is not available for package ‘TxDb.Rnorvegicus.UCSC.rn5.refGene’
+* removing ‘/tmp/tmp/built/TxDb.Rnorvegicus.UCSC.rn5.refGene’
+ERROR: dependency ‘BSgenome’ is not available for package ‘BSgenome.Rnorvegicus.UCSC.rn5’
+* removing ‘/tmp/tmp/built/BSgenome.Rnorvegicus.UCSC.rn5’
+ERROR: dependency ‘restfulr’ is not available for package ‘rtracklayer’
+* removing ‘/tmp/tmp/built/rtracklayer’
+ERROR: dependency ‘rtracklayer’ is not available for package ‘BSgenome’
+* removing ‘/tmp/tmp/built/BSgenome’
+ERROR: dependency ‘BSgenome’ is not available for package ‘BSgenome.Scerevisiae.UCSC.sacCer1’
+* removing ‘/tmp/tmp/built/BSgenome.Scerevisiae.UCSC.sacCer1’
+ERROR: dependency ‘restfulr’ is not available for package ‘rtracklayer’
+* removing ‘/tmp/tmp/built/rtracklayer’
+ERROR: dependency ‘rtracklayer’ is not available for package ‘BSgenome’
+* removing ‘/tmp/tmp/built/BSgenome’
+ERROR: dependency ‘BSgenome’ is not available for package ‘BSgenome.Hsapiens.UCSC.hg38’
+* removing ‘/tmp/tmp/built/BSgenome.Hsapiens.UCSC.hg38’
+ERROR: dependency ‘BSgenome’ is not available for package ‘SNPlocs.Hsapiens.dbSNP144.GRCh38’
+* removing ‘/tmp/tmp/built/SNPlocs.Hsapiens.dbSNP144.GRCh38’
+ERROR: dependency ‘restfulr’ is not available for package ‘rtracklayer’
+* removing ‘/tmp/tmp/built/rtracklayer’
+ERROR: dependency ‘rtracklayer’ is not available for package ‘BSgenome’
+* removing ‘/tmp/tmp/built/BSgenome’
+ERROR: dependency ‘BSgenome’ is not available for package ‘BSgenome.Hsapiens.UCSC.hg38’
+* removing ‘/tmp/tmp/built/BSgenome.Hsapiens.UCSC.hg38’
+ERROR: dependency ‘BSgenome’ is not available for package ‘SNPlocs.Hsapiens.dbSNP144.GRCh38’
+* removing ‘/tmp/tmp/built/SNPlocs.Hsapiens.dbSNP144.GRCh38’
+ERROR: dependency ‘BSgenome’ is not available for package ‘XtraSNPlocs.Hsapiens.dbSNP144.GRCh38’
+* removing ‘/tmp/tmp/built/XtraSNPlocs.Hsapiens.dbSNP144.GRCh38’

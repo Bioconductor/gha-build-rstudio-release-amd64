@@ -159,7 +159,6 @@
     ],
     "bandle": [
         "MSnbase",
-        "PSMatch",
         "pRoloc"
     ],
     "Basic4Cseq": [
@@ -335,7 +334,6 @@
     ],
     "CAMERA": [
         "MSnbase",
-        "PSMatch",
         "xcms"
     ],
     "CaMutQC": [
@@ -495,8 +493,7 @@
         "BSgenome"
     ],
     "CluMSID": [
-        "MSnbase",
-        "PSMatch"
+        "MSnbase"
     ],
     "clusterExperiment": [
         "zinbwave"
@@ -593,7 +590,6 @@
     ],
     "cosmiq": [
         "MSnbase",
-        "PSMatch",
         "xcms"
     ],
     "CoverageView": [],
@@ -713,8 +709,7 @@
         "txdbmaker"
     ],
     "DAPAR": [
-        "MSnbase",
-        "PSMatch"
+        "MSnbase"
     ],
     "dar": [
         "mia"
@@ -763,8 +758,7 @@
         "ensembldb"
     ],
     "DEP": [
-        "MSnbase",
-        "PSMatch"
+        "MSnbase"
     ],
     "derfinder": [
         "BSgenome",
@@ -1041,7 +1035,6 @@
     "flagme": [
         "CAMERA",
         "MSnbase",
-        "PSMatch",
         "xcms"
     ],
     "FLAMES": [
@@ -1369,7 +1362,6 @@
     "IPO": [
         "CAMERA",
         "MSnbase",
-        "PSMatch",
         "xcms"
     ],
     "iSEEfier": [],
@@ -1421,7 +1413,6 @@
     "LOBSTAHS": [
         "CAMERA",
         "MSnbase",
-        "PSMatch",
         "xcms"
     ],
     "lumi": [
@@ -1459,7 +1450,6 @@
     "MAIT": [
         "CAMERA",
         "MSnbase",
-        "PSMatch",
         "xcms"
     ],
     "mariner": [
@@ -1532,7 +1522,6 @@
     "metaMS": [
         "CAMERA",
         "MSnbase",
-        "PSMatch",
         "xcms"
     ],
     "MetaPhOR": [
@@ -1740,20 +1729,15 @@
     ],
     "msImpute": [],
     "msmsEDA": [
-        "MSnbase",
-        "PSMatch"
+        "MSnbase"
     ],
     "msmsTests": [
         "MSnbase",
-        "PSMatch",
         "msmsEDA"
     ],
-    "MSnbase": [
-        "PSMatch"
-    ],
+    "MSnbase": [],
     "MSnID": [
         "MSnbase",
-        "PSMatch",
         "msmsEDA",
         "msmsTests"
     ],
@@ -1763,13 +1747,11 @@
     "msqrob2": [],
     "MsQuality": [],
     "MSstatsQC": [
-        "MSnbase",
-        "PSMatch"
+        "MSnbase"
     ],
     "MSstatsQCgui": [
         "MSnbase",
-        "MSstatsQC",
-        "PSMatch"
+        "MSstatsQC"
     ],
     "multicrispr": [
         "BSgenome",
@@ -1832,7 +1814,6 @@
     ],
     "ncGTW": [
         "MSnbase",
-        "PSMatch",
         "xcms"
     ],
     "nearBynding": [
@@ -1938,8 +1919,7 @@
         "oligoClasses"
     ],
     "peakPantheR": [
-        "MSnbase",
-        "PSMatch"
+        "MSnbase"
     ],
     "PECA": [],
     "peco": [],
@@ -1994,8 +1974,7 @@
         "ensembldb"
     ],
     "PrInCE": [
-        "MSnbase",
-        "PSMatch"
+        "MSnbase"
     ],
     "proActiv": [
         "GenomicFeatures",
@@ -2012,12 +1991,10 @@
         "soGGi"
     ],
     "pRoloc": [
-        "MSnbase",
-        "PSMatch"
+        "MSnbase"
     ],
     "pRolocGUI": [
         "MSnbase",
-        "PSMatch",
         "pRoloc"
     ],
     "PROPS": [
@@ -2025,8 +2002,7 @@
     ],
     "Prostar": [
         "DAPAR",
-        "MSnbase",
-        "PSMatch"
+        "MSnbase"
     ],
     "ProteoDisco": [
         "BSgenome",
@@ -2043,10 +2019,8 @@
         "derfinder",
         "recount"
     ],
-    "PSMatch": [],
     "ptairMS": [
-        "MSnbase",
-        "PSMatch"
+        "MSnbase"
     ],
     "puma": [
         "oligo",
@@ -2069,8 +2043,7 @@
         "GenomicFeatures"
     ],
     "qPLEXanalyzer": [
-        "MSnbase",
-        "PSMatch"
+        "MSnbase"
     ],
     "qsea": [
         "BSgenome"
@@ -2277,8 +2250,7 @@
         "consensusSeekeR"
     ],
     "RMassBank": [
-        "MSnbase",
-        "PSMatch"
+        "MSnbase"
     ],
     "Rmmquant": [
         "GenomicFeatures"
@@ -2661,8 +2633,7 @@
     ],
     "SVMDO": [],
     "synapter": [
-        "MSnbase",
-        "PSMatch"
+        "MSnbase"
     ],
     "syntenet": [],
     "tadar": [
@@ -2721,8 +2692,7 @@
     ],
     "TOP": [],
     "topdownr": [
-        "MSnbase",
-        "PSMatch"
+        "MSnbase"
     ],
     "trackViewer": [
         "BSgenome",
@@ -2876,8 +2846,7 @@
     ],
     "wiggleplotr": [],
     "xcms": [
-        "MSnbase",
-        "PSMatch"
+        "MSnbase"
     ],
     "XDE": [],
     "Xeva": [],

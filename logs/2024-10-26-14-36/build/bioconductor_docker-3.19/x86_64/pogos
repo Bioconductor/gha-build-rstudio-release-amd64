@@ -1,0 +1,92 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''pogos'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/jammy/latest
+Bioconductor version 3.19 (BiocManager 1.30.23), R 4.4.1 (2024-06-14)
+Installing package(s) 'pogos'
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/pogos_1.24.0.tar.gz'
+Content type 'application/x-gzip' length 2396958 bytes (2.3 MB)
+==================================================
+downloaded 2.3 MB
+
+* installing *source* package ‘pogos’ ...
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+Error in py_module_import(module, convert = convert) : 
+  ModuleNotFoundError: No module named 'owlready2'
+Run `reticulate::py_last_error()` for details.
+Using Python: /usr/bin/python3.10
+Creating virtual environment 'r-owlready2' ... 
++ /usr/bin/python3.10 -m venv /root/.virtualenvs/r-owlready2
+Done!
+Installing packages: pip, wheel, setuptools
++ /root/.virtualenvs/r-owlready2/bin/python -m pip install --upgrade pip wheel setuptools
+Requirement already satisfied: pip in /root/.virtualenvs/r-owlready2/lib/python3.10/site-packages (22.0.2)
+Collecting pip
+  Downloading pip-24.3.1-py3-none-any.whl (1.8 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.8/1.8 MB 23.6 MB/s eta 0:00:00
+Collecting wheel
+  Downloading wheel-0.44.0-py3-none-any.whl (67 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 67.1/67.1 KB 21.6 MB/s eta 0:00:00
+Requirement already satisfied: setuptools in /root/.virtualenvs/r-owlready2/lib/python3.10/site-packages (59.6.0)
+Collecting setuptools
+  Downloading setuptools-75.2.0-py3-none-any.whl (1.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 99.3 MB/s eta 0:00:00
+Installing collected packages: wheel, setuptools, pip
+  Attempting uninstall: setuptools
+    Found existing installation: setuptools 59.6.0
+    Uninstalling setuptools-59.6.0:
+      Successfully uninstalled setuptools-59.6.0
+  Attempting uninstall: pip
+    Found existing installation: pip 22.0.2
+    Uninstalling pip-22.0.2:
+      Successfully uninstalled pip-22.0.2
+Successfully installed pip-24.3.1 setuptools-75.2.0 wheel-0.44.0
+Virtual environment 'r-owlready2' successfully created.
+Using virtual environment 'r-owlready2' ...
++ /root/.virtualenvs/r-owlready2/bin/python -m pip install --upgrade --no-user owlready2
+Collecting owlready2
+  Downloading owlready2-0.47.tar.gz (27.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 27.3/27.3 MB 127.7 MB/s eta 0:00:00
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: owlready2
+  Building wheel for owlready2 (pyproject.toml): started
+  Building wheel for owlready2 (pyproject.toml): finished with status 'done'
+  Created wheel for owlready2: filename=owlready2-0.47-cp310-cp310-linux_x86_64.whl size=24075217 sha256=f91ad293c22d5ede7570075ee50a3a1a8af5343079629bfefbec1c46fe2d7258
+  Stored in directory: /root/.cache/pip/wheels/27/3e/ba/4171c4b10bba9fe1774fbf8fcf794de889e636ce64ad83a533
+Successfully built owlready2
+Installing collected packages: owlready2
+Successfully installed owlready2-0.47
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘pogos’ as ‘pogos_1.24.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (pogos)
+
+The downloaded source packages are in
+	‘/tmp/RtmpFmEf48/downloaded_packages’
+Old packages: 'askpass', 'BiocManager', 'bslib', 'commonmark', 'cpp11',
+  'credentials', 'curl', 'digest', 'evaluate', 'gert', 'glue', 'httr2',
+  'jsonlite', 'knitr', 'openssl', 'pkgdown', 'pkgload', 'profvis', 'ps',
+  'ragg', 'Rcpp', 'rmarkdown', 'roxygen2', 'rstudioapi', 'shiny', 'sys',
+  'tinytex', 'usethis', 'waldo', 'withr', 'xfun', 'yaml', 'boot', 'foreign',
+  'Matrix', 'nlme'
+
+real	0m50.505s
+user	0m43.527s
+sys	0m4.514s

@@ -1,0 +1,229 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''mfa'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/jammy/latest
+Bioconductor version 3.19 (BiocManager 1.30.23), R 4.4.1 (2024-06-14)
+Installing package(s) 'mfa'
+also installing the dependencies ‘forcats’, ‘patchwork’, ‘hms’, ‘ggstats’, ‘progress’, ‘SparseM’, ‘MatrixModels’, ‘GGally’, ‘mcmc’, ‘quantreg’, ‘ape’, ‘corpcor’, ‘tensorA’, ‘cubature’, ‘ggmcmc’, ‘MCMCpack’, ‘MCMCglmm’, ‘coda’
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/forcats_1.0.0.tar.gz'
+Content type 'binary/octet-stream' length 421536 bytes (411 KB)
+==================================================
+downloaded 411 KB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/patchwork_1.3.0.tar.gz'
+Content type 'binary/octet-stream' length 3347073 bytes (3.2 MB)
+==================================================
+downloaded 3.2 MB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/hms_1.1.3.tar.gz'
+Content type 'binary/octet-stream' length 100190 bytes (97 KB)
+==================================================
+downloaded 97 KB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/ggstats_0.7.0.tar.gz'
+Content type 'binary/octet-stream' length 1164769 bytes (1.1 MB)
+==================================================
+downloaded 1.1 MB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/progress_1.2.3.tar.gz'
+Content type 'binary/octet-stream' length 86380 bytes (84 KB)
+==================================================
+downloaded 84 KB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/SparseM_1.84-2.tar.gz'
+Content type 'binary/octet-stream' length 885304 bytes (864 KB)
+==================================================
+downloaded 864 KB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/MatrixModels_0.5-3.tar.gz'
+Content type 'binary/octet-stream' length 420643 bytes (410 KB)
+==================================================
+downloaded 410 KB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/GGally_2.2.1.tar.gz'
+Content type 'binary/octet-stream' length 1951133 bytes (1.9 MB)
+==================================================
+downloaded 1.9 MB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/mcmc_0.9-8.tar.gz'
+Content type 'binary/octet-stream' length 1379344 bytes (1.3 MB)
+==================================================
+downloaded 1.3 MB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/quantreg_5.99.tar.gz'
+Content type 'binary/octet-stream' length 1559739 bytes (1.5 MB)
+==================================================
+downloaded 1.5 MB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/ape_5.8.tar.gz'
+Content type 'binary/octet-stream' length 3105917 bytes (3.0 MB)
+==================================================
+downloaded 3.0 MB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/corpcor_1.6.10.tar.gz'
+Content type 'binary/octet-stream' length 116072 bytes (113 KB)
+==================================================
+downloaded 113 KB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/tensorA_0.36.2.1.tar.gz'
+Content type 'binary/octet-stream' length 222106 bytes (216 KB)
+==================================================
+downloaded 216 KB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/cubature_2.1.1.tar.gz'
+Content type 'binary/octet-stream' length 2064602 bytes (2.0 MB)
+==================================================
+downloaded 2.0 MB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/ggmcmc_1.5.1.1.tar.gz'
+Content type 'binary/octet-stream' length 2944592 bytes (2.8 MB)
+==================================================
+downloaded 2.8 MB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/MCMCpack_1.7-1.tar.gz'
+Content type 'binary/octet-stream' length 2235653 bytes (2.1 MB)
+==================================================
+downloaded 2.1 MB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/MCMCglmm_2.36.tar.gz'
+Content type 'binary/octet-stream' length 526218 bytes (513 KB)
+==================================================
+downloaded 513 KB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/coda_0.19-4.1.tar.gz'
+Content type 'binary/octet-stream' length 328771 bytes (321 KB)
+==================================================
+downloaded 321 KB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/mfa_1.26.0.tar.gz'
+Content type 'application/x-gzip' length 523551 bytes (511 KB)
+==================================================
+downloaded 511 KB
+
+* installing *binary* package ‘forcats’ ...
+* ‘forcats’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘forcats’ as ‘forcats_1.0.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (forcats)
+* installing *binary* package ‘patchwork’ ...
+* ‘patchwork’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘patchwork’ as ‘patchwork_1.3.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (patchwork)
+* installing *binary* package ‘hms’ ...
+* ‘hms’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘hms’ as ‘hms_1.1.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (hms)
+* installing *binary* package ‘SparseM’ ...
+* ‘SparseM’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘SparseM’ as ‘SparseM_1.84-2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (SparseM)
+* installing *binary* package ‘MatrixModels’ ...
+* ‘MatrixModels’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘MatrixModels’ as ‘MatrixModels_0.5-3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (MatrixModels)
+* installing *binary* package ‘mcmc’ ...
+* ‘mcmc’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘mcmc’ as ‘mcmc_0.9-8_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mcmc)
+* installing *binary* package ‘ape’ ...
+* ‘ape’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘ape’ as ‘ape_5.8_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ape)
+* installing *binary* package ‘corpcor’ ...
+* ‘corpcor’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘corpcor’ as ‘corpcor_1.6.10_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (corpcor)
+* installing *binary* package ‘tensorA’ ...
+* ‘tensorA’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘tensorA’ as ‘tensorA_0.36.2.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tensorA)
+* installing *binary* package ‘cubature’ ...
+* ‘cubature’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘cubature’ as ‘cubature_2.1.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (cubature)
+* installing *binary* package ‘coda’ ...
+* ‘coda’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘coda’ as ‘coda_0.19-4.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (coda)
+* installing *binary* package ‘ggstats’ ...
+* ‘ggstats’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘ggstats’ as ‘ggstats_0.7.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggstats)
+* installing *binary* package ‘progress’ ...
+* ‘progress’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘progress’ as ‘progress_1.2.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (progress)
+* installing *binary* package ‘quantreg’ ...
+* ‘quantreg’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘quantreg’ as ‘quantreg_5.99_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (quantreg)
+* installing *binary* package ‘MCMCglmm’ ...
+* ‘MCMCglmm’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘MCMCglmm’ as ‘MCMCglmm_2.36_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (MCMCglmm)
+* installing *binary* package ‘GGally’ ...
+* ‘GGally’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘GGally’ as ‘GGally_2.2.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (GGally)
+* installing *binary* package ‘MCMCpack’ ...
+* ‘MCMCpack’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘MCMCpack’ as ‘MCMCpack_1.7-1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (MCMCpack)
+* installing *binary* package ‘ggmcmc’ ...
+* ‘ggmcmc’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘ggmcmc’ as ‘ggmcmc_1.5.1.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggmcmc)
+* installing *source* package ‘mfa’ ...
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c gibbs.cpp -o gibbs.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o mfa.so RcppExports.o gibbs.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-mfa/00new/mfa/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘mfa’ as ‘mfa_1.26.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mfa)
+
+The downloaded source packages are in
+	‘/tmp/Rtmpqvvxwv/downloaded_packages’
+Old packages: 'askpass', 'BiocManager', 'bslib', 'commonmark', 'cpp11',
+  'credentials', 'curl', 'digest', 'evaluate', 'gert', 'glue', 'httr2',
+  'jsonlite', 'knitr', 'openssl', 'pkgdown', 'pkgload', 'profvis', 'ps',
+  'ragg', 'Rcpp', 'rmarkdown', 'roxygen2', 'rstudioapi', 'shiny', 'sys',
+  'tinytex', 'usethis', 'waldo', 'withr', 'xfun', 'yaml', 'boot', 'foreign',
+  'Matrix', 'nlme'
+
+real	0m32.977s
+user	0m20.057s
+sys	0m4.933s

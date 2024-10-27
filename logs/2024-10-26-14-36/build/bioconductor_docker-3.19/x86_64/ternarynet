@@ -1,0 +1,76 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''ternarynet'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/jammy/latest
+Bioconductor version 3.19 (BiocManager 1.30.23), R 4.4.1 (2024-06-14)
+Installing package(s) 'ternarynet'
+also installing the dependencies ‘cpp11’, ‘igraph’
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/cpp11_0.5.0.tar.gz'
+Content type 'binary/octet-stream' length 272567 bytes (266 KB)
+==================================================
+downloaded 266 KB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/igraph_2.1.1.tar.gz'
+Content type 'binary/octet-stream' length 5546332 bytes (5.3 MB)
+==================================================
+downloaded 5.3 MB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/ternarynet_1.48.0.tar.gz'
+Content type 'application/x-gzip' length 149525 bytes (146 KB)
+==================================================
+downloaded 146 KB
+
+* installing *binary* package ‘cpp11’ ...
+* ‘cpp11’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘cpp11’ as ‘cpp11_0.5.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (cpp11)
+* installing *binary* package ‘igraph’ ...
+* ‘igraph’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘igraph’ as ‘igraph_2.1.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (igraph)
+* installing *source* package ‘ternarynet’ ...
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+using C++ compiler: ‘g++ (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c array.c -o array.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c gn.c -o gn.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c gn_Rwrap.c -o gn_Rwrap.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c tnetfit.cc -o tnetfit.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c tnetfuncs.cc -o tnetfuncs.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g   -c tnetpost.cc -o tnetpost.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c util.c -o util.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o ternarynet.so array.o gn.o gn_Rwrap.o init.o tnetfit.o tnetfuncs.o tnetpost.o util.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-ternarynet/00new/ternarynet/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘ternarynet’ as ‘ternarynet_1.48.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ternarynet)
+
+The downloaded source packages are in
+	‘/tmp/RtmpDoBzaf/downloaded_packages’
+Old packages: 'askpass', 'BiocManager', 'bslib', 'commonmark', 'cpp11',
+  'credentials', 'curl', 'digest', 'evaluate', 'gert', 'glue', 'httr2',
+  'jsonlite', 'knitr', 'openssl', 'pkgdown', 'pkgload', 'profvis', 'ps',
+  'ragg', 'Rcpp', 'rmarkdown', 'roxygen2', 'rstudioapi', 'shiny', 'sys',
+  'tinytex', 'usethis', 'waldo', 'withr', 'xfun', 'yaml', 'boot', 'foreign',
+  'Matrix', 'nlme'
+
+real	0m10.715s
+user	0m7.668s
+sys	0m1.920s

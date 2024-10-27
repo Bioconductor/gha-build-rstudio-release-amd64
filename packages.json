@@ -444,7 +444,6 @@
         "distinct"
     ],
     "consensusDE": [
-        "EDASeq",
         "RUVSeq",
         "ensembldb"
     ],
@@ -545,9 +544,7 @@
         "VariantAnnotation",
         "bumphunter"
     ],
-    "DaMiRseq": [
-        "EDASeq"
-    ],
+    "DaMiRseq": [],
     "Damsel": [
         "BSgenome",
         "OrganismDbi",
@@ -669,7 +666,6 @@
         "bsseq"
     ],
     "EasyCellType": [],
-    "EDASeq": [],
     "EGSEA": [],
     "ELMER": [
         "BSgenome",
@@ -837,8 +833,7 @@
         "VariantAnnotation"
     ],
     "GARS": [
-        "DaMiRseq",
-        "EDASeq"
+        "DaMiRseq"
     ],
     "GBScleanR": [
         "SeqArray"
@@ -1195,7 +1190,6 @@
     "metaseqR2": [
         "BSgenome",
         "DSS",
-        "EDASeq",
         "bsseq",
         "txdbmaker"
     ],
@@ -1431,7 +1425,6 @@
     "NoRCE": [],
     "nullranges": [],
     "octad": [
-        "EDASeq",
         "RUVSeq"
     ],
     "OGRE": [
@@ -1723,7 +1716,6 @@
     ],
     "ribosomeProfilingQC": [
         "BSgenome",
-        "EDASeq",
         "RUVSeq",
         "TFBSTools",
         "motifStack",
@@ -1808,9 +1800,7 @@
     ],
     "RTNsurvival": [],
     "rTRMui": [],
-    "RUVSeq": [
-        "EDASeq"
-    ],
+    "RUVSeq": [],
     "SAIGEgds": [
         "SeqArray"
     ],
@@ -1850,7 +1840,6 @@
         "regioneR"
     ],
     "scone": [
-        "EDASeq",
         "RUVSeq"
     ],
     "SCOPE": [
@@ -2017,7 +2006,6 @@
         "ensembldb"
     ],
     "standR": [
-        "EDASeq",
         "RUVSeq"
     ],
     "staRank": [

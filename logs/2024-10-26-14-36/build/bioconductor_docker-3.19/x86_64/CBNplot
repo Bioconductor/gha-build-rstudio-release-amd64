@@ -1,0 +1,595 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''CBNplot'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/jammy/latest
+Bioconductor version 3.19 (BiocManager 1.30.23), R 4.4.1 (2024-06-14)
+Installing package(s) 'CBNplot'
+also installing the dependencies ‘shape’, ‘SQUAREM’, ‘diagram’, ‘lava’, ‘prodlim’, ‘timechange’, ‘wk’, ‘clock’, ‘gower’, ‘hardhat’, ‘ipred’, ‘lubridate’, ‘timeDate’, ‘classInt’, ‘s2’, ‘units’, ‘ModelMetrics’, ‘pROC’, ‘recipes’, ‘proxy’, ‘gmp’, ‘distributional’, ‘numDeriv’, ‘quadprog’, ‘V8’, ‘sf’, ‘visNetwork’, ‘assertthat’, ‘caret’, ‘e1071’, ‘bnlearn’, ‘depmap’, ‘Rmpfr’, ‘ggdist’, ‘pvclust’, ‘arules’, ‘concaveman’, ‘ReactomePA’, ‘bnviewer’
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/shape_1.4.6.1.tar.gz'
+Content type 'binary/octet-stream' length 749996 bytes (732 KB)
+==================================================
+downloaded 732 KB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/SQUAREM_2021.1.tar.gz'
+Content type 'binary/octet-stream' length 178042 bytes (173 KB)
+==================================================
+downloaded 173 KB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/diagram_1.6.5.tar.gz'
+Content type 'binary/octet-stream' length 682103 bytes (666 KB)
+==================================================
+downloaded 666 KB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/lava_1.8.0.tar.gz'
+Content type 'binary/octet-stream' length 2502412 bytes (2.4 MB)
+==================================================
+downloaded 2.4 MB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/prodlim_2024.06.25.tar.gz'
+Content type 'binary/octet-stream' length 417947 bytes (408 KB)
+==================================================
+downloaded 408 KB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/timechange_0.3.0.tar.gz'
+Content type 'binary/octet-stream' length 170833 bytes (166 KB)
+==================================================
+downloaded 166 KB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/wk_0.9.4.tar.gz'
+Content type 'binary/octet-stream' length 1735057 bytes (1.7 MB)
+==================================================
+downloaded 1.7 MB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/clock_0.7.1.tar.gz'
+Content type 'binary/octet-stream' length 1926940 bytes (1.8 MB)
+==================================================
+downloaded 1.8 MB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/gower_1.0.1.tar.gz'
+Content type 'binary/octet-stream' length 206636 bytes (201 KB)
+==================================================
+downloaded 201 KB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/hardhat_1.4.0.tar.gz'
+Content type 'binary/octet-stream' length 836506 bytes (816 KB)
+==================================================
+downloaded 816 KB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/ipred_0.9-15.tar.gz'
+Content type 'binary/octet-stream' length 384707 bytes (375 KB)
+==================================================
+downloaded 375 KB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/lubridate_1.9.3.tar.gz'
+Content type 'binary/octet-stream' length 985853 bytes (962 KB)
+==================================================
+downloaded 962 KB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/timeDate_4041.110.tar.gz'
+Content type 'binary/octet-stream' length 1393767 bytes (1.3 MB)
+==================================================
+downloaded 1.3 MB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/classInt_0.4-10.tar.gz'
+Content type 'binary/octet-stream' length 499015 bytes (487 KB)
+==================================================
+downloaded 487 KB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/s2_1.1.7.tar.gz'
+Content type 'binary/octet-stream' length 2191846 bytes (2.1 MB)
+==================================================
+downloaded 2.1 MB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/units_0.8-5.tar.gz'
+Content type 'binary/octet-stream' length 363022 bytes (354 KB)
+==================================================
+downloaded 354 KB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/ModelMetrics_1.2.2.2.tar.gz'
+Content type 'binary/octet-stream' length 160319 bytes (156 KB)
+==================================================
+downloaded 156 KB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/pROC_1.18.5.tar.gz'
+Content type 'binary/octet-stream' length 848316 bytes (828 KB)
+==================================================
+downloaded 828 KB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/recipes_1.1.0.tar.gz'
+Content type 'binary/octet-stream' length 1647619 bytes (1.6 MB)
+==================================================
+downloaded 1.6 MB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/proxy_0.4-27.tar.gz'
+Content type 'binary/octet-stream' length 175590 bytes (171 KB)
+==================================================
+downloaded 171 KB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/gmp_0.7-5.tar.gz'
+Content type 'binary/octet-stream' length 329883 bytes (322 KB)
+==================================================
+downloaded 322 KB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/distributional_0.5.0.tar.gz'
+Content type 'binary/octet-stream' length 478962 bytes (467 KB)
+==================================================
+downloaded 467 KB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/numDeriv_2016.8-1.1.tar.gz'
+Content type 'binary/octet-stream' length 114329 bytes (111 KB)
+==================================================
+downloaded 111 KB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/quadprog_1.5-8.tar.gz'
+Content type 'binary/octet-stream' length 30827 bytes (30 KB)
+==================================================
+downloaded 30 KB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/V8_6.0.0.tar.gz'
+Content type 'binary/octet-stream' length 10919134 bytes (10.4 MB)
+==================================================
+downloaded 10.4 MB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/sf_1.0-18.tar.gz'
+Content type 'binary/octet-stream' length 3782335 bytes (3.6 MB)
+==================================================
+downloaded 3.6 MB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/visNetwork_2.1.2.tar.gz'
+Content type 'binary/octet-stream' length 4654529 bytes (4.4 MB)
+==================================================
+downloaded 4.4 MB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/assertthat_0.2.1.tar.gz'
+Content type 'binary/octet-stream' length 53323 bytes (52 KB)
+==================================================
+downloaded 52 KB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/caret_6.0-94.tar.gz'
+Content type 'binary/octet-stream' length 3600978 bytes (3.4 MB)
+==================================================
+downloaded 3.4 MB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/e1071_1.7-16.tar.gz'
+Content type 'binary/octet-stream' length 596157 bytes (582 KB)
+==================================================
+downloaded 582 KB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/bnlearn_5.0.1.tar.gz'
+Content type 'binary/octet-stream' length 1325729 bytes (1.3 MB)
+==================================================
+downloaded 1.3 MB
+
+trying URL 'https://bioconductor.org/packages/3.19/data/experiment/src/contrib/depmap_1.18.0.tar.gz'
+Content type 'application/x-gzip' length 1486320 bytes (1.4 MB)
+==================================================
+downloaded 1.4 MB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/Rmpfr_0.9-5.tar.gz'
+Content type 'binary/octet-stream' length 1226401 bytes (1.2 MB)
+==================================================
+downloaded 1.2 MB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/ggdist_3.3.2.tar.gz'
+Content type 'binary/octet-stream' length 2668836 bytes (2.5 MB)
+==================================================
+downloaded 2.5 MB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/pvclust_2.2-0.tar.gz'
+Content type 'binary/octet-stream' length 184512 bytes (180 KB)
+==================================================
+downloaded 180 KB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/arules_1.7-8.tar.gz'
+Content type 'binary/octet-stream' length 2622784 bytes (2.5 MB)
+==================================================
+downloaded 2.5 MB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/concaveman_1.1.0.tar.gz'
+Content type 'binary/octet-stream' length 135705 bytes (132 KB)
+==================================================
+downloaded 132 KB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/ReactomePA_1.48.0.tar.gz'
+Content type 'application/x-gzip' length 57663 bytes (56 KB)
+==================================================
+downloaded 56 KB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/bnviewer_0.1.6.tar.gz'
+Content type 'binary/octet-stream' length 64836 bytes (63 KB)
+==================================================
+downloaded 63 KB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/CBNplot_1.4.2.tar.gz'
+Content type 'application/x-gzip' length 975280 bytes (952 KB)
+==================================================
+downloaded 952 KB
+
+* installing *binary* package ‘shape’ ...
+* ‘shape’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘shape’ as ‘shape_1.4.6.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (shape)
+* installing *binary* package ‘SQUAREM’ ...
+* ‘SQUAREM’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘SQUAREM’ as ‘SQUAREM_2021.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (SQUAREM)
+* installing *binary* package ‘timechange’ ...
+* ‘timechange’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘timechange’ as ‘timechange_0.3.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (timechange)
+* installing *binary* package ‘wk’ ...
+* ‘wk’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘wk’ as ‘wk_0.9.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (wk)
+* installing *binary* package ‘clock’ ...
+* ‘clock’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘clock’ as ‘clock_0.7.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (clock)
+* installing *binary* package ‘gower’ ...
+* ‘gower’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘gower’ as ‘gower_1.0.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (gower)
+* installing *binary* package ‘hardhat’ ...
+* ‘hardhat’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘hardhat’ as ‘hardhat_1.4.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (hardhat)
+* installing *binary* package ‘timeDate’ ...
+* ‘timeDate’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘timeDate’ as ‘timeDate_4041.110_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (timeDate)
+* installing *binary* package ‘units’ ...
+* ‘units’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘units’ as ‘units_0.8-5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (units)
+* installing *binary* package ‘ModelMetrics’ ...
+* ‘ModelMetrics’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘ModelMetrics’ as ‘ModelMetrics_1.2.2.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ModelMetrics)
+* installing *binary* package ‘pROC’ ...
+* ‘pROC’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘pROC’ as ‘pROC_1.18.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (pROC)
+* installing *binary* package ‘proxy’ ...
+* ‘proxy’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘proxy’ as ‘proxy_0.4-27_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (proxy)
+* installing *binary* package ‘gmp’ ...
+* ‘gmp’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘gmp’ as ‘gmp_0.7-5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (gmp)
+* installing *binary* package ‘numDeriv’ ...
+* ‘numDeriv’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘numDeriv’ as ‘numDeriv_2016.8-1.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (numDeriv)
+* installing *binary* package ‘quadprog’ ...
+* ‘quadprog’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘quadprog’ as ‘quadprog_1.5-8_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (quadprog)
+* installing *binary* package ‘V8’ ...
+* ‘V8’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘V8’ as ‘V8_6.0.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (V8)
+* installing *binary* package ‘visNetwork’ ...
+* ‘visNetwork’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘visNetwork’ as ‘visNetwork_2.1.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (visNetwork)
+* installing *binary* package ‘assertthat’ ...
+* ‘assertthat’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘assertthat’ as ‘assertthat_0.2.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (assertthat)
+* installing *source* package ‘bnlearn’ ...
+** package ‘bnlearn’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0’
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c arcs/arcs2amat.c -o arcs/arcs2amat.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c arcs/arcs2elist.c -o arcs/arcs2elist.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c arcs/bind.c -o arcs/bind.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c arcs/filter.arcs.c -o arcs/filter.arcs.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c arcs/hash.c -o arcs/hash.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c arcs/is.row.equal.c -o arcs/is.row.equal.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c bnlearn/bayesian.network.c -o bnlearn/bayesian.network.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c bnlearn/bn.recovery.c -o bnlearn/bn.recovery.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c bnlearn/cache.structure.c -o bnlearn/cache.structure.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c bnlearn/cextend.c -o bnlearn/cextend.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c bnlearn/colliders.c -o bnlearn/colliders.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c bnlearn/cpdag.c -o bnlearn/cpdag.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c bnlearn/fitted.c -o bnlearn/fitted.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c bnlearn/nparams.c -o bnlearn/nparams.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c bnlearn/shd.c -o bnlearn/shd.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c core/allocations.c -o core/allocations.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c core/contingency.tables.c -o core/contingency.tables.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c core/correlation.c -o core/correlation.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c core/covariance.matrix.c -o core/covariance.matrix.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c core/data.table.c -o core/data.table.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c core/math.functions.c -o core/math.functions.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c core/moments.c -o core/moments.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c core/sampling.c -o core/sampling.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c core/sets.c -o core/sets.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c core/uppertriangular.c -o core/uppertriangular.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c fitted/enums.c -o fitted/enums.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c fitted/fitted.c -o fitted/fitted.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c fitted/nparams.c -o fitted/nparams.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c fitted/rinterface/nparams.c -o fitted/rinterface/nparams.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c foreign/parse.c -o foreign/parse.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c globals.c -o globals.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c graphs/acyclic.c -o graphs/acyclic.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c graphs/is.dag.c -o graphs/is.dag.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c graphs/path.c -o graphs/path.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c graphs/pdag2dag.c -o graphs/pdag2dag.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c graphs/random/graph.generation.c -o graphs/random/graph.generation.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c graphs/topological.ordering.c -o graphs/topological.ordering.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c inference/likelihood.weighting.c -o inference/likelihood.weighting.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c inference/loglikelihood/common.c -o inference/loglikelihood/common.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c inference/loglikelihood/discrete.c -o inference/loglikelihood/discrete.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c inference/loglikelihood/gaussian.c -o inference/loglikelihood/gaussian.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c inference/loglikelihood/conditional.gaussian.c -o inference/loglikelihood/conditional.gaussian.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c inference/loss.c -o inference/loss.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c inference/rbn.c -o inference/rbn.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c inference/rinterface/loglikelihood.c -o inference/rinterface/loglikelihood.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c inference/rinterface/cpdist.c -o inference/rinterface/cpdist.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c inference/rinterface/rbn.c -o inference/rinterface/rbn.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c inference/rinterface/likelihood.weighting.c -o inference/rinterface/likelihood.weighting.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c learning/averaging/averaging.c -o learning/averaging/averaging.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c learning/averaging/bootstrap.c -o learning/averaging/bootstrap.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c learning/local/mi.matrix.c -o learning/local/mi.matrix.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c learning/score/hc.cache.lookup.c -o learning/score/hc.cache.lookup.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c learning/score/score.delta.c -o learning/score/score.delta.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c learning/score/tabu.c -o learning/score/tabu.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c math/conditional.least.squares.c -o math/conditional.least.squares.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c math/least.squares.c -o math/least.squares.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c math/linear.algebra.c -o math/linear.algebra.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c minimal/common.c -o minimal/common.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c minimal/data.frame.c -o minimal/data.frame.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c minimal/strings.c -o minimal/strings.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c minimal/table.c -o minimal/table.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c minimal/tiers.c -o minimal/tiers.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c minimal/unique.c -o minimal/unique.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c parameters/discrete/classic_discrete.c -o parameters/discrete/classic_discrete.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c parameters/discrete/hierarchical_dirichlet.c -o parameters/discrete/hierarchical_dirichlet.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c parameters/rinterface/classic_discrete.c -o parameters/rinterface/classic_discrete.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c parameters/rinterface/hierarchical_dirichlet.c -o parameters/rinterface/hierarchical_dirichlet.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c parameters/rinterface/mixture_ordinary_least_squares.c -o parameters/rinterface/mixture_ordinary_least_squares.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c parameters/rinterface/ordinary_least_squares.c -o parameters/rinterface/ordinary_least_squares.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c predict/map.lw.c -o predict/map.lw.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c predict/predict.c -o predict/predict.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c preprocessing/dedup.c -o preprocessing/dedup.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c preprocessing/discretize.c -o preprocessing/discretize.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c preprocessing/enums.c -o preprocessing/enums.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c sanitization/cg.assumptions.c -o sanitization/cg.assumptions.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c sanitization/covariance.c -o sanitization/covariance.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c sanitization/data.c -o sanitization/data.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c scores/alpha.star.c -o scores/alpha.star.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c scores/cg.loglikelihood.c -o scores/cg.loglikelihood.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c scores/cg.predictive.loglikelihood.c -o scores/cg.predictive.loglikelihood.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c scores/cg.nal.c -o scores/cg.nal.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c scores/custom.score.c -o scores/custom.score.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c scores/dirichlet.averaged.posterior.c -o scores/dirichlet.averaged.posterior.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c scores/dirichlet.posterior.c -o scores/dirichlet.posterior.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c scores/discrete.loglikelihood.c -o scores/discrete.loglikelihood.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c scores/discrete.nal.c -o scores/discrete.nal.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c scores/discrete.predictive.loglikelihood.c -o scores/discrete.predictive.loglikelihood.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c scores/enum.c -o scores/enum.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c scores/gaussian.loglikelihood.c -o scores/gaussian.loglikelihood.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c scores/gaussian.nal.c -o scores/gaussian.nal.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c scores/gaussian.predictive.loglikelihood.c -o scores/gaussian.predictive.loglikelihood.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c scores/graph.priors.c -o scores/graph.priors.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c scores/nml_regret.c -o scores/nml_regret.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c scores/nml_regret_table.c -o scores/nml_regret_table.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c scores/normalized.maximum.likelihood.c -o scores/normalized.maximum.likelihood.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c scores/per.node.score.c -o scores/per.node.score.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c scores/wishart.posterior.c -o scores/wishart.posterior.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c test.counter.c -o test.counter.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c tests/conditional.gaussian/cg.mutual.information.c -o tests/conditional.gaussian/cg.mutual.information.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c tests/discrete/df.adjust.c -o tests/discrete/df.adjust.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c tests/discrete/discrete.tests.c -o tests/discrete/discrete.tests.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c tests/discrete/jonckheere.c -o tests/discrete/jonckheere.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c tests/discrete/shrinkage.c -o tests/discrete/shrinkage.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c tests/enums.c -o tests/enums.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c tests/gaussian/df.adjust.c -o tests/gaussian/df.adjust.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c tests/gaussian/gaussian.tests.c -o tests/gaussian/gaussian.tests.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c tests/gaussian/shrinkage.c -o tests/gaussian/shrinkage.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c tests/omnibus/custom.test.c -o tests/omnibus/custom.test.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c tests/patterns/allsubs.test.c -o tests/patterns/allsubs.test.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c tests/patterns/ctest.c -o tests/patterns/ctest.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c tests/patterns/roundrobin.test.c -o tests/patterns/roundrobin.test.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c tests/patterns/utest.c -o tests/patterns/utest.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c tests/permutation/discrete.monte.carlo.c -o tests/permutation/discrete.monte.carlo.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c tests/permutation/gaussian.monte.carlo.c -o tests/permutation/gaussian.monte.carlo.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c tests/rinterface/allsubs.test.c -o tests/rinterface/allsubs.test.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c tests/rinterface/ctest.c -o tests/rinterface/ctest.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c tests/rinterface/htest.c -o tests/rinterface/htest.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c tests/rinterface/indep.test.c -o tests/rinterface/indep.test.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c tests/rinterface/roundrobin.test.c -o tests/rinterface/roundrobin.test.o
+gcc -std=gnu17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Wformat-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c tests/rinterface/utest.c -o tests/rinterface/utest.o
+gcc -std=gnu17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o bnlearn.so arcs/arcs2amat.o arcs/arcs2elist.o arcs/bind.o arcs/filter.arcs.o arcs/hash.o arcs/is.row.equal.o bnlearn/bayesian.network.o bnlearn/bn.recovery.o bnlearn/cache.structure.o bnlearn/cextend.o bnlearn/colliders.o bnlearn/cpdag.o bnlearn/fitted.o bnlearn/nparams.o bnlearn/shd.o core/allocations.o core/contingency.tables.o core/correlation.o core/covariance.matrix.o core/data.table.o core/math.functions.o core/moments.o core/sampling.o core/sets.o core/uppertriangular.o fitted/enums.o fitted/fitted.o fitted/nparams.o fitted/rinterface/nparams.o foreign/parse.o globals.o graphs/acyclic.o graphs/is.dag.o graphs/path.o graphs/pdag2dag.o graphs/random/graph.generation.o graphs/topological.ordering.o inference/likelihood.weighting.o inference/loglikelihood/common.o inference/loglikelihood/discrete.o inference/loglikelihood/gaussian.o inference/loglikelihood/conditional.gaussian.o inference/loss.o inference/rbn.o inference/rinterface/loglikelihood.o inference/rinterface/cpdist.o inference/rinterface/rbn.o inference/rinterface/likelihood.weighting.o learning/averaging/averaging.o learning/averaging/bootstrap.o learning/local/mi.matrix.o learning/score/hc.cache.lookup.o learning/score/score.delta.o learning/score/tabu.o math/conditional.least.squares.o math/least.squares.o math/linear.algebra.o minimal/common.o minimal/data.frame.o minimal/strings.o minimal/table.o minimal/tiers.o minimal/unique.o parameters/discrete/classic_discrete.o parameters/discrete/hierarchical_dirichlet.o parameters/rinterface/classic_discrete.o parameters/rinterface/hierarchical_dirichlet.o parameters/rinterface/mixture_ordinary_least_squares.o parameters/rinterface/ordinary_least_squares.o predict/map.lw.o predict/predict.o preprocessing/dedup.o preprocessing/discretize.o preprocessing/enums.o sanitization/cg.assumptions.o sanitization/covariance.o sanitization/data.o scores/alpha.star.o scores/cg.loglikelihood.o scores/cg.predictive.loglikelihood.o scores/cg.nal.o scores/custom.score.o scores/dirichlet.averaged.posterior.o scores/dirichlet.posterior.o scores/discrete.loglikelihood.o scores/discrete.nal.o scores/discrete.predictive.loglikelihood.o scores/enum.o scores/gaussian.loglikelihood.o scores/gaussian.nal.o scores/gaussian.predictive.loglikelihood.o scores/graph.priors.o scores/nml_regret.o scores/nml_regret_table.o scores/normalized.maximum.likelihood.o scores/per.node.score.o scores/wishart.posterior.o test.counter.o tests/conditional.gaussian/cg.mutual.information.o tests/discrete/df.adjust.o tests/discrete/discrete.tests.o tests/discrete/jonckheere.o tests/discrete/shrinkage.o tests/enums.o tests/gaussian/df.adjust.o tests/gaussian/gaussian.tests.o tests/gaussian/shrinkage.o tests/omnibus/custom.test.o tests/patterns/allsubs.test.o tests/patterns/ctest.o tests/patterns/roundrobin.test.o tests/patterns/utest.o tests/permutation/discrete.monte.carlo.o tests/permutation/gaussian.monte.carlo.o tests/rinterface/allsubs.test.o tests/rinterface/ctest.o tests/rinterface/htest.o tests/rinterface/indep.test.o tests/rinterface/roundrobin.test.o tests/rinterface/utest.o -llapack -lblas -lgfortran -lm -lquadmath -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-bnlearn/00new/bnlearn/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘bnlearn’ as ‘bnlearn_5.0.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (bnlearn)
+* installing *source* package ‘depmap’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘depmap’ as ‘depmap_1.18.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (depmap)
+* installing *binary* package ‘pvclust’ ...
+* ‘pvclust’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘pvclust’ as ‘pvclust_2.2-0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (pvclust)
+* installing *binary* package ‘arules’ ...
+* ‘arules’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘arules’ as ‘arules_1.7-8_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (arules)
+* installing *source* package ‘ReactomePA’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘ReactomePA’ as ‘ReactomePA_1.48.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ReactomePA)
+* installing *binary* package ‘diagram’ ...
+* ‘diagram’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘diagram’ as ‘diagram_1.6.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (diagram)
+* installing *binary* package ‘lava’ ...
+* ‘lava’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘lava’ as ‘lava_1.8.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (lava)
+* installing *binary* package ‘lubridate’ ...
+* ‘lubridate’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘lubridate’ as ‘lubridate_1.9.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (lubridate)
+* installing *binary* package ‘s2’ ...
+* ‘s2’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘s2’ as ‘s2_1.1.7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (s2)
+* installing *binary* package ‘distributional’ ...
+* ‘distributional’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘distributional’ as ‘distributional_0.5.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (distributional)
+* installing *binary* package ‘e1071’ ...
+* ‘e1071’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘e1071’ as ‘e1071_1.7-16_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (e1071)
+* installing *binary* package ‘Rmpfr’ ...
+* ‘Rmpfr’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘Rmpfr’ as ‘Rmpfr_0.9-5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Rmpfr)
+* installing *binary* package ‘prodlim’ ...
+* ‘prodlim’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘prodlim’ as ‘prodlim_2024.06.25_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (prodlim)
+* installing *binary* package ‘classInt’ ...
+* ‘classInt’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘classInt’ as ‘classInt_0.4-10_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (classInt)
+* installing *binary* package ‘ggdist’ ...
+* ‘ggdist’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘ggdist’ as ‘ggdist_3.3.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggdist)
+* installing *binary* package ‘ipred’ ...
+* ‘ipred’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘ipred’ as ‘ipred_0.9-15_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ipred)
+* installing *binary* package ‘sf’ ...
+* ‘sf’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘sf’ as ‘sf_1.0-18_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (sf)
+* installing *source* package ‘CBNplot’ ...
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘CBNplot’ as ‘CBNplot_1.4.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (CBNplot)
+* installing *binary* package ‘recipes’ ...
+* ‘recipes’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘recipes’ as ‘recipes_1.1.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (recipes)
+* installing *binary* package ‘concaveman’ ...
+* ‘concaveman’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘concaveman’ as ‘concaveman_1.1.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (concaveman)
+* installing *binary* package ‘caret’ ...
+* ‘caret’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘caret’ as ‘caret_6.0-94_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (caret)
+* installing *binary* package ‘bnviewer’ ...
+* ‘bnviewer’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘bnviewer’ as ‘bnviewer_0.1.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (bnviewer)
+
+The downloaded source packages are in
+	‘/tmp/RtmpI8tA0Q/downloaded_packages’
+Old packages: 'askpass', 'BiocManager', 'bslib', 'commonmark', 'cpp11',
+  'credentials', 'curl', 'digest', 'evaluate', 'gert', 'glue', 'httr2',
+  'jsonlite', 'knitr', 'openssl', 'pkgdown', 'pkgload', 'profvis', 'ps',
+  'ragg', 'Rcpp', 'rmarkdown', 'roxygen2', 'rstudioapi', 'shiny', 'sys',
+  'tinytex', 'usethis', 'waldo', 'withr', 'xfun', 'yaml', 'boot', 'foreign',
+  'Matrix', 'nlme'
+
+real	1m53.787s
+user	1m20.246s
+sys	0m13.851s
+* installing *binary* package ‘bnviewer’ ...
+* ‘bnviewer’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘bnviewer’ as ‘bnviewer_0.1.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (bnviewer)

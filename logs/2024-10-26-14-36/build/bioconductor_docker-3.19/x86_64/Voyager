@@ -1,0 +1,158 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''Voyager'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/jammy/latest
+Bioconductor version 3.19 (BiocManager 1.30.23), R 4.4.1 (2024-06-14)
+Installing package(s) 'Voyager'
+also installing the dependencies ‘xts’, ‘intervals’, ‘reshape’, ‘stars’, ‘sftime’, ‘spacetime’, ‘automap’, ‘ggh4x’, ‘gstat’, ‘hexbin’, ‘vdiffr’
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/xts_0.14.1.tar.gz'
+Content type 'binary/octet-stream' length 1219883 bytes (1.2 MB)
+==================================================
+downloaded 1.2 MB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/intervals_0.15.5.tar.gz'
+Content type 'binary/octet-stream' length 604783 bytes (590 KB)
+==================================================
+downloaded 590 KB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/reshape_0.8.9.tar.gz'
+Content type 'binary/octet-stream' length 169859 bytes (165 KB)
+==================================================
+downloaded 165 KB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/stars_0.6-6.tar.gz'
+Content type 'binary/octet-stream' length 4184014 bytes (4.0 MB)
+==================================================
+downloaded 4.0 MB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/sftime_0.3.0.tar.gz'
+Content type 'binary/octet-stream' length 180354 bytes (176 KB)
+==================================================
+downloaded 176 KB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/spacetime_1.3-2.tar.gz'
+Content type 'binary/octet-stream' length 2884660 bytes (2.8 MB)
+==================================================
+downloaded 2.8 MB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/automap_1.1-12.tar.gz'
+Content type 'binary/octet-stream' length 89969 bytes (87 KB)
+==================================================
+downloaded 87 KB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/ggh4x_0.2.8.tar.gz'
+Content type 'binary/octet-stream' length 2063709 bytes (2.0 MB)
+==================================================
+downloaded 2.0 MB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/gstat_2.1-2.tar.gz'
+Content type 'binary/octet-stream' length 2348584 bytes (2.2 MB)
+==================================================
+downloaded 2.2 MB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/hexbin_1.28.4.tar.gz'
+Content type 'binary/octet-stream' length 1602694 bytes (1.5 MB)
+==================================================
+downloaded 1.5 MB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/vdiffr_1.0.7.tar.gz'
+Content type 'binary/octet-stream' length 153676 bytes (150 KB)
+==================================================
+downloaded 150 KB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/Voyager_1.6.0.tar.gz'
+Content type 'application/x-gzip' length 4295926 bytes (4.1 MB)
+==================================================
+downloaded 4.1 MB
+
+* installing *binary* package ‘xts’ ...
+* ‘xts’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘xts’ as ‘xts_0.14.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (xts)
+* installing *binary* package ‘intervals’ ...
+* ‘intervals’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘intervals’ as ‘intervals_0.15.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (intervals)
+* installing *binary* package ‘reshape’ ...
+* ‘reshape’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘reshape’ as ‘reshape_0.8.9_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (reshape)
+* installing *binary* package ‘stars’ ...
+* ‘stars’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘stars’ as ‘stars_0.6-6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (stars)
+* installing *binary* package ‘sftime’ ...
+* ‘sftime’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘sftime’ as ‘sftime_0.3.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (sftime)
+* installing *binary* package ‘ggh4x’ ...
+* ‘ggh4x’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘ggh4x’ as ‘ggh4x_0.2.8_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggh4x)
+* installing *binary* package ‘hexbin’ ...
+* ‘hexbin’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘hexbin’ as ‘hexbin_1.28.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (hexbin)
+* installing *binary* package ‘vdiffr’ ...
+* ‘vdiffr’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘vdiffr’ as ‘vdiffr_1.0.7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (vdiffr)
+* installing *source* package ‘Voyager’ ...
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘Voyager’ as ‘Voyager_1.6.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Voyager)
+* installing *binary* package ‘spacetime’ ...
+* ‘spacetime’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘spacetime’ as ‘spacetime_1.3-2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (spacetime)
+* installing *binary* package ‘gstat’ ...
+* ‘gstat’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘gstat’ as ‘gstat_2.1-2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (gstat)
+* installing *binary* package ‘automap’ ...
+* ‘automap’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘automap’ as ‘automap_1.1-12_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (automap)
+
+The downloaded source packages are in
+	‘/tmp/RtmpBm4Rkk/downloaded_packages’
+Old packages: 'askpass', 'BiocManager', 'bslib', 'commonmark', 'cpp11',
+  'credentials', 'curl', 'digest', 'evaluate', 'gert', 'glue', 'httr2',
+  'jsonlite', 'knitr', 'openssl', 'pkgdown', 'pkgload', 'profvis', 'ps',
+  'ragg', 'Rcpp', 'rmarkdown', 'roxygen2', 'rstudioapi', 'shiny', 'sys',
+  'tinytex', 'usethis', 'waldo', 'withr', 'xfun', 'yaml', 'boot', 'foreign',
+  'Matrix', 'nlme'
+
+real	0m48.886s
+user	0m38.001s
+sys	0m4.642s
+* installing *binary* package ‘automap’ ...
+* ‘automap’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘automap’ as ‘automap_1.1-12_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (automap)

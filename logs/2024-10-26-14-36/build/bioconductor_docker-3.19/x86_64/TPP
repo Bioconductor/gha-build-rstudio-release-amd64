@@ -5,12 +5,27 @@ Replacement repositories:
     CRAN: https://p3m.dev/cran/__linux__/jammy/latest
 Bioconductor version 3.19 (BiocManager 1.30.23), R 4.4.1 (2024-06-14)
 Installing package(s) 'TPP'
-also installing the dependencies ‘proto’, ‘gridExtra’, ‘mefa’, ‘nls2’, ‘openxlsx’, ‘RCurl’, ‘VennDiagram’, ‘VGAM’
+also installing the dependencies ‘backports’, ‘proto’, ‘biobroom’, ‘broom’, ‘gridExtra’, ‘mefa’, ‘nls2’, ‘openxlsx’, ‘RCurl’, ‘VennDiagram’, ‘VGAM’
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/backports_1.5.0.tar.gz'
+Content type 'binary/octet-stream' length 116071 bytes (113 KB)
+==================================================
+downloaded 113 KB
 
 trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/proto_1.0.0.tar.gz'
 Content type 'binary/octet-stream' length 470664 bytes (459 KB)
 ==================================================
 downloaded 459 KB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/biobroom_1.36.0.tar.gz'
+Content type 'application/x-gzip' length 492184 bytes (480 KB)
+==================================================
+downloaded 480 KB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/broom_1.0.7.tar.gz'
+Content type 'binary/octet-stream' length 1920000 bytes (1.8 MB)
+==================================================
+downloaded 1.8 MB
 
 trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/gridExtra_2.3.tar.gz'
 Content type 'binary/octet-stream' length 1106855 bytes (1.1 MB)
@@ -52,6 +67,11 @@ Content type 'application/x-gzip' length 8844673 bytes (8.4 MB)
 ==================================================
 downloaded 8.4 MB
 
+* installing *binary* package ‘backports’ ...
+* ‘backports’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘backports’ as ‘backports_1.5.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (backports)
 * installing *binary* package ‘proto’ ...
 * ‘proto’ was already a binary package and will not be rebuilt
 * creating tarball
@@ -87,11 +107,33 @@ packaged installation of ‘VennDiagram’ as ‘VennDiagram_1.7.3_R_x86_64-pc-l
 * creating tarball
 packaged installation of ‘VGAM’ as ‘VGAM_1.1-12_R_x86_64-pc-linux-gnu.tar.gz’
 * DONE (VGAM)
+* installing *binary* package ‘broom’ ...
+* ‘broom’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘broom’ as ‘broom_1.0.7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (broom)
 * installing *binary* package ‘nls2’ ...
 * ‘nls2’ was already a binary package and will not be rebuilt
 * creating tarball
 packaged installation of ‘nls2’ as ‘nls2_0.3-4_R_x86_64-pc-linux-gnu.tar.gz’
 * DONE (nls2)
+* installing *source* package ‘biobroom’ ...
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘biobroom’ as ‘biobroom_1.36.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (biobroom)
 * installing *source* package ‘TPP’ ...
 ** using staged installation
 ** R
@@ -110,7 +152,7 @@ packaged installation of ‘TPP’ as ‘TPP_3.32.0_R_x86_64-pc-linux-gnu.tar.gz
 * DONE (TPP)
 
 The downloaded source packages are in
-	‘/tmp/RtmpwZpBn4/downloaded_packages’
+	‘/tmp/Rtmp9uyXZ0/downloaded_packages’
 Old packages: 'askpass', 'BiocManager', 'bslib', 'commonmark', 'cpp11',
   'credentials', 'curl', 'digest', 'evaluate', 'gert', 'glue', 'httr2',
   'jsonlite', 'knitr', 'openssl', 'pkgdown', 'pkgload', 'profvis', 'ps',
@@ -118,6 +160,6 @@ Old packages: 'askpass', 'BiocManager', 'bslib', 'commonmark', 'cpp11',
   'tinytex', 'usethis', 'waldo', 'withr', 'xfun', 'yaml', 'boot', 'foreign',
   'Matrix', 'nlme'
 
-real	0m25.241s
-user	0m13.837s
-sys	0m2.926s
+real	0m28.956s
+user	0m17.283s
+sys	0m3.969s

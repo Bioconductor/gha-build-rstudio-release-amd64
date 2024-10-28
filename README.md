@@ -2,7 +2,7 @@
 
 1928 Bioconductor sotware binaries built
 
-4185 Other dependency binaries built
+4186 Other dependency binaries built
 
 1 failed packages
 
@@ -13,7 +13,7 @@
 ## Failed (1)
 | Package                                                                                                                  | Status   | BBS Status                                                                   | Log                                                                                                              | Known Error                                                                                                                                                                                           |
 |--------------------------------------------------------------------------------------------------------------------------|----------|------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [STdeconvolve](https://github.com/Bioconductor/gha-build-rstudio-release-amd64/actions/runs/11540067592/job/32120654871) | Failed   | [ERROR](https://bioconductor.org/checkResults/3.19/bioc-LATEST/STdeconvolve) | [Build Log](https://github.com/Bioconductor/gha-build-rstudio-release-amd64/blob/492f4e6d8/lists/failed/STdeconvolve) | Failed R dependency: 'liger'. [CRAN Package 'liger'](https://cran.r-project.org/web/packages/liger/index.html) archived. Extracted text: Archived on 2024-06-14 as issues were not corrected in time. |
+| [STdeconvolve](https://github.com/Bioconductor/gha-build-rstudio-release-amd64/actions/runs/11540067592/job/32120654871) | Failed   | [ERROR](https://bioconductor.org/checkResults/3.19/bioc-LATEST/STdeconvolve) | [Build Log](https://github.com/Bioconductor/gha-build-rstudio-release-amd64/blob/a697e3b3b/lists/failed/STdeconvolve) | Failed R dependency: 'liger'. [CRAN Package 'liger'](https://cran.r-project.org/web/packages/liger/index.html) archived. Extracted text: Archived on 2024-06-14 as issues were not corrected in time. |
 
 ## Unclaimed (299)
 | Package                                                                                                                      | Status    | Blocked By                                                                                                                                                                    |
@@ -5771,6 +5771,7 @@
 | alabaster.ranges                              | Succeeded | [alabaster.ranges_1.4.2_R_x86_64-pc-linux-gnu.tar.gz](https://js2.jetstream-cloud.org:8001/swift/v1/gha-build/bioconductor_docker-3.19/x86_64/2024-10-26-14-36/binaries/src/contrib/alabaster.ranges_1.4.2_R_x86_64-pc-linux-gnu.tar.gz)                                                           |
 | DropletUtils                                  | Succeeded | [DropletUtils_1.24.0_R_x86_64-pc-linux-gnu.tar.gz](https://js2.jetstream-cloud.org:8001/swift/v1/gha-build/bioconductor_docker-3.19/x86_64/2024-10-26-14-36/binaries/src/contrib/DropletUtils_1.24.0_R_x86_64-pc-linux-gnu.tar.gz)                                                                 |
 | LoomExperiment                                | Succeeded | [LoomExperiment_1.22.0_R_x86_64-pc-linux-gnu.tar.gz](https://js2.jetstream-cloud.org:8001/swift/v1/gha-build/bioconductor_docker-3.19/x86_64/2024-10-26-14-36/binaries/src/contrib/LoomExperiment_1.22.0_R_x86_64-pc-linux-gnu.tar.gz)                                                             |
+| ggmanh                                        | Succeeded | [ggmanh_1.8.0_R_x86_64-pc-linux-gnu.tar.gz](https://js2.jetstream-cloud.org:8001/swift/v1/gha-build/bioconductor_docker-3.19/x86_64/2024-10-26-14-36/binaries/src/contrib/ggmanh_1.8.0_R_x86_64-pc-linux-gnu.tar.gz)                                                                               |
 | gage                                          | Succeeded | [gage_2.54.0_R_x86_64-pc-linux-gnu.tar.gz](https://js2.jetstream-cloud.org:8001/swift/v1/gha-build/bioconductor_docker-3.19/x86_64/2024-10-26-14-36/binaries/src/contrib/gage_2.54.0_R_x86_64-pc-linux-gnu.tar.gz)                                                                                 |
 | SpatialDecon                                  | Succeeded | [SpatialDecon_1.14.0_R_x86_64-pc-linux-gnu.tar.gz](https://js2.jetstream-cloud.org:8001/swift/v1/gha-build/bioconductor_docker-3.19/x86_64/2024-10-26-14-36/binaries/src/contrib/SpatialDecon_1.14.0_R_x86_64-pc-linux-gnu.tar.gz)                                                                 |
 | globaltest                                    | Succeeded | [globaltest_5.58.0_R_x86_64-pc-linux-gnu.tar.gz](https://js2.jetstream-cloud.org:8001/swift/v1/gha-build/bioconductor_docker-3.19/x86_64/2024-10-26-14-36/binaries/src/contrib/globaltest_5.58.0_R_x86_64-pc-linux-gnu.tar.gz)                                                                     |

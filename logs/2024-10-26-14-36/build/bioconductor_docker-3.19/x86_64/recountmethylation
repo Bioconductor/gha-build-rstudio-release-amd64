@@ -1,0 +1,310 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''recountmethylation'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://p3m.dev/cran/__linux__/jammy/latest
+Bioconductor version 3.19 (BiocManager 1.30.23), R 4.4.1 (2024-06-14)
+Installing package(s) 'recountmethylation'
+also installing the dependencies ‘colorspace’, ‘farver’, ‘labeling’, ‘munsell’, ‘viridisLite’, ‘dbplyr’, ‘filelock’, ‘dir.expiry’, ‘basilisk.utils’, ‘RcppTOML’, ‘here’, ‘gtable’, ‘isoband’, ‘scales’, ‘BiocFileCache’, ‘basilisk’, ‘reticulate’, ‘ggplot2’, ‘gridExtra’, ‘ExperimentHub’, ‘AnnotationHub’
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/colorspace_2.1-1.tar.gz'
+Content type 'binary/octet-stream' length 2627092 bytes (2.5 MB)
+==================================================
+downloaded 2.5 MB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/farver_2.1.2.tar.gz'
+Content type 'binary/octet-stream' length 1466846 bytes (1.4 MB)
+==================================================
+downloaded 1.4 MB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/labeling_0.4.3.tar.gz'
+Content type 'binary/octet-stream' length 61014 bytes (59 KB)
+==================================================
+downloaded 59 KB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/munsell_0.5.1.tar.gz'
+Content type 'binary/octet-stream' length 243199 bytes (237 KB)
+==================================================
+downloaded 237 KB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/viridisLite_0.4.2.tar.gz'
+Content type 'binary/octet-stream' length 1297630 bytes (1.2 MB)
+==================================================
+downloaded 1.2 MB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/dbplyr_2.5.0.tar.gz'
+Content type 'binary/octet-stream' length 1248394 bytes (1.2 MB)
+==================================================
+downloaded 1.2 MB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/filelock_1.0.3.tar.gz'
+Content type 'binary/octet-stream' length 24754 bytes (24 KB)
+==================================================
+downloaded 24 KB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/dir.expiry_1.12.0.tar.gz'
+Content type 'application/x-gzip' length 305225 bytes (298 KB)
+==================================================
+downloaded 298 KB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/basilisk.utils_1.16.0.tar.gz'
+Content type 'application/x-gzip' length 240555 bytes (234 KB)
+==================================================
+downloaded 234 KB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/RcppTOML_0.2.2.tar.gz'
+Content type 'binary/octet-stream' length 239404 bytes (233 KB)
+==================================================
+downloaded 233 KB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/here_1.0.1.tar.gz'
+Content type 'binary/octet-stream' length 53480 bytes (52 KB)
+==================================================
+downloaded 52 KB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/gtable_0.3.6.tar.gz'
+Content type 'binary/octet-stream' length 222824 bytes (217 KB)
+==================================================
+downloaded 217 KB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/isoband_0.2.7.tar.gz'
+Content type 'binary/octet-stream' length 1644164 bytes (1.6 MB)
+==================================================
+downloaded 1.6 MB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/scales_1.3.0.tar.gz'
+Content type 'binary/octet-stream' length 711428 bytes (694 KB)
+==================================================
+downloaded 694 KB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/BiocFileCache_2.12.0.tar.gz'
+Content type 'application/x-gzip' length 297080 bytes (290 KB)
+==================================================
+downloaded 290 KB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/basilisk_1.16.0.tar.gz'
+Content type 'application/x-gzip' length 264252 bytes (258 KB)
+==================================================
+downloaded 258 KB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/reticulate_1.39.0.tar.gz'
+Content type 'binary/octet-stream' length 1871055 bytes (1.8 MB)
+==================================================
+downloaded 1.8 MB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/ggplot2_3.5.1.tar.gz'
+Content type 'binary/octet-stream' length 5005937 bytes (4.8 MB)
+==================================================
+downloaded 4.8 MB
+
+trying URL 'https://p3m.dev/cran/__linux__/jammy/latest/src/contrib/gridExtra_2.3.tar.gz'
+Content type 'binary/octet-stream' length 1106855 bytes (1.1 MB)
+==================================================
+downloaded 1.1 MB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/ExperimentHub_2.12.0.tar.gz'
+Content type 'application/x-gzip' length 499864 bytes (488 KB)
+==================================================
+downloaded 488 KB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/AnnotationHub_3.12.0.tar.gz'
+Content type 'application/x-gzip' length 992371 bytes (969 KB)
+==================================================
+downloaded 969 KB
+
+trying URL 'https://bioconductor.org/packages/3.19/bioc/src/contrib/recountmethylation_1.14.0.tar.gz'
+Content type 'application/x-gzip' length 5015818 bytes (4.8 MB)
+==================================================
+downloaded 4.8 MB
+
+* installing *binary* package ‘colorspace’ ...
+* ‘colorspace’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘colorspace’ as ‘colorspace_2.1-1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (colorspace)
+* installing *binary* package ‘farver’ ...
+* ‘farver’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘farver’ as ‘farver_2.1.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (farver)
+* installing *binary* package ‘labeling’ ...
+* ‘labeling’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘labeling’ as ‘labeling_0.4.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (labeling)
+* installing *binary* package ‘viridisLite’ ...
+* ‘viridisLite’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘viridisLite’ as ‘viridisLite_0.4.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (viridisLite)
+* installing *binary* package ‘dbplyr’ ...
+* ‘dbplyr’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘dbplyr’ as ‘dbplyr_2.5.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (dbplyr)
+* installing *binary* package ‘filelock’ ...
+* ‘filelock’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘filelock’ as ‘filelock_1.0.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (filelock)
+* installing *binary* package ‘RcppTOML’ ...
+* ‘RcppTOML’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘RcppTOML’ as ‘RcppTOML_0.2.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RcppTOML)
+* installing *binary* package ‘here’ ...
+* ‘here’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘here’ as ‘here_1.0.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (here)
+* installing *binary* package ‘gtable’ ...
+* ‘gtable’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘gtable’ as ‘gtable_0.3.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (gtable)
+* installing *binary* package ‘isoband’ ...
+* ‘isoband’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘isoband’ as ‘isoband_0.2.7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (isoband)
+* installing *binary* package ‘munsell’ ...
+* ‘munsell’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘munsell’ as ‘munsell_0.5.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (munsell)
+* installing *source* package ‘dir.expiry’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘dir.expiry’ as ‘dir.expiry_1.12.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (dir.expiry)
+* installing *source* package ‘BiocFileCache’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘BiocFileCache’ as ‘BiocFileCache_2.12.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (BiocFileCache)
+* installing *binary* package ‘reticulate’ ...
+* ‘reticulate’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘reticulate’ as ‘reticulate_1.39.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (reticulate)
+* installing *binary* package ‘gridExtra’ ...
+* ‘gridExtra’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘gridExtra’ as ‘gridExtra_2.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (gridExtra)
+* installing *source* package ‘basilisk.utils’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘basilisk.utils’ as ‘basilisk.utils_1.16.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (basilisk.utils)
+* installing *binary* package ‘scales’ ...
+* ‘scales’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘scales’ as ‘scales_1.3.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (scales)
+* installing *source* package ‘AnnotationHub’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘AnnotationHub’ as ‘AnnotationHub_3.12.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (AnnotationHub)
+* installing *source* package ‘basilisk’ ...
+** using non-staged installation via StagedInstall field
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded
+* creating tarball
+packaged installation of ‘basilisk’ as ‘basilisk_1.16.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (basilisk)
+* installing *binary* package ‘ggplot2’ ...
+* ‘ggplot2’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘ggplot2’ as ‘ggplot2_3.5.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggplot2)
+* installing *source* package ‘ExperimentHub’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘ExperimentHub’ as ‘ExperimentHub_2.12.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ExperimentHub)
+* installing *source* package ‘recountmethylation’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘recountmethylation’ as ‘recountmethylation_1.14.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (recountmethylation)
+
+The downloaded source packages are in
+	‘/tmp/RtmpBtShNc/downloaded_packages’
+Old packages: 'askpass', 'BiocManager', 'bslib', 'commonmark', 'cpp11',
+  'credentials', 'curl', 'digest', 'evaluate', 'gert', 'glue', 'httr2',
+  'jsonlite', 'knitr', 'openssl', 'pkgbuild', 'pkgdown', 'pkgload', 'profvis',
+  'ps', 'ragg', 'Rcpp', 'rmarkdown', 'roxygen2', 'rstudioapi', 'shiny', 'sys',
+  'tinytex', 'usethis', 'waldo', 'withr', 'xfun', 'yaml', 'boot', 'foreign',
+  'Matrix', 'nlme'
+
+real	0m50.675s
+user	0m38.356s
+sys	0m9.138s

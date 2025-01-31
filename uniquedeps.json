@@ -47,6 +47,9 @@
     "ADAMgui": [
 
     ],
+    "ADAPT": [
+
+    ],
     "adductomicsR": [
 
     ],
@@ -169,11 +172,13 @@
     ],
     "AlphaMissenseR": [
         "bio3d",
+        "gghalves",
         "r3dmol"
     ],
     "AlpsNMR": [
         "ChemoSpec",
-        "ChemoSpecUtils"
+        "ChemoSpecUtils",
+        "NMRphasing"
     ],
     "altcdfenvs": [
         "hgu133aprobe",
@@ -253,7 +258,16 @@
     "AnVIL": [
 
     ],
+    "AnVILAz": [
+        "tinytest"
+    ],
+    "AnVILBase": [
+
+    ],
     "AnVILBilling": [
+
+    ],
+    "AnVILGCP": [
 
     ],
     "AnVILPublish": [
@@ -327,10 +341,10 @@
     "ASSIGN": [
 
     ],
-    "ASURAT": [
+    "assorthead": [
 
     ],
-    "ATACCoGAPS": [
+    "ASURAT": [
 
     ],
     "ATACseqQC": [
@@ -394,8 +408,6 @@
         "spelling"
     ],
     "Banksy": [
-        "paletteer",
-        "prismatic",
         "spatialLIBD"
     ],
     "banocc": [
@@ -468,9 +480,6 @@
     "BeadDataPackR": [
 
     ],
-    "BEARscc": [
-
-    ],
     "BEAT": [
 
     ],
@@ -502,12 +511,6 @@
     "BgeeDB": [
 
     ],
-    "bgx": [
-
-    ],
-    "BHC": [
-
-    ],
     "BicARE": [
         "hgu95av2"
     ],
@@ -521,8 +524,7 @@
         "minfiData"
     ],
     "BindingSiteFinder": [
-        "xlsx",
-        "xlsxjars"
+
     ],
     "bioassayR": [
         "knitcitations"
@@ -543,7 +545,7 @@
 
     ],
     "BiocBaseUtils": [
-        "tinytest"
+
     ],
     "BiocBook": [
 
@@ -563,9 +565,6 @@
     "biocGraph": [
         "fibroEset"
     ],
-    "BiocHail": [
-
-    ],
     "BiocHubsShiny": [
         "AsioHeaders",
         "chromote",
@@ -578,9 +577,6 @@
     "BiocNeighbors": [
 
     ],
-    "BiocOncoTK": [
-        "restfulSE"
-    ],
     "BioCor": [
         "targetscan.Hs.eg.db"
     ],
@@ -588,7 +584,8 @@
         "RNAseqData.HNRNPC.bam.chr14"
     ],
     "BiocPkgTools": [
-        "blastula"
+        "blastula",
+        "getPass"
     ],
     "biocroxytest": [
 
@@ -623,16 +620,7 @@
     "biodbChebi": [
 
     ],
-    "biodbExpasy": [
-
-    ],
     "biodbHmdb": [
-
-    ],
-    "biodbKegg": [
-
-    ],
-    "biodbLipidmaps": [
 
     ],
     "biodbNcbi": [
@@ -645,6 +633,9 @@
 
     ],
     "bioDist": [
+
+    ],
+    "BioGA": [
 
     ],
     "biomaRt": [
@@ -681,6 +672,9 @@
         "BSgenome.Dmelanogaster.UCSC.dm3",
         "drosophila2probe",
         "hgu95av2probe"
+    ],
+    "BioTIP": [
+
     ],
     "biotmle": [
         "biotmleData"
@@ -746,6 +740,9 @@
     ],
     "BridgeDbR": [
 
+    ],
+    "broadSeq": [
+        "samr"
     ],
     "BrowserViz": [
 
@@ -829,9 +826,6 @@
     "cancerclass": [
         "cancerdata"
     ],
-    "CancerSubtypes": [
-
-    ],
     "cardelino": [
 
     ],
@@ -855,6 +849,10 @@
     ],
     "categoryCompare": [
         "estrogen"
+    ],
+    "CatsCradle": [
+        "fossil",
+        "shapefiles"
     ],
     "CausalR": [
 
@@ -881,7 +879,11 @@
 
     ],
     "ccmap": [
-        "lydata"
+        "crossmeta",
+        "lydata",
+        "metaMA",
+        "shinypanel",
+        "SMVar"
     ],
     "CCPlotR": [
 
@@ -908,9 +910,6 @@
 
     ],
     "CellBench": [
-
-    ],
-    "cellHTS2": [
 
     ],
     "CelliD": [
@@ -1028,8 +1027,7 @@
         "ChIPexoQualExample"
     ],
     "ChIPpeakAnno": [
-        "BSgenome.Celegans.UCSC.ce10",
-        "org.Ce.eg.db"
+        "BSgenome.Celegans.UCSC.ce10"
     ],
     "ChIPQC": [
 
@@ -1070,7 +1068,7 @@
 
     ],
     "chromVAR": [
-
+        "JASPAR2016"
     ],
     "CHRONOS": [
 
@@ -1097,10 +1095,12 @@
 
     ],
     "ClassifyR": [
-        "parathyroidSE",
         "randomForestSRC"
     ],
     "cleanUpdTSeq": [
+
+    ],
+    "CleanUpRNAseq": [
 
     ],
     "cleaver": [
@@ -1253,7 +1253,7 @@
 
     ],
     "cola": [
-        "samr"
+
     ],
     "comapr": [
 
@@ -1274,7 +1274,6 @@
 
     ],
     "ComplexHeatmap": [
-        "dendsort",
         "grImport2"
     ],
     "CompoundDb": [
@@ -1287,7 +1286,7 @@
 
     ],
     "concordexR": [
-
+        "SFEData"
     ],
     "condiments": [
 
@@ -1302,9 +1301,6 @@
 
     ],
     "consensusDE": [
-
-    ],
-    "consensusOV": [
 
     ],
     "consensusSeekeR": [
@@ -1341,6 +1337,9 @@
         "DuoClustering2018"
     ],
     "coseq": [
+
+    ],
+    "CoSIA": [
 
     ],
     "cosmiq": [
@@ -1414,9 +1413,6 @@
         "genomewidesnp6Crlmm",
         "hapmapsnp6"
     ],
-    "crossmeta": [
-
-    ],
     "CSAR": [
 
     ],
@@ -1475,9 +1471,6 @@
 
     ],
     "CytoDx": [
-
-    ],
-    "CyTOFpower": [
 
     ],
     "cytofQC": [
@@ -1603,6 +1596,9 @@
     "deepSNV": [
 
     ],
+    "DeepTarget": [
+
+    ],
     "DEFormats": [
 
     ],
@@ -1669,11 +1665,8 @@
     "DepInfeR": [
 
     ],
-    "DeProViR": [
-
-    ],
     "DEqMS": [
-        "farms"
+
     ],
     "derfinder": [
         "derfinderData"
@@ -1709,12 +1702,12 @@
 
     ],
     "DEXSeq": [
-
+        "parathyroidSE"
     ],
     "DFP": [
 
     ],
-    "DIAlignR": [
+    "DFplyr": [
 
     ],
     "DiffBind": [
@@ -1793,7 +1786,6 @@
         "DMRcatedata",
         "EPICv2manifest",
         "FlowSorted.Blood.EPIC",
-        "IlluminaHumanMethylationEPICv2anno.20a1.hg38",
         "tissueTreg"
     ],
     "DMRScan": [
@@ -1820,6 +1812,9 @@
     "DominoEffect": [
 
     ],
+    "dominoSignal": [
+
+    ],
     "doppelgangR": [
         "curatedOvarianData"
     ],
@@ -1839,7 +1834,7 @@
 
     ],
     "dreamlet": [
-
+        "muscData"
     ],
     "DRIMSeq": [
         "GeuvadisTranscriptExpr",
@@ -1867,6 +1862,9 @@
 
     ],
     "Dune": [
+
+    ],
+    "DuplexDiscovereR": [
 
     ],
     "dupRadar": [
@@ -1961,6 +1959,9 @@
     "ENmix": [
 
     ],
+    "EnrichDO": [
+
+    ],
     "EnrichedHeatmap": [
 
     ],
@@ -1968,7 +1969,8 @@
 
     ],
     "enrichplot": [
-
+        "ggarchery",
+        "ggHoriPlot"
     ],
     "enrichViewNet": [
 
@@ -1976,11 +1978,14 @@
     "ensembldb": [
 
     ],
-    "ensemblVEP": [
+    "epialleleR": [
 
     ],
-    "epialleleR": [
-        "ggstance"
+    "EpiCompare": [
+        "badger",
+        "dlstats",
+        "rvcheck",
+        "rworkflows"
     ],
     "epidecodeR": [
 
@@ -2001,6 +2006,9 @@
 
     ],
     "epiNEM": [
+
+    ],
+    "EpipwR": [
 
     ],
     "epiregulon": [
@@ -2065,19 +2073,13 @@
 
     ],
     "EWCE": [
-        "badger",
-        "dlstats",
-        "rvcheck",
-        "rworkflows"
+
     ],
     "ExCluster": [
 
     ],
     "ExiMiR": [
         "mirna10cdf"
-    ],
-    "exomePeak2": [
-
     ],
     "ExperimentHub": [
 
@@ -2303,6 +2305,9 @@
         "pd.huex.1.0.st.v2",
         "pd.hugene.1.0.st.v1"
     ],
+    "funOmics": [
+
+    ],
     "funtooNorm": [
 
     ],
@@ -2409,12 +2414,6 @@
     ],
     "genefilter": [
 
-    ],
-    "genefu": [
-        "breastCancerNKI",
-        "breastCancerTRANSBIG",
-        "breastCancerUNT",
-        "breastCancerUPP"
     ],
     "GeneGA": [
 
@@ -2561,6 +2560,9 @@
     "GEOmetadb": [
 
     ],
+    "geomeTriD": [
+        "manipulateWidget"
+    ],
     "GeomxTools": [
 
     ],
@@ -2574,9 +2576,6 @@
         "CATT"
     ],
     "gep2pep": [
-
-    ],
-    "gespeR": [
 
     ],
     "getDEE2": [
@@ -2610,6 +2609,9 @@
 
     ],
     "ggsc": [
+
+    ],
+    "ggseqalign": [
 
     ],
     "ggspavis": [
@@ -2652,7 +2654,7 @@
 
     ],
     "glmGamPoi": [
-        "muscData"
+
     ],
     "glmSparseNet": [
 
@@ -2707,7 +2709,9 @@
 
     ],
     "goSorensen": [
-
+        "org.EcK12.eg.db",
+        "org.EcSakai.eg.db",
+        "org.Mmu.eg.db"
     ],
     "goSTAG": [
 
@@ -2735,13 +2739,14 @@
     ],
     "GRaNIE": [
         "BSgenome.Mmulatta.UCSC.rheMac10",
+        "BSgenome.Mmusculus.UCSC.mm39",
         "BSgenome.Rnorvegicus.UCSC.rn6",
         "BSgenome.Rnorvegicus.UCSC.rn7",
         "JASPAR2022",
         "LDlinkR",
-        "org.Mmu.eg.db",
         "rbioapi",
         "TxDb.Mmulatta.UCSC.rheMac10.refGene",
+        "TxDb.Mmusculus.UCSC.mm39.knownGene",
         "TxDb.Rnorvegicus.UCSC.rn7.refGene"
     ],
     "granulator": [
@@ -2761,9 +2766,6 @@
     ],
     "graphite": [
         "topologyGSA"
-    ],
-    "GraphPAC": [
-
     ],
     "GRENITS": [
 
@@ -2808,7 +2810,11 @@
 
     ],
     "GSgalgoR": [
-
+        "breastCancerTRANSBIG",
+        "breastCancerUPP",
+        "genefu",
+        "iC10",
+        "iC10TrainingData"
     ],
     "GSReg": [
         "GSBenchMark"
@@ -2975,6 +2981,9 @@
     "HMMcopy": [
 
     ],
+    "HoloFoodR": [
+
+    ],
     "hoodscanR": [
 
     ],
@@ -2990,16 +2999,13 @@
     "HPiP": [
 
     ],
-    "HTSeqGenie": [
-
-    ],
     "HTSFilter": [
 
     ],
-    "HubPub": [
+    "HuBMAPR": [
 
     ],
-    "HumanTranscriptomeCompendium": [
+    "HubPub": [
 
     ],
     "hummingbird": [
@@ -3107,7 +3113,13 @@
     "IMMAN": [
 
     ],
+    "immApex": [
+
+    ],
     "immunoClust": [
+
+    ],
+    "immunogenViewer": [
 
     ],
     "immunotation": [
@@ -3173,17 +3185,11 @@
     "IntEREst": [
         "clinfun"
     ],
-    "InterMineR": [
-
-    ],
     "IntramiRExploreR": [
 
     ],
     "IONiseR": [
         "minionSummaryData"
-    ],
-    "iPAC": [
-
     ],
     "iPath": [
 
@@ -3198,6 +3204,7 @@
 
     ],
     "ISAnalytics": [
+        "doFuture",
         "Rcapture"
     ],
     "iSEE": [
@@ -3219,6 +3226,9 @@
 
     ],
     "iSEEpathways": [
+
+    ],
+    "iSEEtree": [
 
     ],
     "iSEEu": [
@@ -3302,10 +3312,16 @@
     "kissDE": [
 
     ],
+    "kmcut": [
+
+    ],
     "KnowSeq": [
 
     ],
     "knowYourCG": [
+
+    ],
+    "koinar": [
 
     ],
     "LACE": [
@@ -3693,8 +3709,7 @@
 
     ],
     "methodical": [
-        "BSgenome.Athaliana.TAIR.TAIR9",
-        "TumourMethData"
+        "BSgenome.Athaliana.TAIR.TAIR9"
     ],
     "MethPed": [
 
@@ -3756,6 +3771,9 @@
     "MetID": [
 
     ],
+    "MetMashR": [
+        "RVenn"
+    ],
     "MetNet": [
 
     ],
@@ -3778,7 +3796,8 @@
 
     ],
     "mia": [
-        "microbiomeDataSets"
+        "microbiomeDataSets",
+        "topicdoc"
     ],
     "miaSim": [
 
@@ -3798,14 +3817,11 @@
     "microbiomeExplorer": [
 
     ],
-    "microbiomeMarker": [
-
-    ],
     "MicrobiomeProfiler": [
 
     ],
     "MicrobiotaProcess": [
-        "gghalves"
+
     ],
     "microRNA": [
 
@@ -3974,6 +3990,9 @@
     "mosbi": [
 
     ],
+    "MOSClip": [
+
+    ],
     "mosdef": [
 
     ],
@@ -4005,6 +4024,9 @@
     "MouseFM": [
 
     ],
+    "MPAC": [
+
+    ],
     "MPFE": [
 
     ],
@@ -4021,6 +4043,9 @@
 
     ],
     "MsBackendMassbank": [
+
+    ],
+    "MsBackendMetaboLights": [
 
     ],
     "MsBackendMgf": [
@@ -4246,9 +4271,6 @@
     "netboost": [
 
     ],
-    "netDx": [
-
-    ],
     "nethet": [
 
     ],
@@ -4268,9 +4290,6 @@
 
     ],
     "netZooR": [
-
-    ],
-    "NeuCA": [
 
     ],
     "NewWave": [
@@ -4382,6 +4401,9 @@
     "omicRexposome": [
 
     ],
+    "OmicsMLRepoR": [
+
+    ],
     "OMICsPCA": [
 
     ],
@@ -4400,9 +4422,13 @@
         "parallelMap",
         "ParamHelpers",
         "sigmajs",
-        "smoof"
+        "smoof",
+        "supraHex"
     ],
     "ompBAM": [
+
+    ],
+    "omXplore": [
 
     ],
     "oncomix": [
@@ -4427,9 +4453,6 @@
 
     ],
     "openPrimeR": [
-
-    ],
-    "openPrimeRui": [
 
     ],
     "OpenStats": [
@@ -4533,12 +4556,6 @@
     "PANR": [
 
     ],
-    "PanViz": [
-
-    ],
-    "pareg": [
-
-    ],
     "parglms": [
 
     ],
@@ -4570,12 +4587,9 @@
 
     ],
     "pathview": [
-        "org.EcK12.eg.db"
-    ],
-    "pathwayPCA": [
 
     ],
-    "paxtoolsr": [
+    "pathwayPCA": [
 
     ],
     "pcaExplorer": [
@@ -4588,12 +4602,6 @@
 
     ],
     "PCAtools": [
-
-    ],
-    "pcxn": [
-
-    ],
-    "PDATK": [
 
     ],
     "pdInfoBuilder": [
@@ -4615,6 +4623,9 @@
 
     ],
     "pengls": [
+
+    ],
+    "PepSetTest": [
 
     ],
     "PepsNMR": [
@@ -4704,6 +4715,9 @@
     "PIPETS": [
 
     ],
+    "Pirat": [
+
+    ],
     "PIUMA": [
 
     ],
@@ -4740,6 +4754,9 @@
     "plyranges": [
 
     ],
+    "plyxp": [
+
+    ],
     "pmm": [
 
     ],
@@ -4755,7 +4772,7 @@
     "pogos": [
 
     ],
-    "polyester": [
+    "PolySTest": [
 
     ],
     "POMA": [
@@ -4833,6 +4850,9 @@
     "PROMISE": [
 
     ],
+    "PRONE": [
+
+    ],
     "PROPER": [
 
     ],
@@ -4840,9 +4860,6 @@
 
     ],
     "Prostar": [
-
-    ],
-    "proteasy": [
 
     ],
     "proteinProfiles": [
@@ -4864,9 +4881,6 @@
 
     ],
     "PSMatch": [
-
-    ],
-    "psygenet2r": [
 
     ],
     "ptairMS": [
@@ -4894,9 +4908,6 @@
         "PWMEnrich.Dmelanogaster.background",
         "PWMEnrich.Hsapiens.background",
         "PWMEnrich.Mmusculus.background"
-    ],
-    "pwOmics": [
-        "ebdbNet"
     ],
     "qckitfastq": [
 
@@ -4947,9 +4958,6 @@
 
     ],
     "quantsmooth": [
-
-    ],
-    "QuartPAC": [
 
     ],
     "QuasR": [
@@ -5104,19 +5112,10 @@
     "RCyjs": [
 
     ],
-    "rDGIdb": [
-
-    ],
     "Rdisop": [
 
     ],
     "RDRToolbox": [
-
-    ],
-    "ReactomeContentService4R": [
-
-    ],
-    "ReactomeGraph4R": [
 
     ],
     "ReactomeGSA": [
@@ -5229,9 +5228,6 @@
     "rGenomeTracks": [
 
     ],
-    "RGMQL": [
-
-    ],
     "RgnTX": [
 
     ],
@@ -5263,6 +5259,9 @@
 
     ],
     "Rhdf5lib": [
+
+    ],
+    "rhinotypeR": [
 
     ],
     "Rhisat2": [
@@ -5335,9 +5334,6 @@
 
     ],
     "rnaEditr": [
-
-    ],
-    "RNAinteract": [
 
     ],
     "RNAmodR": [
@@ -5418,6 +5414,9 @@
     "Rqc": [
 
     ],
+    "rqt": [
+
+    ],
     "rqubic": [
 
     ],
@@ -5428,7 +5427,7 @@
 
     ],
     "rrvgo": [
-        "org.EcSakai.eg.db"
+
     ],
     "Rsamtools": [
 
@@ -5546,6 +5545,9 @@
     "sangerseqR": [
 
     ],
+    "SANTA": [
+
+    ],
     "SARC": [
 
     ],
@@ -5580,7 +5582,7 @@
 
     ],
     "scanMiRApp": [
-        "BSgenome.Mmusculus.UCSC.mm39"
+
     ],
     "scAnnotatR": [
 
@@ -5616,7 +5618,7 @@
 
     ],
     "sccomp": [
-
+        "bayesplot"
     ],
     "scDataviz": [
 
@@ -5634,6 +5636,12 @@
 
     ],
     "scDesign3": [
+
+    ],
+    "scDiagnostics": [
+
+    ],
+    "scDotPlot": [
 
     ],
     "scds": [
@@ -5696,6 +5704,9 @@
     "scoreInvHap": [
 
     ],
+    "scoup": [
+
+    ],
     "scp": [
         "scpdata"
     ],
@@ -5711,6 +5722,9 @@
         "runonce"
     ],
     "scran": [
+
+    ],
+    "scrapper": [
 
     ],
     "scReClassify": [
@@ -5759,6 +5773,9 @@
 
     ],
     "SDAMS": [
+
+    ],
+    "seahtrue": [
 
     ],
     "sechm": [
@@ -5867,7 +5884,7 @@
 
     ],
     "SigCheck": [
-
+        "breastCancerNKI"
     ],
     "sigFeature": [
 
@@ -5885,9 +5902,6 @@
         "signatureSearchData"
     ],
     "signeR": [
-
-    ],
-    "signifinder": [
 
     ],
     "SigsPack": [
@@ -5930,9 +5944,6 @@
 
     ],
     "sincell": [
-
-    ],
-    "single": [
 
     ],
     "SingleCellAlleleExperiment": [
@@ -6031,10 +6042,10 @@
     "SpaceMarkers": [
 
     ],
-    "SpacePAC": [
+    "Spaniel": [
 
     ],
-    "Spaniel": [
+    "SpaNorm": [
 
     ],
     "sparrow": [
@@ -6068,14 +6079,16 @@
 
     ],
     "SpatialFeatureExperiment": [
-        "sfarrow",
-        "SFEData"
+        "sfarrow"
     ],
     "spatialHeatmap": [
         "av",
         "sparkline"
     ],
     "SpatialOmicsOverlay": [
+
+    ],
+    "spatialSimGP": [
 
     ],
     "spatzie": [
@@ -6095,6 +6108,9 @@
         "patrick"
     ],
     "SpectralTAD": [
+
+    ],
+    "SpectraQL": [
 
     ],
     "SPEM": [
@@ -6169,13 +6185,13 @@
     "SQLDataFrame": [
 
     ],
+    "squallms": [
+
+    ],
     "sRACIPE": [
 
     ],
     "SRAdb": [
-
-    ],
-    "srnadiff": [
 
     ],
     "sscu": [
@@ -6199,13 +6215,13 @@
     "ssviz": [
 
     ],
+    "StabMap": [
+
+    ],
     "stageR": [
 
     ],
     "standR": [
-
-    ],
-    "staRank": [
 
     ],
     "STATegRa": [
@@ -6215,9 +6231,6 @@
         "ggsurvfit"
     ],
     "statTarget": [
-
-    ],
-    "STdeconvolve": [
 
     ],
     "stepNorm": [
@@ -6265,13 +6278,13 @@
     "supersigs": [
 
     ],
-    "supraHex": [
-
-    ],
     "surfaltr": [
 
     ],
     "SurfR": [
+
+    ],
+    "survClust": [
 
     ],
     "survcomp": [
@@ -6363,9 +6376,6 @@
     "TargetSearch": [
         "TargetSearchData"
     ],
-    "TBSignatureProfiler": [
-
-    ],
     "TCC": [
 
     ],
@@ -6425,8 +6435,14 @@
     "tidyCoverage": [
         "hues"
     ],
+    "tidyFlowCore": [
+
+    ],
     "tidyomics": [
         "mockr"
+    ],
+    "tidysbml": [
+
     ],
     "tidySingleCellExperiment": [
 
@@ -6436,6 +6452,9 @@
     ],
     "tidySummarizedExperiment": [
 
+    ],
+    "tidytof": [
+        "embed"
     ],
     "tigre": [
         "drosgenome1.db"
@@ -6471,6 +6490,9 @@
 
     ],
     "TMixClust": [
+
+    ],
+    "TMSig": [
 
     ],
     "TnT": [
@@ -6545,13 +6567,7 @@
     "transomics2cytoscape": [
 
     ],
-    "TransView": [
-
-    ],
     "traseR": [
-
-    ],
-    "traviz": [
 
     ],
     "TreeAndLeaf": [
@@ -6579,7 +6595,7 @@
 
     ],
     "tricycle": [
-
+        "CircStats"
     ],
     "trigger": [
 
@@ -6645,9 +6661,6 @@
     "tximport": [
 
     ],
-    "TypeInfo": [
-
-    ],
     "UCell": [
 
     ],
@@ -6666,6 +6679,9 @@
     "UNDO": [
 
     ],
+    "unifiedWMWqPCR": [
+
+    ],
     "UniProt.ws": [
 
     ],
@@ -6676,8 +6692,7 @@
 
     ],
     "updateObject": [
-        "FreqProf",
-        "TimiRGeN"
+
     ],
     "UPDhmm": [
 
@@ -6741,9 +6756,6 @@
 
     ],
     "viper": [
-
-    ],
-    "ViSEAGO": [
 
     ],
     "VisiumIO": [
@@ -6812,6 +6824,9 @@
     "XDE": [
 
     ],
+    "xenLite": [
+
+    ],
     "Xeva": [
 
     ],
@@ -6846,6 +6861,9 @@
 
     ],
     "zinbwave": [
+
+    ],
+    "zitools": [
 
     ],
     "zlibbioc": [
